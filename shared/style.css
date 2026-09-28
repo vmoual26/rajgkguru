@@ -1,0 +1,277 @@
+/* Shared design tokens + site-wide chrome (header/nav/footer/hero/query form)
+   + small shared components (auth modal, badges, buttons, pills). Every page
+   loads this FIRST, then its own local style.css for exam-specific pieces
+   (question cards, options, results, etc.) -- this file is the single source
+   of truth for brand tokens, so a page's own stylesheet must never redefine
+   :root tokens (it would silently win the cascade and undo the brand here).
+
+   Palette takes its purple/pink/yellow gradient directly from
+   aldhruacademy.com's own hero gradient (measured via computed styles, not
+   guessed): linear-gradient(to right top, #a855f7, #f472b6, #fde047). The
+   multi-page nav structure below is new -- that reference site is itself
+   single-page. */
+:root {
+  --bg: #faf8fc;
+  --surface: #ffffff;
+  --surface-alt: #f6f1fa;
+  --border: #e6dcf0;
+  --text: #201a2b;
+  --text-dim: #6b6178;
+  --primary: #9333ea;
+  --primary-dim: #f3e8ff;
+  --pink: #ec4899;
+  --pink-dim: #fce7f3;
+  --yellow: #eab308;
+  --yellow-dim: #fef9c3;
+  --gradient: linear-gradient(115deg, #a855f7, #f472b6, #fde047);
+  --accent: #d97706;
+  --accent-dim: #fef3e2;
+  --success: #15803d;
+  --success-dim: #e8f8ee;
+  --danger: #c1272d;
+  --danger-dim: #fdeceb;
+  --radius: 14px;
+  --shadow: 0 1px 3px rgba(32, 26, 43, 0.08), 0 6px 20px rgba(32, 26, 43, 0.06);
+  font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17131d;
+    --surface: #201a2b;
+    --surface-alt: #271f33;
+    --border: #362c46;
+    --text: #ede9f3;
+    --text-dim: #a89dbb;
+    --primary: #c084fc;
+    --primary-dim: #3b2159;
+    --pink: #f9a8d4;
+    --pink-dim: #4a1d38;
+    --yellow: #fde047;
+    --yellow-dim: #4a3d0f;
+    --accent: #f0a94e;
+    --accent-dim: #3a2c14;
+    --success: #4ade80;
+    --success-dim: #123321;
+    --danger: #f87171;
+    --danger-dim: #3a1616;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.35), 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Poppins", "Noto Sans Devanagari", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container { max-width: 960px; margin: 0 auto; padding: 0 16px 48px; }
+
+/* ---------- Site header (shared/chrome.js) ---------- */
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.site-header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.site-brand { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+.site-logo { width: 38px; height: 38px; object-fit: contain; border-radius: 50%; }
+.site-brand-text { font-weight: 800; font-size: 1.05rem; color: var(--text); letter-spacing: 0.01em; }
+.site-brand-text .accent { color: var(--primary); }
+.site-nav { display: flex; gap: 4px; flex: 1; }
+.site-nav a {
+  color: var(--text-dim); text-decoration: none; font-weight: 650; font-size: 0.92rem;
+  padding: 8px 12px; border-radius: 8px; white-space: nowrap;
+}
+.site-nav a:hover { background: var(--surface-alt); color: var(--text); }
+.site-nav a.active { color: var(--primary); background: var(--primary-dim); }
+.site-auth { flex-shrink: 0; margin-left: auto; }
+.nav-toggle {
+  display: none; background: none; border: 1px solid var(--border); border-radius: 8px;
+  font-size: 1.1rem; padding: 6px 10px; cursor: pointer; color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .nav-toggle { display: inline-flex; order: 2; }
+  .site-auth { order: 3; margin-left: 0; }
+  .site-nav {
+    display: none; order: 4; flex-direction: column; width: 100%;
+    border-top: 1px solid var(--border); margin-top: 10px; padding-top: 10px; gap: 2px;
+  }
+  .site-nav.open { display: flex; }
+  .site-header-inner { flex-wrap: wrap; }
+}
+
+/* ---------- Hero (homepage) ---------- */
+.hero {
+  background-image: var(--gradient);
+  padding: 56px 16px 64px;
+  text-align: center;
+  color: #201a2b;
+}
+.hero-inner { max-width: 720px; margin: 0 auto; }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(4px); border-radius: 999px; padding: 8px 18px; font-weight: 700;
+  font-size: 0.85rem; margin-bottom: 22px;
+}
+.hero-title { font-size: 2.1rem; font-weight: 800; line-height: 1.3; margin: 0 0 14px; }
+.hero-title .accent-word { color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,0.15); }
+.hero-sub { font-size: 1rem; font-weight: 500; opacity: 0.85; margin: 0 0 28px; }
+@media (min-width: 640px) { .hero-title { font-size: 2.6rem; } }
+
+/* ---------- Buttons ---------- */
+.btn {
+  appearance: none; border: none; border-radius: 10px; padding: 11px 18px;
+  font-size: 0.92rem; font-weight: 650; cursor: pointer; text-align: center;
+  text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  font-family: inherit;
+}
+.btn-primary { background: var(--primary); color: #fff; }
+.btn-secondary { background: var(--surface-alt); color: var(--text); border: 1px solid var(--border); }
+.btn-block { width: 100%; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ---------- Cards / pills (homepage + shared) ---------- */
+.exam-boards { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
+@media (max-width: 720px) { .exam-boards { grid-template-columns: 1fr; } }
+.exam-board-title {
+  font-size: 1.05rem; font-weight: 800; margin: 0 0 14px; display: flex; align-items: center; gap: 8px;
+  padding-bottom: 10px; border-bottom: 2px solid var(--border);
+}
+.exam-board-empty {
+  color: var(--text-dim); font-size: 0.85rem; padding: 18px; text-align: center;
+  border: 1.5px dashed var(--border); border-radius: var(--radius);
+}
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.exam-card {
+  background: var(--surface); border: 1px solid var(--border); border-top: 4px solid var(--border);
+  border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); text-decoration: none; color: var(--text);
+  display: flex; flex-direction: column; gap: 6px; transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.exam-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(32, 26, 43, 0.12); }
+.exam-card-rpsc { border-top-color: var(--primary); }
+.exam-card-rmssb { border-top-color: var(--success); }
+.exam-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+.exam-card-icon { font-size: 1.6rem; line-height: 1; }
+.exam-card-title { font-weight: 700; font-size: 1.05rem; }
+.exam-card-meta { font-size: 0.82rem; color: var(--text-dim); }
+/* .exam-card is a column flexbox (align-items defaults to stretch) -- align-self keeps
+   the CTA a compact, centered button instead of a full-width bar. It's a styled div,
+   not a <button>, because the whole card is already an <a>. */
+.exam-card-btn { align-self: center; margin-top: 10px; pointer-events: none; }
+
+.pill { display: inline-flex; align-items: center; padding: 2px 9px; border-radius: 999px; font-size: 0.72rem; font-weight: 650; }
+.pill-free { background: var(--success-dim); color: var(--success); }
+.pill-paid { background: var(--accent-dim); color: var(--accent); }
+.pill-subject { background: var(--primary-dim); color: var(--primary); }
+.pill-time { background: var(--surface-alt); color: var(--text-dim); }
+
+/* ---------- Auth modal (shared/auth.js) ---------- */
+.auth-backdrop {
+  position: fixed; inset: 0; background: rgba(20, 12, 30, 0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 100; padding: 16px;
+}
+.auth-modal {
+  position: relative;
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 26px; width: 100%; max-width: 360px;
+}
+.auth-modal h2 { margin: 0 0 4px; font-size: 1.15rem; }
+.auth-modal p.sub { margin: 0 0 18px; color: var(--text-dim); font-size: 0.85rem; }
+.auth-field { margin-bottom: 12px; }
+.auth-field label { display: block; font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px; }
+.auth-field input {
+  width: 100%; padding: 10px 12px; border-radius: 9px; border: 1.5px solid var(--border);
+  background: var(--surface); color: var(--text); font-size: 0.95rem; font-family: inherit;
+}
+.auth-error { color: var(--danger); font-size: 0.82rem; margin: -4px 0 12px; min-height: 1em; }
+.auth-toggle { text-align: center; margin-top: 14px; font-size: 0.85rem; color: var(--text-dim); }
+.auth-toggle button { background: none; border: none; color: var(--primary); font-weight: 650; cursor: pointer; padding: 0; font-family: inherit; }
+.auth-close { position: absolute; top: 14px; right: 18px; background: none; border: none; font-size: 1.3rem; color: var(--text-dim); cursor: pointer; }
+
+.user-badge { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; }
+.user-badge span { max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-badge button { background: none; border: none; color: var(--text-dim); text-decoration: underline; cursor: pointer; font-size: 0.8rem; padding: 0; font-family: inherit; }
+
+.auth-cta-pair { display: flex; align-items: center; gap: 8px; }
+.auth-cta-pair .btn { padding: 8px 14px; font-size: 0.82rem; white-space: nowrap; }
+
+/* ---------- Query / contact form + footer (shared/chrome.js) ----------
+   Homepage-only (renderFooter's showQuery option) -- two columns specifically
+   to keep this short, since a tall single-column form pushed the real footer
+   far down the page. */
+.footer-query { background: var(--surface-alt); border-top: 1px solid var(--border); padding: 28px 16px; }
+.footer-query-inner { max-width: 640px; margin: 0 auto; text-align: center; }
+.footer-query-inner h2 { font-size: 1.25rem; margin: 0 0 4px; }
+.footer-query-inner p { color: var(--text-dim); font-size: 0.85rem; margin: 0 0 16px; }
+.query-form { text-align: left; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; }
+.query-form .span-2 { grid-column: 1 / -1; }
+.query-form .form-block label { display: block; font-size: 0.8rem; font-weight: 650; margin-bottom: 4px; }
+.query-form input, .query-form textarea {
+  width: 100%; padding: 9px 12px; border-radius: 10px; border: 1.5px solid var(--border);
+  background: var(--surface); color: var(--text); font-size: 0.9rem; font-family: inherit; resize: vertical;
+  box-sizing: border-box;
+}
+@media (max-width: 560px) {
+  .query-form { grid-template-columns: 1fr; }
+  .query-form .span-2 { grid-column: auto; }
+}
+
+.site-footer { background: #201a2b; color: #cbc2da; padding: 40px 16px 28px; }
+.site-footer-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+.footer-brand { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px; }
+.footer-brand .site-logo { width: 32px; height: 32px; }
+.footer-brand span { font-weight: 800; color: #fff; letter-spacing: 0.02em; }
+.footer-tagline { font-size: 0.85rem; margin: 0 0 20px; opacity: 0.8; }
+.footer-social { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+.footer-social a {
+  color: #fff; text-decoration: none; font-size: 0.8rem; font-weight: 650;
+  background: rgba(255,255,255,0.08); padding: 8px 16px; border-radius: 999px;
+}
+.footer-social a:hover { background: rgba(255,255,255,0.16); }
+.footer-support { font-size: 0.85rem; margin: 0 0 6px; }
+.footer-support a { color: #f9a8d4; text-decoration: underline; }
+.footer-copyright { font-size: 0.76rem; opacity: 0.6; margin: 14px 0 0; }
+
+.hidden { display: none !important; }
+
+
+/* ---- Exam date chip (cards on home / board pages) ---- */
+.exam-date-chip { display: inline-block; margin: 6px 0 2px; padding: 3px 10px; border-radius: 999px; font-size: 0.74rem; font-weight: 700;
+  background: var(--yellow-dim); color: var(--text); border: 1px solid var(--yellow); }
+
+/* ---- Home: carousel heading + Question / Fact of the Day ---- */
+.carousel-heading { font-weight: 800; font-size: 1.05rem; margin: 0 0 10px; }
+.daily-wrap { display: grid; grid-template-columns: 1.6fr 1fr; gap: 16px; margin-top: 28px; }
+@media (max-width: 720px) { .daily-wrap { grid-template-columns: 1fr; } }
+.daily-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+.daily-title { font-weight: 800; font-size: 1.05rem; margin: 0 0 10px; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; align-items: center; }
+.daily-streak { font-size: 0.78rem; font-weight: 700; color: var(--accent); background: var(--accent-dim); padding: 3px 10px; border-radius: 999px; }
+.daily-q { font-size: 1rem; line-height: 1.6; margin: 0 0 12px; }
+.daily-opts { display: grid; gap: 8px; }
+.daily-opt { font: inherit; text-align: left; cursor: pointer; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface-alt); color: var(--text); }
+.daily-opt:hover:not(:disabled) { border-color: var(--primary); background: var(--primary-dim); }
+.daily-opt.correct { background: var(--success-dim); border-color: var(--success); }
+.daily-opt.wrong { background: var(--danger-dim); border-color: var(--danger); }
+.daily-result { margin-top: 12px; font-size: 0.9rem; line-height: 1.55; }
+.daily-result a { color: var(--primary); font-weight: 700; }
+.daily-fact { font-size: 1.02rem; line-height: 1.7; }
+.daily-fact-tag { display: inline-block; margin-top: 10px; font-size: 0.75rem; color: var(--text-dim); }
+
+.footer-legal { font-size: 0.8rem; margin: 8px 0 4px; }
+.footer-legal a { color: inherit; opacity: 0.85; text-decoration: underline; }

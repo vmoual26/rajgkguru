@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "name": "भाषा ज्ञान (Language Knowledge)"
+    },
+    {
+      "name": "सामान्य ज्ञान (General Knowledge)"
+    },
+    {
+      "name": "गणित एवं कंप्यूटर (Mathematics & Computer)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "General Hindi",
+      "name_hindi": "सामान्य हिन्दी",
+      "section": "भाषा ज्ञान (Language Knowledge)",
+      "scope_note": "This covers Hindi grammar, vocabulary, official terminology, and letter writing. Focus on linguistic skills in Hindi."
+    },
+    {
+      "name": "General English",
+      "name_hindi": "सामान्य अंग्रेजी",
+      "section": "भाषा ज्ञान (Language Knowledge)",
+      "scope_note": "This covers English grammar, sentence structure, vocabulary, and translation. Focus on linguistic skills in English."
+    },
+    {
+      "name": "Geography of Rajasthan",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "सामान्य ज्ञान (General Knowledge)",
+      "scope_note": "Covers the physical features, climate, resources, population, and environmental aspects specific to Rajasthan."
+    },
+    {
+      "name": "History, Art and Culture of Rajasthan",
+      "name_hindi": "राजस्थान का इतिहास, कला एवं संस्कृति",
+      "section": "सामान्य ज्ञान (General Knowledge)",
+      "scope_note": "Focuses on historical events, freedom movement, art forms, culture, traditions, and personalities of Rajasthan."
+    },
+    {
+      "name": "Indian Constitution and Political & Administrative System of Rajasthan",
+      "name_hindi": "भारतीय संविधान एवं राजस्थान राज्य में राजनीतिक एवं प्रशासनिक व्यवस्था",
+      "section": "सामान्य ज्ञान (General Knowledge)",
+      "scope_note": "Covers the basics of the Indian Constitution and the political and administrative structure and governance of Rajasthan."
+    },
+    {
+      "name": "General Science",
+      "name_hindi": "सामान्य विज्ञान",
+      "section": "सामान्य ज्ञान (General Knowledge)",
+      "scope_note": "Includes topics from Physics, Chemistry, and Biology, focusing on fundamental concepts and their applications."
+    },
+    {
+      "name": "Major Current Events",
+      "name_hindi": "प्रमुख सम-सामयिक घटनाएं",
+      "section": "सामान्य ज्ञान (General Knowledge)",
+      "scope_note": "Covers recent events and developments in sports, politics, economy, social, geographical, cultural, ecological, and technical fields, with a focus on both national and Rajasthan-specific issues and personalities."
+    },
+    {
+      "name": "Basic Computer",
+      "name_hindi": "बेसिक कम्प्यूटर",
+      "section": "गणित एवं कंप्यूटर (Mathematics & Computer)",
+      "scope_note": "Covers fundamental computer concepts, hardware, software, operating systems, and common office applications like MS Word, Excel, PowerPoint, Internet, and Email."
+    },
+    {
+      "name": "Mathematics",
+      "name_hindi": "सामान्य गणित",
+      "section": "गणित एवं कंप्यूटर (Mathematics & Computer)",
+      "scope_note": "Covers arithmetic topics such as HCF, LCM, average, profit-loss, percentage, interest, ratio-proportion, partnership, time and work, time, speed and distance, and data representation."
+    }
+  ]
+}

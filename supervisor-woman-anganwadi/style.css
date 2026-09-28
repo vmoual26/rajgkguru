@@ -1,0 +1,432 @@
+/* Exam-specific styles only -- brand tokens, header/nav/footer, buttons,
+   pills, and the auth modal all come from ../shared/style.css, loaded first
+   by every page in this folder. Do NOT redefine :root tokens here -- it
+   would silently win the cascade and undo the shared brand colors. */
+
+.hindi-tag { color: #2547d0; }
+.english-tag { color: #15803d; }
+
+/* ---------- Cards / sections ---------- */
+.section-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 28px 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-sub {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  margin: 0 0 14px;
+}
+
+/* ---------- Test player ---------- */
+.player-topbar { display: flex; align-items: center; gap: 12px; }
+/* Flag button: top of the question (Previous/Next/Reset/Submit live in the bottom bar). */
+.player-actions { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 10px 0 4px; flex-wrap: wrap; }
+/* Reset lives up here (with Flag), away from the Previous/Next/Submit thumb zone at the
+   bottom, so it can't be hit by accident. */
+.reset-btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+  border: 1.5px solid var(--danger); background: var(--surface); color: var(--danger);
+  font: inherit; font-weight: 650; font-size: 0.85rem; cursor: pointer;
+  transition: background 0.15s;
+}
+.reset-btn:hover { background: var(--danger-dim); }
+.reset-btn .reset-icon { font-size: 1.05rem; line-height: 1; }
+.flag-btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+  border: 1.5px solid var(--border); background: var(--surface); color: var(--text-dim);
+  font: inherit; font-weight: 650; font-size: 0.85rem; cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.flag-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.flag-btn .flag-icon { font-size: 1.05rem; line-height: 1; }
+.flag-btn.is-flagged { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+.timer {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  background: var(--surface-alt);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+.timer.low { color: var(--danger); }
+.badge-instant {
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.progress-track {
+  height: 4px;
+  background: var(--surface-alt);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-fill { height: 100%; background: var(--primary); transition: width 0.2s ease; }
+
+.qnum-palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(34px, 1fr));
+  gap: 6px;
+  margin: 14px 0;
+  max-height: 160px;
+  overflow-y: auto;
+  padding: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.qnum {
+  aspect-ratio: 1;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 650;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qnum.current { outline: 2px solid var(--primary); outline-offset: 1px; }
+.qnum.answered { background: var(--success-dim); color: var(--success); border-color: var(--success); }
+.qnum.flagged { background: var(--accent-dim); color: var(--accent); border-color: var(--accent); }
+
+.question-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin: 14px 0;
+}
+.question-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.question-text {
+  font-size: 1.05rem;
+  font-weight: 550;
+  white-space: pre-line;
+  margin-bottom: 16px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 13px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 9px;
+  cursor: pointer;
+  background: var(--surface);
+  min-height: 44px;
+}
+.option:hover { border-color: var(--primary); }
+.option.selected { border-color: var(--primary); background: var(--primary-dim); }
+.option-letter {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.option.selected .option-letter { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.nav-bar .btn { flex: 1; min-width: 100px; }
+
+/* Three-button bottom bar: Previous (left) | Submit (middle) | Next (right). */
+.nav-bar-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 16px; }
+.nav-bar-3 .nav-btn {
+  min-width: 0; padding: 13px 8px; border-radius: 12px; font-weight: 700; font-size: 0.92rem;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  transition: transform 0.1s, box-shadow 0.15s, background 0.15s, filter 0.15s;
+}
+.nav-bar-3 .nav-btn:not(:disabled):hover { transform: translateY(-1px); }
+.nav-ico { font-size: 1.05rem; line-height: 1; }
+.nav-prev { background: var(--surface); color: var(--primary); border: 1.5px solid var(--primary); }
+.nav-prev:not(:disabled):hover { background: var(--primary-dim); }
+.nav-next { background: var(--primary); color: #fff; box-shadow: 0 3px 10px rgba(147, 51, 234, 0.3); }
+.nav-submit { background: var(--success); color: #fff; box-shadow: 0 3px 10px rgba(21, 128, 61, 0.3); }
+.nav-submit:hover { filter: brightness(1.08); }
+@media (max-width: 560px) { .nav-bar-3 { gap: 8px; } .nav-bar-3 .nav-btn { font-size: 0.85rem; padding: 12px 4px; gap: 5px; } }
+
+.explanation-box {
+  margin-top: 14px;
+  padding: 14px;
+  background: var(--surface-alt);
+  border-left: 3px solid var(--primary);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  color: var(--text-dim);
+}
+.explanation-box strong { color: var(--text); }
+
+/* ---------- Results ---------- */
+.score-hero {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 20px;
+  text-align: center;
+  margin: 16px 0 22px;
+}
+.score-hero .big { font-size: 2.6rem; font-weight: 800; color: var(--primary); }
+.stat-row { display: flex; justify-content: center; gap: 22px; margin-top: 14px; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat .n { font-size: 1.3rem; font-weight: 750; }
+.stat .l { font-size: 0.74rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; }
+
+.subject-bar-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; font-size: 0.85rem; }
+.subject-bar-row .label { width: 200px; flex-shrink: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.subject-bar-track { flex: 1; height: 8px; background: var(--surface-alt); border-radius: 4px; overflow: hidden; }
+.subject-bar-fill { height: 100%; background: var(--success); }
+.subject-bar-row .frac { width: 46px; flex-shrink: 0; text-align: right; color: var(--text-dim); }
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-dim);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .subject-bar-row .label { width: 120px; }
+  .score-hero .big { font-size: 2.1rem; }
+  .qnum-palette { max-height: 120px; }
+}
+
+/* ---------- Zones (home page) ---------- */
+.zone {
+  border-radius: 18px;
+  padding: 22px;
+  margin: 18px 0;
+  border: 1px solid var(--border);
+}
+.zone-free { background: var(--success-dim); border-color: var(--success); }
+.zone-paid { background: var(--accent-dim); border-color: var(--accent); }
+/* Merged "buy premium" pitch for a non-paying visitor -- one block (full
+   description + single button) instead of a plain zone box immediately
+   followed by a near-identical banner, which read as two redundant strips. */
+.zone-premium { background: var(--gradient); border: none; box-shadow: 0 6px 20px rgba(168, 85, 247, 0.35); }
+.zone-premium .zone-title { color: #201a2b; }
+.zone-premium .premium-desc { color: #3a2f4d; }
+.zone-premium .premium-desc strong { color: #201a2b; }
+.zone-premium .premium-banner-btn { margin-top: 4px; }
+.zone-title { font-size: 1.15rem; font-weight: 800; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; }
+/* Custom-colored badges instead of the 🆓/⭐ emoji -- those render with their
+   own fixed built-in colors (the "FREE" emoji specifically has a hardcoded
+   blue background) that CSS can't override. */
+.zone-badge {
+  font-size: 0.7rem; font-weight: 800; letter-spacing: 0.03em;
+  padding: 3px 9px; border-radius: 6px; color: #fff;
+}
+.zone-badge-free { background: var(--success); }
+.zone-badge-paid { background: var(--accent); }
+.zone-sub { color: var(--text-dim); font-size: 0.86rem; margin: 0 0 16px; }
+.zone-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.zone-actions .btn { flex: 1; min-width: 180px; }
+.zone-stat { font-size: 0.78rem; color: var(--text-dim); margin-top: 10px; }
+
+/* Full Test / Custom Test shown as two equal panels side by side, instead of
+   one full-width "Full Test" button with Custom Test tucked away as a small
+   link -- both options should read as equally prominent choices. */
+.action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 6px; }
+.action-card {
+  display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px 16px;
+}
+.action-card-icon { font-size: 1.9rem; }
+.action-card-title { font-weight: 800; font-size: 1.05rem; }
+.action-card-desc { color: var(--text-dim); font-size: 0.8rem; flex: 1; margin: 0 0 8px; }
+@media (max-width: 560px) {
+  .action-grid { grid-template-columns: 1fr; }
+}
+
+/* Exam name heading + real exam-scheme card at the very top of each exam's page. */
+.exam-page-header { text-align: center; margin: 8px 0 14px; }
+.exam-page-title { font-size: 1.5rem; font-weight: 800; margin: 0; line-height: 1.3; }
+.exam-scheme-box {
+  background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--primary);
+  border-radius: 14px; padding: 16px 20px; margin: 0 0 6px;
+}
+.exam-scheme-title { font-weight: 800; font-size: 1rem; margin-bottom: 10px; }
+.exam-scheme-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.exam-scheme-item { display: flex; flex-direction: column; gap: 2px; }
+.exam-scheme-label { font-size: 0.74rem; color: var(--text-dim); }
+.exam-scheme-value { font-weight: 750; font-size: 0.95rem; }
+.exam-scheme-note { font-size: 0.76rem; color: var(--text-dim); margin: 10px 0 0; }
+
+/* Premium marketing banner -- shown twice (top and bottom of the home page,
+   only to non-paying visitors), catchy and clearly distinct from the
+   regular purple buttons so it reads as a promotional strip. */
+.premium-banner {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  background: var(--gradient); border-radius: 16px; padding: 20px 24px; margin: 18px 0;
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.35);
+}
+.premium-banner-title { font-weight: 800; font-size: 1.05rem; color: #201a2b; }
+.premium-banner-sub { font-size: 0.82rem; color: #3a2f4d; margin-top: 4px; }
+.premium-banner-btn {
+  background: #201a2b; color: #fff; white-space: nowrap; padding: 12px 22px;
+  font-weight: 750; flex-shrink: 0;
+}
+.premium-banner-btn:hover { background: #362c46; }
+@media (max-width: 560px) {
+  .premium-banner { text-align: center; justify-content: center; }
+  .premium-banner-btn { width: 100%; }
+}
+
+/* Subjects grouped into syllabus-derived sections (see subjects_meta.json /
+   retag_subjects.py's derive_taxonomy). Shared by the free zone's practice
+   grid and the paid Custom Test Builder's checklist below. */
+.subject-section { margin-top: 20px; }
+.subject-section-title {
+  font-size: 0.92rem; font-weight: 750; color: var(--primary);
+  margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border);
+}
+.subject-card-name .en, .subject-check .en { font-weight: 500; color: var(--text-dim); font-size: 0.85em; }
+
+.subject-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+@media (max-width: 460px) {
+  .subject-grid { grid-template-columns: 1fr; }
+}
+.subject-card {
+  display: flex; flex-direction: column; align-items: flex-start; text-align: left; gap: 8px;
+  background: var(--surface); border: 1px solid var(--border); border-top: 4px solid var(--primary);
+  border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.subject-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(32, 26, 43, 0.12); }
+.subject-card:nth-child(4n+2) { border-top-color: var(--pink); }
+.subject-card:nth-child(4n+3) { border-top-color: var(--yellow); }
+.subject-card:nth-child(4n+4) { border-top-color: var(--success); }
+.subject-card-emoji { font-size: 1.5rem; line-height: 1; }
+.subject-card-name-hi { font-size: 0.95rem; font-weight: 700; line-height: 1.35; }
+.subject-card-name-en { font-size: 0.78rem; font-weight: 500; color: var(--text-dim); line-height: 1.3; }
+.subject-card-count {
+  display: inline-flex; font-size: 0.72rem; font-weight: 650;
+  background: var(--surface-alt); color: var(--text-dim); padding: 3px 10px; border-radius: 999px;
+}
+.subject-card .btn { align-self: center; width: auto; margin-top: 4px; padding: 8px 22px; font-size: 0.82rem; }
+
+/* ---------- Custom test builder ---------- */
+.form-block { margin-bottom: 22px; }
+.form-label { font-weight: 700; font-size: 0.92rem; margin-bottom: 8px; display: block; }
+.form-label-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.form-label-row .form-label { margin-bottom: 0; }
+.select-all-row { display: flex; gap: 12px; }
+.link-btn {
+  background: none; border: none; color: var(--primary); font-weight: 650; font-size: 0.8rem;
+  cursor: pointer; font-family: inherit; padding: 0;
+}
+.link-btn:hover { text-decoration: underline; }
+.form-hint { color: var(--text-dim); font-size: 0.8rem; margin: -4px 0 10px; }
+
+.subject-checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.subject-check {
+  display: flex; align-items: center; gap: 9px;
+  background: var(--surface); border: 1.5px solid var(--border); border-radius: 10px;
+  padding: 11px 12px; cursor: pointer; font-size: 0.88rem;
+}
+.subject-check input { width: 18px; height: 18px; accent-color: var(--primary); flex-shrink: 0; }
+.subject-check .cnt { margin-left: auto; color: var(--text-dim); font-size: 0.76rem; }
+.subject-check.checked { border-color: var(--primary); background: var(--primary-dim); }
+
+.field-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.field { flex: 1; min-width: 140px; }
+.field label { display: block; font-size: 0.82rem; color: var(--text-dim); margin-bottom: 6px; }
+.field input[type="number"] {
+  width: 100%; padding: 10px 12px; border-radius: 10px; border: 1.5px solid var(--border);
+  background: var(--surface); color: var(--text); font-size: 0.95rem;
+}
+
+/* Preset selector (question count / time limit) -- buttons to tap, not a
+   number field to type into. */
+.preset-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.preset-btn {
+  flex: 1; min-width: 56px; padding: 10px 8px; border-radius: 10px; border: 1.5px solid var(--border);
+  background: var(--surface); color: var(--text); font-size: 0.88rem; font-weight: 650;
+  cursor: pointer; font-family: inherit;
+}
+.preset-btn.active { border-color: var(--primary); background: var(--primary-dim); color: var(--primary); }
+
+.toggle-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 13px 14px;
+}
+.toggle-row .t-label { font-weight: 650; font-size: 0.9rem; }
+.toggle-row .t-hint { font-size: 0.78rem; color: var(--text-dim); margin-top: 2px; }
+.switch { position: relative; width: 46px; height: 26px; flex-shrink: 0; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.switch .track {
+  position: absolute; inset: 0; background: var(--border); border-radius: 999px; cursor: pointer; transition: 0.15s;
+}
+.switch .track::before {
+  content: ""; position: absolute; width: 20px; height: 20px; left: 3px; top: 3px;
+  background: #fff; border-radius: 50%; transition: 0.15s;
+}
+.switch input:checked + .track { background: var(--primary); }
+.switch input:checked + .track::before { transform: translateX(20px); }
+
+/* ---------- Instant-mode inline reveal ---------- */
+.option.reveal-correct { border-color: var(--success); background: var(--success-dim); }
+.option.reveal-correct .option-letter { background: var(--success); border-color: var(--success); color: #fff; }
+.option.reveal-wrong { border-color: var(--danger); background: var(--danger-dim); }
+.option.reveal-wrong .option-letter { background: var(--danger); border-color: var(--danger); color: #fff; }
+.option.locked { cursor: default; }
+
+.no-repeat-note {
+  font-size: 0.78rem; color: var(--text-dim); text-align: center; margin-top: 10px;
+}
+.reset-link { font-size: 0.78rem; color: var(--text-dim); text-decoration: underline; cursor: pointer; background: none; border: none; padding: 0; }
+
+/* ---- Question rendering: pair-matching tables, figure images, per-line stems ---- */
+.question-text .q-line { margin: 2px 0; }
+.match-table { border-collapse: collapse; margin: 8px 0; width: 100%; max-width: 560px; font-size: 0.95em; }
+.match-table th, .match-table td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
+.match-table th { background: var(--primary-dim); font-weight: 700; }
+.match-table tr:nth-child(even) td { background: var(--surface-alt); }
+.q-image { display: block; max-width: 100%; height: auto; margin: 6px auto 4px; border: 1px solid var(--border); border-radius: 10px; background: #fff; }
+.q-image-note { text-align: center; color: var(--text-dim); font-size: 0.8rem; margin-bottom: 8px; }
+
+/* ---- Report a mistake ---- */
+.report-row { text-align: right; margin-top: 10px; }
+.report-btn { background: none; border: none; color: var(--text-dim); font-size: 0.78rem; cursor: pointer; text-decoration: underline; padding: 4px; }
+.report-btn:hover { color: var(--danger); }
+
+/* ---- Resume banner ---- */
+.resume-banner { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+  background: var(--yellow-dim); border: 1px solid var(--yellow); border-radius: var(--radius); padding: 12px 16px; margin: 0 0 14px; }
+.resume-banner span { color: var(--text-dim); font-size: 0.85rem; }
+.resume-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.resume-actions .btn { text-decoration: none; }
+
+/* ---- Fixed mocks / previous-year papers ---- */
+.zone-mocks, .zone-pyp { background: var(--surface); border-color: var(--border); }
+.mock-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.mock-btn, .pyp-row { font: inherit; cursor: pointer; border: 1px solid var(--border); background: var(--surface-alt); color: var(--text);
+  border-radius: 10px; padding: 10px 12px; text-align: left; }
+.mock-btn:hover, .pyp-row:hover { border-color: var(--primary); background: var(--primary-dim); }
+.mock-btn.locked, .pyp-row.locked { opacity: 0.65; }
+.pyp-list { display: flex; flex-direction: column; gap: 6px; max-height: 340px; overflow-y: auto; }
+.pyp-row { display: flex; justify-content: space-between; gap: 10px; font-size: 0.9rem; }
+.pyp-row span:last-child { color: var(--text-dim); white-space: nowrap; font-size: 0.8rem; }

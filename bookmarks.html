@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>बुकमार्क और नोट्स — RAJ G.K. GURU</title>
+<meta name="description" content="अपने बुकमार्क किए हुए प्रश्न और निजी नोट्स — सभी परीक्षाओं के लिए एक जगह।">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css?v=3">
+<link rel="stylesheet" href="shared/features.css?v=1">
+</head>
+<body>
+<header id="site-header"></header>
+<div class="container"><div class="fx-page">
+  <h1>🔖 बुकमार्क और नोट्स</h1>
+  <p class="small">प्रश्न पर ☆ दबाकर बुकमार्क करें; नोट लिखें; बाद में यहीं से दोहराएं। साइन-इन करने पर सभी डिवाइस पर सिंक होता है।</p>
+  <div class="fx-row">
+    <select id="f-exam" class="fx-select"><option value="">सभी परीक्षाएं</option></select>
+    <input id="f-q" class="fx-select" placeholder="खोजें…" style="flex:1;min-width:160px">
+    <button class="btn btn-primary btn-sm" id="f-practice" hidden>चुने हुए बुकमार्क का टेस्ट</button>
+  </div>
+  <div id="list"><p class="small">लोड हो रहा है…</p></div>
+</div></div>
+<footer id="site-footer"></footer>
+
+<script type="module">
+  import { renderHeader, renderFooter } from "./shared/chrome.js";
+  import { loadBookmarks, toggleBookmark } from "./shared/userdata.js?v=2";
+  import { openNote } from "./shared/insights.js?v=4";
+  renderHeader(document.getElementById("site-header"), "bookmarks");
+  renderFooter(document.getElementById("site-footer"));
+
+  const E = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const titles = {};
+  const examSel = document.getElementById("f-exam");
+  const listEl = document.getElementById("list");
+  let all = [];
+
+  fetch("exams.json").then((r) => r.json()).then(({ exams }) => {
+    exams.forEach((e) => { titles[e.slug] = e.title; });
+    const pre = new URLSearchParams(location.search).get("exam");
+    render(pre);
+  });
+
+  async function render(preselect) {
+    all = await loadBookmarks();
+    const slugs = [...new Set(all.map((b) => b.slug))];
+    examSel.innerHTML = `<option value="">सभी परीक्षाएं (${all.length})</option>` + slugs.map((s) => `<option value="${E(s)}">${E(titles[s] || s)} (${all.filter((b) => b.slug === s).length})</option>`).join("");
+    if (preselect && slugs.includes(preselect)) examSel.value = preselect;
+    draw();
+  }
+
+  function draw() {
+    const term = document.getElementById("f-q").value.trim().toLowerCase();
+    const exam = examSel.value;
+    const rows = all.filter((b) => (!exam || b.slug === exam) &&
+      (!term || JSON.stringify(b.snap.hindi || b.snap.english).toLowerCase().includes(term) || (b.note || "").toLowerCase().includes(term)));
+    document.getElementById("f-practice").hidden = !exam || !rows.length;
+    listEl.innerHTML = rows.length ? rows.map((b, i) => {
+      const l = b.snap.hindi || b.snap.english || { question: "", options: [] };
+      return `<div class="bm-card"><div class="small">${E(titles[b.slug] || b.slug)} · ${E(b.snap.subject || "")}${b.snap.topic ? " · " + E(b.snap.topic) : ""}</div>
+        <div class="bm-q" style="margin:6px 0;white-space:pre-line">${E(l.question)}${b.snap.hasImage ? ' <span class="small">(चित्र वाला प्रश्न — टेस्ट में देखें)</span>' : ""}</div>
+        ${(l.options || []).map((o, j) => `<div class="bm-q" style="padding:3px 0;${j + 1 === b.snap.correct_option ? "font-weight:700;color:var(--success)" : ""}">${j + 1}. ${E(o)}${j + 1 === b.snap.correct_option ? " ✔" : ""}</div>`).join("")}
+        ${l.explanation ? `<details><summary class="small">स्पष्टीकरण</summary><div class="bm-q small">${E(l.explanation)}</div></details>` : ""}
+        ${b.note ? `<div class="bm-note">📝 ${E(b.note)}</div>` : ""}
+        <div class="fx-qactions"><button class="fx-qbtn" data-a="note" data-i="${i}">📝 नोट ${b.note ? "बदलें" : "जोड़ें"}</button><button class="fx-qbtn" data-a="rm" data-i="${i}">★ बुकमार्क हटाएं</button><a class="fx-qbtn" href="${E(b.slug)}/" style="text-decoration:none">परीक्षा पेज →</a></div></div>`;
+    }).join("") : `<p>कोई बुकमार्क नहीं मिला। किसी टेस्ट में प्रश्न के ऊपर ☆ दबाएं।</p>`;
+    listEl.querySelectorAll("[data-a]").forEach((btn) => {
+      btn.onclick = async () => {
+        const b = rows[Number(btn.dataset.i)];
+        const q = { id: b.qid, ...b.snap };
+        if (btn.dataset.a === "rm") { await toggleBookmark(b.slug, q); await render(examSel.value); }
+        else openNote(b.slug, q, () => render(examSel.value));
+      };
+    });
+    document.getElementById("f-practice").onclick = () => {
+      const qs = rows.map((b) => ({ id: b.qid, qkey: b.snap.qkey, subject: b.snap.subject, topic: b.snap.topic, correct_option: b.snap.correct_option, hindi: b.snap.hindi, english: b.snap.english }))
+        .filter((q) => q.hindi || q.english);
+      const test = { test_id: `bookmarks-${Date.now()}`, examSlug: exam, title: "मेरे बुकमार्क — अभ्यास", pool: "free", kind: "bookmarks", mockId: null,
+        duration_minutes: null, negative_marking: 1 / 3, marks_per_question: 2, instant: true, questions: qs };
+      try {
+        localStorage.setItem("current-test", JSON.stringify(test));
+        localStorage.setItem("current-state", JSON.stringify({ answers: {}, flagged: [], current: 0, phase: "taking", secondsLeft: null, endsAt: null, revealed: {} }));
+        location.href = `${exam}/test.html`;
+      } catch (e) { alert("टेस्ट शुरू नहीं हो सका।"); }
+    };
+  }
+  examSel.onchange = draw;
+  document.getElementById("f-q").oninput = draw;
+</script>
+</body>
+</html>

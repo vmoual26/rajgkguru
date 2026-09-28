@@ -1,0 +1,22 @@
+{
+ "name": "RAJ G.K. GURU — Test Series",
+ "short_name": "RAJ G.K. GURU",
+ "description": "Rajasthan GK test series for RPSC & RSMSSB exams",
+ "start_url": "/",
+ "display": "standalone",
+ "background_color": "#faf8fc",
+ "theme_color": "#9333ea",
+ "lang": "hi",
+ "icons": [
+  {
+   "src": "/shared/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/shared/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

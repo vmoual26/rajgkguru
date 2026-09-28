@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>खाता बनाएं — RAJ G.K. GURU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css">
+<style>
+  .register-wrap { max-width: 440px; margin: 40px auto; }
+  .register-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 28px;
+  }
+  .register-card h1 { font-size: 1.3rem; margin: 0 0 6px; }
+  .register-card .sub { color: var(--text-dim); font-size: 0.88rem; margin: 0 0 22px; }
+  .form-block { margin-bottom: 16px; }
+  .form-block label { display: block; font-size: 0.82rem; font-weight: 650; margin-bottom: 6px; }
+  .form-block input, .form-block select {
+    width: 100%; padding: 11px 13px; border-radius: 10px; border: 1.5px solid var(--border);
+    background: var(--surface); color: var(--text); font-size: 0.95rem; font-family: inherit;
+  }
+  .otp-row { display: flex; gap: 10px; align-items: flex-end; }
+  .otp-row .form-block { flex: 1; margin-bottom: 0; }
+  .form-error { color: var(--danger); font-size: 0.85rem; margin: 10px 0 0; min-height: 1.2em; }
+  .form-success { color: var(--success); font-size: 0.85rem; margin: 10px 0 0; }
+  .step-hint { font-size: 0.8rem; color: var(--text-dim); margin: -8px 0 16px; }
+  .switch-link { text-align: center; margin-top: 18px; font-size: 0.85rem; color: var(--text-dim); }
+  .switch-link button { background: none; border: none; color: var(--primary); font-weight: 650; cursor: pointer; padding: 0; font-family: inherit; }
+</style>
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<div class="container">
+  <div class="register-wrap">
+    <div class="register-card">
+      <h1>नया खाता बनाएं</h1>
+      <p class="sub">रजिस्टर करें, अपनी परीक्षा चुनें, और अपनी प्रोग्रेस हर डिवाइस पर सेव रखें।</p>
+
+      <form id="register-form">
+        <div class="form-block">
+          <label>आपका पूरा नाम *</label>
+          <input type="text" id="r-name" required>
+        </div>
+        <div class="form-block">
+          <label>आप किस परीक्षा की तैयारी कर रहे हैं? *</label>
+          <select id="r-exam" required>
+            <option value="">-- चुनें --</option>
+          </select>
+        </div>
+        <div class="form-block">
+          <label>मोबाइल नंबर *</label>
+          <input type="tel" id="r-mobile" pattern="[6-9][0-9]{9}" maxlength="10" required>
+        </div>
+        <div class="form-block">
+          <label>ईमेल आईडी *</label>
+          <input type="email" id="r-email" required>
+        </div>
+        <div class="form-block">
+          <label>पासवर्ड (कम से कम 6 अक्षर) *</label>
+          <input type="password" id="r-password" minlength="6" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="btn-send-otp">ईमेल वेरिफिकेशन कोड भेजें</button>
+        <div class="form-error" id="register-error"></div>
+      </form>
+
+      <form id="otp-form" class="hidden">
+        <p class="step-hint" id="otp-sent-to"></p>
+        <div class="otp-row">
+          <div class="form-block">
+            <label>वेरिफिकेशन कोड (6 अंक) *</label>
+            <input type="text" id="r-otp" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" required autocomplete="one-time-code">
+          </div>
+          <button type="button" class="btn btn-secondary" id="btn-resend-otp">दोबारा भेजें</button>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="btn-verify-otp">सत्यापित करें और खाता बनाएं</button>
+        <div class="form-error" id="otp-error"></div>
+        <div class="form-success hidden" id="otp-success">✓ खाता सफलतापूर्वक बन गया! भेजा जा रहा है...</div>
+      </form>
+
+      <p class="switch-link">पहले से खाता है? <button id="go-signin">साइन इन करें</button></p>
+    </div>
+  </div>
+</div>
+
+<footer id="site-footer"></footer>
+
+<script type="module">
+  import { renderHeader, renderFooter } from "./shared/chrome.js";
+  import { auth, db, showAuthModal } from "./shared/auth.js";
+  import { CLOUD_FUNCTIONS_BASE_URL } from "./shared/firebase-config.js";
+  import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
+  import { doc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
+
+  renderHeader(document.getElementById("site-header"), null);
+  renderFooter(document.getElementById("site-footer"));
+
+  const examSelect = document.getElementById("r-exam");
+  fetch("exams.json").then((r) => r.json()).then(({ exams }) => {
+    for (const e of exams.filter((e) => e.status === "live")) {
+      const opt = document.createElement("option");
+      opt.value = e.slug;
+      opt.textContent = e.title;
+      examSelect.appendChild(opt);
+    }
+  });
+
+  const registerForm = document.getElementById("register-form");
+  const otpForm = document.getElementById("otp-form");
+  const registerError = document.getElementById("register-error");
+  const otpError = document.getElementById("otp-error");
+
+  let pendingRegistration = null; // { name, exam, mobile, email, password }
+
+  function setBusy(btn, busy, busyText) {
+    btn.disabled = busy;
+    if (busy) { btn.dataset.origText = btn.textContent; btn.textContent = busyText; }
+    else if (btn.dataset.origText) { btn.textContent = btn.dataset.origText; }
+  }
+
+  registerForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    registerError.textContent = "";
+    const name = document.getElementById("r-name").value.trim();
+    const exam = examSelect.value;
+    const mobile = document.getElementById("r-mobile").value.trim();
+    const email = document.getElementById("r-email").value.trim().toLowerCase();
+    const password = document.getElementById("r-password").value;
+
+    if (!exam) { registerError.textContent = "कृपया एक परीक्षा चुनें।"; return; }
+
+    const btn = document.getElementById("btn-send-otp");
+    setBusy(btn, true, "भेजा जा रहा है...");
+    try {
+      const res = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/send_registration_otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const body = await res.json();
+      if (!res.ok) throw new Error(body.error || "कोड नहीं भेजा जा सका।");
+
+      pendingRegistration = { name, exam, mobile, email, password };
+      document.getElementById("otp-sent-to").textContent = `${email} पर भेजा गया 6-अंकों का कोड डालें:`;
+      registerForm.classList.add("hidden");
+      otpForm.classList.remove("hidden");
+      document.getElementById("r-otp").focus();
+    } catch (err) {
+      registerError.textContent = err.message;
+    } finally {
+      setBusy(btn, false);
+    }
+  });
+
+  document.getElementById("btn-resend-otp").addEventListener("click", async () => {
+    if (!pendingRegistration) return;
+    otpError.textContent = "";
+    const btn = document.getElementById("btn-resend-otp");
+    setBusy(btn, true, "...");
+    try {
+      const res = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/send_registration_otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: pendingRegistration.email }),
+      });
+      const body = await res.json();
+      if (!res.ok) throw new Error(body.error || "कोड नहीं भेजा जा सका।");
+    } catch (err) {
+      otpError.textContent = err.message;
+    } finally {
+      setBusy(btn, false);
+    }
+  });
+
+  otpForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    otpError.textContent = "";
+    if (!pendingRegistration) return;
+    const code = document.getElementById("r-otp").value.trim();
+    const btn = document.getElementById("btn-verify-otp");
+    setBusy(btn, true, "सत्यापित हो रहा है...");
+    try {
+      const verifyRes = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/verify_registration_otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: pendingRegistration.email, code }),
+      });
+      const verifyBody = await verifyRes.json();
+      if (!verifyRes.ok || !verifyBody.verified) throw new Error(verifyBody.error || "कोड सत्यापित नहीं हो सका।");
+
+      const { name, exam, mobile, email, password } = pendingRegistration;
+      const cred = await createUserWithEmailAndPassword(auth, email, password);
+      await setDoc(doc(db, "users", cred.user.uid), {
+        name, mobile, examInterest: exam, registeredAt: serverTimestamp(),
+      }, { merge: true });
+
+      document.getElementById("otp-success").classList.remove("hidden");
+      setTimeout(() => { window.location.href = `/${exam}/`; }, 1200);
+    } catch (err) {
+      otpError.textContent = err.message?.replace(/^Firebase:\s*/, "") || "कुछ गलत हो गया।";
+    } finally {
+      setBusy(btn, false);
+    }
+  });
+
+  document.getElementById("go-signin").addEventListener("click", async () => {
+    const user = await showAuthModal({ reason: "अपने खाते में साइन इन करें।" });
+    if (user) window.location.href = "/";
+  });
+</script>
+</body>
+</html>

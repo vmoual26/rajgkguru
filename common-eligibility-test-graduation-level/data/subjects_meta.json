@@ -1,0 +1,99 @@
+{
+  "sections": [
+    {
+      "name": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)"
+    },
+    {
+      "name": "सामान्य ज्ञान - भूगोल, विज्ञान एवं समसामयिकी (General Knowledge - Geography, Science & Current Affairs)"
+    },
+    {
+      "name": "अभिरुचि एवं भाषाएँ (Aptitude & Languages)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Indian History",
+      "name_hindi": "भारतीय इतिहास",
+      "section": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)",
+      "scope_note": "Covers major events of Indian history, social and religious reform movements of 19th-20th century, Indian freedom struggle, post-independence nation-building, and development in science and technology during the Nehruvian era."
+    },
+    {
+      "name": "Rajasthan History, Art & Culture",
+      "name_hindi": "राजस्थान का इतिहास, कला एवं संस्कृति",
+      "section": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)",
+      "scope_note": "Focuses on ancient civilizations, historical events, major dynasties, administrative and revenue systems, architecture, arts, literature, fairs, festivals, folk music, folk dances, religious movements, saints, folk deities, historical sites, prominent personalities, and unification of Rajasthan."
+    },
+    {
+      "name": "Indian Polity",
+      "name_hindi": "भारतीय राजव्यवस्था",
+      "section": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)",
+      "scope_note": "Encompasses the nature of the Indian Constitution, Preamble, Fundamental Rights, Directive Principles, Fundamental Duties, federal structure, constitutional amendments, emergency provisions, public interest litigation, Constituent Assembly, President, PM, Council of Ministers, Parliament, Supreme Court, federal and state executive, Election Commission, CAG, CIC, Lokpal, NHRC, local self-government, and Panchayati Raj."
+    },
+    {
+      "name": "Rajasthan Polity",
+      "name_hindi": "राजस्थान की राजव्यवस्था",
+      "section": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)",
+      "scope_note": "Focuses on the political and administrative system of Rajasthan, including Governor, Chief Minister, State Legislative Assembly, High Court, RPSC, District Administration, Rajasthan Human Rights Commission, Lokayukta, State Election Commission, and State Information Commission."
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)",
+      "scope_note": "Covers budget formulation, banking, public finance, GST, national income, growth and development, fiscal and monetary policies, subsidies, public distribution system, e-commerce, major sectors (agriculture, industry, service), Green, White, Blue Revolutions, Five-Year Plans, economic problems, reforms, and liberalization."
+    },
+    {
+      "name": "Rajasthan Economy",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "सामान्य ज्ञान - इतिहास, राजव्यवस्था एवं अर्थव्यवस्था (General Knowledge - History, Polity & Economy)",
+      "scope_note": "Includes food and commercial crops, agriculture-based industries, major irrigation and river valley projects, wasteland and drought area development, Indira Gandhi Canal Project, industrial development, small-scale industries, handicrafts, poverty, unemployment, welfare schemes, MNREGA, development institutions, cooperative movement, small enterprises, financial institutions, and the role of Panchayati Raj institutions after 73rd amendment."
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारत का भूगोल",
+      "section": "सामान्य ज्ञान - भूगोल, विज्ञान एवं समसामयिकी (General Knowledge - Geography, Science & Current Affairs)",
+      "scope_note": "Includes physical features (mountains, plateaus, deserts, plains), climate, monsoon system, major rivers, dams, lakes, wildlife, sanctuaries, major crops, minerals, energy resources, industries, national highways, and transport."
+    },
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "सामान्य ज्ञान - भूगोल, विज्ञान एवं समसामयिकी (General Knowledge - Geography, Science & Current Affairs)",
+      "scope_note": "Covers geological structure, geomorphic regions, climate, drainage system, lakes, dams, water conservation, natural vegetation, wildlife, soils, major crops, population, tribes, minerals, energy resources, tourism, and transport."
+    },
+    {
+      "name": "Science & Technology",
+      "name_hindi": "विज्ञान एवं प्रौद्योगिकी",
+      "section": "सामान्य ज्ञान - भूगोल, विज्ञान एवं समसामयिकी (General Knowledge - Geography, Science & Current Affairs)",
+      "scope_note": "Covers information and communication technology, defense technology, space technology, electricity, heat, work, energy, food and nutrition, blood groups, healthcare, infectious and non-infectious diseases, environmental and ecological changes, biodiversity, conservation of natural resources, economic importance of plants and animals, agriculture science, horticulture, forestry, animal husbandry (with special reference to Rajasthan), scientific and technological development in Rajasthan, physical and chemical changes, acids, bases, salts, bleaching powder, baking soda, plaster of Paris, soap, and detergents."
+    },
+    {
+      "name": "Current Affairs",
+      "name_hindi": "समसामयिक घटनाएँ",
+      "section": "सामान्य ज्ञान - भूगोल, विज्ञान एवं समसामयिकी (General Knowledge - Geography, Science & Current Affairs)",
+      "scope_note": "Focuses on major contemporary events and issues of Rajasthan, India, and international importance, current personalities, places, institutions, and sports-related activities."
+    },
+    {
+      "name": "Reasoning & Mental Ability",
+      "name_hindi": "तार्किक विवेचन एवं मानसिक योग्यता",
+      "section": "अभिरुचि एवं भाषाएँ (Aptitude & Languages)",
+      "scope_note": "Includes topics like series, analogy, figure matrix, classification, alphabet test, passage and conclusions, blood relations, coding-decoding, direction sense, sitting arrangement, input-output, number ranking, time square, making judgments, logical arrangement of words, inserting missing characters, mathematical operations, average, ratio, area (triangle, circle, ellipse, trapezium, rectangle, sphere, cylinder), percentage, simple and compound interest, unitary method, profit & loss, volume (sphere, cylinder, cube, cone)."
+    },
+    {
+      "name": "General Hindi",
+      "name_hindi": "सामान्य हिन्दी",
+      "section": "अभिरुचि एवं भाषाएँ (Aptitude & Languages)",
+      "scope_note": "Covers Hindi grammar topics such as Sandhi, nouns, pronouns, adjectives, verbs, adverbs, karak, avyay, samas, prefixes, suffixes, antonyms, synonyms, homonyms, punctuation, phonetics, technical terms (English to Hindi), word purification, sentence purification, idioms, proverbs, official Hindi (constitutional status), and official letter writing."
+    },
+    {
+      "name": "General English",
+      "name_hindi": "सामान्य अंग्रेजी",
+      "section": "अभिरुचि एवं भाषाएँ (Aptitude & Languages)",
+      "scope_note": "Includes articles, determiners, tenses, voice, narration, prepositions, translation (English-Hindi), synonyms, antonyms, comprehension, glossary of official/technical terms, letter writing (official, demi-official, circulars, notices), idioms, and one-word substitution."
+    },
+    {
+      "name": "Computer Knowledge",
+      "name_hindi": "कंप्यूटर ज्ञान",
+      "section": "अभिरुचि एवं भाषाएँ (Aptitude & Languages)",
+      "scope_note": "Covers characteristics of computers, computer organization (RAM, ROM, file system, input devices), hardware and software relationship, operating system, and MS-Office (Word, Excel/Spreadsheet, PowerPoint)."
+    }
+  ]
+}

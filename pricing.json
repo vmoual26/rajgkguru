@@ -1,0 +1,5 @@
+{
+  "launched": false,
+  "currency": "INR",
+  "note": "Set launched=true (after confirming these numbers match cloud_functions/test_series/exam_prices.json AND series/shared/pricing.js) when payments go live."
+}

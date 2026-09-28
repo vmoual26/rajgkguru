@@ -1,0 +1,132 @@
+{
+  "sections": [
+    {
+      "name": "इतिहास, राजनीति एवं संस्कृति (History, Polity & Culture)"
+    },
+    {
+      "name": "भूगोल एवं अर्थव्यवस्था (Geography & Economy)"
+    },
+    {
+      "name": "विज्ञान, गणित एवं रीजनिंग (Science, Maths & Reasoning)"
+    },
+    {
+      "name": "भाषा एवं समसामयिकी (Language & Current Affairs)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan History",
+      "name_hindi": "राजस्थान का इतिहास",
+      "section": "इतिहास, राजनीति एवं संस्कृति (History, Polity & Culture)",
+      "scope_note": "Rajasthan's princely states, dynasties, forts, treaties, freedom movement within Rajasthan, peasant/tribal movements -- anything historical specific to Rajasthan."
+    },
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "भूगोल एवं अर्थव्यवस्था (Geography & Economy)",
+      "scope_note": "Rajasthan's physical/agro-climatic zones, rivers, soils, minerals, climate, wildlife/forests, districts, irrigation -- physical or economic geography of Rajasthan specifically."
+    },
+    {
+      "name": "Rajasthan Polity & Administration",
+      "name_hindi": "राजस्थान की राजव्यवस्था एवं प्रशासन",
+      "section": "इतिहास, राजनीति एवं संस्कृति (History, Polity & Culture)",
+      "scope_note": "Rajasthan's state government structure, Panchayati Raj / local self-government in Rajasthan, state assembly, governor, state-specific administrative/legal setup."
+    },
+    {
+      "name": "Rajasthan Economy",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "भूगोल एवं अर्थव्यवस्था (Geography & Economy)",
+      "scope_note": "Rajasthan-specific industries, agriculture, schemes, economic planning, tourism as an industry, census/demographic economic data for Rajasthan."
+    },
+    {
+      "name": "Rajasthan Art & Culture",
+      "name_hindi": "राजस्थान की कला एवं संस्कृति",
+      "section": "इतिहास, राजनीति एवं संस्कृति (History, Polity & Culture)",
+      "scope_note": "Rajasthan's folk culture, festivals, dance, music, painting styles, fairs, saints/folk deities, dialects, cuisine, handicrafts, monuments as cultural (not historical-political) sites."
+    },
+    {
+      "name": "Rajasthan Current Affairs",
+      "name_hindi": "राजस्थान करंट अफेयर्स",
+      "section": "भाषा एवं समसामयिकी (Language & Current Affairs)",
+      "scope_note": "Recent (last ~1-2 years relative to the exam) news, appointments, schemes, awards, events specific to Rajasthan."
+    },
+    {
+      "name": "Indian History",
+      "name_hindi": "भारत का इतिहास",
+      "section": "इतिहास, राजनीति एवं संस्कृति (History, Polity & Culture)",
+      "scope_note": "National/pan-India history not specific to Rajasthan -- ancient/medieval/modern India, the freedom struggle at the national level."
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारत का भूगोल",
+      "section": "भूगोल एवं अर्थव्यवस्था (Geography & Economy)",
+      "scope_note": "India's physical/economic geography at the national level, not Rajasthan-specific."
+    },
+    {
+      "name": "Indian Polity",
+      "name_hindi": "भारतीय राजव्यवस्था",
+      "section": "इतिहास, राजनीति एवं संस्कृति (History, Polity & Culture)",
+      "scope_note": "The Indian Constitution, Union government structure, judiciary, elections, national-level governance."
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "भूगोल एवं अर्थव्यवस्था (Geography & Economy)",
+      "scope_note": "National economic policy, planning, banking, national schemes, national census/demographic data."
+    },
+    {
+      "name": "World Geography",
+      "name_hindi": "विश्व भूगोल",
+      "section": "भूगोल एवं अर्थव्यवस्था (Geography & Economy)",
+      "scope_note": "Geography outside India (continents, world physical features, global economic geography)."
+    },
+    {
+      "name": "General Science",
+      "name_hindi": "सामान्य विज्ञान",
+      "section": "विज्ञान, गणित एवं रीजनिंग (Science, Maths & Reasoning)",
+      "scope_note": "Physics/chemistry/biology/technology facts not tied to current events."
+    },
+    {
+      "name": "Current Affairs (National/International)",
+      "name_hindi": "समसामयिकी (राष्ट्रीय/अंतर्राष्ट्रीय)",
+      "section": "भाषा एवं समसामयिकी (Language & Current Affairs)",
+      "scope_note": "Recent news at the national or international level (not Rajasthan-specific)."
+    },
+    {
+      "name": "Educational Psychology",
+      "name_hindi": "शिक्षा मनोविज्ञान",
+      "section": "विज्ञान, गणित एवं रीजनिंग (Science, Maths & Reasoning)",
+      "scope_note": "Theories of learning, child development, pedagogy, psychologists/theorists -- the Educational Psychology paper's own subject matter."
+    },
+    {
+      "name": "Mathematics",
+      "name_hindi": "गणित",
+      "section": "विज्ञान, गणित एवं रीजनिंग (Science, Maths & Reasoning)",
+      "scope_note": "Arithmetic, algebra, geometry, trigonometry, numerical/quantitative aptitude calculations -- the question requires computing or manipulating numbers."
+    },
+    {
+      "name": "Reasoning & Mental Ability",
+      "name_hindi": "तार्किक एवं मानसिक योग्यता",
+      "section": "विज्ञान, गणित एवं रीजनिंग (Science, Maths & Reasoning)",
+      "scope_note": "Logical reasoning, analogies, series completion, coding-decoding, classification (odd-one-out), figure/pattern-based puzzles, blood relations, direction sense -- tests reasoning ability itself, not GK facts."
+    },
+    {
+      "name": "Computer Knowledge",
+      "name_hindi": "कंप्यूटर ज्ञान",
+      "section": "विज्ञान, गणित एवं रीजनिंग (Science, Maths & Reasoning)",
+      "scope_note": "Computer hardware/software basics, MS Office, internet, operating systems, abbreviations (RAM, USB, CD-R, etc.) -- computer literacy as its own subject, not \"General Science\" (only put a computing question here, not in General Science)."
+    },
+    {
+      "name": "English Language",
+      "name_hindi": "अंग्रेजी भाषा",
+      "section": "भाषा एवं समसामयिकी (Language & Current Affairs)",
+      "scope_note": "English grammar, vocabulary, comprehension, synonyms/antonyms, sentence correction, idioms -- ONLY when the question is testing English language skill itself (e.g. \"choose the correct tense\"). A GK question that merely happens to be printed in English stays in its real GK subject, not here."
+    },
+    {
+      "name": "Hindi Language",
+      "name_hindi": "हिंदी भाषा",
+      "section": "भाषा एवं समसामयिकी (Language & Current Affairs)",
+      "scope_note": "Hindi grammar (sandhi, samas, muhavare), vocabulary (vilom/paryayvachi shabd), sentence correction -- ONLY when the question is testing Hindi language skill itself. A GK question merely printed in Hindi stays in its real GK subject, not here."
+    }
+  ]
+}

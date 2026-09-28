@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "name": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)"
+    },
+    {
+      "name": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)"
+    },
+    {
+      "name": "शैक्षिक मनोविज्ञान (Educational Psychology)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Covers physical features, climate, drainage, vegetation, agriculture, livestock, dairy development, population, industries, and major tourist centers of Rajasthan."
+    },
+    {
+      "name": "Rajasthan History",
+      "name_hindi": "राजस्थान का इतिहास",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Focuses on ancient culture and civilization (Kalibangan, Ahar, Ganeshwar, Bairath), history from 8th to 18th century (Gurjar Pratihars, Chauhans, Delhi Sultanate relations, Rajasthan and Mughals), and the freedom struggle (1857 Revolution, political awakening, Prajamandal, peasant and tribal movements) in Rajasthan."
+    },
+    {
+      "name": "Rajasthan Art & Culture",
+      "name_hindi": "राजस्थान की कला एवं संस्कृति",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Includes integration of Rajasthan, society and religion (Lok Devta, Saints), architecture (temples, forts, palaces), paintings, fairs and festivals, customs, dresses, ornaments, folk music and dance, and language and literature of Rajasthan."
+    },
+    {
+      "name": "Rajasthan Polity",
+      "name_hindi": "राजस्थान की राजव्यवस्था",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Covers the political and administrative system of Rajasthan, including the Governor, Chief Minister and Cabinet, State Secretariat, Chief Secretary, RPSC, State Human Rights Commission, Panchayati Raj, and State Legislative Assembly."
+    },
+    {
+      "name": "Rajasthan Current Affairs",
+      "name_hindi": "राजस्थान समसामयिकी",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Deals with major current issues and happenings at the state level related to socio-economic, political, games, and sports aspects of Rajasthan."
+    },
+    {
+      "name": "World & Indian Geography",
+      "name_hindi": "विश्व एवं भारत का भूगोल",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Includes continents, oceans, global wind systems, environmental issues, globalization, population distribution and migration, and India's physical features, monsoonal system, drainage, vegetation, and energy resources."
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Covers growth and development in agriculture, industry, and service sectors in India, and foreign trade trends, composition, and direction."
+    },
+    {
+      "name": "Indian Constitution & Polity",
+      "name_hindi": "भारतीय संविधान एवं राजव्यवस्था",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Focuses on constitutional history (1919 & 1935 Acts), Gandhi's contribution, Ambedkar's role, constitution making, salient features, fundamental rights, duties, DPSP, President, Prime Minister, political parties, pressure groups, India's foreign policy, Nehru's contribution, India and UNO, and international politics with reference to globalization."
+    },
+    {
+      "name": "Educational Psychology",
+      "name_hindi": "शैक्षिक मनोविज्ञान",
+      "section": "शैक्षिक मनोविज्ञान (Educational Psychology)",
+      "scope_note": "Covers the meaning, scope, and implications of educational psychology for teachers, development of learners, learning theories, personality, intelligence, creativity, motivation, individual differences, and self-concept, attitudes, interest, habits, aptitude, and social skills."
+    }
+  ]
+}

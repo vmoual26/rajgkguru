@@ -1,0 +1,63 @@
+{
+  "sections": [
+    {
+      "name": "इतिहास, कला एवं संस्कृति [History, Art & Culture]"
+    },
+    {
+      "name": "भूगोल एवं अर्थव्यवस्था [Geography & Economy]"
+    },
+    {
+      "name": "सामान्य विज्ञान एवं समसामयिकी [General Science & Current Affairs]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Indian History and Culture",
+      "name_hindi": "भारतीय इतिहास एवं संस्कृति",
+      "section": "इतिहास, कला एवं संस्कृति [History, Art & Culture]",
+      "scope_note": "This category includes questions related to ancient, medieval, and modern Indian history, focusing on culture, heritage, and the freedom movement. Excludes Rajasthan-specific historical events or cultural aspects."
+    },
+    {
+      "name": "History and Culture of Rajasthan",
+      "name_hindi": "राजस्थान का इतिहास एवं संस्कृति",
+      "section": "इतिहास, कला एवं संस्कृति [History, Art & Culture]",
+      "scope_note": "This category covers the history, art, culture, traditions, and heritage specifically of Rajasthan, including archaeological sites, dynasties, freedom struggle, saints, folk culture, and language. Excludes general Indian history topics."
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारतीय भूगोल",
+      "section": "भूगोल एवं अर्थव्यवस्था [Geography & Economy]",
+      "scope_note": "This category includes questions on the physical features, climate, natural vegetation, and environmental concerns of India. Excludes Rajasthan-specific geographical details."
+    },
+    {
+      "name": "Geography of Rajasthan",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "भूगोल एवं अर्थव्यवस्था [Geography & Economy]",
+      "scope_note": "This category covers the physiographic divisions, rivers, lakes, climate, resources, national parks, and population characteristics specifically of Rajasthan. Excludes general Indian geography topics."
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "भूगोल एवं अर्थव्यवस्था [Geography & Economy]",
+      "scope_note": "This category includes questions on India's economic indicators, population structure, agriculture, major industries, and financial inclusion schemes at the national level. Excludes Rajasthan-specific economic data."
+    },
+    {
+      "name": "Economy of Rajasthan",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "भूगोल एवं अर्थव्यवस्था [Geography & Economy]",
+      "scope_note": "This category covers Rajasthan's economic indicators, agriculture, industrial development, power resources, and poverty alleviation schemes specific to the state. Excludes general Indian economic topics."
+    },
+    {
+      "name": "General Science",
+      "name_hindi": "सामान्य विज्ञान",
+      "section": "सामान्य विज्ञान एवं समसामयिकी [General Science & Current Affairs]",
+      "scope_note": "This category includes questions on everyday science, human body, food and nutrition, health care, space technology, telecommunication, states of matter, carbon allotropes, pH scale, polymers, biotechnology, alternative energy sources (with reference to Rajasthan), and environmental changes. Focuses on scientific principles and applications."
+    },
+    {
+      "name": "Current Affairs",
+      "name_hindi": "समसामयिकी",
+      "section": "सामान्य विज्ञान एवं समसामयिकी [General Science & Current Affairs]",
+      "scope_note": "This category covers major current events and issues of state (Rajasthan), national, and international importance, persons and places in recent news, and games and sports-related activities. Focuses on recent developments and news."
+    }
+  ]
+}

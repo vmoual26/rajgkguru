@@ -1,0 +1,87 @@
+{
+  "sections": [
+    {
+      "name": "General Knowledge (सामान्य ज्ञान)"
+    },
+    {
+      "name": "General Science (सामान्य विज्ञान)"
+    },
+    {
+      "name": "Quantitative Aptitude & Reasoning (मात्रात्मक योग्यता और तर्क)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "History of Rajasthan",
+      "name_hindi": "राजस्थान का इतिहास",
+      "section": "General Knowledge (सामान्य ज्ञान)",
+      "scope_note": "Covers historical events, dynasties, rulers, and significant movements specific to Rajasthan."
+    },
+    {
+      "name": "Art, Culture, Literature, and Heritage of Rajasthan",
+      "name_hindi": "राजस्थान की कला, संस्कृति, साहित्य और विरासत",
+      "section": "General Knowledge (सामान्य ज्ञान)",
+      "scope_note": "Focuses on the cultural aspects, traditions, folk arts, literature, and architectural heritage unique to Rajasthan."
+    },
+    {
+      "name": "Geography of Rajasthan",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "General Knowledge (सामान्य ज्ञान)",
+      "scope_note": "Includes physical features, climate, rivers, agriculture, and natural resources of Rajasthan."
+    },
+    {
+      "name": "Economy of Rajasthan",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "General Knowledge (सामान्य ज्ञान)",
+      "scope_note": "Covers economic structure, industries, development schemes, and financial aspects specific to Rajasthan."
+    },
+    {
+      "name": "Polity and Administration of Rajasthan",
+      "name_hindi": "राजस्थान की राजव्यवस्था और प्रशासन",
+      "section": "General Knowledge (सामान्य ज्ञान)",
+      "scope_note": "Deals with the political system, administrative structure, and governance in Rajasthan."
+    },
+    {
+      "name": "Current Affairs (Rajasthan, National, International)",
+      "name_hindi": "समसामयिक घटनाएँ (राजस्थान, राष्ट्रीय, अंतर्राष्ट्रीय)",
+      "section": "General Knowledge (सामान्य ज्ञान)",
+      "scope_note": "Questions related to recent events, news, and developments of significance at state, national, and international levels."
+    },
+    {
+      "name": "Physics",
+      "name_hindi": "भौतिक विज्ञान",
+      "section": "General Science (सामान्य विज्ञान)",
+      "scope_note": "Covers fundamental principles of physics, mechanics, electricity, light, and sound."
+    },
+    {
+      "name": "Chemistry",
+      "name_hindi": "रसायन विज्ञान",
+      "section": "General Science (सामान्य विज्ञान)",
+      "scope_note": "Includes basic concepts of chemistry, elements, compounds, chemical reactions, and everyday chemistry."
+    },
+    {
+      "name": "Biology",
+      "name_hindi": "जीव विज्ञान",
+      "section": "General Science (सामान्य विज्ञान)",
+      "scope_note": "Focuses on life sciences, human body, plants, animals, and environmental biology."
+    },
+    {
+      "name": "Mathematics",
+      "name_hindi": "गणित",
+      "section": "Quantitative Aptitude & Reasoning (मात्रात्मक योग्यता और तर्क)",
+      "scope_note": "Questions testing numerical ability, arithmetic, algebra, geometry, and data interpretation."
+    },
+    {
+      "name": "Reasoning Ability",
+      "name_hindi": "तार्किक क्षमता",
+      "section": "Quantitative Aptitude & Reasoning (मात्रात्मक योग्यता और तर्क)",
+      "scope_note": "Covers logical reasoning, analytical ability, problem-solving, and pattern recognition."
+    },
+    {
+      "name": "Computer Knowledge",
+      "name_hindi": "कंप्यूटर ज्ञान",
+      "section": "Quantitative Aptitude & Reasoning (मात्रात्मक योग्यता और तर्क)",
+      "scope_note": "Basic understanding of computer hardware, software, operating systems, and common applications."
+    }
+  ]
+}

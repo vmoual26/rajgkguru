@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "name": "सामान्य ज्ञान [General Knowledge]"
+    },
+    {
+      "name": "गणित और विज्ञान [Mathematics and Science]"
+    },
+    {
+      "name": "पशुपालन और समसामयिक घटनाएँ [Animal Husbandry and Current Affairs]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "राजस्थान का भूगोल [Geography of Rajasthan]",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Covers the geography of Rajasthan, including its physical features, climate, resources, population, and infrastructure. Excludes general geographical concepts not specific to Rajasthan."
+    },
+    {
+      "name": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
+      "name_hindi": "राजस्थान का इतिहास, कला एवं संस्कृति",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Focuses on the history, art, culture, and social life of Rajasthan, including historical events, personalities, language, literature, folk traditions, and architecture. Excludes general Indian history or culture."
+    },
+    {
+      "name": "सामान्य विज्ञान [General Science]",
+      "name_hindi": "सामान्य विज्ञान",
+      "section": "गणित और विज्ञान [Mathematics and Science]",
+      "scope_note": "Covers fundamental concepts in physics, chemistry, and biology, including physical and chemical changes, metals, non-metals, light, genetics, human anatomy, diseases, and waste management. Excludes advanced scientific topics or applications specific to animal husbandry."
+    },
+    {
+      "name": "गणित [Mathematics]",
+      "name_hindi": "गणित",
+      "section": "गणित और विज्ञान [Mathematics and Science]",
+      "scope_note": "Includes topics such as HCF & LCM, average, profit-loss, percentage, simple interest, compound interest, and ratio-proportion. Excludes advanced mathematics or geometry."
+    },
+    {
+      "name": "पशुपालन [Animal Husbandry]",
+      "name_hindi": "पशुपालन",
+      "section": "पशुपालन और समसामयिक घटनाएँ [Animal Husbandry and Current Affairs]",
+      "scope_note": "Covers aspects of animal reproduction, digestion, respiration, diseases, characteristics, habitat, conservation, nutritive value of animal products, animal agriculture, poultry farming, shepherds, and wild animals/resources. Excludes general biology or zoology not directly related to animal husbandry."
+    },
+    {
+      "name": "प्रमुख सम-सामयिक घटनाएँ [Major Current Events]",
+      "name_hindi": "प्रमुख सम-सामयिक घटनाएँ",
+      "section": "पशुपालन और समसामयिक घटनाएँ [Animal Husbandry and Current Affairs]",
+      "scope_note": "Includes current affairs related to sports, politics, economy, social, geographical, cultural, ecological, and technical fields, state & national issues, famous personalities, and government programs/policies. Excludes historical events or static general knowledge."
+    }
+  ]
+}

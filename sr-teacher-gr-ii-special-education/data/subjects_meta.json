@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "name": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)"
+    },
+    {
+      "name": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)"
+    },
+    {
+      "name": "शैक्षिक मनोविज्ञान (Educational Psychology)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Covers physical features, climate, drainage, agriculture, livestock, minerals, industries, population, and major tourist centers of Rajasthan."
+    },
+    {
+      "name": "Rajasthan History & Culture",
+      "name_hindi": "राजस्थान का इतिहास एवं संस्कृति",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Includes ancient civilizations, history from 8th to 18th century, freedom struggle, integration, role of women, society, religion, architecture, paintings, fairs, festivals, customs, folk music, dance, language, and literature of Rajasthan."
+    },
+    {
+      "name": "Rajasthan Polity",
+      "name_hindi": "राजस्थान की राजव्यवस्था",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Focuses on the Governor, Chief Minister and Cabinet, State Secretariat, RPSC, State Human Rights Commission, and Panchayati Raj in Rajasthan."
+    },
+    {
+      "name": "Rajasthan Current Affairs",
+      "name_hindi": "राजस्थान समसामयिकी",
+      "section": "राजस्थान का सामान्य ज्ञान (General Knowledge of Rajasthan)",
+      "scope_note": "Covers major current issues and happenings at the state level related to socio-economic, political, games, and sports aspects of Rajasthan."
+    },
+    {
+      "name": "World Geography & Environment",
+      "name_hindi": "विश्व का भूगोल एवं पर्यावरण",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Includes continents, oceans, planetary and local winds, environmental problems, and globalization impacts."
+    },
+    {
+      "name": "Indian Geography & Economy",
+      "name_hindi": "भारत का भूगोल एवं अर्थव्यवस्था",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Covers India's location, monsoonal system, drainage, agriculture, industries, national income, poverty, and population trends."
+    },
+    {
+      "name": "Indian Polity & Foreign Policy",
+      "name_hindi": "भारत की राजव्यवस्था एवं विदेश नीति",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Focuses on constitutional history, Indian constitution features, fundamental rights, duties, directive principles, offices of President and Prime Minister, federal system, political parties, India's foreign policy, and Nehru's contribution."
+    },
+    {
+      "name": "International Relations & Organizations",
+      "name_hindi": "अंतर्राष्ट्रीय संबंध एवं संगठन",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान (General Knowledge of India & World)",
+      "scope_note": "Covers India and UNO, major trends in international policies with reference to globalization and nuclear non-proliferation."
+    },
+    {
+      "name": "Educational Psychology",
+      "name_hindi": "शैक्षिक मनोविज्ञान",
+      "section": "शैक्षिक मनोविज्ञान (Educational Psychology)",
+      "scope_note": "Covers meaning, scope, objectives, and implications of educational psychology, contributions of schools of psychology, learning theories, development of learners, inclusive education, sensory disabilities, learning disabilities, locomotor and multiple disabilities, and development implications in education."
+    }
+  ]
+}

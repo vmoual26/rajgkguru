@@ -1,0 +1,81 @@
+{
+  "sections": [
+    {
+      "name": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]"
+    },
+    {
+      "name": "दैनिक विज्ञान [Everyday Science]"
+    },
+    {
+      "name": "सामान्य हिन्दी एवं अंग्रेजी [General Hindi and English]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "समसामयिक घटनाएँ [Current Affairs]",
+      "name_hindi": "समसामयिक घटनाएँ",
+      "section": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]",
+      "scope_note": "Covers state, national, and international current events, issues, and organizations relevant to the present time."
+    },
+    {
+      "name": "भारत का भूगोल एवं प्राकृतिक संसाधन [Indian Geography and Natural Resources]",
+      "name_hindi": "भारत का भूगोल एवं प्राकृतिक संसाधन",
+      "section": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]",
+      "scope_note": "Focuses on the physical conditions, major physical divisions, climate, vegetation, soil, natural resources, wildlife, conservation, environmental protection, major industries, and economic development of India."
+    },
+    {
+      "name": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
+      "name_hindi": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन",
+      "section": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]",
+      "scope_note": "Covers the physical conditions, major physical divisions, vegetation, soil, natural resources (minerals, forest, water, livestock), wildlife, conservation, and environmental protection specific to Rajasthan."
+    },
+    {
+      "name": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
+      "name_hindi": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास",
+      "section": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]",
+      "scope_note": "Includes major crops, agriculture-based industries, major irrigation projects, small industries, handicrafts, state government-run economic-social schemes and programs, major industries, energy sources, Rajasthan's population (2011), Panchayati Raj, and its role."
+    },
+    {
+      "name": "राजस्थान का इतिहास [History of Rajasthan]",
+      "name_hindi": "राजस्थान का इतिहास",
+      "section": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]",
+      "scope_note": "Covers ancient civilizations, the glorious period of medieval Rajasthan, princely states and British treaties, 1857 and Rajasthan, peasant and tribal movements, Prajamandal movements, integrated Rajasthan, and the role of women in political awakening."
+    },
+    {
+      "name": "राजस्थान की संस्कृति एवं विरासत [Culture and Heritage of Rajasthan]",
+      "name_hindi": "राजस्थान की संस्कृति एवं विरासत",
+      "section": "सामान्य ज्ञान और राजस्थान का सामान्य ज्ञान [General Knowledge and Rajasthan General Knowledge]",
+      "scope_note": "Focuses on famous historical and cultural sites, folk literature, folk art, folk drama, folk deities, folk music, folk instruments, folk dances, fairs, festivals, customs, ornaments, water resources in medieval Rajasthan, major forts, temples, and havelis, saints and Sufi saints, painting styles of Rajasthan, tourism, and heritage conservation."
+    },
+    {
+      "name": "रसायन विज्ञान [Chemistry]",
+      "name_hindi": "रसायन विज्ञान",
+      "section": "दैनिक विज्ञान [Everyday Science]",
+      "scope_note": "Covers elements, compounds and mixtures, physical and chemical changes, metals and non-metals, acids, bases and salts, bleaching powder, baking soda, plaster of paris, soaps and detergents."
+    },
+    {
+      "name": "भौतिक विज्ञान [Physics]",
+      "name_hindi": "भौतिक विज्ञान",
+      "section": "दैनिक विज्ञान [Everyday Science]",
+      "scope_note": "Includes reflection of light and its laws, types of lenses, human eye, electric current, Ohm's law, electric potential, heating effect of electric current, and electric motor."
+    },
+    {
+      "name": "जीव विज्ञान [Biology]",
+      "name_hindi": "जीव विज्ञान",
+      "section": "दैनिक विज्ञान [Everyday Science]",
+      "scope_note": "Covers human brain, hormones, human diseases (causes and cures), economic importance of animals and plants, biomass, sources of energy, ecosystem, Mendel's law of inheritance, and chromosomes."
+    },
+    {
+      "name": "सामान्य हिन्दी [General Hindi]",
+      "name_hindi": "सामान्य हिन्दी",
+      "section": "सामान्य हिन्दी एवं अंग्रेजी [General Hindi and English]",
+      "scope_note": "Covers Hindi grammar topics such as Sandhi, Samas, prefixes and suffixes, antonyms and synonyms, punctuation, phonetics, technical terms, word purification, sentence purification, idioms and proverbs, and types of official letters."
+    },
+    {
+      "name": "सामान्य अंग्रेजी [General English]",
+      "name_hindi": "सामान्य अंग्रेजी",
+      "section": "सामान्य हिन्दी एवं अंग्रेजी [General Hindi and English]",
+      "scope_note": "Covers English grammar topics including articles and determiners, tense/sequence of tenses, voice (active and passive), narration (direct and indirect), prepositions, translation, synonyms and antonyms, comprehension, glossary of official/technical terms, and letter writing."
+    }
+  ]
+}

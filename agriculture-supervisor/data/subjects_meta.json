@@ -1,0 +1,48 @@
+{
+  "sections": [
+    {
+      "name": "General Hindi and Rajasthan GK [सामान्य हिन्दी एवं राजस्थान सामान्य ज्ञान]"
+    },
+    {
+      "name": "Agricultural Sciences [कृषि विज्ञान]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "General Hindi [सामान्य हिन्दी]",
+      "name_hindi": "सामान्य हिन्दी",
+      "section": "General Hindi and Rajasthan GK [सामान्य हिन्दी एवं राजस्थान सामान्य ज्ञान]",
+      "scope_note": "This category includes questions related to Hindi grammar, vocabulary, sentence structure, and idiomatic expressions as specified in the syllabus. It focuses on language proficiency, not general knowledge presented in Hindi."
+    },
+    {
+      "name": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "General Hindi and Rajasthan GK [सामान्य हिन्दी एवं राजस्थान सामान्य ज्ञान]",
+      "scope_note": "Covers the geographical structure, divisions, climate, major mountains, rivers, deserts, and crops specific to Rajasthan."
+    },
+    {
+      "name": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "name_hindi": "राजस्थान का इतिहास एवं संस्कृति",
+      "section": "General Hindi and Rajasthan GK [सामान्य हिन्दी एवं राजस्थान सामान्य ज्ञान]",
+      "scope_note": "Includes questions on ancient civilizations (Kalibanga, Ahar), prominent personalities, literature, folk arts, festivals, traditions, clothing, jewelry, painting, and handicrafts of Rajasthan. Also covers Rajasthan's contribution to the Indian freedom struggle and its unification."
+    },
+    {
+      "name": "Agronomy [शस्य विज्ञान]",
+      "name_hindi": "शस्य विज्ञान",
+      "section": "Agricultural Sciences [कृषि विज्ञान]",
+      "scope_note": "Focuses on crop production, soil science, irrigation, weed management, and storage of various crops relevant to Rajasthan's agricultural context. Includes general knowledge of agriculture and agricultural statistics."
+    },
+    {
+      "name": "Horticulture [उद्यानिकी]",
+      "name_hindi": "उद्यानिकी",
+      "section": "Agricultural Sciences [कृषि विज्ञान]",
+      "scope_note": "Covers the cultivation of fruits, vegetables, and ornamental plants, including nursery management, propagation, orchard planning, pest and disease control, and food preservation techniques specific to horticulture in Rajasthan."
+    },
+    {
+      "name": "Animal Husbandry [पशुपालन]",
+      "name_hindi": "पशुपालन",
+      "section": "Agricultural Sciences [कृषि विज्ञान]",
+      "scope_note": "Includes questions on the importance of animal husbandry, management of livestock, characteristics and utility of various animal breeds (cattle, buffalo, goat, sheep, camel), common animal diseases and their treatment, and dairy science."
+    }
+  ]
+}

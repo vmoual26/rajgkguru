@@ -1,0 +1,172 @@
+{
+  "exams": [
+    {
+      "slug": "sr-teacher-gr-2",
+      "title": "Sr. Teacher Gr. II (Secondary Education)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "school-lecturer",
+      "title": "School Lecturer (1st Grade)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "cet-senior-secondary",
+      "title": "Common Eligibility Test (Senior Secondary)",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "common-eligibility-test-graduation-level",
+      "title": "Common Eligibility Test (Graduation Level)",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "raj-state-and-sub-services-comb-comp-exam-ras-rts",
+      "title": "RAS / RTS Combined Competitive Exam (Prelims)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "sr-teacher-sanskrit-education",
+      "title": "Sr. Teacher Gr. II (Sanskrit Education)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "sr-teacher-gr-ii-special-education",
+      "title": "Sr. Teacher Gr. II (Special Education)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "acf-forest-range-officer-gr1",
+      "title": "ACF & Forest Range Officer Gr-I",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "assistant-engineer-comb-comp-exam",
+      "title": "Assistant Engineer (Comb. Comp. Exam)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "headmaster-praveshika-sanskrit",
+      "title": "Headmaster (Praveshika, Sanskrit Education)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "stenographer-rpsc",
+      "title": "Stenographer (RPSC)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "sub-inspector-comb-comp-exam",
+      "title": "Sub Inspector (Comb. Comp. Exam)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "agriculture-supervisor",
+      "title": "Agriculture Supervisor",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "animal-attendant",
+      "title": "Animal Attendant",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "forester-forest-guard",
+      "title": "Forester & Forest Guard",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "fourth-class-employee",
+      "title": "Fourth Class Employee (Class IV)",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "live-stock-assistant",
+      "title": "Live Stock Assistant",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "lab-assistant",
+      "title": "Lab Assistant",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "primary-upper-primary-teacher",
+      "title": "Primary & Upper Primary School Teacher",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "stenographer-rmssb",
+      "title": "Stenographer (RMSSB)",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "supervisor-woman-anganwadi",
+      "title": "Supervisor (Woman) - Anganwadi Worker Quota",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "village-development-officer",
+      "title": "Village Development Officer (VDO)",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "patwari",
+      "title": "Patwari (Patwar)",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "protection-officer",
+      "title": "Protection Officer (RPSC)",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "assistant-professor-college-education",
+      "title": "Assistant Professor (College Education) - General Awareness",
+      "board": "RPSC",
+      "status": "live"
+    },
+    {
+      "slug": "pti-physical-training-instructor",
+      "title": "PTI / Physical Training Instructor - General Knowledge",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "junior-engineer-jen",
+      "title": "Junior Engineer (JEN) - General Knowledge",
+      "board": "RMSSB",
+      "status": "live"
+    },
+    {
+      "slug": "junior-instructor",
+      "title": "Junior Instructor - General Knowledge",
+      "board": "RMSSB",
+      "status": "live"
+    }
+  ]
+}

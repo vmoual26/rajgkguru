@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "name": "राजस्थान का सामान्य ज्ञान [General Knowledge of Rajasthan]"
+    },
+    {
+      "name": "भारत और विश्व का सामान्य ज्ञान और समसामयिक मामले [General Knowledge of India & World and Current Affairs]"
+    },
+    {
+      "name": "शैक्षिक मनोविज्ञान [Educational Psychology]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "राजस्थान का सामान्य ज्ञान [General Knowledge of Rajasthan]",
+      "scope_note": "Covers physical features, climate, drainage, vegetation, agriculture, livestock, dairy development, population, industries, and tourist centers specific to Rajasthan."
+    },
+    {
+      "name": "Rajasthan History",
+      "name_hindi": "राजस्थान का इतिहास",
+      "section": "राजस्थान का सामान्य ज्ञान [General Knowledge of Rajasthan]",
+      "scope_note": "Focuses on ancient culture and civilizations (Kalibangan, Ahar, Ganeshwar, Bairath), history from 8th to 18th century (Gurjar Pratihars, Chauhans, Delhi Sultanate relations, Mughals), freedom struggle (1857, political awakening, Prajamandal, peasant/tribal movements), and integration of Rajasthan."
+    },
+    {
+      "name": "Rajasthan Art & Culture",
+      "name_hindi": "राजस्थान की कला और संस्कृति",
+      "section": "राजस्थान का सामान्य ज्ञान [General Knowledge of Rajasthan]",
+      "scope_note": "Includes society and religion (Lok Devta, Saints), architecture (temples, forts, palaces), paintings, fairs, festivals, customs, dresses, ornaments, folk music, dance, language, and literature of Rajasthan."
+    },
+    {
+      "name": "Rajasthan Political & Administrative System",
+      "name_hindi": "राजस्थान की राजनीतिक और प्रशासनिक व्यवस्था",
+      "section": "राजस्थान का सामान्य ज्ञान [General Knowledge of Rajasthan]",
+      "scope_note": "Covers the Office of Governor, Chief Minister and Cabinet, State Secretariat, Chief Secretary, RPSC, State Human Rights Commission, Panchayati Raj, and State Legislative Assembly in Rajasthan."
+    },
+    {
+      "name": "Current Affairs of Rajasthan",
+      "name_hindi": "राजस्थान के समसामयिक मामले",
+      "section": "भारत और विश्व का सामान्य ज्ञान और समसामयिक मामले [General Knowledge of India & World and Current Affairs]",
+      "scope_note": "Questions related to major current issues and happenings at the state level concerning socio-economic, political, games, and sports aspects of Rajasthan."
+    },
+    {
+      "name": "World Geography & Environment",
+      "name_hindi": "विश्व का भूगोल और पर्यावरण",
+      "section": "भारत और विश्व का सामान्य ज्ञान और समसामयिक मामले [General Knowledge of India & World and Current Affairs]",
+      "scope_note": "Covers continents, oceans, global wind systems, environmental issues and strategies, globalization, population distribution and migration, and India's relations with UNO and international politics."
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारत का भूगोल",
+      "section": "भारत और विश्व का सामान्य ज्ञान और समसामयिक मामले [General Knowledge of India & World and Current Affairs]",
+      "scope_note": "Includes physical features, monsoonal system, drainage, vegetation, and energy resources of India."
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "भारत और विश्व का सामान्य ज्ञान और समसामयिक मामले [General Knowledge of India & World and Current Affairs]",
+      "scope_note": "Focuses on growth and development in agriculture, industry, and service sectors in India, and foreign trade trends, composition, and direction."
+    },
+    {
+      "name": "Indian Constitution & Polity",
+      "name_hindi": "भारतीय संविधान और राजव्यवस्था",
+      "section": "भारत और विश्व का सामान्य ज्ञान और समसामयिक मामले [General Knowledge of India & World and Current Affairs]",
+      "scope_note": "Covers constitutional history (1919 & 1935 Acts), making of the constitution, salient features, fundamental rights, duties, directive principles, President, Prime Minister, political parties, pressure groups, and India's foreign policy principles."
+    },
+    {
+      "name": "Educational Psychology",
+      "name_hindi": "शैक्षिक मनोविज्ञान",
+      "section": "शैक्षिक मनोविज्ञान [Educational Psychology]",
+      "scope_note": "Covers meaning, scope, and implications for teachers, development of learners (growth, development), learning (theories, transfer, factors), personality (theories, measurement), intelligence and creativity, motivation, individual differences, and concept and implications in education."
+    }
+  ]
+}

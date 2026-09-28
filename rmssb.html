@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RMSSB परीक्षाएं — RAJ G.K. GURU</title>
+<meta name="description" content="RMSSB (राजस्थान अधीनस्थ एवं मंत्रालयिक सेवा चयन बोर्ड) की परीक्षाओं के लिए मुफ़्त और प्रीमियम प्रैक्टिस टेस्ट सीरीज़।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css?v=3">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<div class="container">
+  <div style="padding-top:36px">
+    <div class="section-title" style="font-size:1.3rem">📗 RMSSB परीक्षाएं</div>
+    <p class="section-sub">Rajasthan Subordinate & Ministerial Services Selection Board की परीक्षाओं में से अपनी परीक्षा चुनें।</p>
+    <div id="exam-grid-rmssb" class="card-grid" style="margin-top:20px"></div>
+  </div>
+</div>
+
+<footer id="site-footer"></footer>
+
+<script type="module">
+  import { renderHeader, renderFooter } from "./shared/chrome.js";
+  import { loadCalendar, sortByNearestDate, nearestBySlug, dateChipHtml } from "./shared/calendar.js?v=1";
+  renderHeader(document.getElementById("site-header"), "rmssb");
+  renderFooter(document.getElementById("site-footer"));
+
+  function escapeHtml(s) {
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  function renderExamCard(e, near = {}) {
+    const isLive = e.status === "live";
+    const inner = `
+      <div class="exam-card-top">
+        <span class="exam-card-icon">📗</span>
+        <span class="pill ${isLive ? "pill-free" : "pill-paid"}">${isLive ? "अभी उपलब्ध" : "जल्द आ रहा है"}</span>
+      </div>
+      <div class="exam-card-title">${escapeHtml(e.title)}</div>
+      <div class="exam-card-meta">${escapeHtml(e.board)}</div>
+      ${dateChipHtml(near[e.slug])}
+      ${isLive ? `<div class="btn btn-primary exam-card-btn">Practice शुरू करें</div>` : ""}`;
+    return isLive
+      ? `<a class="exam-card exam-card-rmssb" href="${e.slug}/">${inner}</a>`
+      : `<div class="exam-card exam-card-rmssb" style="opacity:0.55;pointer-events:none;">${inner}</div>`;
+  }
+
+  Promise.all([fetch("exams.json").then((r) => r.json()), loadCalendar()]).then(([{ exams }, events]) => {
+    const near = nearestBySlug(events);
+    const grid = document.getElementById("exam-grid-rmssb");
+    const matched = sortByNearestDate(exams.filter((e) => e.board === "RMSSB"), events);
+    grid.innerHTML = matched.length
+      ? matched.map((e) => renderExamCard(e, near)).join("")
+      : `<div class="exam-board-empty">जल्द ही जोड़ा जाएगा</div>`;
+  });
+</script>
+
+</body>
+</html>

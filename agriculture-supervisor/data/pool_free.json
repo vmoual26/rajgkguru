@@ -1,0 +1,2037 @@
+{
+  "subject_ratios": {
+    "Horticulture [उद्यानिकी]": 0.1969,
+    "General Hindi [सामान्य हिन्दी]": 0.1417,
+    "Agronomy [शस्य विज्ञान]": 0.2152,
+    "Animal Husbandry [पशुपालन]": 0.2073,
+    "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]": 0.1444,
+    "Rajasthan Geography [राजस्थान का भूगोल]": 0.0945
+  },
+  "questions": [
+    {
+      "id": "Agriculture Supervisor 2026||98",
+      "serial_no": 98,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Grammar",
+      "subtopic": "Compound Words (समास) - Examples of Different Samas Types",
+      "source_cycle": "Agriculture Supervisor 2026",
+      "hindi": {
+        "question": "इनमें से 'अव्ययीभाव - तत्पुरुष - कर्मधारय - द्वन्द्व - द्विगु' समासों के उदाहरण पहचानकर इसी क्रम में लगाइए :\n(a) सज्जन\n(b) पसेरी\n(c) हरिशंकर\n(d) बेरहम\n(e) पाकेटमार\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए :",
+        "options": [
+          "(a), (e), (d), (c), (b)",
+          "(d), (e), (a), (c), (b)",
+          "(d), (c), (a), (b), (e)",
+          "(b), (d), (c), (e), (a)"
+        ],
+        "explanation": "अव्ययीभाव समास का उदाहरण 'बेरहम' है, तत्पुरुष समास का 'पाकेटमार' है, कर्मधारय समास का 'सज्जन' है, द्वन्द्व समास का 'हरिशंकर' है और द्विगु समास का 'पसेरी' है। इस प्रकार, सही क्रम (d), (e), (a), (c), (b) है, जो विकल्प (2) में दिया गया है।"
+      },
+      "qkey": "42c69a9d4226"
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||119|Master Question Paper 139 Hindi",
+      "serial_no": 119,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Idioms",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'आँखे खुलना' मुहावरे का अर्थ है-",
+        "options": [
+          "ध्यान रखना",
+          "इच्छा पूरी होना",
+          "धोखा खाना",
+          "सजग होना"
+        ],
+        "explanation": "'आँखें खुलना' मुहावरे का अर्थ है किसी बात की सच्चाई का पता चलना, भ्रम दूर होना या किसी खतरे के प्रति सचेत हो जाना। इसलिए 'सजग होना' इसका सही अर्थ है।"
+      },
+      "qkey": "df34c11bf7c5",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||98|Master Question Paper 139 Hindi",
+      "serial_no": 98,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "One-word substitution",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'जो प्रमाण से सिद्ध हो सके' वाक्यांश के लिए एक शब्द है-",
+        "options": [
+          "प्रयोजनीय",
+          "अप्रामाणिक",
+          "अप्रमेय",
+          "प्रमेय"
+        ],
+        "explanation": "'जो प्रमाण से सिद्ध हो सके' वाक्यांश के लिए एक शब्द 'प्रमेय' है। 'प्रमेय' का अर्थ होता है जिसे प्रमाण द्वारा सिद्ध किया जा सके। 'अप्रमेय' का अर्थ होता है जिसे प्रमाण द्वारा सिद्ध न किया जा सके। इसलिए, 'प्रमेय' सही विकल्प है।"
+      },
+      "qkey": "227f6ecbce4a",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||129|Master Question Paper V23",
+      "serial_no": 129,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Hindi Grammar",
+      "subtopic": "Samas",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "'आपबीती' में प्रयुक्त समास है-",
+        "options": [
+          "कर्मधारय",
+          "द्वंद्व",
+          "तत्पुरुष",
+          "अव्ययीभाव"
+        ],
+        "explanation": "'आपबीती' का समास विग्रह 'आप पर बीती' होता है। इसमें 'पर' कारक चिह्न का लोप है, जो अधिकरण तत्पुरुष समास का उदाहरण है। तत्पुरुष समास में उत्तर पद प्रधान होता है और कारक चिह्नों का लोप होता है।"
+      },
+      "qkey": "9f7da4817cab",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||3|Master Question Paper 143 Punjabi",
+      "serial_no": 3,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Rajasthani vocabulary",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "लोककथा कैवणियै नै कांई कैयो जावै ?",
+        "options": [
+          "भोपौ",
+          "बातपोस",
+          "बातेरी",
+          "कोथ"
+        ],
+        "explanation": "लोककथा कहने वाले व्यक्ति को राजस्थानी भाषा में 'बातपोस' कहा जाता है। यह शब्द लोककथाओं के वाचक या कथाकार के लिए प्रयुक्त होता है।"
+      },
+      "qkey": "370686ddfc79",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||35|Master Question Paper 141 English",
+      "serial_no": 35,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Marwari dialects",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "मारवाड़ी री उपबोली नीं है",
+        "options": [
+          "ढटकी",
+          "बीकानेरी",
+          "अहीरवाटी",
+          "देवड़ावाटी"
+        ],
+        "explanation": "मारवाड़ी की उपबोली 'अहीरवाटी' नहीं है। अहीरवाटी मेवाती की एक उपबोली है, जबकि ढटकी, बीकानेरी और देवड़ावाटी मारवाड़ी की उपबोलियाँ हैं।"
+      },
+      "qkey": "a7449a3ea6f3",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||137|Master Question Paper 131D",
+      "serial_no": 137,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Official Hindi",
+      "subtopic": "Official Letter Writing (कार्यालयी पत्र लेखन)",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "निम्न में से कौन सी कार्यालयी पत्र की विशेषता नहीं है?",
+        "options": [
+          "इनमें चिह्नांकन व अनुच्छेद का प्रयोग समुचित किया जाना चाहिए।",
+          "कार्यालयी पत्र उद्देश्यपूर्ण व शिष्ट भाषा में होने चाहिए।",
+          "पत्र सामासिक व आलंकारिक होने चाहिए।",
+          "पत्र संक्षिप्तता व प्रभावोत्पादकता से युक्त होने चाहिए।"
+        ],
+        "explanation": "कार्यालयी पत्र की भाषा स्पष्ट, संक्षिप्त, सीधी और उद्देश्यपूर्ण होनी चाहिए। इसमें अनावश्यक रूप से सामासिक (जटिल) या आलंकारिक (सजावटी) भाषा का प्रयोग नहीं किया जाना चाहिए, क्योंकि यह पत्र के उद्देश्य को बाधित कर सकता है और उसे समझने में कठिनाई पैदा कर सकता है। अन्य विकल्प कार्यालयी पत्र की सही विशेषताएँ हैं।"
+      },
+      "qkey": "ec6bebe44afa",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||110|Master Question Paper 139 Hindi",
+      "serial_no": 110,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Tenses",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'हमने एक शेर देखा' वाक्य में काल का चयन कीजिए-",
+        "options": [
+          "सामान्य भूतकाल",
+          "सामान्य वर्तमान",
+          "सामान्य भविष्यत्",
+          "संभाव्य वर्तमान"
+        ],
+        "explanation": "'हमने एक शेर देखा' वाक्य में क्रिया 'देखा' भूतकाल में हुई है और इसमें किसी विशेष समय या निरंतरता का बोध नहीं है, इसलिए यह सामान्य भूतकाल का उदाहरण है।"
+      },
+      "qkey": "a219bc9f6498",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||76|Master Question Paper 139 Hindi",
+      "serial_no": 76,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Verb properties",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "निम्नलिखित में से क्रिया के विषय में कौन सा कथन गलत है?",
+        "options": [
+          "क्रिया से काम के करने या होने का बोध होता है।",
+          "क्रिया एक अविकारी शब्द है।",
+          "क्रियाएँ धातुओं, संज्ञा या विशेषण शब्दों से भी बनती हैं।",
+          "रचना की दृष्टि से क्रिया के अकर्मक और सकर्मक दो भेद होते हैं।"
+        ],
+        "explanation": "क्रिया एक विकारी शब्द है, क्योंकि लिंग, वचन, पुरुष और काल के अनुसार इसमें परिवर्तन होता है। अविकारी शब्द वे होते हैं जिनमें कोई परिवर्तन नहीं होता। इसलिए, 'क्रिया एक अविकारी शब्द है' यह कथन गलत है।"
+      },
+      "qkey": "4ae81318b764",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||61|Master Question Paper 134 D",
+      "serial_no": 61,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Grammar",
+      "subtopic": "Samas (समास)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "किस शब्द में अव्ययीभाव समास नहीं है ?",
+        "options": [
+          "सज्जन",
+          "अनुसार",
+          "प्रतिदिन",
+          "भरपेट"
+        ],
+        "explanation": "'अनुसार', 'प्रतिदिन' और 'भरपेट' तीनों अव्ययीभाव समास के उदाहरण हैं क्योंकि इनमें पहला पद अव्यय है और वही प्रधान है। 'सज्जन' शब्द का विग्रह 'सत् + जन' (अच्छा है जो जन) होता है, जो कर्मधारय समास का उदाहरण है।"
+      },
+      "qkey": "572143bafe71",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||113|Master Question Paper_Hindi( L-2 )_DHD68",
+      "serial_no": 113,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Word power",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "'अभिधा' शब्द शक्ति से कितने प्रकार के शब्दों का अर्थबोध होता है?",
+        "options": [
+          "तीन",
+          "चार",
+          "पाँच",
+          "दो"
+        ],
+        "explanation": "अभिधा शब्द शक्ति से तीन प्रकार के शब्दों का अर्थबोध होता है: रूढ़, यौगिक और योगरूढ़। ये शब्द अपने सामान्य और सीधे अर्थ को प्रकट करते हैं।"
+      },
+      "qkey": "aea9fde4989c",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2011||94",
+      "serial_no": 94,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Hindi vocabulary",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": " वस्तु कठिनाई से प्राप्त हो उसके लिए उपयुक्त शब्द है",
+        "options": [
+          "कीमती",
+          "दुर्लभ",
+          "दुर्जेय",
+          "दुर्गम"
+        ],
+        "explanation": "जो वस्तु कठिनाई से प्राप्त हो उसके लिए उपयुक्त शब्द 'दुर्लभ' है। 'दुर्लभ' का अर्थ होता है जो आसानी से न मिले या जिसकी प्राप्ति कठिन हो।"
+      },
+      "qkey": "38c861d4a198",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||68|Master Question Paper 21.09.2025_Morning Shift_56HH",
+      "serial_no": 68,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Idioms and Phrases (Muhavare)",
+      "subtopic": "'Kagzi Ghode Daudana' meaning",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "'कागजी घोड़े दौड़ाना' मुहावरे का अर्थ है :",
+        "options": [
+          "दूरदर्शी होना",
+          "बढ़ा-चढ़ा कर कहना",
+          "व्यर्थ की लिखा-पढ़ी करना",
+          "वीरगति को प्राप्त होना"
+        ],
+        "explanation": "'कागजी घोड़े दौड़ाना' मुहावरे का अर्थ है 'व्यर्थ की लिखा-पढ़ी करना' या बिना किसी ठोस परिणाम के केवल कागजी कार्यवाही में लगे रहना। यह मुहावरा ऐसे कार्यों को संदर्भित करता है जिनमें बहुत प्रयास लगता है लेकिन कोई वास्तविक प्रगति नहीं होती।"
+      },
+      "qkey": "b751793f6db7",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||94|Master Question Paper 20.09.2025_Evening Shift_DB29",
+      "serial_no": 94,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Hindi Grammar",
+      "subtopic": "Suffixes (Pratyay)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "'लौकिक' शब्द में प्रयुक्त प्रत्यय है :",
+        "options": [
+          "एक",
+          "क",
+          "इक",
+          "ईक"
+        ],
+        "explanation": "'लौकिक' शब्द में 'लोक' मूल शब्द है और 'इक' प्रत्यय है। 'इक' प्रत्यय लगने से 'लोक' शब्द 'लौकिक' बन जाता है, जिसका अर्थ संसार से संबंधित होता है।"
+      },
+      "qkey": "2eb2ac32630e",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||33|Master Question Paper 20.09.2025_Morning Shift_1XY2",
+      "serial_no": 33,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "Deshaj Words",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सा देशज शब्द नहीं है?",
+        "options": [
+          "कटोरा",
+          "डिबिया",
+          "मयूर",
+          "फुनगी"
+        ],
+        "explanation": "'मयूर' एक तत्सम शब्द है, जो संस्कृत से आया है। यह देशज शब्द नहीं है। 'कटोरा', 'डिबिया' और 'फुनगी' देशज शब्द हैं, जो स्थानीय भाषाओं से उत्पन्न हुए हैं।"
+      },
+      "qkey": "605eff95e0db",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||104|Master Question Paper 139 Hindi",
+      "serial_no": 104,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Tatsam words",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'तत्सम' शब्द का चयन कीजिए-",
+        "options": [
+          "मधुमास",
+          "वासव",
+          "अमृत",
+          "गेहूँ"
+        ],
+        "explanation": "दिए गए विकल्पों में 'अमृत' एक तत्सम शब्द है, जो संस्कृत से बिना किसी परिवर्तन के हिंदी में आया है। 'मधुमास', 'वासव' और 'गेहूँ' तत्सम शब्द नहीं हैं।"
+      },
+      "qkey": "934891a863c9",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||133|Master Question Paper 131A",
+      "serial_no": 133,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "One-Word Substitution",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'नाटक के अंत में प्रयुक्त मांगलिक पद', के लिए सार्थक शब्द है -",
+        "options": [
+          "विदूषक",
+          "मंगलवाक्य",
+          "भरतवाक्य",
+          "व्याजवाक्य"
+        ],
+        "explanation": "नाटक के अंत में प्रयुक्त मांगलिक पद को 'भरतवाक्य' कहा जाता है। यह नाटक के समापन पर दर्शकों को आशीर्वाद देने या नाटक के उद्देश्य को स्पष्ट करने के लिए बोला जाता है। यह नाटक की परंपरा का एक महत्वपूर्ण हिस्सा है।"
+      },
+      "qkey": "05dd08a3feb4",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEADMASTER (SECONDARY SCHOOL)::HEADMASTER (SECONDARY SCHOOL) 2011||138",
+      "serial_no": 138,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Translation English to Hindi",
+      "subtopic": "",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2011",
+      "hindi": {
+        "question": "This is to inform that का हिन्दी रूपान्तर होगा",
+        "options": [
+          "यह प्रमाणित किया जाता है।",
+          "यह सूचित किया जाता है।",
+          "यह बताया जाता है।",
+          "यह घोषित किया जाता है।"
+        ],
+        "explanation": "'This is to inform that' का सही हिन्दी रूपान्तर 'यह सूचित किया जाता है' होता है। यह वाक्यांश किसी जानकारी को औपचारिक रूप से देने के लिए प्रयोग किया जाता है।"
+      },
+      "qkey": "a7ad01adf94a",
+      "source_exam": "LIB__HEADMASTER (SECONDARY SCHOOL)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||88|Master Question Paper 21.09.2025_Evening Shift_JK1",
+      "serial_no": 88,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Idioms and Proverbs",
+      "subtopic": "Proverbs (Lokoktiyan)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "'कम गुणी होकर भी गुणी का दिखावा' निम्नलिखित में से किस लोकोक्ति का अर्थ है ?",
+        "options": [
+          "थोथा चना बाजे घना",
+          "अंधों में काना राजा",
+          "आम के आम गुठलियों के दाम",
+          "अंधे के हाथ बटेर लगना"
+        ],
+        "explanation": "'थोथा चना बाजे घना' लोकोक्ति का अर्थ है कि जिस व्यक्ति में ज्ञान या गुण कम होते हैं, वह दिखावा अधिक करता है। यह लोकोक्ति ऐसे व्यक्ति पर लागू होती है जो अपनी कमियों को छिपाने के लिए अनावश्यक प्रदर्शन करता है।"
+      },
+      "qkey": "f01deadbbe93",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||25|Master Question Paper R15",
+      "serial_no": 25,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms (पर्यायवाची)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "सूची-I को सूची-II से सुमेलित कीजिए :\nसूची-I (शब्द)\na. समुद्र\nb. सर्प\nc. असुर\nd. सिंह\nसूची-II (पर्यायवाची)\nI. शार्दूल\nII. यातुधान\nIII. पन्नग\nIV. अर्णव\nनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनिए :",
+        "options": [
+          "a-IV, b-III, c-II, d-I",
+          "a-IV, b-II, c-III, d-I",
+          "a-II, b-III, c-IV, d-I",
+          "a-I, b-II, c-III, d-IV"
+        ],
+        "explanation": "इस प्रश्न में शब्दों को उनके पर्यायवाची से मिलाना है। 'समुद्र' का पर्यायवाची 'अर्णव' (IV) है। 'सर्प' का पर्यायवाची 'पन्नग' (III) है। 'असुर' का पर्यायवाची 'यातुधान' (II) है। 'सिंह' का पर्यायवाची 'शार्दूल' (I) है। इन सभी सही मिलानों को दर्शाने वाला विकल्प (1) a-IV, b-III, c-II, d-I है।"
+      },
+      "qkey": "67aad8aaa85a",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. PUBLIC RELATION OFFICER::ASST. PUBLIC RELATION OFFICER 2011||98",
+      "serial_no": 98,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Proverbs",
+      "subtopic": "",
+      "source_cycle": "ASST. PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": "इनमें एक लोकोक्ति है :",
+        "options": [
+          "बन्दर के हाथ में आइना",
+          "पेट में चूहे दौड़ना",
+          "जैसे नागनाथ वैसे साँपना",
+          "भाड़ झोंकना"
+        ],
+        "explanation": "दिए गए विकल्पों में 'जैसे नागनाथ वैसे साँपना' एक लोकोक्ति है। लोकोक्ति एक पूर्ण वाक्य होती है जो किसी अनुभव या सत्य को व्यक्त करती है, जबकि अन्य विकल्प मुहावरे हैं।"
+      },
+      "qkey": "e11711a6ae59",
+      "source_exam": "LIB__ASST. PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||26|Master Question Paper R15",
+      "serial_no": 26,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms (पर्यायवाची)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में 'शरीर' का पर्यायवाची है-",
+        "options": [
+          "वपु",
+          "अजर",
+          "विबुध",
+          "हिय"
+        ],
+        "explanation": "'शरीर' शब्द का पर्यायवाची 'वपु' होता है, जिसका अर्थ देह, काया या तन होता है। अन्य विकल्प जैसे 'अजर' (जो बूढ़ा न हो), 'विबुध' (देवता या विद्वान) और 'हिय' (हृदय) 'शरीर' के पर्यायवाची नहीं हैं।"
+      },
+      "qkey": "509a0d0a419b",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2019|(single)|112",
+      "serial_no": 112,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2019",
+      "hindi": {
+        "question": "इनमें से कौन सा शब्द 'कमल' का पर्यायवाची नहीं है ?",
+        "options": [
+          "अम्बुज",
+          "पंकज",
+          "अज",
+          "कंज"
+        ],
+        "explanation": "'अज' शब्द 'ब्रह्मा', 'बकरा' या 'शिव' का पर्यायवाची है, लेकिन यह 'कमल' का पर्यायवाची नहीं है। 'अम्बुज', 'पंकज' और 'कंज' तीनों ही 'कमल' के पर्यायवाची शब्द हैं।"
+      },
+      "qkey": "7c0d12257521",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||114|Master Question Paper 139 Hindi",
+      "serial_no": 114,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Technical terms",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'SUMMON' अंग्रेजी शब्द के लिए हिन्दी पारिभाषिक शब्द है -",
+        "options": [
+          "बुलाना",
+          "विसर्जित करना",
+          "स्थगित करना",
+          "भंग करना"
+        ],
+        "explanation": "'SUMMON' अंग्रेजी शब्द का अर्थ किसी को आधिकारिक रूप से बुलाना या उपस्थित होने का आदेश देना होता है। इसके लिए सही हिन्दी पारिभाषिक शब्द 'बुलाना' है।"
+      },
+      "qkey": "3feaa2793a76",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||79|Master Question Paper 19.09.2025_Morning Shift_DS22",
+      "serial_no": 79,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Grammar",
+      "subtopic": "Visheshan (Adjective - Gunvachak Visheshan)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सा वाक्य गुणवाचक विशेषण का उदाहरण नहीं है ?",
+        "options": [
+          "महंगाई में सेर-भर दूध भी खरीदना मुश्किल है।",
+          "मुझे लाल-लाल टमाटर बहुत पसंद हैं।",
+          "नीलिमा के पास चमकीले कपड़े हैं।",
+          "कश्मीरी सेब लाल होता है।"
+        ],
+        "explanation": "विकल्प (1) 'महंगाई में सेर-भर दूध भी खरीदना मुश्किल है' में 'सेर-भर' परिमाणवाचक विशेषण है, जो दूध की मात्रा बता रहा है। अन्य विकल्पों में लाल-लाल, चमकीले और लाल गुणवाचक विशेषण हैं।"
+      },
+      "qkey": "4e2ce6430641",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. PUBLIC RELATION OFFICER::ASST. PUBLIC RELATION OFFICER 2011||94",
+      "serial_no": 94,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Pratyay",
+      "subtopic": "",
+      "source_cycle": "ASST. PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": "'वकालतनामा' शब्द में 'नामा' प्रत्यय है :",
+        "options": [
+          "देशज",
+          "विदेशी",
+          "संस्कृत",
+          "इनमें कोई नहीं"
+        ],
+        "explanation": "'वकालतनामा' शब्द में 'नामा' प्रत्यय विदेशी भाषा (फ़ारसी) से आया है। यह प्रत्यय अक्सर दस्तावेजों या पत्रों के नाम के साथ जुड़ता है।"
+      },
+      "qkey": "c93b3dd35034",
+      "source_exam": "LIB__ASST. PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||3|Master Question Paper 134 C",
+      "serial_no": 3,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "Technical Terms (Hindi to English)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "अनुपूरक",
+        "options": [
+          "backplane",
+          "practitioner",
+          "plotter",
+          "supplement"
+        ],
+        "explanation": "'अनुपूरक' शब्द का अर्थ किसी चीज़ को पूरा करने या उसमें कुछ जोड़ने वाला होता है। दिए गए विकल्पों में से, 'supplement' शब्द का अर्थ भी यही होता है, जैसे किसी कमी को पूरा करने के लिए अतिरिक्त चीज़। यह दोनों शब्द एक ही अवधारणा को व्यक्त करते हैं।"
+      },
+      "qkey": "71d2ba73bd7e",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||76|Master Question Paper 134 A",
+      "serial_no": 76,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Grammar",
+      "subtopic": "Sandhi",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "'यशोभिलाषा' शब्द में कौनसी संधि है ?",
+        "options": [
+          "गुण संधि",
+          "वृद्धि संधि",
+          "दीर्घ संधि",
+          "विसर्ग संधि"
+        ],
+        "explanation": "'यशोभिलाषा' शब्द का संधि विच्छेद 'यशः + अभिलाषा' होता है। यहाँ विसर्ग (:) का 'ओ' में परिवर्तन हुआ है, जो विसर्ग संधि का एक नियम है।"
+      },
+      "qkey": "fb1732fc97b4",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||81|Master Question Paper_Hindi( L-2 )_DHD68",
+      "serial_no": 81,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Pronoun usage",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "इनमें से किन वाक्यों में पुरुषवाचक सर्वनाम का प्रयोग है?\na. मैं कहता हूँ कि नदियाँ सूखती जा रही हैं।\nb. मैं आप चला जाऊंगा।\nc. मैंने आपसे कहा था कि वह बीमार नहीं है।\nd. मैं यह काम आप ही कर लूँगा।\ne. आपके घर कोई आया है।\nनीचे दिए गए विकल्पों में से सही उत्तर का चयन कीजिए:",
+        "options": [
+          "a और c",
+          "b और c",
+          "c और d",
+          "d और e"
+        ],
+        "explanation": "पुरुषवाचक सर्वनाम वे होते हैं जो बोलने वाले, सुनने वाले या किसी अन्य व्यक्ति के लिए प्रयोग होते हैं। विकल्प (a) 'मैं कहता हूँ कि नदियाँ सूखती जा रही हैं' में 'मैं' उत्तम पुरुषवाचक सर्वनाम है। विकल्प (c) 'मैंने आपसे कहा था कि वह बीमार नहीं है' में 'मैंने' उत्तम पुरुषवाचक और 'आपसे' मध्यम पुरुषवाचक सर्वनाम है। इसलिए, a और c दोनों में पुरुषवाचक सर्वनाम का प्रयोग है।"
+      },
+      "qkey": "01b25bd29d6a",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||48|Master Question Paper 134 B",
+      "serial_no": 48,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Antonyms",
+      "subtopic": "Incorrect antonym pairs",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "किस समूह में सही विलोम शब्द नहीं है ?",
+        "options": [
+          "बंधन - मुक्ति",
+          "गौरव - लाघव",
+          "आदि - प्रारम्भ",
+          "तिमिर - प्रकाश"
+        ],
+        "explanation": "दिए गए विकल्पों में से 'आदि - प्रारम्भ' समूह में सही विलोम शब्द नहीं है। 'आदि' और 'प्रारम्भ' दोनों ही समानार्थी शब्द हैं, जिनका अर्थ 'शुरुआत' होता है। 'आदि' का सही विलोम 'अंत' होता है। अन्य सभी युग्म सही विलोम शब्द दर्शाते हैं।"
+      },
+      "qkey": "cbd1d0b01ce0",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||50|Master Question Paper for Exam Patwar-Code 104(D) Download",
+      "serial_no": 50,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "Technical Terms (पारिभाषिक शब्दावली)",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "किस विकल्प में 'Vocation' शब्द का समकक्ष हिन्दी पारिभाषिक शब्द सही है ?",
+        "options": [
+          "रिक्ति",
+          "व्यवसाय",
+          "प्रत्ययानुदान",
+          "अतिक्रमण"
+        ],
+        "explanation": "'Vocation' शब्द का समकक्ष हिन्दी पारिभाषिक शब्द 'व्यवसाय' होता है। यह किसी व्यक्ति के पेशे या आजीविका को संदर्भित करता है। अन्य विकल्प 'रिक्ति' (Vacancy), 'प्रत्ययानुदान' (Subvention) और 'अतिक्रमण' (Encroachment) 'Vocation' के सही अर्थ नहीं हैं। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "729aeabd54e7",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||104|Master Question Paper 134 C",
+      "serial_no": 104,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary and Technical Terms",
+      "subtopic": "English to Hindi Technical Terms",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "'Amendment' के लिए सही पारिभाषिक शब्द है",
+        "options": [
+          "परिवर्तन",
+          "सहमति",
+          "अनुमोदन",
+          "संशोधन"
+        ],
+        "explanation": "'Amendment' शब्द का अर्थ किसी प्रस्ताव, कानून या दस्तावेज़ में किया गया सुधार या परिवर्तन होता है। दिए गए विकल्पों में 'संशोधन' इसका सबसे सटीक पारिभाषिक शब्द है, जिसका अर्थ भी सुधार या बदलाव करना होता है।"
+      },
+      "qkey": "bb3b323c3ee6",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||70|Master Question Paper V23",
+      "serial_no": 70,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "General Hindi [सामान्य हिन्दी]",
+      "topic": "Vocabulary",
+      "subtopic": "Word Pairs (शब्द युग्म)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "'कृत-क्रीत' शब्द युग्म का संगत अर्थ निम्नलिखित में से होगा-",
+        "options": [
+          "व्यापार-रचना",
+          "किया हुआ-खरीदा हुआ",
+          "क्रेता-विक्रेता",
+          "व्यय-कर्म"
+        ],
+        "explanation": "'कृत' का अर्थ 'किया हुआ' होता है, जबकि 'क्रीत' का अर्थ 'खरीदा हुआ' होता है। यह शब्द युग्म संस्कृत मूल के शब्दों पर आधारित है और इनके अर्थों का सही मिलान विकल्प (2) में दिया गया है।"
+      },
+      "qkey": "6c6bcf11c3e3",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "Agriculture Supervisor 2021||28",
+      "serial_no": 28,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Folk Arts",
+      "subtopic": "Musical Instruments (Ravanhattha)",
+      "source_cycle": "Agriculture Supervisor 2021",
+      "hindi": {
+        "question": "'रावणहत्था' किस प्रकार का वाद्य यन्त्र है?",
+        "options": [
+          "तत्",
+          "सुषिर काष्ठ",
+          "अवनद्ध",
+          "घन"
+        ],
+        "explanation": "'रावणहत्था' एक तत् वाद्य यंत्र है। तत् वाद्य यंत्र वे होते हैं जिनमें ध्वनि तारों के कंपन से उत्पन्न होती है, और रावणहत्था भी इसी श्रेणी में आता है।"
+      },
+      "qkey": "da9a561465f6"
+    },
+    {
+      "id": "Agriculture Supervisor 2021||37",
+      "serial_no": 37,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Literature",
+      "subtopic": "Authors and Books (Baatan Ri Phulwari)",
+      "source_cycle": "Agriculture Supervisor 2021",
+      "hindi": {
+        "question": "'बातां री फुलवाड़ी' पुस्तक के रचियता थे-",
+        "options": [
+          "कन्हैया लाल सेठिया",
+          "श्यामलदास",
+          "सीता राम लालस",
+          "विजयदान देथा"
+        ],
+        "explanation": "'बातां री फुलवाड़ी' पुस्तक के रचयिता विजयदान देथा थे। यह राजस्थानी लोक कथाओं का एक प्रसिद्ध संग्रह है।"
+      },
+      "qkey": "555929815c51"
+    },
+    {
+      "id": "RPSC::LIB__ASST. STATISTICAL OFFICER::ASST. STATISTICAL OFFICER 2024|(single)|13",
+      "serial_no": 13,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Types of forts",
+      "subtopic": "",
+      "source_cycle": "ASST. STATISTICAL OFFICER 2024",
+      "hindi": {
+        "question": "निम्न में से कौनसा युग्म सुमेलित नहीं है?",
+        "options": [
+          "गिरि दुर्ग – सिवाणा",
+          "स्थल दुर्ग - चौमुहागढ़",
+          "धान्वन दुर्ग  मांडलगढ़",
+          "औदक दुर्ग - गागरोण"
+        ],
+        "explanation": "दिए गए विकल्पों में से, 'धान्वन दुर्ग - मांडलगढ़' सही सुमेलित नहीं है। मांडलगढ़ एक गिरि दुर्ग है, जबकि धान्वन दुर्ग वे होते हैं जो रेगिस्तानी क्षेत्र में स्थित होते हैं। सिवाणा एक गिरि दुर्ग है, चौमुहागढ़ एक स्थल दुर्ग है और गागरोण एक औदक दुर्ग है।"
+      },
+      "qkey": "beca2f9e3749",
+      "source_exam": "LIB__ASST. STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::PTI (PHYSICAL TRAINING INSTRUCTOR)::PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024|(single)|18",
+      "serial_no": 18,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Marwar rulers",
+      "subtopic": "",
+      "source_cycle": "PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024",
+      "hindi": {
+        "question": "निम्न में से कौनसा त्यौहार चैत्र माह में मनाया जाता है?",
+        "options": [
+          "नागपंचमी",
+          "गोगा नवमी",
+          "तीज",
+          "घुड़ला"
+        ],
+        "explanation": "'घुड़ला' त्यौहार चैत्र माह में मनाया जाता है। यह राजस्थान का एक पारंपरिक त्यौहार है जिसमें महिलाएं घुड़ला नृत्य करती हैं और लोकगीत गाती हैं।"
+      },
+      "qkey": "0283eb77fdd3",
+      "source_exam": "PTI (PHYSICAL TRAINING INSTRUCTOR)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (NON-TSP) 2018|B|98",
+      "serial_no": 98,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Freedom Struggle",
+      "subtopic": "Women in Freedom Struggle",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (NON-TSP) 2018",
+      "hindi": {
+        "question": "स्वतन्त्रता संग्राम के दौरान निम्न में से कौन सी महिला जेल नहीं गई ?",
+        "options": [
+          "अंजना देवी",
+          "नारायणी देवी",
+          "रत्ना शास्त्री",
+          "काली बाई."
+        ],
+        "explanation": "काली बाई एक भील बालिका थीं जिन्होंने 1947 में रास्तापाल कांड के दौरान अपने गुरु सेंगाभाई और नानाभाई खांट को बचाने के प्रयास में अपने प्राणों का बलिदान दिया था। वे स्वतंत्रता संग्राम की एक वीरांगना थीं, लेकिन उन्हें जेल नहीं हुई थी, बल्कि वे पुलिस की गोली से शहीद हुई थीं। अंजना देवी, नारायणी देवी और रत्ना शास्त्री जैसी कई महिलाएँ स्वतंत्रता संग्राम के दौरान जेल गईं।"
+      },
+      "qkey": "43ed09be56db",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||52|Master Question Paper_Hindi( L-2 )_DHD68",
+      "serial_no": 52,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Fairs and festivals",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "सूची I को सूची II से सुमेलित कीजिए-सूची I (मेला)सूची II (स्थान)a. कपिल मुनिI. रेवासाब. शीतला माताII. कोलायतc. श्री महावीरजीIII. चाकसूd. जीणमाताIV. चंदनपुरनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "a-I, b-II, c-III, d-IV",
+          "a-II, b-III, c-IV, d-I",
+          "a-III, b-IV, c-I, d-II",
+          "a-IV, b-I, c-II, d-III"
+        ],
+        "explanation": "इस प्रश्न में सूची I में दिए गए मेलों को सूची II में दिए गए उनके स्थानों से सुमेलित करना है। कपिल मुनि का मेला कोलायत में लगता है, शीतला माता का मेला चाकसू में लगता है, श्री महावीरजी का मेला चंदनपुर में लगता है और जीणमाता का मेला रेवासा में लगता है। इस प्रकार विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "e036a25d7a85",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|9|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Panchkarma)",
+      "serial_no": 9,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Traditional attire",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "'मदिल' निम्न में से किसका प्रकार था -",
+        "options": [
+          "अंगरखी",
+          "दुपट्टा",
+          "जूतियां",
+          "पगड़ी"
+        ],
+        "explanation": "'मदिल' राजस्थान में पगड़ी का एक प्रकार था। पगड़ी राजस्थान की पारंपरिक वेशभूषा का एक महत्वपूर्ण हिस्सा है और इसे विभिन्न शैलियों और नामों से जाना जाता है, जिनमें से मदिल एक है।"
+      },
+      "qkey": "6eaae142ef3b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||76|Forester 2020 _ Master Question Paper (Shift 1)",
+      "serial_no": 76,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Social Reforms and Institutions",
+      "subtopic": "Mahila Ashram Bhilwara",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "भीलवाड़ा में 1944 में किसने महिला आश्रम की स्थापना की ?",
+        "options": [
+          "नारायणीदेवी वर्मा",
+          "अंजनादेवी चौधरी",
+          "रतन शास्त्री",
+          "शांता त्रिवेदी"
+        ],
+        "explanation": "नारायणीदेवी वर्मा ने 1944 में भीलवाड़ा में महिला आश्रम की स्थापना की थी। उन्होंने महिलाओं के उत्थान और शिक्षा के लिए महत्वपूर्ण कार्य किए। यह आश्रम महिलाओं को आत्मनिर्भर बनाने में सहायक था।"
+      },
+      "qkey": "3fa67caccc55",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ACF AND FOREST RANGE OFFICER GR-I::ACF AND FOREST RANGE OFFICER GR-I COMP. EXAM 2018|(single)|5",
+      "serial_no": 5,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Revolt of 1857 in Rajasthan",
+      "subtopic": "Military aid to Kota during 1857 revolt",
+      "source_cycle": "ACF AND FOREST RANGE OFFICER GR-I COMP. EXAM 2018",
+      "hindi": {
+        "question": "1857 के स्वतंत्रता संग्राम में कोटा महाराव की सहायता के लिए किस राज्य ने सैनिक सहायता भेजी थी ?",
+        "options": [
+          "बूँदी",
+          "करौली",
+          "झालावाड़",
+          "जयपुर"
+        ],
+        "explanation": "1857 के स्वतंत्रता संग्राम के दौरान कोटा महाराव की सहायता के लिए करौली राज्य ने सैनिक सहायता भेजी थी। करौली के शासक ने कोटा में विद्रोह को दबाने में महत्वपूर्ण भूमिका निभाई थी।"
+      },
+      "qkey": "fabfd9ce594b",
+      "source_exam": "ACF AND FOREST RANGE OFFICER GR-I",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||19|Master Question Paper 131D",
+      "serial_no": 19,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Languages and Dialects of Rajasthan",
+      "subtopic": "Godwari Dialect",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "निम्नलिखित में किस एक जिले में 'गोड़वाड़ी बोली' बोली जाती है?",
+        "options": [
+          "जालौर",
+          "जैसलमेर",
+          "डूंगरपुर",
+          "अजमेर"
+        ],
+        "explanation": "गोड़वाड़ी बोली मारवाड़ी बोली की एक उपबोली है, जो मुख्य रूप से जालौर जिले और पाली जिले के कुछ हिस्सों में बोली जाती है। यह बोली लूनी नदी के बेसिन क्षेत्र में प्रचलित है।"
+      },
+      "qkey": "b9c9f5ce9129",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||12|Master Question Paper 131B",
+      "serial_no": 12,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Dynasties of Rajasthan",
+      "subtopic": "Chauhan Dynasty and Historical Literature",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'अर्ली चौहान डाइनेस्टीज़' के लेखक हैं",
+        "options": [
+          "जी.ए. ग्रियर्सन",
+          "दशरथ शर्मा",
+          "जी.एच. ओझा",
+          "जी.एन. शर्मा"
+        ],
+        "explanation": "'अर्ली चौहान डाइनेस्टीज़' के लेखक दशरथ शर्मा हैं। यह पुस्तक चौहान राजवंश के प्रारंभिक इतिहास पर एक महत्वपूर्ण शोध कार्य है, जो इस क्षेत्र के इतिहास को समझने में सहायक है। दशरथ शर्मा राजस्थान के प्रसिद्ध इतिहासकार थे।"
+      },
+      "qkey": "717644625460",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018|B|99",
+      "serial_no": 99,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Society and Religion",
+      "subtopic": "Lok Devta (Tejaji and Sati)",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018",
+      "hindi": {
+        "question": "किस लोक देवता की पत्नी उनकी मृत्यु के बाद सती हो गई ?",
+        "options": [
+          "मल्लीनाथ",
+          "हरबूजी",
+          "तेजाजी",
+          "देवजी"
+        ],
+        "explanation": "राजस्थान के लोक देवता तेजाजी की पत्नी पेमल उनकी मृत्यु के बाद सती हो गई थीं। तेजाजी को नागों के देवता के रूप में पूजा जाता है और उनकी वीरता और बलिदान की कहानियाँ राजस्थान में बहुत प्रचलित हैं।"
+      },
+      "qkey": "e86c851f1f6b",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|A|88",
+      "serial_no": 88,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Ancient Culture and Civilizations",
+      "subtopic": "Ahar Culture Sites",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से आहड़ संस्कृति से संबंधित पुरास्थल नहीं है :",
+        "options": [
+          "बालाथल",
+          "गिलूण्ड",
+          "बागोर",
+          "ओजियाना"
+        ],
+        "explanation": "आहड़ संस्कृति एक ताम्र-पाषाणकालीन संस्कृति थी, जिसके प्रमुख स्थल आहड़, बालाथल, गिलूण्ड और ओजियाना हैं। बागोर पुरास्थल एक मध्यपाषाणकालीन स्थल है और यह आहड़ संस्कृति से संबंधित नहीं है। बागोर अपने सूक्ष्म पाषाण उपकरणों और पशुपालन के शुरुआती साक्ष्यों के लिए जाना जाता है।"
+      },
+      "qkey": "2d2d18785009",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|(single)|76",
+      "serial_no": 76,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Freedom Movement in Rajasthan",
+      "subtopic": "Martyrs of Rajasthan Freedom Struggle",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "1942 ई. में, जोधपुर जेल में भूख हड़ताल के दौरान किस सत्याग्रही की मृत्यु हो गयी थी?",
+        "options": [
+          "द्वारका दास",
+          "राधा कृष्ण",
+          "शिव करण थानवी",
+          "बालमुकुन्द बिस्सा"
+        ],
+        "explanation": "1942 ई. में भारत छोड़ो आंदोलन के दौरान, जोधपुर जेल में भूख हड़ताल के कारण प्रसिद्ध स्वतंत्रता सेनानी बालमुकुन्द बिस्सा की मृत्यु हो गई थी। उन्हें 'राजस्थान का जतिन दास' भी कहा जाता है।"
+      },
+      "qkey": "f812bf5e56fb",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)::AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020|(single)|47",
+      "serial_no": 47,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Sambhar Lake construction",
+      "subtopic": "",
+      "source_cycle": "AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020",
+      "hindi": {
+        "question": "बिजोलिया अभिलेख के अनुसार सांभर झील का निर्माण चौहान वंश के किस शासक ने करवाया था ?",
+        "options": [
+          "विग्रहराज प्रथम",
+          "वासुदेव",
+          "दुर्लभराज प्रथम",
+          "वाक्पतिराज"
+        ],
+        "explanation": "बिजोलिया अभिलेख के अनुसार, सांभर झील का निर्माण चौहान वंश के शासक वासुदेव ने करवाया था। यह अभिलेख चौहानों के इतिहास और उनकी उपलब्धियों पर प्रकाश डालता है।"
+      },
+      "qkey": "b508f992d815",
+      "source_exam": "LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||47|Master Question Paper 134 F",
+      "serial_no": 47,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Folk Culture",
+      "subtopic": "Fairs and Festivals of Rajasthan",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "प्रसिद्ध आदिवासी मेला 'बेणेश्वर' राजस्थान के किस जिले में आयोजित होता है ?",
+        "options": [
+          "कोटा",
+          "बांसवाड़ा",
+          "प्रतापगढ़",
+          "डूंगरपुर"
+        ],
+        "explanation": "प्रसिद्ध आदिवासी मेला 'बेणेश्वर' राजस्थान के डूंगरपुर जिले में आयोजित होता है। यह मेला सोम, माही और जाखम नदियों के संगम पर माघ पूर्णिमा को लगता है। यह आदिवासियों, विशेषकर भील समुदाय के लिए एक महत्वपूर्ण धार्मिक और सांस्कृतिक आयोजन है, जिसे 'आदिवासियों का कुंभ' भी कहा जाता है।"
+      },
+      "qkey": "5509e89f205c",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018|B|90",
+      "serial_no": 90,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Freedom Struggle",
+      "subtopic": "Peasant Movements",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018",
+      "hindi": {
+        "question": "श्रीमती रमा देवी राजस्थान के किस किसान आन्दोलन से सम्बद्ध रही ?",
+        "options": [
+          "बेगूँ",
+          "बिजौलिया",
+          "बरड़",
+          "बीकानेर"
+        ],
+        "explanation": "श्रीमती रमा देवी राजस्थान के बिजौलिया किसान आंदोलन से जुड़ी एक प्रमुख महिला नेता थीं। उन्होंने इस आंदोलन में सक्रिय भूमिका निभाई, किसानों को संगठित किया और उनके अधिकारों के लिए संघर्ष किया।"
+      },
+      "qkey": "9654f8b7f970",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||24|Master Question Paper, 1st Phase(A13)",
+      "serial_no": 24,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Folk Theatre",
+      "subtopic": "Char Bent Folk Play",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "'चार बेंत' राजस्थान के किस क्षेत्र का प्रसिद्ध लोक नाटक/प्रस्तुति है? निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "कोटा",
+          "दौसा",
+          "टोंक",
+          "जैसलमेर"
+        ],
+        "explanation": "'चार बेंत' राजस्थान के टोंक क्षेत्र का एक प्रसिद्ध लोक नाटक/प्रस्तुति है। यह एक पारंपरिक लोक कला है जिसमें चारण कवि और कलाकार अपनी प्रस्तुतियों के माध्यम से कहानियाँ और कविताएँ सुनाते हैं।"
+      },
+      "qkey": "be8b94dbe8b5",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER GR II (SPECIAL EDUCATION)::SR. TEACHER GR II (SPL. EDU.) 2015|(single)|29",
+      "serial_no": 29,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Fairs and Festivals",
+      "subtopic": "Fairs of Folk Deities",
+      "source_cycle": "SR. TEACHER GR II (SPL. EDU.) 2015",
+      "hindi": {
+        "question": "किस लोक देवता की स्मृति में तिलवाड़ा का मेला भरता है?",
+        "options": [
+          "हरभूजी",
+          "पाबूजी",
+          "गोगाजी",
+          "मल्लीनाथ जी"
+        ],
+        "explanation": "तिलवाड़ा का पशु मेला राजस्थान के बाड़मेर जिले में लूनी नदी के किनारे मल्लीनाथ जी की स्मृति में भरता है। यह मेला राजस्थान के सबसे पुराने पशु मेलों में से एक है और चैत्र माह में आयोजित किया जाता है। मल्लीनाथ जी को एक लोक देवता के रूप में पूजा जाता है।"
+      },
+      "qkey": "e038f8d2fdb7",
+      "source_exam": "SR. TEACHER GR II (SPECIAL EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|7|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Prasooti Tantra And Stree Roga)",
+      "serial_no": 7,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Medicinal plants",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "निम्न में से किस औषधीय पौधे को ' कुष्ट नाशिनी ' भी कहा जाता है?",
+        "options": [
+          "बाबची",
+          "खोकली",
+          "अडूसा",
+          "अजवायन"
+        ],
+        "explanation": "बाबची एक औषधीय पौधा है जिसे 'कुष्ट नाशिनी' भी कहा जाता है। इसका उपयोग पारंपरिक चिकित्सा में कुष्ठ रोग और अन्य त्वचा संबंधी समस्याओं के उपचार के लिए किया जाता रहा है। इसके औषधीय गुण इसे एक महत्वपूर्ण वनस्पति बनाते हैं।"
+      },
+      "qkey": "8ae226d47e8b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR ENGINEER (JEN)::Junior Engineer (JEN) 2024||19",
+      "serial_no": 19,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Forts of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Junior Engineer (JEN) 2024",
+      "hindi": {
+        "question": "कर्नल टॉड के अनुसार निम्नलिखित में से कौन सा किला व्यापारी भैंसा शाह और रोड़ा चारण द्वारा बनाया गया था ?",
+        "options": [
+          "गागरोन किला",
+          "चूरू किला",
+          "जूनागढ़ किला",
+          "भैंसरोड़गढ़ किला"
+        ],
+        "explanation": "कर्नल टॉड के अनुसार, भैंसरोड़गढ़ किला व्यापारी भैंसा शाह और रोड़ा चारण द्वारा बनाया गया था। यह किला चंबल और बामनी नदियों के संगम पर स्थित है।"
+      },
+      "qkey": "6fd0dc707bc4",
+      "source_exam": "JUNIOR ENGINEER (JEN)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||52|Master Question Paper (T126)",
+      "serial_no": 52,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Mesolithic sites",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "छिद्र वाली सुई किस मध्य पाषाण स्थल की महत्वपूर्ण खोज है ?",
+        "options": [
+          "गणेश्वर",
+          "बागोर",
+          "गिलुण्ड",
+          "आहड़"
+        ],
+        "explanation": "बागोर मध्य पाषाण काल का एक महत्वपूर्ण स्थल है जहाँ से छिद्र वाली सुई की खोज हुई है। यह खोज उस काल के मानवों की तकनीकी दक्षता और कलात्मकता को दर्शाती है। बागोर राजस्थान के भीलवाड़ा जिले में स्थित है।"
+      },
+      "qkey": "ad1b7714f05b",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2019||7",
+      "serial_no": 7,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Fairs and festivals",
+      "subtopic": "",
+      "source_cycle": "VETERINARY OFFICER 2019",
+      "hindi": {
+        "question": "पुष्कर पशु मेला कब आयोजित किया जाता है ?",
+        "options": [
+          "चैत्र के माह में",
+          "कार्तिक के माह में",
+          "आषाढ़ के माह में",
+          "भाद्रपद के माह में"
+        ],
+        "explanation": "पुष्कर पशु मेला कार्तिक माह में आयोजित किया जाता है। यह राजस्थान के सबसे बड़े और प्रसिद्ध पशु मेलों में से एक है। इस मेले में बड़ी संख्या में पशुओं की खरीद-बिक्री होती है और यह धार्मिक महत्व भी रखता है।"
+      },
+      "qkey": "7ee51c2caccc",
+      "source_exam": "LIB__VETERINARY OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__RESEARCH ASSISTANT::RESEARCH ASSISTANT 2024|(single)|14",
+      "serial_no": 14,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Prajamandal leaders",
+      "subtopic": "",
+      "source_cycle": "RESEARCH ASSISTANT 2024",
+      "hindi": {
+        "question": "निम्न में से कौनसा युग्म (प्रजामण्डल – नेता) सुमेलित नहीं है?",
+        "options": [
+          "भरतपुर – गोपी लाल यादव",
+          "बूंदी – हीरा लाल कोठारी",
+          "अलवर भवानी शंकर शर्मा",
+          "कोटा – नयनूराम"
+        ],
+        "explanation": "दिए गए विकल्पों में से 'बूंदी – हीरा लाल कोठारी' युग्म सुमेलित नहीं है। बूंदी प्रजामण्डल से संबंधित नेता हीरा लाल कोठारी नहीं थे। अन्य विकल्प सही सुमेलित हैं।"
+      },
+      "qkey": "cd69f5856b33",
+      "source_exam": "LIB__RESEARCH ASSISTANT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||5|Master Question Paper 139 Hindi",
+      "serial_no": 5,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Rajasthani literature",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'बोल भारमली' रा रचनाकार है-",
+        "options": [
+          "मेघराज मुकुल",
+          "नेमनारायण जोशी",
+          "महावीरप्रसाद जोशी",
+          "सत्यप्रकाश जोशी"
+        ],
+        "explanation": "'बोल भारमली' के रचनाकार सत्यप्रकाश जोशी हैं। यह राजस्थानी साहित्य की एक महत्वपूर्ण रचना है जो अपनी साहित्यिक गुणवत्ता और सांस्कृतिक महत्व के लिए जानी जाती है। सत्यप्रकाश जोशी राजस्थानी साहित्य के एक प्रमुख लेखक हैं।"
+      },
+      "qkey": "a0de2340416b",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||103|Master Question Paper 134 E",
+      "serial_no": 103,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Historical Events",
+      "subtopic": "Mughal-Rajput Conflicts",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "16 अप्रैल, 1658 के दिन किस युद्ध में औरंगजेब ने जसवंतसिंह को हराया ?",
+        "options": [
+          "दौराई का युद्ध",
+          "सामूगढ़ का युद्ध",
+          "खजुवा का युद्ध",
+          "धरमत का युद्ध"
+        ],
+        "explanation": "16 अप्रैल, 1658 को धरमत का युद्ध लड़ा गया था। यह युद्ध मुगल बादशाह शाहजहाँ के बेटों के बीच उत्तराधिकार संघर्ष का हिस्सा था। इस युद्ध में औरंगजेब और मुराद बख्श की संयुक्त सेना ने महाराजा जसवंत सिंह के नेतृत्व वाली शाही सेना को हराया था।"
+      },
+      "qkey": "809adf5ed2f6",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::HEADMASTER::HEADMASTER (SECONDARY SCHOOL) 2018|(single)|31",
+      "serial_no": 31,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Medieval Rajasthan History",
+      "subtopic": "Forts of Rajasthan",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2018",
+      "hindi": {
+        "question": "दुर्ग जो महाराणा कुम्भा द्वारा निर्मित नहीं है?",
+        "options": [
+          "भैंसरोड़गढ़",
+          "मचान दुर्ग",
+          "भोमट दुर्ग",
+          "बासन्ती दुर्ग"
+        ],
+        "explanation": "महाराणा कुम्भा द्वारा निर्मित दुर्गों में मचान दुर्ग, भोमट दुर्ग और बासन्ती दुर्ग शामिल हैं। भैंसरोड़गढ़ दुर्ग का निर्माण भैंसाशाह नामक व्यापारी और रोड़ा चारण ने करवाया था, न कि महाराणा कुम्भा ने।"
+      },
+      "qkey": "34f7d23af711",
+      "source_exam": "HEADMASTER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__FORESTER::Forester 2026||67",
+      "serial_no": 67,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Mewar Praja Mandal",
+      "subtopic": "",
+      "source_cycle": "Forester 2026",
+      "hindi": {
+        "question": "निम्नलिखित में से मेवाड़ प्रजा मंडल के संस्थापक की पहचान कीजिए।",
+        "options": [
+          "माधरम वैद्य",
+          "माणिक्यालाल वर्मा",
+          "कर्पूरचंद पटनी",
+          "कृष्ण दत्त"
+        ],
+        "explanation": "माणिक्यालाल वर्मा मेवाड़ प्रजा मंडल के संस्थापक थे। उन्होंने 1938 में मेवाड़ प्रजा मंडल की स्थापना की थी, जिसका उद्देश्य रियासत में उत्तरदायी सरकार की स्थापना करना था। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "a7a2616c548e",
+      "source_exam": "LIB__FORESTER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|14-09-2021|90",
+      "serial_no": 90,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Rajasthan Art & Culture",
+      "subtopic": "Painting Styles (Mewar School)",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "\"अटपटी पगड़ी\" चित्रकला की किस शैली से संबंधित है ?",
+        "options": [
+          "बूंदी",
+          "कोटा",
+          "मेवाड़",
+          "आमेर"
+        ],
+        "explanation": "अटपटी पगड़ी मेवाड़ चित्रकला शैली से संबंधित है। यह मेवाड़ शैली की एक विशिष्ट पहचान है जो उस समय के पहनावे को दर्शाती है।"
+      },
+      "qkey": "50862c304ebc",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||49|Master Question Paper, 1st Phase(A13)",
+      "serial_no": 49,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Folk Music",
+      "subtopic": "Holi Songs",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "होली पर पुरुषों द्वारा कौन-से गीत गाए जाते हैं?निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "रसिया",
+          "मायरा",
+          "बधावा",
+          "तोरण"
+        ],
+        "explanation": "होली के अवसर पर पुरुषों द्वारा 'रसिया' गीत गाए जाते हैं। यह राजस्थान और उत्तर प्रदेश के कुछ हिस्सों में होली के दौरान गाए जाने वाले पारंपरिक लोकगीत हैं।"
+      },
+      "qkey": "c1b5347ef5d2",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|23|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Panchkarma)",
+      "serial_no": 23,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Integration of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "डंगरपुर-बांसवाड़ा के भील आंदोलन के संबंध में कोनसा कथन सत्य है? A. यह एक सामाजिक एवं धार्मिक सुधार आंदोलन था जिसने कालांतर में राजनीतिक स्वरूप ग्रहण कर लिया। B. सामाजिक जागरूकता के कारण भीलों ने ठाकुरों के आदेशों को मानने से इनकार कर दिया। C. भील क्षेत्र में राज्य के आबकारी राजस्व में गिरावट आई। D. गोविंदगिरि बेडसा ग्राम का कृषक भील था। सही कूट चुनिए",
+        "options": [
+          "केवल A सत्य है",
+          "A, B सत्य है",
+          "केवल A, B, C सत्य है",
+          "सभी A, B, C, D सत्य है"
+        ],
+        "explanation": "डूंगरपुर-बांसवाड़ा के भील आंदोलन के संबंध में कथन A, B और C सत्य हैं। यह एक सामाजिक एवं धार्मिक सुधार आंदोलन था जिसने कालांतर में राजनीतिक स्वरूप ग्रहण कर लिया। सामाजिक जागरूकता के कारण भीलों ने ठाकुरों के आदेशों को मानने से इनकार कर दिया, और भील क्षेत्र में राज्य के आबकारी राजस्व में गिरावट आई। गोविंदगिरि बेडसा ग्राम का कृषक भील था, यह कथन सत्य नहीं है, क्योंकि गोविंदगिरि एक बंजारा परिवार से थे।"
+      },
+      "qkey": "292adda0dd6c",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__DEPUTY JAILOR::DEPUTY JAILOR 2024|Paper Ii|141",
+      "serial_no": 141,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture [राजस्थान का इतिहास एवं संस्कृति]",
+      "topic": "Bharatpur student movement",
+      "subtopic": "",
+      "source_cycle": "DEPUTY JAILOR 2024",
+      "hindi": {
+        "question": "भरतपुर में 1920-21 में विद्यार्थी आन्दोलन का नेतृत्व किसके द्वारा किया गया ?",
+        "options": [
+          "गोपीलाल यादव, जुगलकिशोर चतुर्वेदी",
+          "कालीचरण शर्मा, प्यारेलाल गुप्ता",
+          "विजयसिंह, हरिजी",
+          "रामनारायण चौधरी, माणिक्यलाल वर्मा"
+        ],
+        "explanation": "भरतपुर में 1920-21 में विद्यार्थी आंदोलन का नेतृत्व गोपीलाल यादव और जुगलकिशोर चतुर्वेदी द्वारा किया गया था। यह आंदोलन शिक्षा और छात्रों के अधिकारों के लिए चलाया गया था। इन नेताओं ने छात्रों को संगठित किया और उनके मुद्दों को उठाया।"
+      },
+      "qkey": "18e8e1eb0903",
+      "source_exam": "LIB__DEPUTY JAILOR",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "Agriculture Supervisor 2018||93",
+      "serial_no": 93,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Research Institutions in Rajasthan",
+      "subtopic": "Central Arid Zone Research Institute (CAZRI)",
+      "source_cycle": "Agriculture Supervisor 2018",
+      "hindi": {
+        "question": "केन्द्रीय मरु क्षेत्र अनुसंधान संस्थान में स्थित है ।",
+        "options": [
+          "अजमेर",
+          "बाड़मेर",
+          "बीकानेर",
+          "जोधपुर"
+        ],
+        "explanation": "केन्द्रीय मरु क्षेत्र अनुसंधान संस्थान (CAZRI) जोधपुर में स्थित है। यह संस्थान शुष्क और अर्ध-शुष्क क्षेत्रों में कृषि, वानिकी और पर्यावरण संबंधी अनुसंधान करता है। इसका उद्देश्य मरुस्थलीकरण को रोकना और मरुस्थलीय क्षेत्रों के विकास में योगदान देना है।"
+      },
+      "qkey": "a9be7a1fe794"
+    },
+    {
+      "id": "Agriculture Supervisor 2021||18",
+      "serial_no": 18,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Wildlife and Biodiversity",
+      "subtopic": "Wildlife Sanctuaries and Tiger Reserves",
+      "source_cycle": "Agriculture Supervisor 2021",
+      "hindi": {
+        "question": "हाल ही में राजस्थान के किस वन्यजीव अभयारण्य को राज्य का चौथा बाघ संरक्षित क्षेत्र अनुमोदित किया गया है?",
+        "options": [
+          "टॉडगढ़ रावली",
+          "रामगढ़ विषधारी",
+          "बस्सी",
+          "ताल छापर"
+        ],
+        "explanation": "हाल ही में रामगढ़ विषधारी वन्यजीव अभयारण्य को राजस्थान का चौथा बाघ संरक्षित क्षेत्र अनुमोदित किया गया है। यह बूंदी जिले में स्थित है और बाघों के संरक्षण के लिए महत्वपूर्ण है।"
+      },
+      "qkey": "25e570a21bc9"
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|33|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Kayachikitsa)",
+      "serial_no": 33,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Forests of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "राजस्थान के शुष्क सागवान वनों के संदर्भ में निम्नलिखित में से कौन सा कथन सही है?",
+        "options": [
+          "40 सेमी से 70 सेमी वर्षा वाले भागों में ये वन मिलते हैं ।",
+          "संपूर्ण वन क्षेत्र का 20 प्रतिशत ये वन है ।",
+          "राजस्थान के दक्षिणी भाग की प्रमुखत: इन वनों का विस्तार है ।",
+          "इन्हें शीतोष्ण वन भी कहते हैं ।"
+        ],
+        "explanation": "राजस्थान में शुष्क सागवान वन मुख्य रूप से दक्षिणी भाग में पाए जाते हैं, जहाँ वर्षा की मात्रा अधिक होती है। यह कथन इन वनों के वितरण की सही जानकारी देता है।"
+      },
+      "qkey": "9f6419ebe89b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::COLLEGE LECTURER (SARANGI INSTRUMENT) 2018|Paper Iii|7",
+      "serial_no": 7,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Urban population",
+      "subtopic": "",
+      "source_cycle": "COLLEGE LECTURER (SARANGI INSTRUMENT) 2018",
+      "hindi": {
+        "question": "2011 में राजस्थान के कौन से जिलों में 50\nप्रतिशत से अधिक नगरीय जनसंख्या है ?",
+        "options": [
+          "अजमेर और उदयपुर",
+          "जोधपुर और अजमेर",
+          "कोटा और जयपुर",
+          "जयपुर और बीकानेर"
+        ],
+        "explanation": "2011 की जनगणना के अनुसार, राजस्थान के कोटा और जयपुर जिलों में 50 प्रतिशत से अधिक नगरीय जनसंख्या है। ये दोनों जिले राज्य के प्रमुख शहरी केंद्र हैं।"
+      },
+      "qkey": "e3f590079d8c",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|A|85",
+      "serial_no": 85,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Industries",
+      "subtopic": "Industrial Locations",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "कौन सा सुमेलित नहीं है ?\nउद्योग\tस्थिति",
+        "options": [
+          "हाई टेक ग्लास - धौलपुर",
+          "सफेद सीमेण्ट - निम्बाहेड़ा",
+          "टायर-ट्यूब - अलवर",
+          "पॉलिमर - शाहपुरा"
+        ],
+        "explanation": "दिए गए विकल्पों में से, सफेद सीमेंट का कारखाना निम्बाहेड़ा में नहीं है। निम्बाहेड़ा में सामान्य सीमेंट का उत्पादन होता है। सफेद सीमेंट के प्रमुख कारखाने गोटन (नागौर) और खारिया खंगार (जोधपुर) में स्थित हैं। अन्य विकल्प सही सुमेलित हैं।"
+      },
+      "qkey": "8eec11d66343",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SANSKRIT EDU.) 2024|(single)|44",
+      "serial_no": 44,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Geographical Extent",
+      "subtopic": "East-West and North-South Extension",
+      "source_cycle": "SCHOOL LECTURER (SANSKRIT EDU.) 2024",
+      "hindi": {
+        "question": "राजस्थान के पूर्व-पश्चिम एवं उत्तर-दक्षिण विस्तार में अन्तर है :",
+        "options": [
+          "46 कि.मी. का",
+          "52 कि.मी. का",
+          "48 कि.मी. का",
+          "43 कि.मी. का"
+        ],
+        "explanation": "राजस्थान का पूर्व-पश्चिम विस्तार लगभग 869 कि.मी. है और उत्तर-दक्षिण विस्तार लगभग 826 कि.मी. है। इन दोनों के बीच का अंतर $869 - 826 = 43$ कि.मी. है।"
+      },
+      "qkey": "e0b8721f7fd8",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||139|Master Question Paper, 5th Phase(B14)",
+      "serial_no": 139,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Rivers of Rajasthan",
+      "subtopic": "Origin of Luni River",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "राजस्थान की लूनी नदी का उद्गम स्थान कहाँ है?",
+        "options": [
+          "अमरकंटक",
+          "नाग-पहाड़",
+          "अंगसी हिमनद",
+          "पूर्वी सतपुड़ा श्रेणी"
+        ],
+        "explanation": "राजस्थान की लूनी नदी का उद्गम स्थान अजमेर के पास नाग-पहाड़ है। यह नदी अरावली पर्वतमाला की पश्चिमी ढलानों से निकलती है और कच्छ के रण में समाप्त होती है।"
+      },
+      "qkey": "f03e925904c2",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|D|72",
+      "serial_no": 72,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Mineral Resources of Rajasthan",
+      "subtopic": "Mineral Mining Areas",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "सूची-I को सूची-II से सुमेलित कीजिये तथा नीचे दिये गये कूट में से सही उत्तर चुनिये सूची-I (खनिज) सूची-II (खनन क्षेत्र) (A) ताम्र (i) राजपुरा-दरीबा (B) सीसा एवं जस्ता (ii) मोरिज़ा-नीमाला (C) लौह अयस्क (iii) छोटी सार-बड़ी सार (D) मैंगनीज़ (iv) खो-दरीबा कूट - (A) (B) (C) (D)",
+        "options": [
+          "(iv) (i) (iii) (ii)",
+          "(iv) (i) (ii) (iii)",
+          "(i) (iv) (ii) (iii)",
+          "(iv) (ii) (i) (iii)"
+        ],
+        "explanation": "सही सुमेलन इस प्रकार है: ताम्र (कॉपर) का खनन खो-दरीबा (अलवर) में होता है। सीसा एवं जस्ता का खनन राजपुरा-दरीबा (राजसमंद) में होता है। लौह अयस्क का खनन मोरिज़ा-नीमाला (जयपुर) में होता है। मैंगनीज़ का खनन छोटी सार-बड़ी सार (बांसवाड़ा) में होता है।"
+      },
+      "qkey": "be9af4f7cb81",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__COMPUTOR::Computor 2021||30",
+      "serial_no": 30,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Plateaus and peaks Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Computor 2021",
+      "hindi": {
+        "question": "निम्नलिखित कथनों पर विचार कीजिए तथा सही उत्तर का चयन नीचे दिए कूट से कीजिए-(1) भौराट का पठार कुम्भलगढ़ और राजसमन्द के मध्य स्थित है।(2) उत्खात स्थलाकृति चम्बल बेसिन में मिलती है।(3) रघुनाथगढ़ उत्तरी अरावली का सर्वोच्च शिखर है।कूट",
+        "options": [
+          "1 और 3",
+          "1 और 2",
+          "2 और 3",
+          "1, 2 और 3"
+        ],
+        "explanation": "भौराट का पठार कुम्भलगढ़ और गोगुन्दा के मध्य स्थित है, न कि राजसमन्द के। उत्खात स्थलाकृति चम्बल बेसिन में मिलती है और रघुनाथगढ़ उत्तरी अरावली का सर्वोच्च शिखर है। इसलिए, कथन 2 और 3 सही हैं।"
+      },
+      "qkey": "b7393326fb01",
+      "source_exam": "LIB__COMPUTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|D|3",
+      "serial_no": 3,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Drainage System",
+      "subtopic": "Luni River Tributaries",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसी लूनी नदी की दाहिने तट की सहायक नदी/नदियाँ है/हैं?",
+        "options": [
+          "जोजड़ी",
+          "गुहिया",
+          "बाण्डी तथा मीठड़ी",
+          "सुकड़ी तथा गुहिया"
+        ],
+        "explanation": "लूनी नदी की सहायक नदियों में जोजड़ी एकमात्र ऐसी नदी है जो इसके दाहिने तट पर मिलती है। यह नदी नागौर जिले से निकलती है और लूनी में दाईं ओर से आकर मिलती है। अन्य सहायक नदियाँ जैसे गुहिया, बाण्डी, मीठड़ी और सुकड़ी बाईं ओर से मिलती हैं।"
+      },
+      "qkey": "56aa252fa22f",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||111|Master Question Paper, RACT05",
+      "serial_no": 111,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Climate of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "निम्नलिखित कारकों में से कौनसे राजस्थान की जलवायु परिस्थितियों के लिए जिम्मेदार हैं ? (निम्न में से सबसे उपयुक्त उत्तर चुनें) 1. भौगोलिक अवस्थिति 2. समुद्र से दूरी 3. उच्चावच लक्षण 4. वायुमण्डलीय संचरण",
+        "options": [
+          "केवल 2, 3",
+          "सभी 1, 2, 3 व 4",
+          "केवल 2, 3 व 4",
+          "केवल 1, 3"
+        ],
+        "explanation": "राजस्थान की जलवायु परिस्थितियों के लिए भौगोलिक अवस्थिति, समुद्र से दूरी, उच्चावच लक्षण और वायुमंडलीय संचरण - ये सभी कारक जिम्मेदार हैं। राजस्थान की रेगिस्तानी जलवायु इन सभी कारकों के संयुक्त प्रभाव का परिणाम है, जो इसे शुष्क और गर्म बनाती है।"
+      },
+      "qkey": "3bf33387217e",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|80",
+      "serial_no": 80,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Vegetation",
+      "subtopic": "Forest Area Distribution",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा जिलों का समूह राजस्थान में सर्वाधिक कुल वन क्षेत्र घेरता है ?",
+        "options": [
+          "उदयपुर, चित्तौड़गढ़, बारां एवं करौली",
+          "उदयपुर, चित्तौड़गढ़, झालावाड़ एवं टोंक",
+          "बूँदी, बाँसवाड़ा, डूंगरपुर एवं झालावाड़",
+          "अलवर, सिरोही, जोधपुर एवं जयपुर"
+        ],
+        "explanation": "राजस्थान में सर्वाधिक वन क्षेत्र वाले जिलों में उदयपुर, चित्तौड़गढ़, बारां और करौली प्रमुख हैं। ये जिले अरावली पर्वतमाला और विन्ध्यन कगार के प्रभाव में आते हैं, जहाँ सघन वनस्पति पाई जाती है। यह समूह राज्य के कुल वन क्षेत्र में महत्वपूर्ण योगदान देता है।"
+      },
+      "qkey": "6488eb7c7fb1",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|C|6",
+      "serial_no": 6,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Physical Features",
+      "subtopic": "Plateaus and Hills",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसा पश्चिम से पूर्व की ओर सही क्रम में व्यवस्थित है?",
+        "options": [
+          "उड़िया का पठार, मुकुन्दरा की पहाड़ियाँ, भोराठ का पठार",
+          "भोराठ का पठार, उड़िया का पठार, मुकुन्दरा की पहाड़ियाँ",
+          "मुकुन्दरा की पहाड़ियाँ, भोराठ का पठार, उड़िया का पठार",
+          "उड़िया का पठार, भोराठ का पठार, मुकुन्दरा की पहाड़ियाँ"
+        ],
+        "explanation": "राजस्थान के भौतिक स्वरूपों को पश्चिम से पूर्व की ओर सही क्रम में व्यवस्थित करने पर उड़िया का पठार (सिरोही) सबसे पश्चिम में आता है, उसके बाद भोराठ का पठार (उदयपुर-राजसमंद) और फिर मुकुन्दरा की पहाड़ियाँ (कोटा-झालावाड़) पूर्व में स्थित हैं। यह क्रम उनकी भौगोलिक स्थिति के अनुरूप है।"
+      },
+      "qkey": "72712447e21c",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||35|Master Question Paper, 1st Phase(A13)",
+      "serial_no": 35,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Climate of Rajasthan",
+      "subtopic": "Local Winds (Loo)",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "राजस्थान में ग्रीष्म ऋतु में चलने वाली शुष्क गर्म एवं धूल भरी हवाएँ कहलाती हैं: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "लू",
+          "चिनूक",
+          "नार्वेस्टर",
+          "फॉन"
+        ],
+        "explanation": "राजस्थान में ग्रीष्म ऋतु में चलने वाली शुष्क, गर्म और धूल भरी हवाओं को 'लू' कहा जाता है। यह भारत के उत्तरी भागों में गर्मियों में चलने वाली एक सामान्य घटना है।"
+      },
+      "qkey": "952ae72f3cde",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (TECH. EDU.) EXAM::LECTURER (TECH. EDU.) EXAM 2020|Paper Iii|20",
+      "serial_no": 20,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Monsoon rainfall distribution",
+      "subtopic": "",
+      "source_cycle": "LECTURER (TECH. EDU.) EXAM 2020",
+      "hindi": {
+        "question": "निम्नलिखित में से राजस्थान का कौन सा क्षेत्र मानसून के अरब सागर शाखा से अधिकतम वर्षा प्राप्त करता है ?",
+        "options": [
+          "उत्तर तथा उत्तर-पूर्वी क्षेत्र",
+          "पूर्वी क्षेत्र",
+          "मध्य अरावली",
+          "दक्षिण तथा दक्षिण-पूर्वी क्षेत्र"
+        ],
+        "explanation": "राजस्थान का दक्षिण तथा दक्षिण-पूर्वी क्षेत्र मानसून की अरब सागर शाखा से अधिकतम वर्षा प्राप्त करता है। यह क्षेत्र अरावली पर्वतमाला के दक्षिण-पश्चिमी ढलानों पर स्थित होने के कारण अरब सागर से आने वाली मानसूनी हवाओं से अधिक वर्षा प्राप्त करता है।"
+      },
+      "qkey": "f27f67d48901",
+      "source_exam": "LIB__LECTURER (TECH. EDU.) EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__LIBRARIAN GRADE III::Librarian Grade III 2018||35",
+      "serial_no": 35,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Dust storms Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Librarian Grade III 2018",
+      "hindi": {
+        "question": "जून-जुलाई माह में कौनसे जिले में सर्वाधिक धूल भरी आँधियाँ चलती हैं ?",
+        "options": [
+          "बीकानेर",
+          "जैसलमेर",
+          "जोधपुर",
+          "गंगानगर"
+        ],
+        "explanation": "जून-जुलाई माह में गंगानगर जिले में सर्वाधिक धूल भरी आँधियाँ चलती हैं। यह क्षेत्र थार मरुस्थल के करीब होने के कारण गर्मियों में तेज हवाओं और धूल भरी आँधियों से प्रभावित होता है। इसलिए, विकल्प (4) गंगानगर सही उत्तर है।"
+      },
+      "qkey": "7be4e0cbace9",
+      "source_exam": "LIB__LIBRARIAN GRADE III",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)::HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021|Paper I|98",
+      "serial_no": 98,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Gully erosion districts",
+      "subtopic": "",
+      "source_cycle": "HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021",
+      "hindi": {
+        "question": "अधिक अवनालिका अपरदन वाले जिले हैं -",
+        "options": [
+          "अलवर, भरतपुर, दौसा और जयपुर",
+          "धौलपुर, करौली, सवाई माधोपुर और कोटा",
+          "अजमेर, भीलवाड़ा, टोंक और बूंदी",
+          "डूंगरपुर, बांसवाड़ा और प्रतापगढ़"
+        ],
+        "explanation": "धौलपुर, करौली, सवाई माधोपुर और कोटा जिले अधिक अवनालिका अपरदन से प्रभावित हैं। इन क्षेत्रों में चंबल नदी और उसकी सहायक नदियों के कारण गहरे खड्ड और बीहड़ पाए जाते हैं।"
+      },
+      "qkey": "6bd2de03800e",
+      "source_exam": "LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||49|Master Question Paper 131D",
+      "serial_no": 49,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Minerals of Rajasthan",
+      "subtopic": "Garnet Mines",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "टोंक जिले की जनकपुरा और कुशालपुरा खानें जिस खनिज के उत्पादन हेतु जानी जाती है, वह हैं -",
+        "options": [
+          "गार्नेट",
+          "वोलास्टोनाइट",
+          "यूरेनियम",
+          "फेल्सपार"
+        ],
+        "explanation": "टोंक जिले की जनकपुरा और कुशालपुरा खानें गार्नेट खनिज के उत्पादन के लिए प्रसिद्ध हैं। गार्नेट एक महत्वपूर्ण रत्न और औद्योगिक खनिज है जिसका उपयोग अपघर्षक और आभूषणों में होता है।"
+      },
+      "qkey": "a365877b3eae",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||148|Master Question Paper A17",
+      "serial_no": 148,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Drainage System and Water Bodies",
+      "subtopic": "Lakes of Rajasthan",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सी ताजा पानी की झील है?",
+        "options": [
+          "सांभर",
+          "उदेई सागर",
+          "डिडवाना",
+          "पचपदरा"
+        ],
+        "explanation": "उदेई सागर झील उदयपुर, राजस्थान में स्थित एक ताजे पानी की झील है। अन्य विकल्प जैसे सांभर, डिडवाना और पचपदरा राजस्थान की खारे पानी की झीलें हैं।"
+      },
+      "qkey": "ffe626581d4b",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAS_RTS COMB. COMP. EXAM 2016|(single)|125",
+      "serial_no": 125,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography [राजस्थान का भूगोल]",
+      "topic": "Physical Features of Rajasthan",
+      "subtopic": "Area and Location",
+      "source_cycle": "RAS_RTS COMB. COMP. EXAM 2016",
+      "hindi": {
+        "question": "भारत के कुल भूभाग का कितना प्रतिशत क्षेत्र राजस्थान में है?",
+        "options": [
+          "10.4%",
+          "7.9%",
+          "13.3%",
+          "11.4%"
+        ],
+        "explanation": "राजस्थान भारत के कुल भूभाग का लगभग 10.4% क्षेत्र कवर करता है। यह भारत का सबसे बड़ा राज्य है, और यह एक भौगोलिक तथ्य है।"
+      },
+      "qkey": "377eb6f1aeb6",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    }
+  ]
+}

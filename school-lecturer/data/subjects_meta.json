@@ -1,0 +1,99 @@
+{
+  "sections": [
+    {
+      "name": "History, Art & Culture (इतिहास, कला एवं संस्कृति)"
+    },
+    {
+      "name": "General Studies (सामान्य अध्ययन)"
+    },
+    {
+      "name": "Current Affairs & Educational Psychology (समसामयिकी एवं शैक्षिक मनोविज्ञान)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Current Affairs (National/International)",
+      "name_hindi": "समसामयिकी (राष्ट्रीय/अंतर्राष्ट्रीय)",
+      "section": "Current Affairs & Educational Psychology (समसामयिकी एवं शैक्षिक मनोविज्ञान)",
+      "scope_note": ""
+    },
+    {
+      "name": "Educational Psychology",
+      "name_hindi": "शैक्षिक मनोविज्ञान",
+      "section": "Current Affairs & Educational Psychology (समसामयिकी एवं शैक्षिक मनोविज्ञान)",
+      "scope_note": ""
+    },
+    {
+      "name": "General Science",
+      "name_hindi": "सामान्य विज्ञान",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारतीय भूगोल",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "Indian History",
+      "name_hindi": "भारतीय इतिहास",
+      "section": "History, Art & Culture (इतिहास, कला एवं संस्कृति)",
+      "scope_note": ""
+    },
+    {
+      "name": "Indian Polity",
+      "name_hindi": "भारतीय राजव्यवस्था",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "Rajasthan Art & Culture",
+      "name_hindi": "राजस्थान कला एवं संस्कृति",
+      "section": "History, Art & Culture (इतिहास, कला एवं संस्कृति)",
+      "scope_note": ""
+    },
+    {
+      "name": "Rajasthan Current Affairs",
+      "name_hindi": "राजस्थान समसामयिकी",
+      "section": "Current Affairs & Educational Psychology (समसामयिकी एवं शैक्षिक मनोविज्ञान)",
+      "scope_note": ""
+    },
+    {
+      "name": "Rajasthan Economy",
+      "name_hindi": "राजस्थान अर्थव्यवस्था",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान भूगोल",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "Rajasthan History",
+      "name_hindi": "राजस्थान का इतिहास",
+      "section": "History, Art & Culture (इतिहास, कला एवं संस्कृति)",
+      "scope_note": ""
+    },
+    {
+      "name": "Rajasthan Polity & Administration",
+      "name_hindi": "राजस्थान राजव्यवस्था एवं प्रशासन",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    },
+    {
+      "name": "World Geography",
+      "name_hindi": "विश्व भूगोल",
+      "section": "General Studies (सामान्य अध्ययन)",
+      "scope_note": ""
+    }
+  ]
+}

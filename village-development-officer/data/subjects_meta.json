@@ -1,0 +1,105 @@
+{
+  "sections": [
+    {
+      "name": "सामान्य ज्ञान [General Knowledge]"
+    },
+    {
+      "name": "तर्कशक्ति, गणित और भाषा [Reasoning, Math and Language]"
+    },
+    {
+      "name": "प्रशासनिक ढाँचा और कंप्यूटर [Administrative Structure and Computer]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Current Affairs",
+      "name_hindi": "सामयिक विषय",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Covers major government issues, events, and sports at state, national, and international levels. Focus on recent happenings and developments."
+    },
+    {
+      "name": "World Geography",
+      "name_hindi": "विश्व का भूगोल",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Includes significant physical features of the world such as important places, mountains, and oceans."
+    },
+    {
+      "name": "Indian Ecology and Wildlife",
+      "name_hindi": "भारत की पारिस्थितिक और वन्य जीवन",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Focuses on the ecological systems and wildlife of India, including biodiversity and conservation efforts."
+    },
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का प्राकृतिक भूगोल",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Covers the natural geography of Rajasthan, including climate, vegetation, soil, population, unemployment, poverty, drought, famine, and desertification issues."
+    },
+    {
+      "name": "Rajasthan Natural Resources",
+      "name_hindi": "राजस्थान के प्राकृतिक संसाधन",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Includes mines and minerals, forests, land and water, animal resources, wildlife, and conservation in Rajasthan."
+    },
+    {
+      "name": "Agriculture and Economic Development (India & Rajasthan)",
+      "name_hindi": "कृषि और आर्थिक विकास (भारत और राजस्थान)",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Covers food and commercial crops, agro-based industries, major irrigation and river valley projects, and projects for the development of desert and barren lands in Rajasthan, along with tribal economy."
+    },
+    {
+      "name": "Indian History and Culture",
+      "name_hindi": "भारत का इतिहास और संस्कृति",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Focuses on major monuments and literary works of India, including tribal economy, dialects and literature, music, dance and drama, religious beliefs, saints, poets, folk deities, handicrafts, fairs, festivals, customs, attire, and ornaments."
+    },
+    {
+      "name": "Rajasthan History and Culture",
+      "name_hindi": "राजस्थान का इतिहास और संस्कृति",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Focuses on major monuments and literary works of Rajasthan, including tribal economy, dialects and literature, music, dance and drama, religious beliefs, saints, poets, folk deities, handicrafts, fairs, festivals, customs, attire, and ornaments, with specific reference to their folk and tribal aspects."
+    },
+    {
+      "name": "Mental Ability",
+      "name_hindi": "साधारण मानसिक योग्यता",
+      "section": "तर्कशक्ति, गणित और भाषा [Reasoning, Math and Language]",
+      "scope_note": "Tests general mental aptitude and problem-solving skills."
+    },
+    {
+      "name": "Reasoning and Analytical Ability",
+      "name_hindi": "तर्कशक्ति और विश्लेषणात्मक योग्यता",
+      "section": "तर्कशक्ति, गणित और भाषा [Reasoning, Math and Language]",
+      "scope_note": "Evaluates logical reasoning and analytical skills through various types of questions."
+    },
+    {
+      "name": "English Language",
+      "name_hindi": "अंग्रेजी",
+      "section": "तर्कशक्ति, गणित और भाषा [Reasoning, Math and Language]",
+      "scope_note": "Covers grammar, vocabulary, comprehension, and other aspects of the English language."
+    },
+    {
+      "name": "Hindi Language",
+      "name_hindi": "हिन्दी",
+      "section": "तर्कशक्ति, गणित और भाषा [Reasoning, Math and Language]",
+      "scope_note": "Covers grammar, vocabulary, comprehension, and other aspects of the Hindi language."
+    },
+    {
+      "name": "Mathematics",
+      "name_hindi": "गणित",
+      "section": "तर्कशक्ति, गणित और भाषा [Reasoning, Math and Language]",
+      "scope_note": "Includes arithmetic, algebra, geometry, and other mathematical concepts relevant to competitive exams."
+    },
+    {
+      "name": "Administrative Structure of Rajasthan",
+      "name_hindi": "राजस्थान में प्रशासनिक ढाँचा",
+      "section": "प्रशासनिक ढाँचा और कंप्यूटर [Administrative Structure and Computer]",
+      "scope_note": "Covers the administrative structure at state, district, tehsil, and panchayat levels in Rajasthan."
+    },
+    {
+      "name": "Basic Computer Knowledge",
+      "name_hindi": "कम्प्यूटर का बुनियादी ज्ञान",
+      "section": "प्रशासनिक ढाँचा और कंप्यूटर [Administrative Structure and Computer]",
+      "scope_note": "Includes fundamental concepts of computers, hardware, software, operating systems, and basic applications."
+    }
+  ]
+}

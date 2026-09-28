@@ -1,0 +1,63 @@
+{
+  "sections": [
+    {
+      "name": "सामान्य ज्ञान [General Knowledge]"
+    },
+    {
+      "name": "गणित, तार्किक एवं आधारभूत संख्यात्मक अभियोग्यता [Mathematics, Reasoning & Basic Numerical Ability]"
+    },
+    {
+      "name": "कम्प्यूटर एवं हिन्दी [Computer & Hindi]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art & Culture of Rajasthan]",
+      "name_hindi": "राजस्थान का इतिहास, कला एवं संस्कृति",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Covers the history, art, culture, traditions, literature, heritage, and prominent personalities of Rajasthan, including historical sources, ancient civilizations, dynasties, Mughal-Rajput relations, architecture, religious movements, paintings, handicrafts, folk arts, festivals, fairs, music, dance, instruments, ornaments, historical tourism, and political awakening movements."
+    },
+    {
+      "name": "भारत का संविधान, राजस्थान की राजनीतिक एवं प्रशासनिक व्यवस्था [Indian Constitution, Political & Administrative System of Rajasthan]",
+      "name_hindi": "भारत का संविधान, राजस्थान की राजनीतिक एवं प्रशासनिक व्यवस्था",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Focuses on the Indian Constitution, federal executive, legislature, judiciary, fundamental rights, duties, directive principles, and the political and administrative structure of Rajasthan, including the Governor, Chief Minister, State Assembly, High Court, district administration, RPSC, State Human Rights Commission, Lokayukta, State Election Commission, State Women's Commission, public policy, legal rights, citizen's charter, local self-governance, and major landmarks in post-independence Rajasthan."
+    },
+    {
+      "name": "राजस्थान का भूगोल [Geography of Rajasthan]",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Covers the geographical aspects of Rajasthan, including its location and extent, major physical divisions (desert, Aravalli, plains, plateaus), drainage system, climate, soils, natural vegetation, forest and wildlife conservation, environmental issues, desertification, agro-climatic regions, major crops, livestock, multi-purpose projects, irrigation projects, water conservation, transport, mineral resources, and land surveying."
+    },
+    {
+      "name": "दैनिक विज्ञान [Everyday Science]",
+      "name_hindi": "दैनिक विज्ञान",
+      "section": "सामान्य ज्ञान [General Knowledge]",
+      "scope_note": "Includes fundamental concepts of science relevant to daily life, such as elements, compounds, mixtures, physical and chemical changes, oxidation-reduction, catalysts, metals, non-metals, light, electricity, human brain, hormones, human diseases, economic importance of plants and animals, biomass, energy sources, ecosystem, human digestive and excretory systems, respiration, fermentation, genetics, DNA, RNA, chromosomes, vitamins, blood composition, and biotechnology."
+    },
+    {
+      "name": "गणित [Mathematics]",
+      "name_hindi": "गणित",
+      "section": "गणित, तार्किक एवं आधारभूत संख्यात्मक अभियोग्यता [Mathematics, Reasoning & Basic Numerical Ability]",
+      "scope_note": "Covers basic numerical ability topics like natural numbers, rational/irrational numbers, decimals, operations on real numbers, exponents, ratio and proportion, percentage, profit and loss, discount, simple and compound interest, time and distance, time and work, data analysis (mean, median, mode, graphs), perimeter and area of plane figures (triangle, quadrilateral), field book, circumference and area of circle, trigonometric ratios for acute angles and special angles, and simple problems based on height and distance."
+    },
+    {
+      "name": "तार्किक एवं आधारभूत संख्यात्मक अभियोग्यता [Reasoning & Basic Numerical Ability]",
+      "name_hindi": "तार्किक एवं आधारभूत संख्यात्मक अभियोग्यता",
+      "section": "गणित, तार्किक एवं आधारभूत संख्यात्मक अभियोग्यता [Mathematics, Reasoning & Basic Numerical Ability]",
+      "scope_note": "Focuses on logical reasoning and mental ability, including statements and assumptions, statements and arguments, statements and conclusions, cause and effect, drawing inferences from passages, questions and statements, analytical reasoning (arrangement, direction sense, age-related problems), mental ability (number series, alphabet series, odd one out, coding-decoding, relations, figures and their subdivisions, terms and sequences, word formation)."
+    },
+    {
+      "name": "बेसिक कम्प्यूटर [Basic Computer]",
+      "name_hindi": "बेसिक कम्प्यूटर",
+      "section": "कम्प्यूटर एवं हिन्दी [Computer & Hindi]",
+      "scope_note": "Covers fundamental computer knowledge, including characteristics, input/output/storage units, CPU, number systems, computer organization (RAM, ROM, booting, secondary storage), input/output devices, multimedia, software (system and application), operating systems (Windows), MS Office (Word, Excel, PowerPoint), information technology and society (IT Act, digital signatures, e-governance, mobile/smart phones, information kiosks)."
+    },
+    {
+      "name": "सामान्य हिन्दी [General Hindi]",
+      "name_hindi": "सामान्य हिन्दी",
+      "section": "कम्प्यूटर एवं हिन्दी [Computer & Hindi]",
+      "scope_note": "Focuses on Hindi grammar and vocabulary, including Sandhi, Samas, prefixes and suffixes, synonyms and antonyms, one-word substitutions, word pairs, word purification, sentence purification, voice (Kritvachya, Karmvachya, Bhavvachya), verbs (Sakarmak, Akarmak, Purvakalik), idioms and proverbs, and Hindi equivalents of English technical terms."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "name": "राजस्थान का सामान्य ज्ञान [Rajasthan GK]"
+    },
+    {
+      "name": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan History & Culture",
+      "name_hindi": "राजस्थान का इतिहास एवं संस्कृति",
+      "section": "राजस्थान का सामान्य ज्ञान [Rajasthan GK]",
+      "scope_note": "राजस्थान का इतिहास एवं संस्कृति - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Indian Polity",
+      "name_hindi": "भारतीय राजव्यवस्था एवं संविधान",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]",
+      "scope_note": "भारतीय राजव्यवस्था एवं संविधान - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "World Geography",
+      "name_hindi": "विश्व का भूगोल",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]",
+      "scope_note": "विश्व का भूगोल - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारतीय भूगोल",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]",
+      "scope_note": "भारतीय भूगोल - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Science & Technology",
+      "name_hindi": "विज्ञान एवं प्रौद्योगिकी",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]",
+      "scope_note": "विज्ञान एवं प्रौद्योगिकी - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "राजस्थान का सामान्य ज्ञान [Rajasthan GK]",
+      "scope_note": "राजस्थान का भूगोल - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Rajasthan Polity & Administration",
+      "name_hindi": "राजस्थान की राजव्यवस्था एवं प्रशासन",
+      "section": "राजस्थान का सामान्य ज्ञान [Rajasthan GK]",
+      "scope_note": "राजस्थान की राजव्यवस्था एवं प्रशासन - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Rajasthan Economy",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "राजस्थान का सामान्य ज्ञान [Rajasthan GK]",
+      "scope_note": "राजस्थान की अर्थव्यवस्था - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Indian History",
+      "name_hindi": "भारतीय इतिहास",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]",
+      "scope_note": "भारतीय इतिहास - questions from the real previous-year papers of this exam."
+    },
+    {
+      "name": "Indian Economy",
+      "name_hindi": "भारतीय अर्थव्यवस्था",
+      "section": "भारत एवं विश्व का सामान्य ज्ञान [India & World GK]",
+      "scope_note": "भारतीय अर्थव्यवस्था - questions from the real previous-year papers of this exam."
+    }
+  ]
+}

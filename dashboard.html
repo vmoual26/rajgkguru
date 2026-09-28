@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>मेरा डैशबोर्ड — RAJ G.K. GURU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css?v=3">
+<link rel="stylesheet" href="shared/features.css?v=1">
+<style>
+  .dash-wrap { max-width: 860px; margin: 32px auto; }
+  .exam-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 22px; margin-bottom: 22px;
+  }
+  .exam-card h2 { margin: 0 0 14px; font-size: 1.1rem; }
+  .stat-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+  .stat-box { flex: 1; min-width: 110px; background: var(--surface-alt); border-radius: 10px; padding: 12px 14px; text-align: center; }
+  .stat-box .num { font-size: 1.4rem; font-weight: 750; color: var(--primary); display: block; }
+  .stat-box .label { font-size: 0.72rem; color: var(--text-dim); }
+  .wrong-practice-row {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+    background: rgba(193, 39, 45, 0.08); border-radius: 10px; padding: 12px 14px; margin: 14px 0;
+  }
+  .wrong-practice-row .btn { white-space: nowrap; }
+  .day-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+  .day-table th, .day-table td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+  .day-table th { color: var(--text-dim); font-weight: 650; font-size: 0.76rem; }
+  .exam-card-footer { margin-top: 14px; }
+</style>
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<div class="container">
+  <div class="dash-wrap" id="root">
+    <p>लोड हो रहा है...</p>
+  </div>
+</div>
+
+<footer id="site-footer"></footer>
+
+<script type="module">
+  import { renderHeader, renderFooter } from "./shared/chrome.js";
+  import { authReady, getCurrentUser, showAuthModal, db } from "./shared/auth.js";
+  import { getAllAttempts, getAllAccess, getMyPurchases, listDevices, removeDevice, ALL_ACCESS } from "./shared/entitlements.js?v=4";
+  import { BADGES, getGam, syncGam, levelOf, loadStats, weakTopics, getPlan, syncPlans, todayCount, daysLeft, getHistory } from "./shared/userdata.js?v=2";
+  import { ensureReferralCode, referralCount } from "./shared/community.js?v=1";
+  import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
+
+  renderHeader(document.getElementById("site-header"), "dashboard");
+  renderFooter(document.getElementById("site-footer"));
+
+  const root = document.getElementById("root");
+  const E = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
+  const bar = (p, cls = "") => `<div class="mini-bar"><div class="mini-bar-fill ${cls}" style="width:${Math.max(2, p)}%"></div></div>`;
+  const accClass = (p) => (p >= 70 ? "good" : p >= 45 ? "mid" : "bad");
+  const dayKey = (ts) => (ts?.toDate ? ts.toDate() : new Date()).toLocaleDateString("hi-IN", { day: "2-digit", month: "short", year: "numeric" });
+
+  async function main() {
+    await authReady;
+    const user = getCurrentUser();
+    const { exams } = await fetch("exams.json").then((r) => r.json());
+    const live = exams.filter((e) => e.status === "live");
+    const titleOf = Object.fromEntries(live.map((e) => [e.slug, e.title]));
+    const [gam, allAccess, myPurchases, myDevices] = await Promise.all([syncGam(), getAllAccess(), syncPlans(), getMyPurchases(), listDevices()]);
+
+    // exams the student has any activity in: cloud attempts + this browser's stats/history
+    let attempts = [];
+    if (user) { try { attempts = await getAllAttempts(); } catch (e) {} }
+    const localSlugs = live.map((e) => e.slug).filter((s) => { try { return localStorage.getItem(`stats:${s}`) || localStorage.getItem(`hist:${s}`); } catch (e) { return false; } });
+    const activeSlugs = [...new Set([...attempts.map((a) => a.examSlug), ...localSlugs])].filter((s) => titleOf[s]);
+
+    // ---- level / XP / streak / badges
+    const lvl = levelOf(gam.xp), lo = 60 * (lvl - 1) ** 2, hi = 60 * lvl ** 2;
+    const badgeWall = BADGES.map((b) => `<div class="fx-card" style="margin:0;padding:10px;text-align:center;opacity:${gam.badges[b.id] ? 1 : 0.45}"><div style="font-size:1.6rem;${gam.badges[b.id] ? "" : "filter:grayscale(1)"}">${b.icon}</div><b style="font-size:.8rem">${E(b.name)}</b><div class="small">${E(b.desc)}</div></div>`).join("");
+    const hub = `
+      <div class="exam-card"><h2>⭐ मेरी प्रगति</h2>
+        ${user ? "" : `<div class="fx-nudge">आप साइन-इन नहीं हैं — प्रगति सिर्फ़ इस ब्राउज़र में है। <button class="fx-link" id="dash-signin">साइन इन करें</button> ताकि यह सभी डिवाइस पर सुरक्षित रहे।</div>`}
+        <div class="fx-stats"><div><b>Level ${lvl}</b><span>${gam.xp} XP</span></div><div><b>🔥 ${gam.streak}</b><span>स्ट्रीक (सर्वश्रेष्ठ ${gam.best})</span></div><div><b>${gam.answered}</b><span>प्रश्न हल किए</span></div><div><b>${gam.tests}</b><span>टेस्ट पूरे</span></div><div><b>${pct(gam.correct, gam.answered)}%</b><span>कुल accuracy</span></div></div>
+        <div class="small">अगले Level तक: ${hi - gam.xp} XP</div>${bar(pct(gam.xp - lo, hi - lo), "mid")}
+        <div class="fx-sub">बैज (${Object.keys(gam.badges).length}/${BADGES.length})</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px">${badgeWall}</div>
+        <div class="fx-actions"><a class="btn btn-secondary btn-sm" href="/bookmarks.html">🔖 बुकमार्क और नोट्स</a><a class="btn btn-secondary btn-sm" href="/pricing.html">${allAccess.active ? "✅ All-Access सक्रिय" + (allAccess.expires ? " (" + allAccess.expires + " तक)" : "") : "⭐ प्लान देखें"}</a></div>
+        ${myPurchases.length ? `<div class="fx-sub">🎟 सक्रिय प्लान</div><div class="fx-badges">${myPurchases.map((m) => `<span class="chip">${m.slug === ALL_ACCESS ? "All-Access" : E(titleOf[m.slug] || m.slug)}${m.expires ? " · " + m.expires + " तक" : ""}</span>`).join("")}</div>` : ""}
+        <div class="fx-sub">🔒 डिवाइस (${myDevices.length}/3)</div>
+        <p class="small">पायरेसी रोकने के लिए एक खाता अधिकतम 3 डिवाइस पर पेड कंटेंट खोल सकता है। नया डिवाइस जोड़ने के लिए पहले यहां से कोई एक हटाएं।</p>
+        <div id="device-list">${myDevices.length ? myDevices.map((d) => `<div class="fx-row" style="justify-content:space-between"><span class="small">${d.lastSeen ? "पिछली बार: " + new Date(d.lastSeen.seconds ? d.lastSeen.seconds * 1000 : d.lastSeen).toLocaleString("hi-IN") : d.id.slice(0, 10)}</span><button class="fx-qbtn" data-dev="${E(d.id)}">हटाएं</button></div>`).join("") : `<p class="small">अभी कोई डिवाइस दर्ज नहीं — पहली बार पेड कंटेंट खोलने पर यहां दिखेगी।</p>`}</div>
+      </div>`;
+
+    // ---- per-exam sections: planner, weak topics, history
+    const perExam = await Promise.all(activeSlugs.map(async (slug) => {
+      const stats = await loadStats(slug);
+      const weak = weakTopics(stats, 4, 4);
+      const plan = getPlan(slug);
+      const mine = attempts.filter((a) => a.examSlug === slug);
+      const local = getHistory(slug);
+      const tests = mine.length || local.length;
+      const correct = mine.length ? mine.reduce((s, a) => s + (a.correct || 0), 0) : local.reduce((s, a) => s + a.correct, 0);
+      const scored = mine.length ? mine.reduce((s, a) => s + (a.correct || 0) + (a.wrong || 0), 0) : local.reduce((s, a) => s + a.correct + a.wrong, 0);
+      const questions = mine.length ? mine.reduce((s, a) => s + (a.questionCount || 0), 0) : local.reduce((s, a) => s + a.total, 0);
+      let wrongCount = 0;
+      if (user) { try { wrongCount = Object.keys((await getDoc(doc(db, "users", user.uid, "wrongQuestions", slug))).data()?.ids || {}).length; } catch (e) {} }
+      const byDay = {};
+      mine.forEach((a) => { const k = dayKey(a.timestamp); const d = (byDay[k] ??= { t: 0, q: 0, c: 0, s: 0 }); d.t++; d.q += a.questionCount || 0; d.c += a.correct || 0; d.s += (a.correct || 0) + (a.wrong || 0); });
+      const dayRows = Object.entries(byDay).slice(0, 14).map(([date, d]) => `<tr><td>${date}</td><td>${d.t}</td><td>${d.q}</td><td>${pct(d.c, d.s)}%</td></tr>`).join("");
+      const mocks = local.filter((h) => h.mockId).slice(-5).reverse().map((h) => `<tr><td>${E(h.title)}</td><td class="c">${h.score.toFixed(1)}/${h.maxScore}</td><td class="c">${h.pct}%</td><td class="c">${new Date(h.ts).toLocaleDateString("hi-IN")}</td></tr>`).join("");
+      const planHtml = plan ? `<div class="fx-plan"><b>📅 स्टडी प्लान:</b> आज ${todayCount(slug)}/${plan.daily} प्रश्न ${bar(pct(todayCount(slug), plan.daily), todayCount(slug) >= plan.daily ? "good" : "mid")}<span class="small">परीक्षा में ${daysLeft(plan.date) >= 0 ? daysLeft(plan.date) + " दिन शेष" : "तारीख निकल चुकी"}</span></div>` : "";
+      return `<div class="exam-card"><h2>${E(titleOf[slug])}</h2>
+        <div class="stat-row"><div class="stat-box"><span class="num">${tests}</span><span class="label">टेस्ट</span></div><div class="stat-box"><span class="num">${questions}</span><span class="label">प्रश्न</span></div><div class="stat-box"><span class="num">${pct(correct, scored)}%</span><span class="label">सटीकता</span></div></div>
+        ${planHtml}
+        ${weak.length ? `<div class="fx-sub">🎯 सबसे कमज़ोर टॉपिक</div><table class="fx-table">${weak.map((x) => `<tr><td>${E(x.topic)}<div class="small">${E(x.subject)}</div></td><td class="c">${x.c}/${x.c + x.w}</td><td>${bar(Math.round(x.acc * 100), accClass(x.acc * 100))}</td></tr>`).join("")}</table><div class="fx-actions"><a class="btn btn-primary btn-sm" href="${slug}/index.html?smart=1">🎯 स्मार्ट प्रैक्टिस</a></div>` : `<p class="small">कुछ और टेस्ट के बाद कमज़ोर टॉपिक यहाँ दिखेंगे।</p>`}
+        ${wrongCount ? `<div class="wrong-practice-row"><span>${wrongCount} प्रश्न जो आपसे गलत हुए</span><a class="btn btn-primary" href="${slug}/index.html?practiceWrong=1">अभ्यास करें</a></div>` : ""}
+        ${mocks ? `<div class="fx-sub">📝 हाल के मॉक/पेपर</div><table class="fx-table"><tr><th>टेस्ट</th><th>अंक</th><th>%</th><th>तारीख</th></tr>${mocks}</table>` : ""}
+        ${dayRows ? `<div class="fx-sub">दिन-वार गतिविधि</div><table class="day-table"><thead><tr><th>दिनांक</th><th>टेस्ट</th><th>प्रश्न</th><th>सटीकता</th></tr></thead><tbody>${dayRows}</tbody></table>` : ""}
+        <div class="exam-card-footer"><a class="btn btn-secondary" href="${slug}/index.html">और टेस्ट लें</a></div></div>`;
+    }));
+    const empty = activeSlugs.length ? "" : `<div class="exam-card"><p>अभी तक कोई टेस्ट नहीं दिया। <a href="/">कोई परीक्षा चुनें</a> और पहला टेस्ट दें — यहीं आपकी प्रगति दिखेगी।</p></div>`;
+
+    // ---- referral (signed-in only)
+    let referral = "";
+    if (user) {
+      const code = await ensureReferralCode();
+      const link = `https://rajgkguru.aldhruacademy.com/register.html?ref=${code}`;
+      const n = code ? await referralCount(code) : null;
+      referral = `<div class="exam-card"><h2>🤝 दोस्तों को बुलाएं</h2><p class="small">अपना लिंक साझा करें — जो दोस्त इससे जुड़ेंगे, उनकी गिनती यहाँ दिखेगी। (जुड़ने पर मिलने वाले इनाम की घोषणा जल्द होगी।)</p>
+        <div class="fx-row"><input class="fx-select" readonly value="${E(link)}" style="flex:1" id="ref-link"><button class="btn btn-secondary btn-sm" id="ref-copy">कॉपी</button><a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent("मैं RAJ G.K. GURU पर राजस्थान की परीक्षाओं की तैयारी कर रहा/रही हूँ — असली PYQ आधारित मुफ़्त टेस्ट: " + link)}">WhatsApp</a></div>
+        <div class="small">आपका कोड: <b>${E(code || "")}</b>${n != null ? ` · अब तक जुड़े: <b>${n}</b>` : ""}</div></div>`;
+    }
+
+    root.innerHTML = `<h1 style="margin-bottom:18px">मेरा डैशबोर्ड</h1>` + hub + empty + perExam.join("") + referral;
+    document.getElementById("dash-signin")?.addEventListener("click", async () => { await showAuthModal({ reason: "प्रगति सुरक्षित रखने के लिए साइन इन करें।" }); main(); });
+    document.getElementById("ref-copy")?.addEventListener("click", () => { const i = document.getElementById("ref-link"); i.select(); navigator.clipboard?.writeText(i.value); });
+    document.querySelectorAll("[data-dev]").forEach((b) => {
+      b.onclick = async () => { if (await removeDevice(b.dataset.dev)) main(); };
+    });
+  }
+
+  main();
+</script>
+</body>
+</html>

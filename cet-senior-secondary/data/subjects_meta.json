@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "name": "सामान्य ज्ञान (राजस्थान एवं भारत) [General Knowledge (Rajasthan & India)]"
+    },
+    {
+      "name": "सामान्य विज्ञान एवं योग्यता [General Science & Aptitude]"
+    },
+    {
+      "name": "भाषा, कंप्यूटर एवं समसामयिकी [Language, Computer & Current Affairs]"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan History, Art & Culture",
+      "name_hindi": "राजस्थान का इतिहास, कला एवं संस्कृति",
+      "section": "सामान्य ज्ञान (राजस्थान एवं भारत) [General Knowledge (Rajasthan & India)]",
+      "scope_note": "Covers ancient civilizations of Rajasthan, historical events, major dynasties, administrative and revenue systems, architecture, arts, paintings, handicrafts, freedom movement, political awakening, Prajamandal movements, unification of Rajasthan, folk languages, literature, music, dance, saints, poets, warriors, folk deities, fairs, festivals, customs, attire, and ornaments of Rajasthan."
+    },
+    {
+      "name": "Geography (India & Rajasthan)",
+      "name_hindi": "भारत एवं राजस्थान का भूगोल",
+      "section": "सामान्य ज्ञान (राजस्थान एवं भारत) [General Knowledge (Rajasthan & India)]",
+      "scope_note": "Includes physical features of India (mountains, plateaus, deserts, plains, rivers, dams, lakes, wildlife, sanctuaries) and Rajasthan (climate, vegetation, soils, rivers, dams, lakes, natural resources like minerals, forest, water, livestock, wildlife, population, tribes, and tourism)."
+    },
+    {
+      "name": "Indian Polity with Rajasthan Focus",
+      "name_hindi": "भारतीय राजव्यवस्था (राजस्थान पर विशेष बल)",
+      "section": "सामान्य ज्ञान (राजस्थान एवं भारत) [General Knowledge (Rajasthan & India)]",
+      "scope_note": "Focuses on the nature of the Indian Constitution, Preamble, Fundamental Rights, Directive Principles, Fundamental Duties. For Rajasthan, it covers the political and administrative system: Governor, Chief Minister, State Assembly, High Court, Rajasthan Public Service Commission, State Election Commission, State Information Commission, State Human Rights Commission, Chief Secretary, District Administration, Local Self-Government, and Panchayati Raj."
+    },
+    {
+      "name": "Economy of Rajasthan",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "सामान्य ज्ञान (राजस्थान एवं भारत) [General Knowledge (Rajasthan & India)]",
+      "scope_note": "Covers agricultural and economic development in Rajasthan, major crops, agro-based industries, major irrigation projects, desert development projects, handicrafts, unemployment, drought, famine, various welfare schemes, MNREGA, development institutions, small enterprises, financial institutions, and the role of Panchayati Raj institutions in rural development."
+    },
+    {
+      "name": "Everyday Science",
+      "name_hindi": "दैनिक विज्ञान",
+      "section": "सामान्य विज्ञान एवं योग्यता [General Science & Aptitude]",
+      "scope_note": "Encompasses physical and chemical changes, oxidation-reduction, catalysts, metals, non-metals, important compounds, carbon and its compounds, hydrocarbons, allotropes of carbon, CFCs, CNG, polymers, soap, detergents, reflection and dispersion of light, lenses, vision defects, space and information technology, genetics, environmental studies (ecosystems, energy flow, biogeochemical cycles), biotechnology, economic importance of animals and plants, blood groups, blood transfusion, Rh factor, pathogens, human health, malnutrition, and diseases."
+    },
+    {
+      "name": "Reasoning & Mental Ability",
+      "name_hindi": "तार्किक विवेचन एवं मानसिक योग्यता",
+      "section": "सामान्य विज्ञान एवं योग्यता [General Science & Aptitude]",
+      "scope_note": "Includes Vedic math for squares, cubes, square roots, cube roots, factorization, polynomials, equations, linear and quadratic equations, logarithms, ratio-proportion, percentage, profit-loss, simple and compound interest, discount, geometry (angles, lines, triangles, Cartesian coordinates, distance formula, internal/external division), mensuration (area of plane figures, circumference/area of circle, surface area/volume of cube, cuboid, sphere, cone, cylinder), trigonometry, data representation, measures of central tendency, mean deviation, birth-death statistics, indices, general mental ability, logical reasoning, and analytical ability."
+    },
+    {
+      "name": "General Hindi",
+      "name_hindi": "सामान्य हिन्दी",
+      "section": "भाषा, कंप्यूटर एवं समसामयिकी [Language, Computer & Current Affairs]",
+      "scope_note": "Covers Hindi grammar topics such as Sandhi, Samas, prefixes, suffixes, synonyms, antonyms, word pairs, word purification, sentence purification, active/passive voice, phrases, idioms, technical terms (English to Hindi), and official letter writing."
+    },
+    {
+      "name": "General English",
+      "name_hindi": "सामान्य अंग्रेजी",
+      "section": "भाषा, कंप्यूटर एवं समसामयिकी [Language, Computer & Current Affairs]",
+      "scope_note": "Covers English grammar topics including tenses, voice (active/passive), narration (direct/indirect), articles, determiners, prepositions, translation (Hindi to English and vice-versa), glossary of official/technical terms, synonyms, antonyms, one-word substitution, comprehension, and knowledge of writing official/demi-official/circulars letters."
+    },
+    {
+      "name": "Computer Knowledge",
+      "name_hindi": "कम्प्यूटर का ज्ञान",
+      "section": "भाषा, कंप्यूटर एवं समसामयिकी [Language, Computer & Current Affairs]",
+      "scope_note": "Covers characteristics of computers, computer organization (RAM, ROM, File System, Input & Output Devices), and MS-Office (Exposure to Word, Excel, PowerPoint)."
+    },
+    {
+      "name": "Current Affairs",
+      "name_hindi": "समसामयिक घटनाएँ",
+      "section": "भाषा, कंप्यूटर एवं समसामयिकी [Language, Computer & Current Affairs]",
+      "scope_note": "Includes major contemporary national and international events, personalities and places in news, sports, and games."
+    }
+  ]
+}

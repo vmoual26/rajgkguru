@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard.html
+Disallow: /register.html
+Disallow: /bookmarks.html
+Sitemap: https://rajgkguru.aldhruacademy.com/sitemap.xml

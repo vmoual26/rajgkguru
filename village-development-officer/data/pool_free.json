@@ -1,0 +1,3988 @@
+{
+  "subject_ratios": {
+    "Mathematics": 0.0849,
+    "Indian Ecology and Wildlife": 0.0566,
+    "World Geography": 0.0472,
+    "Agriculture and Economic Development (India & Rajasthan)": 0.1604,
+    "Rajasthan Geography": 0.0377,
+    "Rajasthan Natural Resources": 0.0283,
+    "Hindi Language": 0.2264,
+    "Rajasthan History and Culture": 0.1792,
+    "Basic Computer Knowledge": 0.066,
+    "English Language": 0.1132
+  },
+  "questions": [
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||10|Master Question Paper, WCS (Z123)",
+      "serial_no": 10,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Square root approximation",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "√300 की सबसे समीप पूर्ण संख्या क्या होगी ?",
+        "options": [
+          "15",
+          "17",
+          "18",
+          "20"
+        ],
+        "explanation": "√300 का मान लगभग 17.32 होता है। 17 का वर्ग 289 है और 18 का वर्ग 324 है। चूंकि 300, 289 के अधिक करीब है, इसलिए सबसे समीप पूर्ण संख्या 17 है।"
+      },
+      "qkey": "ceaefd2ff328",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||20|Master Question Paper, 1st Phase(A13)",
+      "serial_no": 20,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subtopic": "Percentage Change in Consumption",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "पेट्रोल का मूल्य 20% बढ़ जाता है। उसके उपभोग में कितने प्रतिशत की कमी की जाए, जिससे पेट्रोल पर होने वाला व्यय उतना ही रहे?",
+        "options": [
+          "25%",
+          "20%",
+          "16$\\frac{2}{3}$%",
+          "13$\\frac{1}{3}$%"
+        ],
+        "explanation": "पेट्रोल का मूल्य 20% बढ़ जाता है। यदि व्यय को समान रखना है, तो उपभोग में कमी का प्रतिशत = (मूल्य वृद्धि प्रतिशत / (100 + मूल्य वृद्धि प्रतिशत)) * 100। यहाँ, (20 / (100 + 20)) * 100 = (20 / 120) * 100 = (1/6) * 100 = 16⅔%।"
+      },
+      "qkey": "2f696675cf5a",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2025|(single)|135",
+      "serial_no": 135,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Particular integral",
+      "subtopic": "",
+      "source_cycle": "STATISTICAL OFFICER 2025",
+      "hindi": {
+        "question": "अवकल समीकरण $\\frac{d^{2}y}{dx^{2}}+y=tan~x$ का विशिष्ट समाकल है -",
+        "options": [
+          "$-cos~x\\int sec~X~dx$",
+          "$(cos~x-sin~x)\\int sec~x~dx$",
+          "$-sec~x~tan~x\\int sec~x~dx$",
+          "$-sec~x\\int sec~x~dx$"
+        ],
+        "explanation": "अवकल समीकरण $\\frac{d^2y}{dx^2}+y=\\tan x$ का विशिष्ट समाकल (Particular Integral) ज्ञात करने के लिए 'चरों के विचरण की विधि' (Method of Variation of Parameters) का उपयोग किया जाता है। इस विधि से, विशिष्ट समाकल $y_p = -y_1 \\int \\frac{y_2 R(x)}{W} dx + y_2 \\int \\frac{y_1 R(x)}{W} dx$ होता है, जहाँ $y_1 = \\cos x$, $y_2 = \\sin x$, $R(x) = \\tan x$ और $W$ व्रोंस्कियन है। गणना करने पर, विशिष्ट समाकल $- \\cos x \\int \\sec x dx$ प्राप्त होता है।"
+      },
+      "qkey": "6e2f660c38c0",
+      "source_exam": "LIB__STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||6|Master Question Paper, 3st Phase(C09)",
+      "serial_no": 6,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subtopic": "Distribution based on conditions",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "₹ 300 की राशि P, Q तथा R में इस प्रकार बाँटना है कि Q को P से ₹ 30 अधिक प्राप्त हों और R को Q से ₹ 60 अधिक प्राप्त हों। उनके हिस्सों में अनुपात हैः",
+        "options": [
+          "3:4:5",
+          "3:4:6",
+          "2:3:5",
+          "4:5:6"
+        ],
+        "explanation": "मान लीजिए P को x रुपये मिलते हैं। तो Q को x+30 रुपये मिलेंगे और R को (x+30)+60 = x+90 रुपये मिलेंगे। कुल राशि 300 रुपये है, इसलिए x + (x+30) + (x+90) = 300। इसे हल करने पर x = 60 मिलता है। इस प्रकार, P को 60, Q को 90 और R को 150 रुपये मिलते हैं। इनका अनुपात 60:90:150 है, जिसे सरल करने पर 2:3:5 प्राप्त होता है।"
+      },
+      "qkey": "b2a8799ba5bc",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEADMASTER (SECONDARY SCHOOL)::HEADMASTER (SECONDARY SCHOOL) 2018|(single)|44",
+      "serial_no": 44,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Volume and surface area",
+      "subtopic": "",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2018",
+      "hindi": {
+        "question": "4cm और 8cm के क्रमशः भीतरी और बाहरी व्यासों वाले एक खोखले गोले को गलाकर 8cm व्यास के आधार वाला एक ठोस शंकु बनाया जाता है। शंकु की ऊँचाई क्या है?",
+        "options": [
+          "12 cm",
+          "14 cm",
+          "17 cm",
+          "18 cm"
+        ],
+        "explanation": "खोखले गोले का आयतन = (4/3)π($R^3 - r^3$)। बाहरी व्यास 8cm है, तो बाहरी त्रिज्या R = 4cm। भीतरी व्यास 4cm है, तो भीतरी त्रिज्या r = 2cm। गोले का आयतन = (4/3)π($4^3 - 2^3$) = (4/3)π(64 - 8) = (4/3)π(56) = 224π/3 cm³। शंकु का आयतन = (1/3)π($r_s^2$h)। शंकु के आधार का व्यास 8cm है, तो त्रिज्या $r_s$ = 4cm। शंकु का आयतन = (1/3)π($4^2$h) = 16πh/3 cm³। दोनों आयतनों को बराबर करने पर, 224π/3 = 16πh/3, जिससे 224 = 16h और h = 14 cm प्राप्त होता है।"
+      },
+      "qkey": "90677b98f63a",
+      "source_exam": "LIB__HEADMASTER (SECONDARY SCHOOL)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__INDUSTRY DEPARTMENT(INDUSTRY EXTENSION OFFICER)::Industry Department(Industry Extension Officer) 2018||39",
+      "serial_no": 39,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subtopic": "",
+      "source_cycle": "Industry Department(Industry Extension Officer) 2018",
+      "hindi": {
+        "question": "एक घड़ी की घण्टे वाली तथा मिनट वाली सुईयों की लम्बाईयाँ क्रमशः 4 सेमी तथा 6 सेमी है, तो 2 दिनों में घंटे वाली सुई की नोंक द्वारा चली गई दूरी तथा 3 दिनों में मिनट वाली सुई की नोंक द्वारा चलित दूरी का अनुपात है",
+        "options": [
+          "1:9",
+          "1:27",
+          "2:3",
+          "1:12"
+        ],
+        "explanation": "घंटे वाली सुई 12 घंटे में एक चक्कर पूरा करती है, जबकि मिनट वाली सुई 1 घंटे में एक चक्कर पूरा करती है। 2 दिनों (48 घंटे) में घंटे वाली सुई 4 चक्कर लगाएगी, और 3 दिनों (72 घंटे) में मिनट वाली सुई 72 चक्कर लगाएगी। चली गई दूरी = 2 * π * त्रिज्या * चक्करों की संख्या। घंटे वाली सुई द्वारा चली गई दूरी = 2 * π * 4 * 4 = 32π। मिनट वाली सुई द्वारा चली गई दूरी = 2 * π * 6 * 72 = 864π। इनका अनुपात 32π : 864π = 1 : 27 है।"
+      },
+      "qkey": "5b146cba2354",
+      "source_exam": "LIB__INDUSTRY DEPARTMENT(INDUSTRY EXTENSION OFFICER)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2018||102",
+      "serial_no": 102,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Arithmetic",
+      "subtopic": "Percentage and Consumption",
+      "source_cycle": "Supervisor (Woman) (Anganwadi Worker Quota) 2018",
+      "hindi": {
+        "question": "पेट्रोल की कीमत में 25% वृद्धि होती है। ग्राहक को अपना उपभोग कितना प्रतिशत कम करना चाहिए, ताकि पेट्रोल का पिछला बिल न बदले ?",
+        "options": [
+          "20%",
+          "25%",
+          "30%",
+          "33.33%"
+        ],
+        "explanation": "पेट्रोल की कीमत में 25% की वृद्धि हुई है। यदि ग्राहक अपना पिछला बिल नहीं बदलना चाहता है, तो उसे उपभोग में कमी करनी होगी। यह कमी (वृद्धि प्रतिशत / (100 + वृद्धि प्रतिशत)) * 100% के बराबर होगी। अतः, (25 / (100 + 25)) * 100% = (25 / 125) * 100% = 20%।"
+      },
+      "qkey": "77621d9d7609",
+      "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__INDUSTRY DEPARTMENT(INDUSTRY EXTENSION OFFICER)::Industry Department(Industry Extension Officer) 2018||21",
+      "serial_no": 21,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Percentage",
+      "subtopic": "",
+      "source_cycle": "Industry Department(Industry Extension Officer) 2018",
+      "hindi": {
+        "question": "एक विद्यार्थी को एक परीक्षा में उत्तीर्ण होने के लिए 36% अंक प्राप्त करने थे। उसने 28% अंक प्राप्त किये तथा 6 अंकों से अनुत्तीर्ण घोषित कर दिया गया, तो पूर्णांक होंगे",
+        "options": [
+          "50",
+          "75",
+          "70",
+          "80"
+        ],
+        "explanation": "यदि उत्तीर्ण होने के लिए 36% अंक चाहिए थे और विद्यार्थी ने 28% अंक प्राप्त किए तथा 6 अंकों से अनुत्तीर्ण हो गया, तो 36% - 28% = 8% अंक 6 के बराबर हैं। अतः, 100% अंक (पूर्णांक) = (6/8) * 100 = 75। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "9e26b6a07d2a",
+      "source_exam": "LIB__INDUSTRY DEPARTMENT(INDUSTRY EXTENSION OFFICER)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||59|Master Question Paper, 5th Phase(B14)",
+      "serial_no": 59,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "HCF and LCM",
+      "subtopic": "Time-based LCM Problem",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "तीन घंटियाँ क्रमशः 9 मिनट, 12 मिनट तथा 15 मिनट के अन्तराल पर बजती हैं। यदि वे एक साथ एक ही समय पर बजना शुरु करती हैं तो अगली बार कितने समय के बाद एक साथ बजेंगी?",
+        "options": [
+          "1 घंटा 50 मिनट",
+          "2 घंटे",
+          "2 घंटे 30 मिनट",
+          "3 घंटे"
+        ],
+        "explanation": "तीन घंटियाँ क्रमशः 9 मिनट, 12 मिनट और 15 मिनट के अंतराल पर बजती हैं। उनके एक साथ बजने का अगला समय इन संख्याओं का लघुत्तम समापवर्त्य (LCM) होगा। 9, 12 और 15 का LCM 180 मिनट है, जो 3 घंटे के बराबर है। इसलिए, '3 घंटे' सही उत्तर है।"
+      },
+      "qkey": "e6e718153125",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEADMASTER (SECONDARY SCHOOL)::HEADMASTER (SECONDARY SCHOOL) 2011||42",
+      "serial_no": 42,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Compound and simple interest",
+      "subtopic": "",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2011",
+      "hindi": {
+        "question": "यदि किसी राशि पर 10% वार्षिक दर से 3 वर्षों के लिये चक्रवृद्धि ब्याज 331 रु. हो तो उसी राशि पर समान समय के लिए तथा समान दर पर सरल ब्याज होगा :",
+        "options": [
+          "200 रु.",
+          "300 रु.",
+          "231 रु.",
+          "291 रु."
+        ],
+        "explanation": "माना मूलधन P है। चक्रवृद्धि ब्याज के लिए, $P(1+0.10)^3 - P = 331$। $P(1.331) - P = 331$। $0.331P = 331$, तो $P = 1000$ रु.। अब, समान राशि (1000 रु.) पर समान दर (10%) और समान समय (3 वर्ष) के लिए सरल ब्याज = $(P \\times R \\times T) / 100 = (1000 \\times 10 \\times 3) / 100 = 300$ रु.।"
+      },
+      "qkey": "bcad3603c7f3",
+      "source_exam": "LIB__HEADMASTER (SECONDARY SCHOOL)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::PROTECTION OFFICER::PROTECTION OFFICER 2022|(single)|83",
+      "serial_no": 83,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Consecutive numbers problem",
+      "subtopic": "",
+      "source_cycle": "PROTECTION OFFICER 2022",
+      "hindi": {
+        "question": "यदि तीन क्रमागत धनात्मक संख्याओं का योग मध्य संख्या से 130 अधिक है, तो इनमें से बड़ी संख्या है :",
+        "options": [
+          "64",
+          "65",
+          "66",
+          "67"
+        ],
+        "explanation": "माना तीन क्रमागत धनात्मक संख्याएँ $x-1, x, x+1$ हैं। उनका योग $(x-1) + x + (x+1) = 3x$ है। प्रश्न के अनुसार, $3x = x + 130$। इसे हल करने पर $2x = 130$, तो $x = 65$। सबसे बड़ी संख्या $x+1 = 65+1 = 66$ है।"
+      },
+      "qkey": "45d36ada24b7",
+      "source_exam": "PROTECTION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||106|Master Question Paper, WCS (Z123)",
+      "serial_no": 106,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Trigonometric inverse",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "साइन फलन में व्युत्क्रम क्या है ?",
+        "options": [
+          "सीकेंट",
+          "कोसीकेन्ट",
+          "कोटेंजेंट",
+          "कोसाइन"
+        ],
+        "explanation": "त्रिकोणमिति में, साइन फलन का व्युत्क्रम कोसीकेन्ट फलन होता है। यह sin(x) = 1/csc(x) या csc(x) = 1/sin(x) संबंध द्वारा परिभाषित होता है।"
+      },
+      "qkey": "e6012e944fc1",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2021|(single)|117",
+      "serial_no": 117,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Area under curve",
+      "subtopic": "",
+      "source_cycle": "STATISTICAL OFFICER 2021",
+      "hindi": {
+        "question": "वक्र r = a sin 3θ के एक पाश का क्षेत्रफल बराबर है -",
+        "options": [
+          "πa²/6",
+          "πa²/3",
+          "πa²/12",
+          "πa²/24"
+        ],
+        "explanation": "वक्र r = a sin 3θ एक गुलाब वक्र (rose curve) है जिसमें तीन पाश (loops) होते हैं। एक पाश का क्षेत्रफल ज्ञात करने के लिए समाकलन का उपयोग किया जाता है। सूत्र (1/2)∫r²dθ का उपयोग करके, एक पाश का क्षेत्रफल πa²/12 प्राप्त होता है।"
+      },
+      "qkey": "2b052b301925",
+      "source_exam": "LIB__STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||96|Master Question Paper for Exam Patwar-Code 104(A)",
+      "serial_no": 96,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Ratio and Proportion",
+      "subtopic": "Direct and Inverse Proportion",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "यदि 45 मीटर की एकसमान छड़ का वजन 171 कि.ग्रा. है, तो उसी तरह की 12 मीटर छड़ का वजन कितना होगा ?",
+        "options": [
+          "45.6 कि.ग्रा.",
+          "50.3 कि.ग्रा.",
+          "63.2 कि.ग्रा.",
+          "33.9 कि.ग्रा."
+        ],
+        "explanation": "यदि 45 मीटर छड़ का वजन 171 कि.ग्रा. है, तो 1 मीटर छड़ का वजन = 171 / 45 कि.ग्रा.। उसी तरह की 12 मीटर छड़ का वजन = (171 / 45) * 12 = 3.8 * 12 = 45.6 कि.ग्रा.। इसलिए, सही उत्तर 45.6 कि.ग्रा. है।"
+      },
+      "qkey": "62ccd7884ea5",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||11|Forest Guard 2020 _ Master Question Paper 130D",
+      "serial_no": 11,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "subtopic": "Area of circles",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "11. दो संकेन्द्रित वृत्तों के व्यास 8 से.मी. और 10 से.मी. हैं। उनके बीच के क्षेत्र का क्षेत्रफल है-",
+        "options": [
+          "$\\pi~से.मी.^{2}$",
+          "37 से.मी.2",
+          "6 से.मी.2",
+          "97 से.मी.2"
+        ],
+        "explanation": "दो संकेन्द्रित वृत्तों के व्यास 8 सेमी और 10 सेमी हैं, तो उनकी त्रिज्याएँ क्रमशः 4 सेमी और 5 सेमी होंगी। उनके बीच के क्षेत्र का क्षेत्रफल बड़े वृत्त के क्षेत्रफल में से छोटे वृत्त के क्षेत्रफल को घटाकर ज्ञात किया जाता है। क्षेत्रफल = $\\pi (R^2 - r^2) = \\pi (5^2 - 4^2) = \\pi (25 - 16) = 9\\pi$ वर्ग सेमी। दिए गए विकल्पों में से 97 वर्ग सेमी एक त्रुटिपूर्ण विकल्प है, क्योंकि $9\\pi \\approx 28.27$ वर्ग सेमी होता है। हालांकि, आधिकारिक उत्तर 97 सेमी² है, जो गणितीय रूप से सही नहीं है।"
+      },
+      "qkey": "a027600a6c03",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__FORESTER::Forester 2026||55",
+      "serial_no": 55,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Mean proportional",
+      "subtopic": "",
+      "source_cycle": "Forester 2026",
+      "hindi": {
+        "question": "8 और 98 के बीच का माध्यानुपाती है :",
+        "options": [
+          "42",
+          "26",
+          "28",
+          "45"
+        ],
+        "explanation": "दो संख्याओं a और b का माध्यानुपाती √(a*b) होता है। यहाँ a = 8 और b = 98 है। तो, माध्यानुपाती = √(8 * 98) = √(784) = 28। इसलिए, विकल्प (3) सही उत्तर है।"
+      },
+      "qkey": "b5cfe4055d1a",
+      "source_exam": "LIB__FORESTER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEADMASTER (SECONDARY SCHOOL)::HEADMASTER (SECONDARY SCHOOL) 2018|(single)|34",
+      "serial_no": 34,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Mathematics",
+      "topic": "Number system",
+      "subtopic": "",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2018",
+      "hindi": {
+        "question": "दो अंकों वाली एक संख्या है। अंकों का योग 10 है। अंकों को आपस में बदलने पर संख्या 36 कम हो जाती हैं। दोनों अंकों का गुणनफल क्या है?",
+        "options": [
+          "21",
+          "24",
+          "16",
+          "9"
+        ],
+        "explanation": "मान लीजिए दो अंकों की संख्या 10t + u है, जहाँ t दहाई का अंक और u इकाई का अंक है। अंकों का योग t + u = 10 है। अंकों को बदलने पर संख्या 10u + t हो जाती है। प्रश्न के अनुसार, (10t + u) - (10u + t) = 36, जिससे 9t - 9u = 36 या t - u = 4 प्राप्त होता है। समीकरणों t + u = 10 और t - u = 4 को हल करने पर t = 7 और u = 3 प्राप्त होता है। दोनों अंकों का गुणनफल 7 * 3 = 21 है।"
+      },
+      "qkey": "91692c77b2b3",
+      "source_exam": "LIB__HEADMASTER (SECONDARY SCHOOL)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "Village Development Officer 2025||160",
+      "serial_no": 160,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Wildlife Conservation",
+      "subtopic": "Causes of Wildlife Depletion",
+      "source_cycle": "Village Development Officer 2025",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसा भारत में घटते वन्यजीव का कारण नहीं है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+        "options": [
+          "अनधिकृत शिकार",
+          "जंगल की आग",
+          "वन्यजीव का संरक्षण",
+          "औद्योगीकरण"
+        ],
+        "explanation": "वन्यजीव का संरक्षण भारत में घटते वन्यजीवों का कारण नहीं है, बल्कि यह वन्यजीवों की रक्षा और उनके आवासों को बनाए रखने का एक प्रयास है। अनधिकृत शिकार, जंगल की आग और औद्योगीकरण सभी वन्यजीवों की आबादी में गिरावट के प्रमुख कारण हैं। इसलिए, सही उत्तर वन्यजीव का संरक्षण है।"
+      },
+      "qkey": "74d36d4ef77c"
+    },
+    {
+      "id": "RMSSB::Lab Assistant::Lab Assistant 2026||16",
+      "serial_no": 16,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Physical Features of India",
+      "subtopic": "Islands of India",
+      "source_cycle": "Lab Assistant 2026",
+      "hindi": {
+        "question": "सूची I को सूची II से सुमेलित करें -सूची I (नाम) सूची II (प्रकार)a. व्हीलर द्वीप I. प्रवाल द्वीपb. बूचर द्वीप II. पर्वतीय द्वीपc. अंडमान और निकोबार द्वीप III. चट्टानी द्वीपd. लक्षद्वीप समूह IV. जलोढ द्वीपनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+        "options": [
+          "a-IV, b-III, c-II, d-I",
+          "a-IV, b-II, c-I, d-III",
+          "a-II, b-I, c-III, d-IV",
+          "a-I, b-IV, c-II, d-III"
+        ],
+        "explanation": "दिए गए द्वीपों का उनके प्रकार से सही मिलान इस प्रकार है: व्हीलर द्वीप एक जलोढ़ द्वीप है, बूचर द्वीप एक चट्टानी द्वीप है, अंडमान और निकोबार द्वीप समूह पर्वतीय द्वीप हैं और लक्षद्वीप समूह प्रवाल द्वीप हैं।"
+      },
+      "qkey": "0bb215605471",
+      "source_exam": "Lab Assistant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Stenographer::Stenographer 2024||74",
+      "serial_no": 74,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Natural Resources of India",
+      "subtopic": "Mineral mining centers",
+      "source_cycle": "Stenographer 2024",
+      "hindi": {
+        "question": "बालघाट खनन केंद्र भारत के निम्नलिखित में से किस राज्य में अवस्थित है ?",
+        "options": [
+          "बिहार",
+          "उत्तर प्रदेश",
+          "मध्य प्रदेश",
+          "झारखंड"
+        ],
+        "explanation": "बालाघाट खनन केंद्र भारत के मध्य प्रदेश राज्य में स्थित है। यह मुख्य रूप से मैंगनीज और तांबे के खनन के लिए जाना जाता है। इसलिए, मध्य प्रदेश सही उत्तर है।"
+      },
+      "qkey": "c9bc7901120c",
+      "source_exam": "Stenographer",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)::HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021|Paper I|107",
+      "serial_no": 107,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Sugarcane production",
+      "subtopic": "",
+      "source_cycle": "HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021",
+      "hindi": {
+        "question": "भारत का सर्वाधिक गन्ना उत्पादक राज्य है -",
+        "options": [
+          "कर्नाटक",
+          "उत्तर प्रदेश",
+          "महाराष्ट्र",
+          "तमिलनाडु"
+        ],
+        "explanation": "भारत का सर्वाधिक गन्ना उत्पादक राज्य उत्तर प्रदेश है। उत्तर प्रदेश में गन्ने की खेती बड़े पैमाने पर की जाती है और यह देश में गन्ना उत्पादन में अग्रणी है।"
+      },
+      "qkey": "33ebb20c4071",
+      "source_exam": "LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|15-09-2021|8",
+      "serial_no": 8,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Physical Geography",
+      "subtopic": "Rivers and River Systems",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "रुद्रप्रयाग किन नदियों के संगम पर अवस्थित है ?",
+        "options": [
+          "भागीरथी और अलकनंदा",
+          "मंदाकिनी और अलकनंदा",
+          "नंदाकिनी और अलकनंदा",
+          "धौलीगंगा और अलकनंदा"
+        ],
+        "explanation": "रुद्रप्रयाग मंदाकिनी और अलकनंदा नदियों के संगम पर स्थित है। यह उत्तराखंड के पंच प्रयागों में से एक है और एक महत्वपूर्ण धार्मिक स्थल है।"
+      },
+      "qkey": "35861284df6a",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__DEPUTY COMMANDANT::DEPUTY COMMANDANT 2020|(single)|34",
+      "serial_no": 34,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Rivers originating Mansarovar",
+      "subtopic": "",
+      "source_cycle": "DEPUTY COMMANDANT 2020",
+      "hindi": {
+        "question": "निम्न में से कौन सी नदी का उद्गम मानसरोवर झील के निकट नहीं है ?",
+        "options": [
+          "सतलज",
+          "सिंधु",
+          "ब्रह्मपुत्र",
+          "चिनाब"
+        ],
+        "explanation": "चिनाब नदी का उद्गम मानसरोवर झील के निकट नहीं है। सतलज, सिंधु और ब्रह्मपुत्र नदियाँ मानसरोवर झील या उसके आसपास के क्षेत्र से निकलती हैं, जबकि चिनाब हिमाचल प्रदेश में बारालाचा ला दर्रे के पास से निकलती है।"
+      },
+      "qkey": "86bf9f928bb1",
+      "source_exam": "LIB__DEPUTY COMMANDANT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__MOTOR VEHICLE SUB INSPECTOR::Motor Vehicle Sub Inspector 2021||27",
+      "serial_no": 27,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Rainwater harvesting",
+      "subtopic": "",
+      "source_cycle": "Motor Vehicle Sub Inspector 2021",
+      "hindi": {
+        "question": "राज्य में छत वर्षा जल संचयन अनिवार्य है।",
+        "options": [
+          "तमिलनाडु",
+          "हरियाणा",
+          "असम",
+          "राजस्थान"
+        ],
+        "explanation": "तमिलनाडु भारत का पहला राज्य है जिसने छत वर्षा जल संचयन को अनिवार्य किया है। यह कदम राज्य में पानी की कमी को दूर करने और भूजल स्तर को बढ़ाने के लिए उठाया गया था। इस नीति को 2001 में लागू किया गया था।"
+      },
+      "qkey": "3518f4bd31cb",
+      "source_exam": "LIB__MOTOR VEHICLE SUB INSPECTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__DEPUTY COMMANDANT::DEPUTY COMMANDANT 2025|(single)|49",
+      "serial_no": 49,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "Population density growth",
+      "subtopic": "",
+      "source_cycle": "DEPUTY COMMANDANT 2025",
+      "hindi": {
+        "question": "भारत के किस जनगणना वर्ष में जनसंख्या घनत्व में सर्वाधिक निरपेक्ष वृद्धि अंकित की गई थी?",
+        "options": [
+          "1991",
+          "2011",
+          "2001",
+          "1981"
+        ],
+        "explanation": "भारत के जनगणना वर्ष 2001 में जनसंख्या घनत्व में सर्वाधिक निरपेक्ष वृद्धि अंकित की गई थी। यह जनगणना के आंकड़ों के विश्लेषण पर आधारित है।"
+      },
+      "qkey": "019cc4868018",
+      "source_exam": "LIB__DEPUTY COMMANDANT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||42|Master Question Paper 131A",
+      "serial_no": 42,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Indian Ecology and Wildlife",
+      "topic": "India's Physical Features",
+      "subtopic": "Straits and Water Bodies",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'पाक स्ट्रेट' अवस्थित है -",
+        "options": [
+          "भारत और मालदीव के मध्य",
+          "भारत और इण्डोनेशिया के मध्य",
+          "भारत और म्यानमार के मध्य",
+          "भारत और श्रीलंका के मध्य"
+        ],
+        "explanation": "पाक स्ट्रेट (पाक जलडमरूमध्य) भारत और श्रीलंका के मध्य अवस्थित है। यह बंगाल की खाड़ी को मन्नार की खाड़ी से जोड़ता है और दोनों देशों के बीच एक महत्वपूर्ण समुद्री मार्ग है।"
+      },
+      "qkey": "b7a2110246a4",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "Village Development Officer 2025||49",
+      "serial_no": 49,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Oceanography",
+      "subtopic": "Great Barrier Reef Location",
+      "source_cycle": "Village Development Officer 2025",
+      "hindi": {
+        "question": "ग्रेट बैरियर रीफ\nके साथ स्थित है/ से लगा हुआ है।",
+        "options": [
+          "ऑस्ट्रेलिया के पश्चिमी तट",
+          "अफ्रीका के पश्चिमी तट",
+          "ऑस्ट्रेलिया के उत्तर-पूर्वी तट",
+          "दक्षिण अमेरिका के पूर्वी तट"
+        ],
+        "explanation": "ग्रेट बैरियर रीफ दुनिया की सबसे बड़ी प्रवाल भित्ति प्रणाली है। यह ऑस्ट्रेलिया के उत्तर-पूर्वी तट पर स्थित है और क्वींसलैंड के तट से दूर प्रशांत महासागर में फैली हुई है।"
+      },
+      "qkey": "bf6db6fecf23"
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2016|A|94",
+      "serial_no": 94,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Global Wind Systems",
+      "subtopic": "Westerlies",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2016",
+      "hindi": {
+        "question": "उत्तर-पश्चिम से चलने वाली स्थायी पवनें हैं",
+        "options": [
+          "उत्तरी गोलार्द्ध में पछुआ",
+          "उत्तरी गोलार्द्ध में व्यापारिक",
+          "दक्षिणी गोलार्द्ध में पछुआ",
+          "दक्षिणी गोलार्द्ध में व्यापारिक"
+        ],
+        "explanation": "दक्षिणी गोलार्द्ध में पछुआ पवनें (Westerlies) मुख्य रूप से उत्तर-पश्चिम दिशा से चलती हैं। ये पवनें 30° से 60° अक्षांशों के बीच प्रवाहित होती हैं और अपनी प्रबलता के लिए जानी जाती हैं, खासकर दक्षिणी गोलार्द्ध में जहाँ भूमि का अवरोध कम होता है।"
+      },
+      "qkey": "8f79cfb19436",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|15-09-2021|3",
+      "serial_no": 3,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Physical Geography",
+      "subtopic": "Oceans and Seas",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "मेरियाना खाई किस महासागर में स्थित है ?",
+        "options": [
+          "दक्षिणी अटलांटिक महासागर",
+          "पश्चिमी प्रशान्त महासागर",
+          "पूर्वी प्रशान्त महासागर",
+          "उत्तरी अटलांटिक महासागर"
+        ],
+        "explanation": "मेरियाना खाई पश्चिमी प्रशांत महासागर में स्थित है। यह पृथ्वी पर ज्ञात सबसे गहरा समुद्री खाई है, जो फिलीपींस के पूर्व में स्थित है। इसकी गहराई लगभग 11,000 मीटर है।"
+      },
+      "qkey": "94f147ed9d04",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2016|A|93",
+      "serial_no": 93,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Physical Features",
+      "subtopic": "Mountain Ranges of Europe",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2016",
+      "hindi": {
+        "question": "निम्न में से कौन सी पर्वत श्रृंखला यूरोप की नहीं है?",
+        "options": [
+          "एटलस",
+          "कारपेथियन",
+          "पिरेनीज़",
+          "आल्प्स"
+        ],
+        "explanation": "एटलस पर्वत श्रृंखला उत्तरी अफ्रीका में स्थित है, जबकि कारपेथियन, पिरेनीज़ और आल्प्स पर्वत श्रृंखलाएँ यूरोप महाद्वीप में स्थित हैं। इसलिए, एटलस पर्वत यूरोप की पर्वत श्रृंखला नहीं है।"
+      },
+      "qkey": "81ea76cd1367",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PLATOON COMMANDER DIRECT RECRUITMENT::Platoon Commander Direct Recruitment 2025||120",
+      "serial_no": 120,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Cities on rivers",
+      "subtopic": "",
+      "source_cycle": "Platoon Commander Direct Recruitment 2025",
+      "hindi": {
+        "question": "नदियों के किनारे बसे निम्नलिखित शहरों पर विचार करें। केवल सुमेलित जोड़ों का चयन करें ।\na. काइरो – दजला नदी\nb. लाहौर – रावी नदी\nC. लंदन – टेम्स नदी\nd. रोम – टिबर नदी\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "केवल a, b और c",
+          "केवल b, c और d",
+          "केवल a, c, और d",
+          "केवल a, b और d"
+        ],
+        "explanation": "लाहौर रावी नदी के किनारे, लंदन टेम्स नदी के किनारे और रोम टिबर नदी के किनारे स्थित है। काइरो नील नदी के किनारे स्थित है, न कि दजला नदी के। इसलिए, केवल b, c और d सुमेलित जोड़े हैं।"
+      },
+      "qkey": "f027d8085ab8",
+      "source_exam": "LIB__PLATOON COMMANDER DIRECT RECRUITMENT",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||39|Master Question Paper_Social Science( L-2 )_67VX",
+      "serial_no": 39,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Atmospheric layers",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "किस परत में वायुमंडल में, क्षोभमंडल के ऊपर, ओजोन परत है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+        "options": [
+          "समतापमंडल",
+          "क्षोभमंडल",
+          "मध्यमंडल",
+          "तापमंडल"
+        ],
+        "explanation": "वायुमंडल में क्षोभमंडल के ऊपर समतापमंडल परत होती है, जिसमें ओजोन परत स्थित है। ओजोन परत सूर्य की हानिकारक पराबैंगनी किरणों को अवशोषित करती है।"
+      },
+      "qkey": "d2ef82a58e87",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|28",
+      "serial_no": 28,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Global Wind Systems",
+      "subtopic": "Factors Affecting Global Winds",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "निम्नलिखित कथनों पर विचार कीजिये :\nभूमण्डलीय पवनें प्रमुखतया निर्भर करती हैं :\nA. वायुदाब पेटियों का उद्भव\nB. पृथ्वी का घूर्णन\nC. वायुमण्डलीय आर्द्रता\nD. महाद्वीपों और महासागरों का वितरण\nसही उत्तर का चयन नीचे दिये कूट से कीजिये :\nकूट :",
+        "options": [
+          "A, B और C",
+          "B. C और D",
+          "A, C और D",
+          "A, B और D"
+        ],
+        "explanation": "भूमंडलीय पवनें मुख्य रूप से वायुदाब पेटियों के उद्भव, पृथ्वी के घूर्णन (कोरिओलिस प्रभाव), और महाद्वीपों व महासागरों के वितरण पर निर्भर करती हैं। वायुमंडलीय आर्द्रता का प्रत्यक्ष प्रभाव भूमंडलीय पवनों की दिशा या पैटर्न पर उतना नहीं होता जितना अन्य कारकों का। इसलिए, विकल्प A, B और D सही हैं।"
+      },
+      "qkey": "6b1c56cf3353",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|D|33",
+      "serial_no": 33,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Environmental Issues and Strategies",
+      "subtopic": "Sustainable Development Goals Adoption",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "कौन से वर्ष में संयुक्त राष्ट्र संघद्वारा टिकाऊ विकास के लक्ष्य (SDGs) अपनाये गये थे ?",
+        "options": [
+          "2014",
+          "2015",
+          "2016",
+          "2017"
+        ],
+        "explanation": "संयुक्त राष्ट्र संघ द्वारा टिकाऊ विकास के लक्ष्य (Sustainable Development Goals - SDGs) वर्ष 2015 में अपनाए गए थे। इन लक्ष्यों को 2030 तक प्राप्त करने का उद्देश्य रखा गया है, जिसमें गरीबी उन्मूलन, पर्यावरण संरक्षण और सभी के लिए शांति व समृद्धि सुनिश्चित करना शामिल है।"
+      },
+      "qkey": "0ee6e633e84b",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (TSP) 2018|A|50",
+      "serial_no": 50,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Globalization",
+      "subtopic": "Post-Colonial Theory",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM (TSP) 2018",
+      "hindi": {
+        "question": "'ब्लेक स्किन, व्हाईट मास्क्स' नामक पुस्तक का लेखक कौन है?",
+        "options": [
+          "नेल्सन मन्डेला",
+          "फ्रेंज़ फैनॉन",
+          "समीर अमीन",
+          "मार्टिन लूथर किंग"
+        ],
+        "explanation": "'ब्लैक स्किन, व्हाइट मास्क्स' (Black Skin, White Masks) फ्रांत्ज़ फैनॉन (Frantz Fanon) द्वारा लिखित एक महत्वपूर्ण पुस्तक है। यह पुस्तक उपनिवेशवाद, नस्लवाद और उपनिवेशित लोगों के मनोवैज्ञानिक प्रभावों का विश्लेषण करती है। फैनॉन एक मार्टीनिकियन मनोचिकित्सक, दार्शनिक, क्रांतिकारी और राजनीतिक सिद्धांतकार थे।"
+      },
+      "qkey": "c2e866f9f14f",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||108|Master Question Paper 138 SocialStudies",
+      "serial_no": 108,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Atmospheric pressure",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "समुद्र की सतह पर औसत वायुदाब कितना दर्ज किया जाता है ?",
+        "options": [
+          "1013.25 mg",
+          "1000 mg",
+          "1013.25 mb",
+          "1000 mb"
+        ],
+        "explanation": "समुद्र की सतह पर औसत वायुदाब 1013.25 मिलीबार (mb) दर्ज किया जाता है। यह एक मानक वायुमंडलीय दबाव है जिसका उपयोग मौसम विज्ञान में किया जाता है।"
+      },
+      "qkey": "088a04fe1b29",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2023|(single)|146",
+      "serial_no": 146,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Environmental and Ecological Issues",
+      "subtopic": "Desertification by Continent",
+      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2023",
+      "hindi": {
+        "question": "निम्नलिखित में से किस महाद्वीप में मरुस्थलीकरण की समस्या न्यूनतम है ?",
+        "options": [
+          "यूरोप",
+          "ऑस्ट्रेलिया",
+          "एशिया",
+          "अफ्रीका"
+        ],
+        "explanation": "यूरोप महाद्वीप में मरुस्थलीकरण की समस्या न्यूनतम है। यूरोप में अधिकांशतः समशीतोष्ण जलवायु पाई जाती है और यहाँ मरुस्थलीय क्षेत्र बहुत कम हैं। अन्य महाद्वीपों जैसे ऑस्ट्रेलिया, एशिया और अफ्रीका में मरुस्थलीकरण एक गंभीर पर्यावरणीय समस्या है।"
+      },
+      "qkey": "6dd205b2bf08",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|30",
+      "serial_no": 30,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "Population Distribution and Migration",
+      "subtopic": "Population by Continent",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "सन् 2020 के अनुसार निम्नलिखित महाद्वीपों को उनकी जनसंख्या के आकार के अनुसार अवरोही क्रम में व्यवस्थित कीजिए :A. अफ्रीकाB. यूरोपC. उत्तरी अमेरिकाD. दक्षिण अमेरिकाकूट :",
+        "options": [
+          "A, B, C एवं D",
+          "D, C, B एवं A",
+          "A, C, B एवं D",
+          "A, B, D एवं C"
+        ],
+        "explanation": "यह प्रश्न 2020 के अनुसार महाद्वीपों की जनसंख्या को अवरोही क्रम में व्यवस्थित करने के बारे में है। आधिकारिक उत्तर के अनुसार, सही क्रम अफ्रीका, यूरोप, उत्तरी अमेरिका और दक्षिण अमेरिका है। अफ्रीका की जनसंख्या सबसे अधिक है, उसके बाद यूरोप, उत्तरी अमेरिका और अंत में दक्षिण अमेरिका आता है।"
+      },
+      "qkey": "c82c62f8f788",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||21|Master Question Paper ,TUR19",
+      "serial_no": 21,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "World Geography",
+      "topic": "ITCZ climate",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "जलवायु के संदर्भ में आई टी सी जेड का सटीक पूर्ण नाम क्या है ? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+        "options": [
+          "इन्टरनेशनल ट्रॉपिकल कन्वर्जेंस जोन",
+          "इन्टरनल ट्रॉपिकल कन्वर्जेंस जोन",
+          "इन्टर स्टेट ट्रॉपिकल कन्वर्जेंस जोन",
+          "इन्टर ट्रॉपिकल कन्वर्जेंस जोन"
+        ],
+        "explanation": "जलवायु के संदर्भ में आई टी सी जेड का सटीक पूर्ण नाम इन्टर ट्रॉपिकल कन्वर्जेंस जोन है। यह भूमध्य रेखा के पास का एक क्षेत्र है जहाँ उत्तरी और दक्षिणी गोलार्ध से व्यापारिक हवाएँ मिलती हैं।"
+      },
+      "qkey": "2eba958fcede",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||62|Master Question Paper 20.09.2025_Evening Shift_DB29",
+      "serial_no": 62,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Rivers and Lakes of Rajasthan",
+      "subtopic": "Banas River",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित नदियों में से किसे 'वन की आशा' (होप ऑफ फ़ोरेस्ट) के नाम से भी जाना जाता है ?",
+        "options": [
+          "बनास",
+          "पारबती",
+          "लूनी",
+          "कालीसिंध"
+        ],
+        "explanation": "बनास नदी को 'वन की आशा' या 'होप ऑफ फ़ॉरेस्ट' के नाम से भी जाना जाता है। यह राजस्थान की एक महत्वपूर्ण नदी है जो अरावली पर्वतमाला से निकलती है और राज्य के कई हिस्सों को सिंचित करती है।"
+      },
+      "qkey": "fa1944c7909a",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|22|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
+      "serial_no": 22,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Mineral deposits Rajasthan",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "गलत युग्म का चुनाव कीजिए -",
+        "options": [
+          "ताँबा - अगूचा गुलाबपुरा",
+          "मैंगनीज कांसला",
+          "सीसा व जस्ता राजपुरा दरीबा",
+          "लौह अयस्क डाबला क्षेत्र"
+        ],
+        "explanation": "अगूचा गुलाबपुरा ताँबे के लिए नहीं, बल्कि सीसा-जस्ता के लिए प्रसिद्ध है। मैंगनीज कांसला में पाया जाता है, राजपुरा दरीबा सीसा व जस्ता के लिए जाना जाता है, और डाबला क्षेत्र लौह अयस्क के लिए प्रसिद्ध है। इसलिए, 'ताँबा - अगूचा गुलाबपुरा' गलत युग्म है।"
+      },
+      "qkey": "243ea349bb20",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (TECH. EDU.) EXAM::LECTURER (TECH. EDU.) EXAM 2020|Paper Iii|27",
+      "serial_no": 27,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Mineral mining areas",
+      "subtopic": "",
+      "source_cycle": "LECTURER (TECH. EDU.) EXAM 2020",
+      "hindi": {
+        "question": "दिये गये खनिजों एवं उनके खनन क्षेत्रों में से त्रुटिपूर्ण (गलत) युग्म की पहचान कीजिए :\nखनिज खनन क्षेत्र",
+        "options": [
+          "लोहा-अयस्क - नाथरा-की-पाल",
+          "ताँबा - खेतड़ी-सिंघाना",
+          "जस्ता एवं सीसा - जावर",
+          "टंगस्टन - झामर-कोटड़ा"
+        ],
+        "explanation": "टंगस्टन का खनन क्षेत्र डेगाना (नागौर) है, जबकि झामर-कोटड़ा रॉक फॉस्फेट के लिए प्रसिद्ध है। इस प्रकार, 'टंगस्टन - झामर-कोटड़ा' युग्म गलत है।"
+      },
+      "qkey": "8dbca0ef45af",
+      "source_exam": "LIB__LECTURER (TECH. EDU.) EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||91|Master Question Paper, 6th Phase(Z10)",
+      "serial_no": 91,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Climate of Rajasthan",
+      "subtopic": "Local Climatic Phenomena",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "निम्नलिखित में कौन-सी भौगोलिक शब्दावली राजस्थान की जलवायु से संबंधित है?\nनिम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "आम्र वर्षा",
+          "मावठ",
+          "फूलों की बौछार",
+          "काल वैशाख"
+        ],
+        "explanation": "मावठ राजस्थान की जलवायु से संबंधित एक महत्वपूर्ण भौगोलिक शब्दावली है। यह सर्दियों में पश्चिमी विक्षोभ के कारण होने वाली वर्षा को संदर्भित करता है, जो रबी की फसलों के लिए बहुत लाभदायक होती है।"
+      },
+      "qkey": "65284bb00bd6",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|7|Question Paper for A.R.O. - 2022 (GK and Entomology)",
+      "serial_no": 7,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Koppen climate classification",
+      "subtopic": "",
+      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
+      "hindi": {
+        "question": "कोपेन के जलवायु वर्गीकरण के अनुसार, गंगानगर जिले में किस प्रकार की जलवायु पायी जाती है?",
+        "options": [
+          "Bshw",
+          "Bwhw",
+          "Aw",
+          "Cwg"
+        ],
+        "explanation": "कोपेन के जलवायु वर्गीकरण के अनुसार, गंगानगर जिले में 'Bwhw' प्रकार की जलवायु पाई जाती है। यह शुष्क उष्णकटिबंधीय मरुस्थलीय जलवायु का प्रतिनिधित्व करती है, जहाँ अत्यधिक गर्मी और कम वर्षा होती है।"
+      },
+      "qkey": "31e6cb48f13c",
+      "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|14-09-2021|14",
+      "serial_no": 14,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Irrigation Projects",
+      "subtopic": "Major Irrigation Projects",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "सोम-कमला-अंबा सिंचाई परियोजना का निर्माण किस जिले के लिए किया गया है ?",
+        "options": [
+          "उदयपुर",
+          "चित्तौड़गढ़",
+          "डूंगरपुर",
+          "राजसमंद"
+        ],
+        "explanation": "सोम-कमला-अंबा सिंचाई परियोजना का निर्माण डूंगरपुर जिले के लिए किया गया है। यह परियोजना इस क्षेत्र में कृषि और पेयजल की आवश्यकताओं को पूरा करने में मदद करती है।"
+      },
+      "qkey": "23144df8934f",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2021|(single)|17|Question Paper for Lecturer (Ayurved Dept.) - 2021 (GK and Panchkarma)",
+      "serial_no": 17,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Rajasthan plateaus",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2021",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसा राजस्थान के पठारों का पश्चिम-से-पूर्व सही क्रम है?",
+        "options": [
+          "हाड़ौती पठार, ऊपरमाल पठार, लसाड़िया पठार एवं भोराट पठार",
+          "हाड़ौती पठार, लसाड़िया पठार, ऊपरमाल पठार एवं भोराट पठार",
+          "मोराट पठार, ऊपरमाल पठार, लसाड़िया पठार एवं हाड़ौती पठार",
+          "भोराट पठार, लसाड़िया पठार, ऊपरमाल पठार एवं हाड़ौती पठार"
+        ],
+        "explanation": "राजस्थान के पठारों का पश्चिम से पूर्व की ओर सही क्रम भोराट पठार, लसाड़िया पठार, ऊपरमाल पठार एवं हाड़ौती पठार है। यह क्रम उनकी भौगोलिक स्थिति के अनुसार है। इसलिए, भोराट पठार, लसाड़िया पठार, ऊपरमाल पठार एवं हाड़ौती पठार सही उत्तर है।"
+      },
+      "qkey": "53b606b6bf3f",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||14|Master Question Paper 21.09.2025_Evening Shift_JK1",
+      "serial_no": 14,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Natural Resources",
+      "topic": "Climate of Rajasthan",
+      "subtopic": "Local Winds",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "राजस्थान में गर्मियों के दौरान चलने वाली गर्म, शुष्क और धूल भरी हवाओं के लिए निम्नलिखित में से किस शब्द का उपयोग किया जाता है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+        "options": [
+          "मावठ",
+          "काटाबेटिक",
+          "लू",
+          "मानसून"
+        ],
+        "explanation": "राजस्थान में गर्मियों के दौरान चलने वाली गर्म, शुष्क और धूल भरी हवाओं को 'लू' कहा जाता है। यह भारतीय उपमहाद्वीप की एक विशिष्ट मौसमी घटना है।"
+      },
+      "qkey": "952ae72f3cde",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||76|Forester 2020 _ Master Question (Shift 2)",
+      "serial_no": 76,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Natural Resources",
+      "topic": "Wildlife and Forests of Rajasthan",
+      "subtopic": "Tal Chhapar Wildlife Sanctuary",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "'ताल छापर' अभयारण्य के लिए प्रसिद्ध है।",
+        "options": [
+          "बाघ",
+          "मोर",
+          "भालू",
+          "कृष्ण मृग"
+        ],
+        "explanation": "ताल छापर अभयारण्य राजस्थान के चुरू जिले में स्थित है और यह विशेष रूप से काले हिरणों (कृष्ण मृग) के लिए प्रसिद्ध है। यह अभयारण्य इन सुंदर जीवों के प्राकृतिक आवास के रूप में जाना जाता है।"
+      },
+      "qkey": "8b96a8d3d3d1",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::HEADMASTER::HEADMASTER (SECONDARY SCHOOL) 2018|(single)|99",
+      "serial_no": 99,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Natural Resources",
+      "topic": "Physical Features",
+      "subtopic": "Geographical Regions of Rajasthan",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2018",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन से सही सुमेलित है? (A) घग्घर का मैदान गंगानगर तथा हनुमानगढ़ जिले (B) शेखावटी प्रदेश आंतरिक अपवाह क्षेत्र (C) उदयपुर बेसिन - गिरवा (D) भोराट का पठार रघुनाथगढ़ शिखर नीचे दिए कूट से उत्तर चुनिए-",
+        "options": [
+          "A, C एवं D सही है",
+          "A, B एवं C सही है",
+          "B, C एवं D सही है",
+          "A, B एवं D सही है"
+        ],
+        "explanation": "दिए गए विकल्पों में से A, B और C सही सुमेलित हैं। घग्घर का मैदान गंगानगर तथा हनुमानगढ़ जिले में है, शेखावटी प्रदेश आंतरिक अपवाह क्षेत्र है, और उदयपुर बेसिन को गिरवा कहा जाता है। भोराट का पठार रघुनाथगढ़ शिखर पर नहीं है।"
+      },
+      "qkey": "52833ebb3288",
+      "source_exam": "HEADMASTER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||95|Master Question Paper 21.09.2025_Evening Shift_JK1",
+      "serial_no": 95,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Natural Resources",
+      "topic": "Demographics of Rajasthan",
+      "subtopic": "Population Density (Census 2011)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "जनगणना 2011 के अनुसार राजस्थान के किस ज़िले में जनसंख्या का दूसरा सबसे अधिक घनत्व दर्ज किया गया?",
+        "options": [
+          "अजमेर",
+          "बीकानेर",
+          "भरतपुर",
+          "बूंदी"
+        ],
+        "explanation": "जनगणना 2011 के अनुसार, राजस्थान के भरतपुर जिले में जनसंख्या का दूसरा सबसे अधिक घनत्व दर्ज किया गया था। जयपुर जिले में सर्वाधिक जनसंख्या घनत्व था।"
+      },
+      "qkey": "ea41d4e44cf4",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II 2013|(single)|9",
+      "serial_no": 9,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Natural Resources",
+      "topic": "Industries",
+      "subtopic": "Cement Production",
+      "source_cycle": "SR. TEACHER GR II 2013",
+      "hindi": {
+        "question": "राजस्थान में सीमेन्ट उत्पादन में प्रमुख जिले हैं :",
+        "options": [
+          "बून्दी, चित्तौड़गढ़, कोटा, सिंरोही एवं उदयपुर",
+          "चित्तौड़गढ़, उदयपुर, प्रतापगढ़ एवं बाँसवाड़ा",
+          "सिरोही, कोटा, डूंगरपुर एवं बाँसवाड़ा",
+          "कोटा, बून्दी, टोंक एवं भीलवाड़ा"
+        ],
+        "explanation": "राजस्थान में सीमेंट उत्पादन के लिए बून्दी, चित्तौड़गढ़, कोटा, सिरोही और उदयपुर प्रमुख जिले हैं। इन जिलों में चूना पत्थर की प्रचुर उपलब्धता है, जो सीमेंट उद्योग का मुख्य कच्चा माल है। इस कारण यहाँ कई बड़े सीमेंट कारखाने स्थापित हैं।"
+      },
+      "qkey": "d8a3a5e0a066",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2021|(single)|25|Question Paper for Lecturer (Ayurved Dept.) - 2021 (GK and Shalya Tantra)",
+      "serial_no": 25,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Natural Resources",
+      "topic": "SC ST population Rajasthan",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2021",
+      "hindi": {
+        "question": "राजस्थान के कौनसे जिलों में सर्वाधिक अनुसूचित जाति एवं अनुसूचित जनजाति जनसंख्या पायी जाती है? (जनगणना 2011 के अनुसार)",
+        "options": [
+          "गंगानगर एवं बांसवाड़ा",
+          "बांसवाड़ा एवं गंगानगर",
+          "नागौर एवं बांसवाड़ा",
+          "जयपुर एवं उदयपुर"
+        ],
+        "explanation": "जनगणना 2011 के अनुसार, राजस्थान में सर्वाधिक अनुसूचित जाति की जनसंख्या जयपुर जिले में पाई जाती है, जबकि सर्वाधिक अनुसूचित जनजाति की जनसंख्या उदयपुर जिले में पाई जाती है। इसलिए, जयपुर एवं उदयपुर सही उत्तर हैं।"
+      },
+      "qkey": "463f7f3b732a",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2025||143|Master question Paper (DQ69) Shift II",
+      "serial_no": 143,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Hindi Grammar",
+      "subtopic": "Samas",
+      "source_cycle": "Patwar 2025",
+      "hindi": {
+        "question": "'आपबीती' किस समास का एक उदाहरण है?",
+        "options": [
+          "तत्पुरुष",
+          "अव्ययीभाव",
+          "बहुव्रीहि",
+          "द्वंद्व"
+        ],
+        "explanation": "'आपबीती' शब्द का अर्थ है 'अपने पर बीती हुई'। इसमें 'पर' कारक चिह्न का लोप है, जो अधिकरण तत्पुरुष समास की पहचान है। इसलिए, यह तत्पुरुष समास का एक उदाहरण है।"
+      },
+      "qkey": "9f7da4817cab",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||48|Master Question Paper 134 B",
+      "serial_no": 48,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Antonyms",
+      "subtopic": "Incorrect antonym pairs",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "किस समूह में सही विलोम शब्द नहीं है ?",
+        "options": [
+          "बंधन - मुक्ति",
+          "गौरव - लाघव",
+          "आदि - प्रारम्भ",
+          "तिमिर - प्रकाश"
+        ],
+        "explanation": "दिए गए विकल्पों में से 'आदि - प्रारम्भ' समूह में सही विलोम शब्द नहीं है। 'आदि' और 'प्रारम्भ' दोनों ही समानार्थी शब्द हैं, जिनका अर्थ 'शुरुआत' होता है। 'आदि' का सही विलोम 'अंत' होता है। अन्य सभी युग्म सही विलोम शब्द दर्शाते हैं।"
+      },
+      "qkey": "cbd1d0b01ce0",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)::HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021|Paper Ii|128",
+      "serial_no": 128,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Voice in grammar",
+      "subtopic": "",
+      "source_cycle": "HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021",
+      "hindi": {
+        "question": "व्याकरण की दृष्टि से कौनसा कथन गलत है?",
+        "options": [
+          "'कर्तृवाच्य', अकर्मक और सकर्मक, दोनों क्रियाओं में होता है।",
+          "'कर्मवाच्य' अकर्मक और सकर्मक, दोनों प्रकार की क्रियाओं में होता है।",
+          "'भाववाच्य' केवल अकर्मक क्रियाओं में होता है।",
+          "सभी प्रेरणार्थक क्रियाएँ सकर्मक होती हैं।"
+        ],
+        "explanation": "कर्मवाच्य केवल सकर्मक क्रियाओं में होता है, क्योंकि इसमें कर्म की प्रधानता होती है। अकर्मक क्रियाओं में कर्म नहीं होता, इसलिए उनमें कर्मवाच्य नहीं हो सकता। अतः, यह कथन कि 'कर्मवाच्य' अकर्मक और सकर्मक, दोनों प्रकार की क्रियाओं में होता है, गलत है।"
+      },
+      "qkey": "e0472b96bb65",
+      "source_exam": "LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||94|Master Question Paper 20.09.2025_Evening Shift_DB29",
+      "serial_no": 94,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Hindi Grammar",
+      "subtopic": "Suffixes (Pratyay)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "'लौकिक' शब्द में प्रयुक्त प्रत्यय है :",
+        "options": [
+          "एक",
+          "क",
+          "इक",
+          "ईक"
+        ],
+        "explanation": "'लौकिक' शब्द में 'लोक' मूल शब्द है और 'इक' प्रत्यय है। 'इक' प्रत्यय लगने से 'लोक' शब्द 'लौकिक' बन जाता है, जिसका अर्थ संसार से संबंधित होता है।"
+      },
+      "qkey": "2eb2ac32630e",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||104|Master Question Paper 134 C",
+      "serial_no": 104,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary and Technical Terms",
+      "subtopic": "English to Hindi Technical Terms",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "'Amendment' के लिए सही पारिभाषिक शब्द है",
+        "options": [
+          "परिवर्तन",
+          "सहमति",
+          "अनुमोदन",
+          "संशोधन"
+        ],
+        "explanation": "'Amendment' शब्द का अर्थ किसी प्रस्ताव, कानून या दस्तावेज़ में किया गया सुधार या परिवर्तन होता है। दिए गए विकल्पों में 'संशोधन' इसका सबसे सटीक पारिभाषिक शब्द है, जिसका अर्थ भी सुधार या बदलाव करना होता है।"
+      },
+      "qkey": "bb3b323c3ee6",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||71|Master Question Paper_Hindi( L-2 )_DHD68",
+      "serial_no": 71,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Hindi phonology",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "निम्नलिखित में असत्य कथन की पहचान कीजिए-a. अनुस्वार तीव्र और अनुनासिक धीमी ध्वनि है।b. विसर्ग तालव्य वर्ण है।c. संयुक्त व्यंजन के पूर्व हस्व स्वर का उच्चारण कुछ झटके के साथ होता है, जिससे दोनों व्यंजनों का उच्चारण स्पष्ट हो जाता है।d. दो महाप्राण व्यंजनों का उच्चारण एक साथ नहीं हो सकता है।",
+        "options": [
+          "a, b, c, d",
+          "c, a, b, d",
+          "b, a, d, c",
+          "d, a, b, c"
+        ],
+        "explanation": "कथन 'b. विसर्ग तालव्य वर्ण है' असत्य है, क्योंकि विसर्ग कंठ्य वर्ण होता है। कथन 'c. संयुक्त व्यंजन के पूर्व हस्व स्वर का उच्चारण कुछ झटके के साथ होता है, जिससे दोनों व्यंजनों का उच्चारण स्पष्ट हो जाता है' भी असत्य है, क्योंकि यह संयुक्त व्यंजन की विशेषता नहीं है। कथन 'a. अनुस्वार तीव्र और अनुनासिक धीमी ध्वनि है' असत्य है, क्योंकि अनुस्वार और अनुनासिक दोनों ही नासिक्य ध्वनियाँ हैं, तीव्र या धीमी नहीं। कथन 'd. दो महाप्राण व्यंजनों का उच्चारण एक साथ नहीं हो सकता है' असत्य है, क्योंकि हिंदी में ऐसा कोई नियम नहीं है। इस प्रकार, सभी कथन असत्य हैं।"
+      },
+      "qkey": "b2f4ec126130",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||81|Master Question Paper_Hindi( L-2 )_DHD68",
+      "serial_no": 81,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Pronoun usage",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "इनमें से किन वाक्यों में पुरुषवाचक सर्वनाम का प्रयोग है?\na. मैं कहता हूँ कि नदियाँ सूखती जा रही हैं।\nb. मैं आप चला जाऊंगा।\nc. मैंने आपसे कहा था कि वह बीमार नहीं है।\nd. मैं यह काम आप ही कर लूँगा।\ne. आपके घर कोई आया है।\nनीचे दिए गए विकल्पों में से सही उत्तर का चयन कीजिए:",
+        "options": [
+          "a और c",
+          "b और c",
+          "c और d",
+          "d और e"
+        ],
+        "explanation": "पुरुषवाचक सर्वनाम वे होते हैं जो बोलने वाले, सुनने वाले या किसी अन्य व्यक्ति के लिए प्रयोग होते हैं। विकल्प (a) 'मैं कहता हूँ कि नदियाँ सूखती जा रही हैं' में 'मैं' उत्तम पुरुषवाचक सर्वनाम है। विकल्प (c) 'मैंने आपसे कहा था कि वह बीमार नहीं है' में 'मैंने' उत्तम पुरुषवाचक और 'आपसे' मध्यम पुरुषवाचक सर्वनाम है। इसलिए, a और c दोनों में पुरुषवाचक सर्वनाम का प्रयोग है।"
+      },
+      "qkey": "01b25bd29d6a",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||104|Master Question Paper 139 Hindi",
+      "serial_no": 104,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Tatsam words",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'तत्सम' शब्द का चयन कीजिए-",
+        "options": [
+          "मधुमास",
+          "वासव",
+          "अमृत",
+          "गेहूँ"
+        ],
+        "explanation": "दिए गए विकल्पों में 'अमृत' एक तत्सम शब्द है, जो संस्कृत से बिना किसी परिवर्तन के हिंदी में आया है। 'मधुमास', 'वासव' और 'गेहूँ' तत्सम शब्द नहीं हैं।"
+      },
+      "qkey": "934891a863c9",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||76|Master Question Paper 134 A",
+      "serial_no": 76,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Sandhi",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "'यशोभिलाषा' शब्द में कौनसी संधि है ?",
+        "options": [
+          "गुण संधि",
+          "वृद्धि संधि",
+          "दीर्घ संधि",
+          "विसर्ग संधि"
+        ],
+        "explanation": "'यशोभिलाषा' शब्द का संधि विच्छेद 'यशः + अभिलाषा' होता है। यहाँ विसर्ग (:) का 'ओ' में परिवर्तन हुआ है, जो विसर्ग संधि का एक नियम है।"
+      },
+      "qkey": "fb1732fc97b4",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||79|Master Question Paper 19.09.2025_Morning Shift_DS22",
+      "serial_no": 79,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Visheshan (Adjective - Gunvachak Visheshan)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सा वाक्य गुणवाचक विशेषण का उदाहरण नहीं है ?",
+        "options": [
+          "महंगाई में सेर-भर दूध भी खरीदना मुश्किल है।",
+          "मुझे लाल-लाल टमाटर बहुत पसंद हैं।",
+          "नीलिमा के पास चमकीले कपड़े हैं।",
+          "कश्मीरी सेब लाल होता है।"
+        ],
+        "explanation": "विकल्प (1) 'महंगाई में सेर-भर दूध भी खरीदना मुश्किल है' में 'सेर-भर' परिमाणवाचक विशेषण है, जो दूध की मात्रा बता रहा है। अन्य विकल्पों में लाल-लाल, चमकीले और लाल गुणवाचक विशेषण हैं।"
+      },
+      "qkey": "4e2ce6430641",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||133|Master Question Paper 131A",
+      "serial_no": 133,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "One-Word Substitution",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'नाटक के अंत में प्रयुक्त मांगलिक पद', के लिए सार्थक शब्द है -",
+        "options": [
+          "विदूषक",
+          "मंगलवाक्य",
+          "भरतवाक्य",
+          "व्याजवाक्य"
+        ],
+        "explanation": "नाटक के अंत में प्रयुक्त मांगलिक पद को 'भरतवाक्य' कहा जाता है। यह नाटक के समापन पर दर्शकों को आशीर्वाद देने या नाटक के उद्देश्य को स्पष्ट करने के लिए बोला जाता है। यह नाटक की परंपरा का एक महत्वपूर्ण हिस्सा है।"
+      },
+      "qkey": "05dd08a3feb4",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||91|Master Question Paper 139 Hindi",
+      "serial_no": 91,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Adjective and noun",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'प्रभा एक सुशील कन्या है' वाक्य में विशेष्य है -",
+        "options": [
+          "सुशील",
+          "प्रभा",
+          "कन्या",
+          "एक"
+        ],
+        "explanation": "विशेष्य वह शब्द होता है जिसकी विशेषता बताई जाती है। इस वाक्य में 'सुशील' विशेषण है जो 'कन्या' की विशेषता बता रहा है। इसलिए, 'कन्या' विशेष्य है। 'प्रभा' कर्ता है और 'एक' संख्यावाचक विशेषण है।"
+      },
+      "qkey": "4e089ecfe11f",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2019|(single)|112",
+      "serial_no": 112,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Synonyms",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2019",
+      "hindi": {
+        "question": "इनमें से कौन सा शब्द 'कमल' का पर्यायवाची नहीं है ?",
+        "options": [
+          "अम्बुज",
+          "पंकज",
+          "अज",
+          "कंज"
+        ],
+        "explanation": "'अज' शब्द 'ब्रह्मा', 'बकरा' या 'शिव' का पर्यायवाची है, लेकिन यह 'कमल' का पर्यायवाची नहीं है। 'अम्बुज', 'पंकज' और 'कंज' तीनों ही 'कमल' के पर्यायवाची शब्द हैं।"
+      },
+      "qkey": "7c0d12257521",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||98|Master Question Paper 139 Hindi",
+      "serial_no": 98,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "One-word substitution",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'जो प्रमाण से सिद्ध हो सके' वाक्यांश के लिए एक शब्द है-",
+        "options": [
+          "प्रयोजनीय",
+          "अप्रामाणिक",
+          "अप्रमेय",
+          "प्रमेय"
+        ],
+        "explanation": "'जो प्रमाण से सिद्ध हो सके' वाक्यांश के लिए एक शब्द 'प्रमेय' है। 'प्रमेय' का अर्थ होता है जिसे प्रमाण द्वारा सिद्ध किया जा सके। 'अप्रमेय' का अर्थ होता है जिसे प्रमाण द्वारा सिद्ध न किया जा सके। इसलिए, 'प्रमेय' सही विकल्प है।"
+      },
+      "qkey": "227f6ecbce4a",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||88|Master Question Paper 21.09.2025_Evening Shift_JK1",
+      "serial_no": 88,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Idioms and Proverbs",
+      "subtopic": "Proverbs (Lokoktiyan)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "'कम गुणी होकर भी गुणी का दिखावा' निम्नलिखित में से किस लोकोक्ति का अर्थ है ?",
+        "options": [
+          "थोथा चना बाजे घना",
+          "अंधों में काना राजा",
+          "आम के आम गुठलियों के दाम",
+          "अंधे के हाथ बटेर लगना"
+        ],
+        "explanation": "'थोथा चना बाजे घना' लोकोक्ति का अर्थ है कि जिस व्यक्ति में ज्ञान या गुण कम होते हैं, वह दिखावा अधिक करता है। यह लोकोक्ति ऐसे व्यक्ति पर लागू होती है जो अपनी कमियों को छिपाने के लिए अनावश्यक प्रदर्शन करता है।"
+      },
+      "qkey": "f01deadbbe93",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||35|Master Question Paper 141 English",
+      "serial_no": 35,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Marwari dialects",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "मारवाड़ी री उपबोली नीं है",
+        "options": [
+          "ढटकी",
+          "बीकानेरी",
+          "अहीरवाटी",
+          "देवड़ावाटी"
+        ],
+        "explanation": "मारवाड़ी की उपबोली 'अहीरवाटी' नहीं है। अहीरवाटी मेवाती की एक उपबोली है, जबकि ढटकी, बीकानेरी और देवड़ावाटी मारवाड़ी की उपबोलियाँ हैं।"
+      },
+      "qkey": "a7449a3ea6f3",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||76|Master Question Paper 139 Hindi",
+      "serial_no": 76,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Verb properties",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "निम्नलिखित में से क्रिया के विषय में कौन सा कथन गलत है?",
+        "options": [
+          "क्रिया से काम के करने या होने का बोध होता है।",
+          "क्रिया एक अविकारी शब्द है।",
+          "क्रियाएँ धातुओं, संज्ञा या विशेषण शब्दों से भी बनती हैं।",
+          "रचना की दृष्टि से क्रिया के अकर्मक और सकर्मक दो भेद होते हैं।"
+        ],
+        "explanation": "क्रिया एक विकारी शब्द है, क्योंकि लिंग, वचन, पुरुष और काल के अनुसार इसमें परिवर्तन होता है। अविकारी शब्द वे होते हैं जिनमें कोई परिवर्तन नहीं होता। इसलिए, 'क्रिया एक अविकारी शब्द है' यह कथन गलत है।"
+      },
+      "qkey": "4ae81318b764",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||26|Master Question Paper R15",
+      "serial_no": 26,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms (पर्यायवाची)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में 'शरीर' का पर्यायवाची है-",
+        "options": [
+          "वपु",
+          "अजर",
+          "विबुध",
+          "हिय"
+        ],
+        "explanation": "'शरीर' शब्द का पर्यायवाची 'वपु' होता है, जिसका अर्थ देह, काया या तन होता है। अन्य विकल्प जैसे 'अजर' (जो बूढ़ा न हो), 'विबुध' (देवता या विद्वान) और 'हिय' (हृदय) 'शरीर' के पर्यायवाची नहीं हैं।"
+      },
+      "qkey": "509a0d0a419b",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEADMASTER (SECONDARY SCHOOL)::HEADMASTER (SECONDARY SCHOOL) 2011||138",
+      "serial_no": 138,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Translation English to Hindi",
+      "subtopic": "",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2011",
+      "hindi": {
+        "question": "This is to inform that का हिन्दी रूपान्तर होगा",
+        "options": [
+          "यह प्रमाणित किया जाता है।",
+          "यह सूचित किया जाता है।",
+          "यह बताया जाता है।",
+          "यह घोषित किया जाता है।"
+        ],
+        "explanation": "'This is to inform that' का सही हिन्दी रूपान्तर 'यह सूचित किया जाता है' होता है। यह वाक्यांश किसी जानकारी को औपचारिक रूप से देने के लिए प्रयोग किया जाता है।"
+      },
+      "qkey": "a7ad01adf94a",
+      "source_exam": "LIB__HEADMASTER (SECONDARY SCHOOL)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2019|(single)|120",
+      "serial_no": 120,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Sandhi",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2019",
+      "hindi": {
+        "question": "किस विकल्प में ग़लत संधि है ?",
+        "options": [
+          "दिक् + नाग = दिङ्नाग",
+          "पितृ + अनुमति = पित्रनुमति",
+          "नदी + अर्पण = नद्यर्पण",
+          "सत् + शास्त्र = सद्शास्त्र"
+        ],
+        "explanation": "'सत् + शास्त्र' की सही संधि 'सच्छास्त्र' होती है, न कि 'सद्शास्त्र'। व्यंजन संधि के नियमानुसार, 'त्' के बाद 'श्' आने पर 'त्' का 'च्' और 'श्' का 'छ्' हो जाता है। इसलिए, 'सत् + शास्त्र = सद्शास्त्र' गलत संधि है।"
+      },
+      "qkey": "5cf7d9b05a73",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||137|Master Question Paper 131D",
+      "serial_no": 137,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Official Hindi",
+      "subtopic": "Official Letter Writing (कार्यालयी पत्र लेखन)",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "निम्न में से कौन सी कार्यालयी पत्र की विशेषता नहीं है?",
+        "options": [
+          "इनमें चिह्नांकन व अनुच्छेद का प्रयोग समुचित किया जाना चाहिए।",
+          "कार्यालयी पत्र उद्देश्यपूर्ण व शिष्ट भाषा में होने चाहिए।",
+          "पत्र सामासिक व आलंकारिक होने चाहिए।",
+          "पत्र संक्षिप्तता व प्रभावोत्पादकता से युक्त होने चाहिए।"
+        ],
+        "explanation": "कार्यालयी पत्र की भाषा स्पष्ट, संक्षिप्त, सीधी और उद्देश्यपूर्ण होनी चाहिए। इसमें अनावश्यक रूप से सामासिक (जटिल) या आलंकारिक (सजावटी) भाषा का प्रयोग नहीं किया जाना चाहिए, क्योंकि यह पत्र के उद्देश्य को बाधित कर सकता है और उसे समझने में कठिनाई पैदा कर सकता है। अन्य विकल्प कार्यालयी पत्र की सही विशेषताएँ हैं।"
+      },
+      "qkey": "ec6bebe44afa",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. PUBLIC RELATION OFFICER::ASST. PUBLIC RELATION OFFICER 2011||98",
+      "serial_no": 98,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Proverbs",
+      "subtopic": "",
+      "source_cycle": "ASST. PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": "इनमें एक लोकोक्ति है :",
+        "options": [
+          "बन्दर के हाथ में आइना",
+          "पेट में चूहे दौड़ना",
+          "जैसे नागनाथ वैसे साँपना",
+          "भाड़ झोंकना"
+        ],
+        "explanation": "दिए गए विकल्पों में 'जैसे नागनाथ वैसे साँपना' एक लोकोक्ति है। लोकोक्ति एक पूर्ण वाक्य होती है जो किसी अनुभव या सत्य को व्यक्त करती है, जबकि अन्य विकल्प मुहावरे हैं।"
+      },
+      "qkey": "e11711a6ae59",
+      "source_exam": "LIB__ASST. PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||3|Master Question Paper 143 Punjabi",
+      "serial_no": 3,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Rajasthani vocabulary",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "लोककथा कैवणियै नै कांई कैयो जावै ?",
+        "options": [
+          "भोपौ",
+          "बातपोस",
+          "बातेरी",
+          "कोथ"
+        ],
+        "explanation": "लोककथा कहने वाले व्यक्ति को राजस्थानी भाषा में 'बातपोस' कहा जाता है। यह शब्द लोककथाओं के वाचक या कथाकार के लिए प्रयुक्त होता है।"
+      },
+      "qkey": "370686ddfc79",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||119|Master Question Paper 139 Hindi",
+      "serial_no": 119,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Idioms",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'आँखे खुलना' मुहावरे का अर्थ है-",
+        "options": [
+          "ध्यान रखना",
+          "इच्छा पूरी होना",
+          "धोखा खाना",
+          "सजग होना"
+        ],
+        "explanation": "'आँखें खुलना' मुहावरे का अर्थ है किसी बात की सच्चाई का पता चलना, भ्रम दूर होना या किसी खतरे के प्रति सचेत हो जाना। इसलिए 'सजग होना' इसका सही अर्थ है।"
+      },
+      "qkey": "df34c11bf7c5",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||106|Master Question Paper A15",
+      "serial_no": 106,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Samas (Compound Words)",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "hindi": {
+        "question": "'आनंदमग्न' का समास विग्रह होगा-",
+        "options": [
+          "आनंदित होना",
+          "आनंद आना",
+          "आनंद में डूबा हुआ",
+          "आनंद ही आनंद"
+        ],
+        "explanation": "'आनंदमग्न' शब्द का सही समास विग्रह 'आनंद में डूबा हुआ' है। यह अधिकरण तत्पुरुष समास का उदाहरण है, जहाँ 'में' विभक्ति का लोप होता है।"
+      },
+      "qkey": "cd83f3ee034b",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||3|Master Question Paper 134 C",
+      "serial_no": 3,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "Technical Terms (Hindi to English)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "अनुपूरक",
+        "options": [
+          "backplane",
+          "practitioner",
+          "plotter",
+          "supplement"
+        ],
+        "explanation": "'अनुपूरक' शब्द का अर्थ किसी चीज़ को पूरा करने या उसमें कुछ जोड़ने वाला होता है। दिए गए विकल्पों में से, 'supplement' शब्द का अर्थ भी यही होता है, जैसे किसी कमी को पूरा करने के लिए अतिरिक्त चीज़। यह दोनों शब्द एक ही अवधारणा को व्यक्त करते हैं।"
+      },
+      "qkey": "71d2ba73bd7e",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||68|Master Question Paper 21.09.2025_Morning Shift_56HH",
+      "serial_no": 68,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Idioms and Phrases (Muhavare)",
+      "subtopic": "'Kagzi Ghode Daudana' meaning",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "'कागजी घोड़े दौड़ाना' मुहावरे का अर्थ है :",
+        "options": [
+          "दूरदर्शी होना",
+          "बढ़ा-चढ़ा कर कहना",
+          "व्यर्थ की लिखा-पढ़ी करना",
+          "वीरगति को प्राप्त होना"
+        ],
+        "explanation": "'कागजी घोड़े दौड़ाना' मुहावरे का अर्थ है 'व्यर्थ की लिखा-पढ़ी करना' या बिना किसी ठोस परिणाम के केवल कागजी कार्यवाही में लगे रहना। यह मुहावरा ऐसे कार्यों को संदर्भित करता है जिनमें बहुत प्रयास लगता है लेकिन कोई वास्तविक प्रगति नहीं होती।"
+      },
+      "qkey": "b751793f6db7",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||25|Master Question Paper R15",
+      "serial_no": 25,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms (पर्यायवाची)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "सूची-I को सूची-II से सुमेलित कीजिए :\nसूची-I (शब्द)\na. समुद्र\nb. सर्प\nc. असुर\nd. सिंह\nसूची-II (पर्यायवाची)\nI. शार्दूल\nII. यातुधान\nIII. पन्नग\nIV. अर्णव\nनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनिए :",
+        "options": [
+          "a-IV, b-III, c-II, d-I",
+          "a-IV, b-II, c-III, d-I",
+          "a-II, b-III, c-IV, d-I",
+          "a-I, b-II, c-III, d-IV"
+        ],
+        "explanation": "इस प्रश्न में शब्दों को उनके पर्यायवाची से मिलाना है। 'समुद्र' का पर्यायवाची 'अर्णव' (IV) है। 'सर्प' का पर्यायवाची 'पन्नग' (III) है। 'असुर' का पर्यायवाची 'यातुधान' (II) है। 'सिंह' का पर्यायवाची 'शार्दूल' (I) है। इन सभी सही मिलानों को दर्शाने वाला विकल्प (1) a-IV, b-III, c-II, d-I है।"
+      },
+      "qkey": "67aad8aaa85a",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||33|Master Question Paper 20.09.2025_Morning Shift_1XY2",
+      "serial_no": 33,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "Deshaj Words",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सा देशज शब्द नहीं है?",
+        "options": [
+          "कटोरा",
+          "डिबिया",
+          "मयूर",
+          "फुनगी"
+        ],
+        "explanation": "'मयूर' एक तत्सम शब्द है, जो संस्कृत से आया है। यह देशज शब्द नहीं है। 'कटोरा', 'डिबिया' और 'फुनगी' देशज शब्द हैं, जो स्थानीय भाषाओं से उत्पन्न हुए हैं।"
+      },
+      "qkey": "605eff95e0db",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2011||94",
+      "serial_no": 94,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Hindi vocabulary",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": " वस्तु कठिनाई से प्राप्त हो उसके लिए उपयुक्त शब्द है",
+        "options": [
+          "कीमती",
+          "दुर्लभ",
+          "दुर्जेय",
+          "दुर्गम"
+        ],
+        "explanation": "जो वस्तु कठिनाई से प्राप्त हो उसके लिए उपयुक्त शब्द 'दुर्लभ' है। 'दुर्लभ' का अर्थ होता है जो आसानी से न मिले या जिसकी प्राप्ति कठिन हो।"
+      },
+      "qkey": "38c861d4a198",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Agriculture Supervisor::Agriculture Supervisor 2026||98",
+      "serial_no": 98,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Compound Words (समास) - Examples of Different Samas Types",
+      "source_cycle": "Agriculture Supervisor 2026",
+      "hindi": {
+        "question": "इनमें से 'अव्ययीभाव - तत्पुरुष - कर्मधारय - द्वन्द्व - द्विगु' समासों के उदाहरण पहचानकर इसी क्रम में लगाइए :\n(a) सज्जन\n(b) पसेरी\n(c) हरिशंकर\n(d) बेरहम\n(e) पाकेटमार\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए :",
+        "options": [
+          "(a), (e), (d), (c), (b)",
+          "(d), (e), (a), (c), (b)",
+          "(d), (c), (a), (b), (e)",
+          "(b), (d), (c), (e), (a)"
+        ],
+        "explanation": "अव्ययीभाव समास का उदाहरण 'बेरहम' है, तत्पुरुष समास का 'पाकेटमार' है, कर्मधारय समास का 'सज्जन' है, द्वन्द्व समास का 'हरिशंकर' है और द्विगु समास का 'पसेरी' है। इस प्रकार, सही क्रम (d), (e), (a), (c), (b) है, जो विकल्प (2) में दिया गया है।"
+      },
+      "qkey": "42c69a9d4226",
+      "source_exam": "Agriculture Supervisor",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||66|Master Question Paper 21.09.2025_Morning Shift_56HH",
+      "serial_no": 66,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Letter Writing",
+      "subtopic": "Qualities of good letter writing",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "एक अच्छे पत्र लेखन में नहीं होनी चाहिए :",
+        "options": [
+          "सरल भाषा शैली",
+          "अभद्रता",
+          "विचारों की सुस्पष्टता",
+          "व्याकरणिक शुद्धता"
+        ],
+        "explanation": "एक अच्छे पत्र लेखन में सरल भाषा शैली, विचारों की सुस्पष्टता और व्याकरणिक शुद्धता होनी चाहिए। अभद्रता एक अच्छे पत्र लेखन का हिस्सा नहीं हो सकती, क्योंकि यह पत्र के उद्देश्य और प्रभाव को नकारात्मक रूप से प्रभावित करती है।"
+      },
+      "qkey": "aa700978aa29",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. PUBLIC RELATION OFFICER::ASST. PUBLIC RELATION OFFICER 2011||94",
+      "serial_no": 94,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Pratyay",
+      "subtopic": "",
+      "source_cycle": "ASST. PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": "'वकालतनामा' शब्द में 'नामा' प्रत्यय है :",
+        "options": [
+          "देशज",
+          "विदेशी",
+          "संस्कृत",
+          "इनमें कोई नहीं"
+        ],
+        "explanation": "'वकालतनामा' शब्द में 'नामा' प्रत्यय विदेशी भाषा (फ़ारसी) से आया है। यह प्रत्यय अक्सर दस्तावेजों या पत्रों के नाम के साथ जुड़ता है।"
+      },
+      "qkey": "c93b3dd35034",
+      "source_exam": "LIB__ASST. PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||110|Master Question Paper 139 Hindi",
+      "serial_no": 110,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Tenses",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'हमने एक शेर देखा' वाक्य में काल का चयन कीजिए-",
+        "options": [
+          "सामान्य भूतकाल",
+          "सामान्य वर्तमान",
+          "सामान्य भविष्यत्",
+          "संभाव्य वर्तमान"
+        ],
+        "explanation": "'हमने एक शेर देखा' वाक्य में क्रिया 'देखा' भूतकाल में हुई है और इसमें किसी विशेष समय या निरंतरता का बोध नहीं है, इसलिए यह सामान्य भूतकाल का उदाहरण है।"
+      },
+      "qkey": "a219bc9f6498",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||45|Master Question Paper for Exam Patwar-Code 104(D) Download",
+      "serial_no": 45,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Sentence Correction (वाक्य शुद्धि)",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "व्याकरण की दृष्टि से निम्न में से कौन सा शुद्ध वाक्य है ?",
+        "options": [
+          "मेरी घड़ी में चार बजा है।",
+          "मैं तेरे से बात नहीं करूँगा।",
+          "मैं केवल इतना चाहता हूँ।",
+          "हाथी चलती है।"
+        ],
+        "explanation": "विकल्प (3) 'मैं केवल इतना चाहता हूँ' व्याकरण की दृष्टि से शुद्ध वाक्य है। अन्य विकल्प अशुद्ध हैं: (1) 'मेरी घड़ी में चार बजे हैं' होना चाहिए, (2) 'मैं तुमसे बात नहीं करूँगा' होना चाहिए, (4) 'हाथी चलता है' होना चाहिए (लिंग के अनुसार क्रिया)। इसलिए, विकल्प (3) सही उत्तर है।"
+      },
+      "qkey": "1378014be041",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||50|Master Question Paper for Exam Patwar-Code 104(D) Download",
+      "serial_no": 50,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "Technical Terms (पारिभाषिक शब्दावली)",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "किस विकल्प में 'Vocation' शब्द का समकक्ष हिन्दी पारिभाषिक शब्द सही है ?",
+        "options": [
+          "रिक्ति",
+          "व्यवसाय",
+          "प्रत्ययानुदान",
+          "अतिक्रमण"
+        ],
+        "explanation": "'Vocation' शब्द का समकक्ष हिन्दी पारिभाषिक शब्द 'व्यवसाय' होता है। यह किसी व्यक्ति के पेशे या आजीविका को संदर्भित करता है। अन्य विकल्प 'रिक्ति' (Vacancy), 'प्रत्ययानुदान' (Subvention) और 'अतिक्रमण' (Encroachment) 'Vocation' के सही अर्थ नहीं हैं। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "729aeabd54e7",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||61|Master Question Paper 134 D",
+      "serial_no": 61,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Samas (समास)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "किस शब्द में अव्ययीभाव समास नहीं है ?",
+        "options": [
+          "सज्जन",
+          "अनुसार",
+          "प्रतिदिन",
+          "भरपेट"
+        ],
+        "explanation": "'अनुसार', 'प्रतिदिन' और 'भरपेट' तीनों अव्ययीभाव समास के उदाहरण हैं क्योंकि इनमें पहला पद अव्यय है और वही प्रधान है। 'सज्जन' शब्द का विग्रह 'सत् + जन' (अच्छा है जो जन) होता है, जो कर्मधारय समास का उदाहरण है।"
+      },
+      "qkey": "572143bafe71",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||113|Master Question Paper_Hindi( L-2 )_DHD68",
+      "serial_no": 113,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Word power",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "'अभिधा' शब्द शक्ति से कितने प्रकार के शब्दों का अर्थबोध होता है?",
+        "options": [
+          "तीन",
+          "चार",
+          "पाँच",
+          "दो"
+        ],
+        "explanation": "अभिधा शब्द शक्ति से तीन प्रकार के शब्दों का अर्थबोध होता है: रूढ़, यौगिक और योगरूढ़। ये शब्द अपने सामान्य और सीधे अर्थ को प्रकट करते हैं।"
+      },
+      "qkey": "aea9fde4989c",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||45|Master Question Paper for Exam Patwar-Code 104(B)",
+      "serial_no": 45,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Grammar",
+      "subtopic": "Word Purification (Shabd Shuddhi)",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "निम्नलिखित शब्दों पर विचार कीजिए :\n(1) सँवारना\n(2) श्रीमती\n(3) स्थायित्व\n(4) उलंघन\nकिस विकल्प में सभी शब्द शुद्ध हैं ?",
+        "options": [
+          "1, 2 और 3",
+          "1 और 4",
+          "3 और 4",
+          "यह सभी"
+        ],
+        "explanation": "दिए गए शब्दों में, 'सँवारना', 'श्रीमती' और 'स्थायित्व' शुद्ध शब्द हैं। 'उलंघन' के स्थान पर 'उल्लंघन' शुद्ध होता है। इसलिए, 1, 2 और 3 सभी शुद्ध शब्द हैं।"
+      },
+      "qkey": "3573133d5f81",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||114|Master Question Paper 139 Hindi",
+      "serial_no": 114,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Technical terms",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'SUMMON' अंग्रेजी शब्द के लिए हिन्दी पारिभाषिक शब्द है -",
+        "options": [
+          "बुलाना",
+          "विसर्जित करना",
+          "स्थगित करना",
+          "भंग करना"
+        ],
+        "explanation": "'SUMMON' अंग्रेजी शब्द का अर्थ किसी को आधिकारिक रूप से बुलाना या उपस्थित होने का आदेश देना होता है। इसके लिए सही हिन्दी पारिभाषिक शब्द 'बुलाना' है।"
+      },
+      "qkey": "3feaa2793a76",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||70|Master Question Paper V23",
+      "serial_no": 70,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Vocabulary",
+      "subtopic": "Word Pairs (शब्द युग्म)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "'कृत-क्रीत' शब्द युग्म का संगत अर्थ निम्नलिखित में से होगा-",
+        "options": [
+          "व्यापार-रचना",
+          "किया हुआ-खरीदा हुआ",
+          "क्रेता-विक्रेता",
+          "व्यय-कर्म"
+        ],
+        "explanation": "'कृत' का अर्थ 'किया हुआ' होता है, जबकि 'क्रीत' का अर्थ 'खरीदा हुआ' होता है। यह शब्द युग्म संस्कृत मूल के शब्दों पर आधारित है और इनके अर्थों का सही मिलान विकल्प (2) में दिया गया है।"
+      },
+      "qkey": "6c6bcf11c3e3",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||93|Master Question Paper 139 Hindi",
+      "serial_no": 93,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Hindi Language",
+      "topic": "Reading comprehension",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "धरती पर स्वर्ग जैसा सौन्दर्य कब होता है?",
+        "options": [
+          "फाल्गुन में",
+          "वसंत में",
+          "चैत्र में",
+          "होली आने पर"
+        ],
+        "explanation": "दिए गए काव्यांश में 'वसंत' ऋतु का वर्णन किया गया है जहाँ धरती पर स्वर्ग जैसा सौंदर्य होता है। काव्यांश में वसंत के आगमन पर प्रकृति के सौंदर्य का चित्रण है। इसलिए, 'वसंत में' सही उत्तर है।"
+      },
+      "qkey": "bea7e04c0bb8",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "Village Development Officer 2025||121",
+      "serial_no": 121,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Folk Deities of Rajasthan",
+      "subtopic": "Nag Devtas (Serpent Gods)",
+      "source_cycle": "Village Development Officer 2025",
+      "hindi": {
+        "question": "राजस्थान में हिंदुओं द्वारा तेजाजी के अलावा किस अन्य लोक देवता को 'नागराजा' के रूप में पूजा जाता है?",
+        "options": [
+          "गोगाजी",
+          "पाबूजी",
+          "मल्लीनाथजी",
+          "रामदेवजी"
+        ],
+        "explanation": "राजस्थान में हिंदुओं द्वारा तेजाजी के अलावा गोगाजी को 'नागराजा' के रूप में पूजा जाता है। गोगाजी को सर्प देवता के रूप में मान्यता प्राप्त है और उनकी पूजा सर्पदंश से सुरक्षा के लिए की जाती है। इसलिए, विकल्प (1) सही उत्तर है।"
+      },
+      "qkey": "b05ea58ec20d"
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|23|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Samhita (Maulik Siddhant))",
+      "serial_no": 23,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Bhil movement",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "डंगरपुर-बांसवाड़ा के भील आंदोलन के संबंध में कोनसा कथन सत्य है? A. यह एक सामाजिक एवं धार्मिक सुधार आंदोलन था जिसने कालांतर में राजनीतिक स्वरूप ग्रहण कर लिया। B. सामाजिक जागरूकता के कारण भीलों ने ठाकुरों के आदेशों को मानने से इनकार कर दिया। C. भील क्षेत्र में राज्य के आबकारी राजस्व में गिरावट आई। D. गोविंदगिरि बेडसा ग्राम का कृषक भील था। सही कूट चुनिए",
+        "options": [
+          "केवल A सत्य है",
+          "A, B सत्य है",
+          "केवल A, B, C सत्य है",
+          "सभी A, B, C, D सत्य है"
+        ],
+        "explanation": "डूंगरपुर-बांसवाड़ा के भील आंदोलन के संबंध में कथन A, B, C सत्य हैं। यह एक सामाजिक एवं धार्मिक सुधार आंदोलन था जिसने कालांतर में राजनीतिक स्वरूप ग्रहण कर लिया। सामाजिक जागरूकता के कारण भीलों ने ठाकुरों के आदेशों को मानने से इनकार कर दिया। भील क्षेत्र में राज्य के आबकारी राजस्व में गिरावट आई। गोविंदगिरि बेडसा ग्राम का कृषक भील था, यह कथन सत्य नहीं है।"
+      },
+      "qkey": "292adda0dd6c",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. STATISTICAL OFFICER::ASST. STATISTICAL OFFICER 2024|(single)|13",
+      "serial_no": 13,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Types of forts",
+      "subtopic": "",
+      "source_cycle": "ASST. STATISTICAL OFFICER 2024",
+      "hindi": {
+        "question": "निम्न में से कौनसा युग्म सुमेलित नहीं है?",
+        "options": [
+          "गिरि दुर्ग – सिवाणा",
+          "स्थल दुर्ग - चौमुहागढ़",
+          "धान्वन दुर्ग  मांडलगढ़",
+          "औदक दुर्ग - गागरोण"
+        ],
+        "explanation": "दिए गए विकल्पों में से, 'धान्वन दुर्ग - मांडलगढ़' सही सुमेलित नहीं है। मांडलगढ़ एक गिरि दुर्ग है, जबकि धान्वन दुर्ग वे होते हैं जो रेगिस्तानी क्षेत्र में स्थित होते हैं। सिवाणा एक गिरि दुर्ग है, चौमुहागढ़ एक स्थल दुर्ग है और गागरोण एक औदक दुर्ग है।"
+      },
+      "qkey": "beca2f9e3749",
+      "source_exam": "LIB__ASST. STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018|A|95",
+      "serial_no": 95,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Ancient Culture and Civilization",
+      "subtopic": "Ganeshwar (Copper Age Site)",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018",
+      "hindi": {
+        "question": "किस ताम्रपाषाणिक स्थल पर सबसे ज्यादा ताम्र सामग्री प्राप्त हुई है ?",
+        "options": [
+          "अहाड़",
+          "बैराठ",
+          "कालीबंगा",
+          "गणेश्वर"
+        ],
+        "explanation": "गणेश्वर पुरास्थल को 'ताम्रयुगीन सभ्यताओं की जननी' कहा जाता है क्योंकि यहाँ से बड़ी मात्रा में ताम्र उपकरण और सामग्री प्राप्त हुई है। यह स्थल प्राचीन काल में तांबे के खनन और उसके उपकरणों के निर्माण का एक महत्वपूर्ण केंद्र था।"
+      },
+      "qkey": "c3d305d052e7",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|9|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Kayachikitsa)",
+      "serial_no": 9,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Rajasthan traditional dress",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "'मदिल' निम्न में से किसका प्रकार था -",
+        "options": [
+          "अंगरखी",
+          "दुपट्टा",
+          "जूतियां",
+          "पगड़ी"
+        ],
+        "explanation": "'मदिल' राजस्थान में पगड़ी का एक प्रकार है। यह एक पारंपरिक सिर पर पहनने वाला वस्त्र है, जिसे विशेष अवसरों पर पहना जाता है। मदिल अपनी विशिष्ट शैली और बांधने के तरीके के लिए जानी जाती है।"
+      },
+      "qkey": "6eaae142ef3b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__MOTOR VEHICLE SUB INSPECTOR::Motor Vehicle Sub Inspector 2021||54",
+      "serial_no": 54,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Sikar movement leaders",
+      "subtopic": "",
+      "source_cycle": "Motor Vehicle Sub Inspector 2021",
+      "hindi": {
+        "question": "सीकर आंदोलन की उल्लेखनीय महिला नेता कौन थी ?",
+        "options": [
+          "धापी दादी",
+          "किशोरी देवी",
+          "जानकी देवी बजाज",
+          "अंजना देवी चौधरी"
+        ],
+        "explanation": "किशोरी देवी सीकर आंदोलन की एक उल्लेखनीय महिला नेता थीं। उन्होंने 1934 में कटराथल में एक विशाल महिला सम्मेलन का नेतृत्व किया, जिसमें हजारों महिलाओं ने भाग लिया।"
+      },
+      "qkey": "eec2ae6830dd",
+      "source_exam": "LIB__MOTOR VEHICLE SUB INSPECTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||41|Master Question Paper 134 C",
+      "serial_no": 41,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Political History of Rajasthan",
+      "subtopic": "Unification of Rajasthan (Ajmer State)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "अजमेर राज्य के प्रथम मुख्य मंत्री कौन थे?",
+        "options": [
+          "बाल कृष्ण कौल",
+          "हरि भाऊ उपाध्याय",
+          "हीरालाल शास्त्री",
+          "जय नारायण व्यास"
+        ],
+        "explanation": "अजमेर-मेरवाड़ा राज्य के प्रथम और एकमात्र मुख्यमंत्री हरिभाऊ उपाध्याय थे। अजमेर-मेरवाड़ा एक 'सी' श्रेणी का राज्य था जो 1956 में राजस्थान में विलय हो गया। हरिभाऊ उपाध्याय एक प्रमुख स्वतंत्रता सेनानी और गांधीवादी नेता थे।"
+      },
+      "qkey": "c1bb6d67ac1e",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018|A|4",
+      "serial_no": 4,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Language and Literature",
+      "subtopic": "Authors and their Works",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018",
+      "hindi": {
+        "question": "'बुद्धि विलास' ग्रंथ के लेखक हैं -",
+        "options": [
+          "किसना आढ़ा",
+          "बखत राम शाह",
+          "बांकीदास",
+          "नरोत्तम"
+        ],
+        "explanation": "'बुद्धि विलास' एक महत्वपूर्ण राजस्थानी ग्रंथ है जो बखत राम शाह द्वारा लिखा गया था। यह ग्रंथ तत्कालीन सामाजिक, सांस्कृतिक और ऐतिहासिक पहलुओं पर प्रकाश डालता है। यह राजस्थानी साहित्य की एक महत्वपूर्ण कृति है।"
+      },
+      "qkey": "8bf60e783295",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|D|3",
+      "serial_no": 3,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Ancient Rajasthan History",
+      "subtopic": "Archaeological Sites and Artifacts (Ganeshwara)",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "गणेश्वर से प्राप्त मृदभाण्ड किस प्रकार के हैं?",
+        "options": [
+          "गैरिक मुदभाण्ड",
+          "लाल बर्तन",
+          "उत्तरी कृष्ण मार्जित मृदभाण्ड",
+          "धूसर चित्रित मृदभाण्ड"
+        ],
+        "explanation": "गणेश्वर सभ्यता से प्राप्त मृदभाण्ड मुख्य रूप से गैरिक मृदभाण्ड (Ochre Coloured Pottery - OCP) संस्कृति से संबंधित हैं। ये मृदभाण्ड तांबे के औजारों के साथ पाए गए हैं और इन्हें ताम्रयुगीन संस्कृति का हिस्सा माना जाता है। इनकी पहचान इनके विशिष्ट रंग और बनावट से होती है।"
+      },
+      "qkey": "a70448b8045b",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__FORESTER::Forester 2026||67",
+      "serial_no": 67,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Mewar Praja Mandal",
+      "subtopic": "",
+      "source_cycle": "Forester 2026",
+      "hindi": {
+        "question": "निम्नलिखित में से मेवाड़ प्रजा मंडल के संस्थापक की पहचान कीजिए।",
+        "options": [
+          "माधरम वैद्य",
+          "माणिक्यालाल वर्मा",
+          "कर्पूरचंद पटनी",
+          "कृष्ण दत्त"
+        ],
+        "explanation": "माणिक्यालाल वर्मा मेवाड़ प्रजा मंडल के संस्थापक थे। उन्होंने 1938 में मेवाड़ प्रजा मंडल की स्थापना की थी, जिसका उद्देश्य रियासत में उत्तरदायी सरकार की स्थापना करना था। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "a7a2616c548e",
+      "source_exam": "LIB__FORESTER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|B|94",
+      "serial_no": 94,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Freedom Struggle",
+      "subtopic": "Political Awakening - Newspapers",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "'नवीन राजस्थान' समाचार-पत्र का प्रथम प्रकाशन किस वर्ष में हुआ ?",
+        "options": [
+          "1921 ई.",
+          "1922 ई.",
+          "1923 ई.",
+          "1924 ई."
+        ],
+        "explanation": "'नवीन राजस्थान' समाचार-पत्र का प्रथम प्रकाशन 1922 ई. में विजय सिंह पथिक द्वारा किया गया था। यह समाचार-पत्र राजस्थान में जन-जागरण और स्वतंत्रता आंदोलन को बढ़ावा देने में महत्वपूर्ण भूमिका निभाई। बाद में इसका नाम बदलकर 'तरुण राजस्थान' कर दिया गया था।"
+      },
+      "qkey": "4bef49869c89",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|21|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Prasooti Tantra And Stree Roga)",
+      "serial_no": 21,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Peasant movements",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र क्यों दिया था?",
+        "options": [
+          "1923 ई. में. उन्हे 5 वर्ष की सजा सुनाकर जेल भेज दिया था।",
+          "माणिक्य लाल वर्मा को नेतृत्व प्रदान करने हेतु।",
+          "उन्होंने किसानों को असिंचित भूमि को पड़तरखने हेतु कहा था।",
+          "ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया जिसे लोगों ने ले लिया।"
+        ],
+        "explanation": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र इसलिए दिया था क्योंकि ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया गया और लोगों ने उसे ले लिया। इससे किसानों के आंदोलन की दिशा बदल गई और पथिक ने नेतृत्व से हटने का निर्णय लिया।"
+      },
+      "qkey": "e0074096e92b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__FORESTER::Forester 2026||7",
+      "serial_no": 7,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Rajasthan tourist places",
+      "subtopic": "",
+      "source_cycle": "Forester 2026",
+      "hindi": {
+        "question": "राजस्थान के निम्नलिखित में से किस केंद्रीय रूप से संरक्षित टिकट वाले स्मारक में वर्ष 2024-25 में सर्वाधिक घरेलू पर्यटक आए ? सबसे उपयुक्त विकल्प का चयन कीजिए ।",
+        "options": [
+          "चित्तौड़गढ़ किला",
+          "कुंभलगढ़ किला",
+          "डीग भवन",
+          "चांद बाउरी"
+        ],
+        "explanation": "वर्ष 2024-25 में, राजस्थान में केंद्रीय रूप से संरक्षित टिकट वाले स्मारकों में से चित्तौड़गढ़ किले में सर्वाधिक घरेलू पर्यटक आए। यह किला अपनी ऐतिहासिक महत्वता और भव्यता के कारण पर्यटकों के बीच बहुत लोकप्रिय है।"
+      },
+      "qkey": "6f2dc262f0a8",
+      "source_exam": "LIB__FORESTER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||29|Master Question Paper 19.09.2025_Morning Shift_DS22",
+      "serial_no": 29,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Tourism in Rajasthan",
+      "subtopic": "Jaipur Tourist Sites",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से, किस पर्यटन स्थल को, \"पंच गौरव\" पहल के तहत, जयपुर जिले का प्रतिनिधित्व करने के लिए चुना गया है ?",
+        "options": [
+          "आमेर दुर्ग",
+          "जंतर मंतर",
+          "नाहरगढ़ किला",
+          "हवा महल"
+        ],
+        "explanation": "जयपुर जिले में 'पंच गौरव' पहल के तहत आमेर दुर्ग को चुना गया है। यह पहल पर्यटन को बढ़ावा देने और जयपुर के ऐतिहासिक महत्व को उजागर करने के लिए शुरू की गई है।"
+      },
+      "qkey": "a6e679311573",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR ENGINEER (JEN)::Junior Engineer (JEN) 2024||19",
+      "serial_no": 19,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Forts of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Junior Engineer (JEN) 2024",
+      "hindi": {
+        "question": "कर्नल टॉड के अनुसार निम्नलिखित में से कौन सा किला व्यापारी भैंसा शाह और रोड़ा चारण द्वारा बनाया गया था ?",
+        "options": [
+          "गागरोन किला",
+          "चूरू किला",
+          "जूनागढ़ किला",
+          "भैंसरोड़गढ़ किला"
+        ],
+        "explanation": "कर्नल टॉड के अनुसार, भैंसरोड़गढ़ किला व्यापारी भैंसा शाह और रोड़ा चारण द्वारा बनाया गया था। यह किला चंबल और बामनी नदियों के संगम पर स्थित है।"
+      },
+      "qkey": "6fd0dc707bc4",
+      "source_exam": "JUNIOR ENGINEER (JEN)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::MOTOR VEHICLE SUB INSPECTOR COMP. EXAM 2013|(single)|60",
+      "serial_no": 60,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Rajasthan Culture",
+      "subtopic": "Rajasthani Folk Musical Instruments",
+      "source_cycle": "MOTOR VEHICLE SUB INSPECTOR COMP. EXAM 2013",
+      "hindi": {
+        "question": "'रावण हत्था' क्या है ?",
+        "options": [
+          "वाद्य यंत्र",
+          "एक प्रकार का नृत्य",
+          "आभूषण",
+          "त्यौहार"
+        ],
+        "explanation": "'रावण हत्था' एक प्रकार का वाद्य यंत्र है। यह राजस्थान का एक प्राचीन तार वाला वाद्य यंत्र है जिसे मुख्य रूप से लोक संगीत और कथावाचन में उपयोग किया जाता है। इसे धनुष से बजाया जाता है।"
+      },
+      "qkey": "e8ee224bbc79",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||41|Master Question Paper 134 E",
+      "serial_no": 41,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Folk Music and Dance of Rajasthan",
+      "subtopic": "Folk Musical Instruments and Artists",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "साकर खान को 2012 में पद्मश्री से सम्मानित किया गया क्योंकि वे लोक वाद्य के सबसे बड़े प्रवक्ता थे।",
+        "options": [
+          "कामायचा",
+          "सारंगी",
+          "मोरचंग",
+          "खड़ताल"
+        ],
+        "explanation": "साकर खान मांगणियार को 2012 में कामायचा लोक वाद्य यंत्र को विश्व स्तर पर पहचान दिलाने और उसके संरक्षण में उनके महत्वपूर्ण योगदान के लिए पद्मश्री से सम्मानित किया गया था। वह कामायचा के एक महान वादक और इसके सबसे बड़े प्रवर्तकों में से एक थे।"
+      },
+      "qkey": "ba3f683f4731",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||63|Master Question Paper 134 E",
+      "serial_no": 63,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Art and Architecture of Rajasthan",
+      "subtopic": "Forts of Rajasthan",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "किस किले के बारे में हसन निजामी ने लिखा \"यह ऐसा किला है जिसका दरवाजा कोई आक्रमणकारी नहीं खोल सका\" ?",
+        "options": [
+          "जैसलमेर का किला",
+          "जालोर का किला",
+          "शेरगढ़ का किला",
+          "सिवाणा का किला"
+        ],
+        "explanation": "इतिहासकार हसन निजामी ने जालोर के किले की अभेद्यता का वर्णन करते हुए लिखा था कि \"यह ऐसा किला है जिसका दरवाजा कोई आक्रमणकारी नहीं खोल सका\"। यह कथन किले की मजबूत सुरक्षा और रणनीतिक महत्व को दर्शाता है। जालोर का किला अपनी दुर्जेय संरचना और ऐतिहासिक महत्व के लिए जाना जाता है।"
+      },
+      "qkey": "c21f7aef9ac7",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||63|Forester 2020 _ Master Question (Shift 2)",
+      "serial_no": 63,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Ancient Civilizations of Rajasthan",
+      "subtopic": "Discovery of Kalibanga civilization",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "निम्नलिखित में से किसने कालीबंगा सभ्यता की खोज की ?",
+        "options": [
+          "अमलानन्द घोष",
+          "रतन चन्द्र अग्रवाल",
+          "एच.डी. सांकलिया",
+          "वी.एन. मिश्र"
+        ],
+        "explanation": "कालीबंगा सभ्यता की खोज अमलानंद घोष ने की थी। यह सिंधु घाटी सभ्यता का एक महत्वपूर्ण स्थल है।"
+      },
+      "qkey": "9c5728d23b68",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|11|Question Paper for A.A.R.O. - 2022 (GK and Botany)",
+      "serial_no": 11,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Shudra Mukti author",
+      "subtopic": "",
+      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
+      "hindi": {
+        "question": "निम्न में से कौन 'शूद्र मुक्ति' पुस्तक के लेखक हैं?",
+        "options": [
+          "अर्जुन लाल सेठी",
+          "प्रताप सिंह",
+          "जमनालाल बजाज",
+          "सागरमल गोपा"
+        ],
+        "explanation": "अर्जुन लाल सेठी राजस्थान के एक प्रमुख स्वतंत्रता सेनानी और क्रांतिकारी थे। उन्होंने 'शूद्र मुक्ति' नामक पुस्तक की रचना की, जिसमें सामाजिक सुधार और दलितों के उत्थान पर विचार व्यक्त किए गए थे। इसलिए, विकल्प (1) 'अर्जुन लाल सेठी' सही उत्तर है।"
+      },
+      "qkey": "a6e148e2d55c",
+      "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||12|Master Question Paper 131D",
+      "serial_no": 12,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Architecture of Rajasthan",
+      "subtopic": "Chhatris / Kumbhalgarh Fort",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "पृथ्वीराज की \"12 खम्बों की छतरी\" निम्नलिखित में से किस किले में स्थित है?",
+        "options": [
+          "मेहरानगढ़ किला",
+          "गोगुन्दा किला",
+          "चित्तौड़गढ़ किला",
+          "कुंभलगढ़ किला"
+        ],
+        "explanation": "पृथ्वीराज की '12 खम्बों की छतरी' कुंभलगढ़ किले में स्थित है। यह छतरी कुंभलगढ़ दुर्ग के कटारगढ़ महल के पास स्थित है और इसे पृथ्वीराज सिसोदिया, जिन्हें 'उड़ना राजकुमार' भी कहा जाता है, की याद में बनवाया गया था।"
+      },
+      "qkey": "a20c29ec17a9",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|14-09-2021|90",
+      "serial_no": 90,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Rajasthan Art & Culture",
+      "subtopic": "Painting Styles (Mewar School)",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "\"अटपटी पगड़ी\" चित्रकला की किस शैली से संबंधित है ?",
+        "options": [
+          "बूंदी",
+          "कोटा",
+          "मेवाड़",
+          "आमेर"
+        ],
+        "explanation": "अटपटी पगड़ी मेवाड़ चित्रकला शैली से संबंधित है। यह मेवाड़ शैली की एक विशिष्ट पहचान है जो उस समय के पहनावे को दर्शाती है।"
+      },
+      "qkey": "50862c304ebc",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||12|Master Question Paper 131B",
+      "serial_no": 12,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Dynasties of Rajasthan",
+      "subtopic": "Chauhan Dynasty and Historical Literature",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'अर्ली चौहान डाइनेस्टीज़' के लेखक हैं",
+        "options": [
+          "जी.ए. ग्रियर्सन",
+          "दशरथ शर्मा",
+          "जी.एच. ओझा",
+          "जी.एन. शर्मा"
+        ],
+        "explanation": "'अर्ली चौहान डाइनेस्टीज़' के लेखक दशरथ शर्मा हैं। यह पुस्तक चौहान राजवंश के प्रारंभिक इतिहास पर एक महत्वपूर्ण शोध कार्य है, जो इस क्षेत्र के इतिहास को समझने में सहायक है। दशरथ शर्मा राजस्थान के प्रसिद्ध इतिहासकार थे।"
+      },
+      "qkey": "717644625460",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|(single)|76",
+      "serial_no": 76,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Freedom Movement in Rajasthan",
+      "subtopic": "Martyrs of Rajasthan Freedom Struggle",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "1942 ई. में, जोधपुर जेल में भूख हड़ताल के दौरान किस सत्याग्रही की मृत्यु हो गयी थी?",
+        "options": [
+          "द्वारका दास",
+          "राधा कृष्ण",
+          "शिव करण थानवी",
+          "बालमुकुन्द बिस्सा"
+        ],
+        "explanation": "1942 ई. में भारत छोड़ो आंदोलन के दौरान, जोधपुर जेल में भूख हड़ताल के कारण प्रसिद्ध स्वतंत्रता सेनानी बालमुकुन्द बिस्सा की मृत्यु हो गई थी। उन्हें 'राजस्थान का जतिन दास' भी कहा जाता है।"
+      },
+      "qkey": "f812bf5e56fb",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||24|Master Question Paper_Sanskrit ( L-1 )_2PP12",
+      "serial_no": 24,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Rajasthani literary traditions",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "राजस्थानी साहित्य की ऐतिहासिक परंपरा/प्रवृत्तियों को कालक्रमानुसार व्यवस्थित करें :",
+        "options": [
+          "c, a, b, d",
+          "a, c, b, d",
+          "b, d, a, c",
+          "d, b, a, c"
+        ],
+        "explanation": "राजस्थानी साहित्य की ऐतिहासिक परंपरा/प्रवृत्तियों का सही कालक्रमानुसार व्यवस्थापन विकल्प (b, d, a, c) है। यह क्रम साहित्य के विकास और विभिन्न कालों की प्रवृत्तियों को दर्शाता है।"
+      },
+      "qkey": "97baf6dfc825",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAS_RTS COMB. COMP. EXAM 2016|(single)|15",
+      "serial_no": 15,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Literature and Music",
+      "subtopic": "Rajasthani Literary Works and Authors",
+      "source_cycle": "RAS_RTS COMB. COMP. EXAM 2016",
+      "hindi": {
+        "question": "राजस्थानी साहित्य की एक प्रारंभिक रचना 'हंसावली' रचित है",
+        "options": [
+          "हेमचन्द्र द्वारा",
+          "असाईत द्वारा",
+          "श्रीधर व्यास द्वारा",
+          "ईसरदास द्वारा"
+        ],
+        "explanation": "राजस्थानी साहित्य की एक प्रारंभिक रचना 'हंसावली' असाईत द्वारा रचित है। यह एक महत्वपूर्ण प्रेम काव्य है जो राजस्थानी साहित्य की प्रारंभिक कृतियों में से एक है।"
+      },
+      "qkey": "c357758a7032",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__JUNIOR SCIENTIFIC ASSISTANT::Junior Scientific Assistant 2019||15",
+      "serial_no": 15,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Dhundhari dialects",
+      "subtopic": "",
+      "source_cycle": "Junior Scientific Assistant 2019",
+      "hindi": {
+        "question": "निम्नलिखित बोलियों में से कौन सी ढुंढाड़ी की उप बोली नहीं है ?",
+        "options": [
+          "अहीरवाटी",
+          "तोरावाटी",
+          "राजावाटी",
+          "नागरचोल"
+        ],
+        "explanation": "ढुंढाड़ी की उपबोलियों में तोरावाटी, राजावाटी और नागरचोल शामिल हैं। अहीरवाटी मेवाती की उपबोली है, न कि ढुंढाड़ी की। इसलिए, अहीरवाटी ढुंढाड़ी की उपबोली नहीं है।"
+      },
+      "qkey": "76c9c73df36f",
+      "source_exam": "LIB__JUNIOR SCIENTIFIC ASSISTANT",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018|B|99",
+      "serial_no": 99,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Society and Religion",
+      "subtopic": "Lok Devta (Tejaji and Sati)",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018",
+      "hindi": {
+        "question": "किस लोक देवता की पत्नी उनकी मृत्यु के बाद सती हो गई ?",
+        "options": [
+          "मल्लीनाथ",
+          "हरबूजी",
+          "तेजाजी",
+          "देवजी"
+        ],
+        "explanation": "राजस्थान के लोक देवता तेजाजी की पत्नी पेमल उनकी मृत्यु के बाद सती हो गई थीं। तेजाजी को नागों के देवता के रूप में पूजा जाता है और उनकी वीरता और बलिदान की कहानियाँ राजस्थान में बहुत प्रचलित हैं।"
+      },
+      "qkey": "e86c851f1f6b",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2016|B|22",
+      "serial_no": 22,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Medieval History",
+      "subtopic": "Mughal Relations (Haldighati Battle)",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2016",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन से राजपूत सरदार हल्दीघाटी के युद्ध में राणा प्रताप के पक्ष में लड़े थे ? (i) रामसिंह तँवर (राम साहा) (ii) बीदा झाला (iii) रावत कृष्णदास चुण्डावत (iv) अशोक परमार नीचे दिये गये कूटों के आधार पर सही उत्तर का चयन कीजिए : कूट :",
+        "options": [
+          "(i) एवं (iii)",
+          "(ii) एवं (iv)",
+          "(i), (ii), (iii) एवं (iv)",
+          "(i), (ii) एवं (iii)"
+        ],
+        "explanation": "हल्दीघाटी के युद्ध (1576 ई.) में राणा प्रताप के पक्ष में लड़ने वाले राजपूत सरदारों में रामसिंह तँवर (राम साहा), बीदा झाला और रावत कृष्णदास चुण्डावत प्रमुख थे। बीदा झाला ने युद्ध में राणा प्रताप का राजचिह्न धारण कर उन्हें सुरक्षित निकालने में मदद की थी। अशोक परमार राणा प्रताप के पक्ष में नहीं लड़े थे।"
+      },
+      "qkey": "7fe48b72c6e3",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||33|Master Question Paper 131A",
+      "serial_no": 33,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Folk Deities and Saints of Rajasthan",
+      "subtopic": "Kalla Ji (Four-armed deity)",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "चार हाथों वाला लोकदेवता किसे कहा जाता है?",
+        "options": [
+          "कल्ला जी",
+          "मल्लीनाथ जी",
+          "फत्ता जी",
+          "झुन्झार जी"
+        ],
+        "explanation": "कल्ला जी को 'चार हाथों वाला लोकदेवता' कहा जाता है। यह उपाधि उन्हें चित्तौड़गढ़ के तीसरे साके के दौरान अपने चाचा जयमल को कंधे पर बिठाकर युद्ध करने के कारण मिली थी, जिससे वे चार हाथों वाले योद्धा प्रतीत होते थे।"
+      },
+      "qkey": "75b6a491be49",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2025|(single)|4",
+      "serial_no": 4,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Women's institutions Rajasthan",
+      "subtopic": "",
+      "source_cycle": "STATISTICAL OFFICER 2025",
+      "hindi": {
+        "question": "भीलवाड़ा में 1944 में किसने 'महिला आश्रम' की स्थापना की?",
+        "options": [
+          "अंजना देवी चौधरी",
+          "रतन शास्त्री",
+          "शांता त्रिवेदी",
+          "नारायणी देवी वर्मा"
+        ],
+        "explanation": "भीलवाड़ा में 1944 में 'महिला आश्रम' की स्थापना नारायणी देवी वर्मा ने की थी। उन्होंने महिलाओं की शिक्षा और सशक्तिकरण के लिए यह महत्वपूर्ण कार्य किया था। यह आश्रम महिलाओं के उत्थान के लिए समर्पित था।"
+      },
+      "qkey": "3fa67caccc55",
+      "source_exam": "LIB__STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||74|Master Question Paper 130C",
+      "serial_no": 74,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Ancient History of Rajasthan",
+      "subtopic": "Viratnagar (Bairath) and Mauryan Empire",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "निम्नलिखित कथनों को पढ़िए -\n(i) विराटनगर जिसे पहले बैराठ के नाम से जाना जाता था, जोधपुर का एक शहर है।\n(ii) बैराठ, मौर्य साम्राज्य का हिस्सा था।\nसही कूट चुनिए",
+        "options": [
+          "केवल (i) सही है",
+          "केवल (ii) सही है",
+          "न तो (i) ना ही (ii) सही है",
+          "दोनों कथन सही हैं"
+        ],
+        "explanation": "विराटनगर (बैराठ) जयपुर जिले में स्थित है, न कि जोधपुर में। बैराठ मौर्य साम्राज्य का हिस्सा था, जिसके पुरातात्विक साक्ष्य मिले हैं। इसलिए केवल दूसरा कथन सही है।"
+      },
+      "qkey": "7bd7b31c7066",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||12|Master Question Paper for Exam Patwar-Code 104(B)",
+      "serial_no": 12,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Modern Indian History",
+      "subtopic": "Social Reform Movements",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "ई. सन् में सती प्रथा का उन्मूलन राजा राममोहन राय की सामाजिक सुधार के क्षेत्र में सबसे बड़ी उपलब्धि थी ।",
+        "options": [
+          "1929",
+          "1729",
+          "1829",
+          "1928"
+        ],
+        "explanation": "सती प्रथा का उन्मूलन 1829 ई. में लॉर्ड विलियम बेंटिंक द्वारा किया गया था, जिसमें राजा राममोहन राय ने महत्वपूर्ण भूमिका निभाई थी। यह उनके सामाजिक सुधार के प्रयासों की एक बड़ी उपलब्धि थी।"
+      },
+      "qkey": "c523d9a3b420",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|(single)|54",
+      "serial_no": 54,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Traditional Ornaments",
+      "subtopic": "Women's Ornaments of Rajasthan",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "'मांदल्या' नामक आभूषण महिलाओं द्वारा शरीर के किस अंग में पहना जाता है?",
+        "options": [
+          "पैर में",
+          "हाथ में",
+          "कान में",
+          "गले में"
+        ],
+        "explanation": "मांदल्या राजस्थान में महिलाओं द्वारा गले में पहना जाने वाला एक पारंपरिक आभूषण है। यह आमतौर पर चांदी या सोने से बना होता है और इसमें एक बेलनाकार या चौकोर आकृति होती है।"
+      },
+      "qkey": "4327500aae0f",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__EVALUATION OFFICER::EVALUATION OFFICER 2020||177",
+      "serial_no": 177,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Swami Dayanand Saraswati organizations",
+      "subtopic": "",
+      "source_cycle": "EVALUATION OFFICER 2020",
+      "hindi": {
+        "question": "उस संस्था का नाम बताइये जिसका गठन स्वामी दयानंद सरस्वती ने उदयपुर में किया था, लेकिन कालान्तर में यह अजमेर स्थानान्तरित कर दी गई।",
+        "options": [
+          "आर्य समाज",
+          "परोपकारिणी सभा",
+          "समाज सेवा संघ",
+          "वेद समाज"
+        ],
+        "explanation": "स्वामी दयानंद सरस्वती ने उदयपुर में परोपकारिणी सभा की स्थापना की थी, जिसका उद्देश्य वैदिक धर्म का प्रचार करना और समाज सुधार करना था। बाद में इसे अजमेर स्थानांतरित कर दिया गया। इसलिए विकल्प (2) सही है।"
+      },
+      "qkey": "27aa39f426d5",
+      "source_exam": "LIB__EVALUATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||103|Master Question Paper 134 E",
+      "serial_no": 103,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History and Culture",
+      "topic": "Historical Events",
+      "subtopic": "Mughal-Rajput Conflicts",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "16 अप्रैल, 1658 के दिन किस युद्ध में औरंगजेब ने जसवंतसिंह को हराया ?",
+        "options": [
+          "दौराई का युद्ध",
+          "सामूगढ़ का युद्ध",
+          "खजुवा का युद्ध",
+          "धरमत का युद्ध"
+        ],
+        "explanation": "16 अप्रैल, 1658 को धरमत का युद्ध लड़ा गया था। यह युद्ध मुगल बादशाह शाहजहाँ के बेटों के बीच उत्तराधिकार संघर्ष का हिस्सा था। इस युद्ध में औरंगजेब और मुराद बख्श की संयुक्त सेना ने महाराजा जसवंत सिंह के नेतृत्व वाली शाही सेना को हराया था।"
+      },
+      "qkey": "809adf5ed2f6",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||77|Master Question Paper V23",
+      "serial_no": 77,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Computer Organization",
+      "subtopic": "Central Processing Unit (CPU)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा कम्प्यूटर का इलेक्ट्रॉनिक मस्तिष्क है ?",
+        "options": [
+          "सी पी यू (सेन्ट्रल प्रोसेसिंग यूनिट)",
+          "कन्ट्रोल यूनिट",
+          "ए एल यू (अर्थमेटिक लॉजिक यूनिट)",
+          "मेमोरी"
+        ],
+        "explanation": "सेंट्रल प्रोसेसिंग यूनिट (CPU) को कंप्यूटर का इलेक्ट्रॉनिक मस्तिष्क कहा जाता है क्योंकि यह कंप्यूटर के सभी मुख्य कार्यों, जैसे गणना, तर्क और डेटा प्रोसेसिंग को नियंत्रित और निष्पादित करता है।"
+      },
+      "qkey": "e5d47ac418c7",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||57|Master Question Paper A11",
+      "serial_no": 57,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Computer Organization",
+      "subtopic": "Control Unit",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन, कंट्रोल यूनिट के कार्यों का सर्वोत्तम वर्णन करता है?",
+        "options": [
+          "मेमोरी, प्रोसेसर और इनपुट/आउटपुट उपकरणों के परिचालन का नियंत्रण",
+          "तर्कयुक्त परिचालन का निष्पादन",
+          "बाह्य (एक्सटर्नल) डाटा को कम्प्यूटर समझे ऐसे स्वरूप में परिवर्तित करना",
+          "अंकगणितीय परिचालन का निष्पादन"
+        ],
+        "explanation": "कंट्रोल यूनिट (CU) कंप्यूटर के सभी घटकों, जैसे मेमोरी, प्रोसेसर और इनपुट/आउटपुट उपकरणों के बीच डेटा प्रवाह और निर्देशों के निष्पादन को नियंत्रित और समन्वित करती है। यह कंप्यूटर के संचालन को सुचारू रूप से चलाने के लिए जिम्मेदार है।"
+      },
+      "qkey": "fc6a3dbaf23c",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||69|Master Question Paper ,ICTSM(V125)",
+      "serial_no": 69,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Operating system updates",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "किसी पी सी या लैपटॉप पर ऑपरेटिंग सिस्टम को नियमित रूप से अपडेट करते रहने का क्या उद्देश्य है ?",
+        "options": [
+          "हार्ड ड्राइव को डीफ्रेगमेंट करना",
+          "सिस्टम की सुरक्षा और स्थिरता में सुधार करना",
+          "अनचाहे प्रोग्राम को अनइंस्टॉल करना",
+          "इंटरनेट की गति में सुधार करना"
+        ],
+        "explanation": "किसी पीसी या लैपटॉप पर ऑपरेटिंग सिस्टम को नियमित रूप से अपडेट करते रहने का उद्देश्य सिस्टम की सुरक्षा और स्थिरता में सुधार करना है। अपडेट अक्सर सुरक्षा कमजोरियों को ठीक करते हैं और प्रदर्शन को बढ़ाते हैं।"
+      },
+      "qkey": "df50d6fe2ef5",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||34|Master Question Paper 134 A",
+      "serial_no": 34,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Programming and Databases",
+      "subtopic": "Identifying Programming Languages vs. Database Systems",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "विषम चुनिए :",
+        "options": [
+          "ओरेकल (ORACLE)",
+          "एम वाई एस क्यू एल (MYSQL)",
+          "एम एस एक्सेस (MS ACCESS)",
+          "सी++ (C++)"
+        ],
+        "explanation": "ओरेकल (Oracle), एम वाई एस क्यू एल (MySQL) और एम एस एक्सेस (MS Access) तीनों डेटाबेस प्रबंधन प्रणाली (DBMS) या संबंधित सॉफ्टवेयर हैं। जबकि सी++ (C++) एक प्रोग्रामिंग भाषा है। इसलिए, सी++ इन तीनों से भिन्न है।"
+      },
+      "qkey": "277ef376d457",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__LIBRARIAN GRADE III::Librarian Grade III 2018||127",
+      "serial_no": 127,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Input devices",
+      "subtopic": "",
+      "source_cycle": "Librarian Grade III 2018",
+      "hindi": {
+        "question": "स्कोपस......... है।",
+        "options": [
+          "फुल टेक्स्ट डाटाबेस",
+          "न्यूमेरिकल / संख्यात्मक डाटाबेस",
+          "सार और उद्धरण डाटाबेस",
+          "ग्रंथ सूची संबंधी डाटाबेस"
+        ],
+        "explanation": "स्कोपस एक प्रसिद्ध सार और उद्धरण डेटाबेस है। यह विभिन्न वैज्ञानिक, तकनीकी, चिकित्सा और सामाजिक विज्ञान के क्षेत्रों से संबंधित लाखों शोध पत्रों के सार और उद्धरण प्रदान करता है। यह शोधकर्ताओं को प्रासंगिक साहित्य खोजने और उनके प्रभाव का मूल्यांकन करने में मदद करता है।"
+      },
+      "qkey": "13cb2b6c2bf8",
+      "source_exam": "LIB__LIBRARIAN GRADE III",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||9|Master Question Paper 134 B",
+      "serial_no": 9,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "MS-Office",
+      "subtopic": "PowerPoint views",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "निम्न में से कौन सा पॉवरपॉइन्ट व्यू नहीं है ?",
+        "options": [
+          "स्लाइड शो व्यू",
+          "स्लाइड व्यू",
+          "प्रेजेन्टेशन व्यू",
+          "आउटलाइन व्यू"
+        ],
+        "explanation": "पॉवरपॉइन्ट में प्रस्तुति को देखने और संपादित करने के लिए विभिन्न व्यू होते हैं, जैसे स्लाइड शो व्यू और स्लाइड व्यू। 'आउटलाइन व्यू' मुख्य रूप से स्लाइड के पाठ्य सामग्री को दिखाता है, न कि उसके दृश्य लेआउट को। आधिकारिक उत्तर के अनुसार, दिए गए विकल्पों में 'आउटलाइन व्यू' को पॉवरपॉइन्ट का एक व्यू नहीं माना गया है।"
+      },
+      "qkey": "f1f7706c05e4",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||79|Master Question Paper (T126)",
+      "serial_no": 79,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "SQL ORDER BY",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "रिजल्ट सेट को बढ़ते या घटते क्रम में सॉर्ट करते समय, कौन-सा SQL कीवर्ड उपयोग होता है?",
+        "options": [
+          "ASC/DSC BY",
+          "GROUP BY",
+          "ORDER BY",
+          "ARRANGE BY"
+        ],
+        "explanation": "SQL में, 'ORDER BY' कीवर्ड का उपयोग परिणाम सेट को एक या अधिक कॉलम के आधार पर आरोही (ASC) या अवरोही (DESC) क्रम में सॉर्ट करने के लिए किया जाता है। यह डेटा को एक व्यवस्थित तरीके से प्रस्तुत करने में मदद करता है। इसलिए, यह विकल्प सही है।"
+      },
+      "qkey": "ca2e685e36c8",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||27|Master Question Paper A17",
+      "serial_no": 27,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Computer Organization",
+      "subtopic": "File Formats / Audio File Extensions",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा ऑडियो फ़ाइल के वैध विस्तार के अनुरूप नहीं है?",
+        "options": [
+          ".mid",
+          ".wav",
+          ".rar",
+          ".mp3"
+        ],
+        "explanation": ".rar एक संपीड़ित संग्रह फ़ाइल प्रारूप है, न कि ऑडियो फ़ाइल का विस्तार। .mid, .wav और .mp3 ऑडियो फ़ाइलों के वैध विस्तार हैं।"
+      },
+      "qkey": "93831a80c1a2",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||109|Master Question Paper (T126)",
+      "serial_no": 109,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Network types geographic",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सा जियोग्राफिक स्कोप पर आधारित नेटवर्क का प्रकार नहीं है ?",
+        "options": [
+          "LAN (लोकल एरिया नेटवर्क)",
+          "WAN (वाइड एरिया नेटवर्क)",
+          "MAN (मेट्रोपोलिटन एरिया नेटवर्क)",
+          "PAN (पर्सनल एरिया नेटवर्क)"
+        ],
+        "explanation": "PAN (पर्सनल एरिया नेटवर्क) जियोग्राफिक स्कोप पर आधारित नेटवर्क का प्रकार नहीं है। PAN एक व्यक्ति के आसपास के उपकरणों को जोड़ने के लिए होता है, जबकि LAN, WAN और MAN भौगोलिक क्षेत्रों के आधार पर नेटवर्क के प्रकार हैं।"
+      },
+      "qkey": "051af9a30e0f",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__NHM (CONTRACTUAL POSTS)::NHM (Contractual Posts) 2025||84|Master Question Paper Female Health Worker (PJ971)",
+      "serial_no": 84,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Bootstrap program storage",
+      "subtopic": "",
+      "source_cycle": "NHM (Contractual Posts) 2025",
+      "hindi": {
+        "question": "बूटस्ट्रैप प्रोग्राम कहाँ संग्रहित होता है ?",
+        "options": [
+          "रेम (RAM)",
+          "रोम (ROM)",
+          "हार्ड डिस्क",
+          "पेन ड्राइव"
+        ],
+        "explanation": "बूटस्ट्रैप प्रोग्राम कंप्यूटर को शुरू करने के लिए आवश्यक प्रारंभिक निर्देश होते हैं। ये निर्देश स्थायी रूप से रोम (ROM) में संग्रहित होते हैं, क्योंकि रोम एक गैर-परिवर्तनशील मेमोरी है जो बिजली बंद होने पर भी डेटा को बनाए रखती है। इस प्रकार, रोम कंप्यूटर के बूट-अप प्रक्रिया के लिए आवश्यक प्रोग्राम को सुरक्षित रखता है।"
+      },
+      "qkey": "431cf4305660",
+      "source_exam": "LIB__NHM (CONTRACTUAL POSTS)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||2|Master Question Paper ,ICTSM(V125)",
+      "serial_no": 2,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Basic Computer Knowledge",
+      "topic": "Confidential data directory",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "किस डायरेक्ट्री का उपयोग सामान्यतः ऐसी गोपनीय जानकारी को संग्रहीत करने के लिए किया जाता है जो वेब सर्वर पर आम जनता की पहुंच से दूर होती है ?",
+        "options": [
+          "सार्वजनिक डायरेक्ट्री",
+          "डेटा डायरेक्ट्री",
+          "अस्थायी डायरेक्ट्री",
+          "सिस्टम डायरेक्ट्री"
+        ],
+        "explanation": "डेटा डायरेक्ट्री का उपयोग आमतौर पर ऐसी संवेदनशील जानकारी को संग्रहीत करने के लिए किया जाता है जिसे वेब सर्वर पर आम जनता की पहुंच से दूर रखना होता है। यह सुनिश्चित करता है कि गोपनीय डेटा सुरक्षित रहे और केवल अधिकृत उपयोगकर्ताओं द्वारा ही एक्सेस किया जा सके।"
+      },
+      "qkey": "50be89bed79c",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "Village Development Officer 2025||113",
+      "serial_no": 113,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Grammar",
+      "subtopic": "Error Identification (Prepositions)",
+      "source_cycle": "Village Development Officer 2025",
+      "english": {
+        "question": "Identify the part of the sentence that contains an error and choose the most appropriate answer from the options provided: Devaki reached on the station well in time.",
+        "options": [
+          "Devaki",
+          "reached",
+          "on the station",
+          "well in time"
+        ],
+        "explanation": "The preposition 'on' is incorrect when referring to arrival at a station; the correct preposition is 'at'. One arrives 'at' a station, not 'on' it. Therefore, 'on the station' is the erroneous part."
+      },
+      "qkey": "b9e665ec2edc"
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||81|Master Question Paper V23",
+      "serial_no": 81,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Translation",
+      "subtopic": "Hindi to English Translation",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "english": {
+        "question": "Choose the most appropriate English translation of the given sentence.उसने तुम्हें धोखा नहीं दिया।",
+        "options": [
+          "You have not been deceived.",
+          "You are being deceived by him.",
+          "He did not deceive you.",
+          "He has not deceive you."
+        ],
+        "explanation": "The Hindi sentence 'उसने तुम्हें धोखा नहीं दिया' translates to 'He did not deceive you' in English. This is a simple past tense sentence, indicating an action that was completed in the past. Option (3) accurately reflects this tense and meaning, while other options use incorrect tenses or grammatical structures."
+      },
+      "qkey": "0149d364a357",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||148|Master Question Paper 131C",
+      "serial_no": 148,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "English Vocabulary",
+      "subtopic": "Phrasal Verbs",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "english": {
+        "question": "Fill in the blank space with the correct phrasal verb from the given options -The meeting was .................... because of bad weather.",
+        "options": [
+          "called back",
+          "called off",
+          "call back",
+          "called in"
+        ],
+        "explanation": "The phrasal verb 'called off' means to cancel something, which is appropriate for a meeting that could not proceed due to bad weather. 'Called back' means to recall, 'call back' means to return a phone call, and 'called in' means to summon, none of which fit the context of cancellation. Therefore, 'called off' is the correct choice."
+      },
+      "qkey": "3981d254cdf6",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEADMASTER (SECONDARY SCHOOL)::HEADMASTER (SECONDARY SCHOOL) 2018|(single)|141",
+      "serial_no": 141,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Tenses in English",
+      "subtopic": "",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2018",
+      "english": {
+        "question": "I have been waiting for you for two hours-",
+        "options": [
+          "Present continuous",
+          "Present perfect",
+          "Present Perfect Continuous",
+          "Past Continuous"
+        ],
+        "explanation": "The sentence \"I have been waiting for you for two hours\" uses the auxiliary verbs \"have been\" followed by the present participle \"waiting.\" This structure, combined with the duration \"for two hours,\" is the defining characteristic of the Present Perfect Continuous tense, indicating an action that started in the past and continues up to the present."
+      },
+      "qkey": "7e0ebbd042c4",
+      "source_exam": "LIB__HEADMASTER (SECONDARY SCHOOL)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||109|Master Question Paper 141 English",
+      "serial_no": 109,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Prepositions",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "english": {
+        "question": "Choose the correct option to fill in the blank: An amendment has been made the bill.",
+        "options": [
+          "for",
+          "on",
+          "in",
+          "to"
+        ],
+        "explanation": "The preposition 'to' is commonly used with 'amendment' to indicate the object or target of the change. An amendment is made 'to' something, meaning it is added or changed within that specific item."
+      },
+      "qkey": "186b7d91a09d",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||109|Master Question Paper A11",
+      "serial_no": 109,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "english": {
+        "question": "Identify the most appropriate antonym of the given word from below: APATHY",
+        "options": [
+          "Stoicism",
+          "Stupor",
+          "Aloofness",
+          "Fervor"
+        ],
+        "explanation": "Apathy refers to a lack of interest, enthusiasm, or concern. Fervor, on the other hand, means intense and passionate feeling. Therefore, 'fervor' is the most direct antonym, representing the opposite of indifference."
+      },
+      "qkey": "aa0db8c97806",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||52|Master Question Paper P12",
+      "serial_no": 52,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Glossary of official/technical terms",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "english": {
+        "question": "Choose the English word for the given word. राजपत्रित अवकाश",
+        "options": [
+          "Restricted holiday",
+          "Casual holiday",
+          "National holiday",
+          "Gazetted holiday"
+        ],
+        "explanation": "The Hindi term 'राजपत्रित अवकाश' directly translates to 'Gazetted holiday' in English. This refers to a public holiday officially declared by the government and published in the gazette."
+      },
+      "qkey": "04f9f01de69f",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2011||104",
+      "serial_no": 104,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2011",
+      "hindi": {
+        "question": "'यथा सम्भव' के लिए अंग्रेजी यद प्रयुक्त होता है",
+        "options": [
+          "As long as possible",
+          "As for as possible",
+          "As soon as possible",
+          "Not possible"
+        ],
+        "explanation": "'यथा सम्भव' के लिए अंग्रेजी में 'As far as possible' पद का प्रयोग किया जाता है। यह वाक्यांश किसी कार्य को अधिकतम सीमा तक या जितना संभव हो उतना करने का अर्थ व्यक्त करता है। अन्य विकल्प 'As long as possible', 'As soon as possible' और 'Not possible' इस अर्थ से भिन्न हैं।"
+      },
+      "qkey": "05d807d84d3e",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__Junior Accountant & Tehsil Revenue Accountant::Junior Accountant & Tehsil Revenue Accountant 2023||98",
+      "serial_no": 98,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Degrees of adjectives",
+      "subtopic": "",
+      "source_cycle": "Junior Accountant & Tehsil Revenue Accountant 2023",
+      "english": {
+        "question": "Given below are the sentences in which degrees of adjectives have been used. Select the correct sentences.\n1. He is the strongest man.\n2. No other musician was better than him.\n3. The crocodile is the largest of all reptiles.\n4. This place is near to my home.\nChoose the correct answer from the options given below:",
+        "options": [
+          "1, 2 and 3",
+          "2 and 3",
+          "2 and 4",
+          "3 and 4"
+        ],
+        "explanation": "Statement 2 correctly uses the comparative degree 'better than him'. Statement 3 correctly uses the superlative degree 'largest of all reptiles'. Statement 1 is grammatically correct but not selected as part of the official answer. Statement 4 is incorrect as 'near to' is generally less preferred than 'near' or 'near my home'."
+      },
+      "qkey": "82f280c53802",
+      "source_exam": "LIB__Junior Accountant & Tehsil Revenue Accountant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||104|Master Question Paper 134 A",
+      "serial_no": 104,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Hindi to English Translation (Vocabulary)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "english": {
+        "question": "'विसंगति' शब्द के लिए सही अंग्रेजी शब्द क्या होगा ?",
+        "options": [
+          "Discrepancy",
+          "Discretion",
+          "Dismiss",
+          "Disorder"
+        ],
+        "explanation": "The Hindi word 'विसंगति' refers to a lack of compatibility or consistency, an inconsistency, or a discrepancy. Among the given options, 'Discrepancy' is the most accurate and direct English translation that conveys this meaning. The other options have different meanings."
+      },
+      "qkey": "b5c84fcd2be3",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||27|Master Question Paper P12",
+      "serial_no": 27,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "english": {
+        "question": "Choose the word most similar in meaning to: PROSCRIBE",
+        "options": [
+          "Prohibit",
+          "Permit",
+          "Appease",
+          "Prolong"
+        ],
+        "explanation": "The word 'proscribe' means to officially forbid or prohibit something, often by law or authority. It implies a formal ban or condemnation. Among the given options, 'Prohibit' is the closest synonym, as it also means to formally forbid something by rule or authority."
+      },
+      "qkey": "496ade3d412c",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||110|Master Question Paper A15",
+      "serial_no": 110,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Idioms and Phrases",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "hindi": {
+        "question": "He was arrested without being given a reason.\n(A) over and above\n(C) at odds and ends\n(E) Question not attempted",
+        "options": [
+          "over and above",
+          "for no rhyme or reason",
+          "at odds and ends",
+          "out and out."
+        ],
+        "explanation": "\"without being given a reason\" वाक्यांश का अर्थ है \"बिना किसी कारण के\"। इसके लिए सबसे उपयुक्त अंग्रेजी मुहावरा \"for no rhyme or reason\" है, जिसका अर्थ भी \"बिना किसी स्पष्ट कारण या तर्क के\" होता है।"
+      },
+      "qkey": "3f3c35c4bb26",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||116|Master Question Paper 134 D",
+      "serial_no": 116,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Alphabetical Order",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "english": {
+        "question": "If the following words are arranged in alphabetical order, which word will come in the middle? Cheque, Cheroot, Cheese, Cherish, Chemise",
+        "options": [
+          "Cheque",
+          "Cheese",
+          "Cherish",
+          "Chemise"
+        ],
+        "explanation": "When arranged in alphabetical order, the words are: Cheese, Chemise, Cheque, Cherish, Cheroot. With five words, the middle word is the third one in the sequence, which is 'Cheque'."
+      },
+      "qkey": "2c0015ba90a2",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||118|Master Question Paper 20.09.2025_Evening Shift_DB29",
+      "serial_no": 118,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Translation",
+      "subtopic": "Hindi to English Translation",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "Convert the following sentence from Hindi to English: मैं आजकल तनाव में हूँ। Choose the most appropriate answer from the options given below :",
+        "options": [
+          "I wish I could just relax.",
+          "I am stressed about something.",
+          "I am stressed these days.",
+          "I am tensed today."
+        ],
+        "explanation": "दिए गए हिंदी वाक्य 'मैं आजकल तनाव में हूँ।' का अंग्रेजी अनुवाद करना था। 'तनाव में हूँ' का अर्थ 'stressed' होता है और 'आजकल' का अर्थ 'these days' होता है। इसलिए, 'I am stressed these days.' इस वाक्य का सबसे उपयुक्त और सटीक अंग्रेजी अनुवाद है।"
+      },
+      "qkey": "f116d50f1612",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||146|Master Question Paper 131D",
+      "serial_no": 146,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "One-Word Substitution",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "english": {
+        "question": "Give one word substitute for - 'Free from disturbance'.",
+        "options": [
+          "Chaotic",
+          "Tranquil",
+          "Violent",
+          "Agitated"
+        ],
+        "explanation": "The word 'tranquil' means free from disturbance; calm. It perfectly describes a state of peace and quiet, without agitation or chaos. The other options (Chaotic, Violent, Agitated) all describe states of disturbance or unrest, making 'Tranquil' the correct one-word substitute."
+      },
+      "qkey": "bd25eee8243f",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||145|Master Question Paper 131A",
+      "serial_no": 145,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Letter Writing",
+      "subtopic": "Formal Letter Writing Conventions",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "english": {
+        "question": "Which of the following is/are the correct statement/s regarding letter writing? (I) 'Your's Faithfully' is used for ending a formal letter. (II) The right sequence of writing a letter to the editor is - Sender's address, Receiver's address, Subject, Salutation, Body of letter, Subscription, Date. (III) The right format of writing a date in all formal letters is '30th May, 2022' instead of '30/05/2022'. (IV) 'Yours Truely' is used for ending an informal letter. Code-",
+        "options": [
+          "Only II, III and IV are correct",
+          "Only I, III and IV are correct",
+          "Only III is correct",
+          "Only III and IV are correct"
+        ],
+        "explanation": "This question evaluates knowledge of formal letter writing conventions. Statement (I) is incorrect due to the apostrophe in 'Your's'. Statement (II) is incorrect as the date typically precedes the receiver's address. Statement (IV) is incorrect due to the misspelling 'Truely'. Statement (III) is correct, as formal letters generally prefer the full date format (e.g., '30th May, 2022') for clarity and formality over numerical formats."
+      },
+      "qkey": "5e2cab5c52e1",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||23|Master Question Paper 134 A",
+      "serial_no": 23,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "One-Word Substitution",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "english": {
+        "question": "Choose from the options given below one word for - someone who walks in sleep:",
+        "options": [
+          "Philogynist",
+          "Somnambulist",
+          "Recluse",
+          "Termagant"
+        ],
+        "explanation": "A somnambulist is a person who walks or performs other complex actions while asleep, a condition commonly known as sleepwalking. The word is derived from Latin, where 'somnus' means sleep and 'ambulare' means to walk."
+      },
+      "qkey": "5c74210f1762",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2024|(single)|110",
+      "serial_no": 110,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Tense forms",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2024",
+      "english": {
+        "question": "Fill in the blank with the correct tense form:\nThis is the first time that I ________ her sing.",
+        "options": [
+          "hear",
+          "had hear",
+          "have heard",
+          "have been hearing"
+        ],
+        "explanation": "The sentence describes an experience that started in the past and continues up to the present moment. The present perfect tense, 'have heard', is the correct choice to express an action that has occurred at an unspecified time before now, or an action that began in the past and continues to the present. The phrase 'This is the first time' signals the use of the present perfect."
+      },
+      "qkey": "140095610c7c",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||145|Master Question Paper 131C",
+      "serial_no": 145,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Letter Writing",
+      "subtopic": "Terminology (Pseudonym)",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "english": {
+        "question": "What is 'Pseudonym' in letter writing?",
+        "options": [
+          "Name of the Editor",
+          "Legal name",
+          "Fictitious name",
+          "Real name"
+        ],
+        "explanation": "A pseudonym is a fictitious name, especially one used by an author or writer to conceal their true identity. In letter writing, particularly for anonymous submissions, a pseudonym is used instead of one's legal or real name. Thus, 'Fictitious name' is the correct definition."
+      },
+      "qkey": "98b0ca0594b2",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||96|Master Question Paper 141 English",
+      "serial_no": 96,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Direct and indirect speech",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "english": {
+        "question": "Choose the correct direct speech of the given sentence from the options that follow: She says that Tom is a doctor.",
+        "options": [
+          "She said, \"Tom is a doctor\".",
+          "She says, \"Tom was a doctor\".",
+          "She said, \"Tom was a doctor\".",
+          "She says, \"Tom is a doctor\"."
+        ],
+        "explanation": "When converting reported speech back to direct speech, if the reporting verb (says) is in the present tense, the tense of the verb in the direct speech remains unchanged. Therefore, 'She says, \"Tom is a doctor\"' is the correct direct speech form."
+      },
+      "qkey": "3f45f82ccdc3",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||83|Master Question Paper 19.09.2025_Morning Shift_DS22",
+      "serial_no": 83,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Translation",
+      "subtopic": "English to Hindi Sentence Translation",
+      "source_cycle": "Fourth Class Employee 2024",
+      "english": {
+        "question": "Choose the most appropriate option to translate the given sentence from English to Hindi : Three armed men barged into the manager's cabin.",
+        "options": [
+          "तीन हथियारबंद आदमी मैनेजर के कार्यकक्ष में आते थे।",
+          "तीन हथियारबंद आदमी मैनेजर के कार्यकक्ष में घुसने वाले थे।",
+          "तीन हथियारबंद आदमी मैनेजर के कार्यकक्ष में जबरदस्ती घुस गए।",
+          "मैनेजर ने तीन हथियारबंद आदमियों को अपने कार्यकक्ष में दाखिला दिया।"
+        ],
+        "explanation": "Option (3) 'तीन हथियारबंद आदमी मैनेजर के कार्यकक्ष में जबरदस्ती घुस गए' accurately translates the English sentence. The phrase 'barged into' implies forceful entry, which is conveyed by 'जबरदस्ती घुस गए'. The other options do not capture this nuance or use incorrect tenses."
+      },
+      "qkey": "8143961570e3",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__Junior Accountant & Tehsil Revenue Accountant::Junior Accountant & Tehsil Revenue Accountant 2023||83",
+      "serial_no": 83,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "One word substitution",
+      "subtopic": "",
+      "source_cycle": "Junior Accountant & Tehsil Revenue Accountant 2023",
+      "english": {
+        "question": "Match the phrases of List I with the corresponding words of List II:\nList I\na. Severe shortage of food\nb. A retired person retaining honorary title\nc. Fear of water\nd. Abnormal fear of confined place\nList II\nI. Emeritus\nII. Hydrophobia\nIII. Famine\nIV. Claustrophobia\nChoose the correct answer from the options given below:",
+        "options": [
+          "a-I, b-II, c-III, d-IV",
+          "a-III, b-I, c-II, d-IV",
+          "a-II, b-III, c-IV, d-I",
+          "a-IV, b-I, c-II, d-III"
+        ],
+        "explanation": "The correct matches are: 'Severe shortage of food' corresponds to 'Famine', 'A retired person retaining honorary title' corresponds to 'Emeritus', 'Fear of water' corresponds to 'Hydrophobia', and 'Abnormal fear of confined place' corresponds to 'Claustrophobia'."
+      },
+      "qkey": "bce16036d3d5",
+      "source_exam": "LIB__Junior Accountant & Tehsil Revenue Accountant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||123|Master Question Paper S17",
+      "serial_no": 123,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "english": {
+        "question": "Choose the word opposite in meaning to ERUDITE",
+        "options": [
+          "Boring",
+          "Illiterate",
+          "Crude",
+          "Learned"
+        ],
+        "explanation": "'Erudite' describes someone who has great knowledge or learning. The most direct opposite of being highly learned is being 'illiterate,' which means unable to read or write, or lacking education. The other options do not convey the direct opposite meaning as effectively."
+      },
+      "qkey": "d57104c3dd28",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||88|Master Question Paper T19",
+      "serial_no": 88,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Grammar",
+      "subtopic": "Determiners",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "english": {
+        "question": "Choose the most appropriate option to fill in the blank: I need to buy ______ eggs but I haven't got ______ money to pay for them.",
+        "options": [
+          "some, any",
+          "any, some",
+          "all, little",
+          "few, a little"
+        ],
+        "explanation": "\"Some\" is used in affirmative sentences for plural countable nouns when referring to an unspecified quantity. \"Any\" is typically used in negative sentences for both uncountable and plural countable nouns. Therefore, \"some eggs\" and \"any money\" correctly fit the context."
+      },
+      "qkey": "19532ccacd55",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||133|Master Question Paper S17",
+      "serial_no": 133,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "English Language",
+      "topic": "Grammar",
+      "subtopic": "Prepositions and Conjunctions",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "english": {
+        "question": "Match List-I with List-II List-I a. Munich is a large city ______ the south of Germany. b. Were there many people ______ the concert on Friday? c. We shouldn't speak ______ eating. d. We didn't speak ______ the meal. List-II I. at II. during III. in IV. while Choose the most appropriate answer from the options given below:",
+        "options": [
+          "a-III, b - I, c - IV, d - II",
+          "a- II, b - IV, c - III, d - I",
+          "a - I, b - II, c - III, d - IV",
+          "a- IV, b - III, c - II, d - I"
+        ],
+        "explanation": "The correct prepositions and conjunctions are: 'in' for location within a larger area (a-III), 'at' for a specific event/place (b-I), 'while' for simultaneous actions (c-IV), and 'during' for a period of time (d-II). This yields the matching a-III, b-I, c-IV, d-II."
+      },
+      "qkey": "f18a10432015",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "sections": [
+    {
+      "name": "इतिहास, कला, संस्कृति और भूगोल (History, Art, Culture & Geography)"
+    },
+    {
+      "name": "भारतीय संविधान, राजव्यवस्था और अर्थव्यवस्था (Indian Constitution, Polity & Economy)"
+    },
+    {
+      "name": "विज्ञान, तर्कशक्ति और समसामयिकी (Science, Reasoning & Current Affairs)"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Rajasthan History, Art, Culture, Literature, Tradition & Heritage",
+      "name_hindi": "राजस्थान का इतिहास, कला, संस्कृति, साहित्य, परंपरा और विरासत",
+      "section": "इतिहास, कला, संस्कृति और भूगोल (History, Art, Culture & Geography)",
+      "scope_note": "Covers the history, art, culture, literature, traditions, and heritage specifically of Rajasthan, including major landmarks, dynasties, socio-cultural issues, freedom movement, architecture, paintings, handicrafts, Rajasthani literature, dialects, fairs, festivals, folk music, folk dances, religious movements, saints, Lok devtas, tourist places, and leading personalities of Rajasthan."
+    },
+    {
+      "name": "Indian History",
+      "name_hindi": "भारतीय इतिहास",
+      "section": "इतिहास, कला, संस्कृति और भूगोल (History, Art, Culture & Geography)",
+      "scope_note": "Covers the ancient, medieval, and modern history of India, including major landmarks, art, culture, literature, architecture, dynasties, administrative systems, socio-economic conditions, prominent movements, the freedom struggle, social and religious reform movements, and post-independence consolidation."
+    },
+    {
+      "name": "World Geography",
+      "name_hindi": "विश्व भूगोल",
+      "section": "इतिहास, कला, संस्कृति और भूगोल (History, Art, Culture & Geography)",
+      "scope_note": "Covers broad physical features, environmental and ecological issues, wildlife, biodiversity, international waterways, and major industrial regions of the world."
+    },
+    {
+      "name": "Indian Geography",
+      "name_hindi": "भारत का भूगोल",
+      "section": "इतिहास, कला, संस्कृति और भूगोल (History, Art, Culture & Geography)",
+      "scope_note": "Covers broad physical features, major physiographic divisions, agriculture, agro-based activities, minerals, major industries, transportation, natural resources, and environmental problems and ecological issues of India."
+    },
+    {
+      "name": "Rajasthan Geography",
+      "name_hindi": "राजस्थान का भूगोल",
+      "section": "इतिहास, कला, संस्कृति और भूगोल (History, Art, Culture & Geography)",
+      "scope_note": "Covers broad physical features, major physiographic divisions, natural resources, climate, natural vegetation, forests, wildlife, biodiversity, major irrigation projects, mines, minerals, population, major industries, and industrial development potential specifically of Rajasthan."
+    },
+    {
+      "name": "Indian Constitution, Political System & Governance",
+      "name_hindi": "भारतीय संविधान, राजनीतिक व्यवस्था और शासन",
+      "section": "भारतीय संविधान, राजव्यवस्था और अर्थव्यवस्था (Indian Constitution, Polity & Economy)",
+      "scope_note": "Covers constitutional development, the Indian Constitution (Preamble, Fundamental Rights, DPSP, Fundamental Duties, Federal Structure, Amendments, Emergency Provisions, PIL, Judicial Review), Indian political system and governance (nature of Indian state, democracy, reorganization of states, coalition governments, political parties, national integration, Union and State Executive, Legislature, Judiciary, President, Parliament, Supreme Court, Election Commission, CAG, Planning Commission, NITI Aayog, National Development Council, CVC, CIC, Lokpal, NHRC, Local Self Government, Panchayati Raj), and public policy & rights (National Public Policy, legal rights, Citizen Charter)."
+    },
+    {
+      "name": "Political and Administrative System of Rajasthan",
+      "name_hindi": "राजस्थान की राजनीतिक और प्रशासनिक व्यवस्था",
+      "section": "भारतीय संविधान, राजव्यवस्था और अर्थव्यवस्था (Indian Constitution, Polity & Economy)",
+      "scope_note": "Covers the Governor, Chief Minister, State Assembly, High Court, RPSC, District Administration, State Human Rights Commission, Lokayukt, State Election Commission, State Information Commission, Public Policy, Legal Rights, and Citizen Charter specifically of Rajasthan."
+    },
+    {
+      "name": "Economic Concepts and Indian Economy",
+      "name_hindi": "आर्थिक अवधारणाएँ और भारतीय अर्थव्यवस्था",
+      "section": "भारतीय संविधान, राजव्यवस्था और अर्थव्यवस्था (Indian Constitution, Polity & Economy)",
+      "scope_note": "Covers basic economic concepts (budgeting, banking, public finance, national income, growth, development, accounting, stock exchange, fiscal and monetary policies, subsidies, PDS, e-commerce, inflation), economic development & planning (5-year plans, major sectors, economic problems, government initiatives, reforms, liberalization), human resource and economic development (HDI, poverty, unemployment, flagship schemes), and social justice & empowerment (provisions for weaker sections) in the context of the Indian economy."
+    },
+    {
+      "name": "Economy of Rajasthan",
+      "name_hindi": "राजस्थान की अर्थव्यवस्था",
+      "section": "भारतीय संविधान, राजव्यवस्था और अर्थव्यवस्था (Indian Constitution, Polity & Economy)",
+      "scope_note": "Covers the macro overview of Rajasthan's economy, major agricultural, industrial, and service sector issues, growth, development, planning, infrastructure, resources, major development projects, and government welfare schemes for various sections of society specifically in Rajasthan."
+    },
+    {
+      "name": "Science & Technology",
+      "name_hindi": "विज्ञान और प्रौद्योगिकी",
+      "section": "विज्ञान, तर्कशक्ति और समसामयिकी (Science, Reasoning & Current Affairs)",
+      "scope_note": "Covers basics of everyday science, electronics, computers, ICT, space technology (satellites), defence technology, nanotechnology, human body, food and nutrition, healthcare, environmental and ecological changes, biodiversity, biotechnology, genetic engineering, agriculture, horticulture, forestry, animal husbandry (with special reference to Rajasthan), and development of science and technology in Rajasthan and India."
+    },
+    {
+      "name": "Reasoning & Mental Ability",
+      "name_hindi": "तर्कशक्ति और मानसिक योग्यता",
+      "section": "विज्ञान, तर्कशक्ति और समसामयिकी (Science, Reasoning & Current Affairs)",
+      "scope_note": "Covers logical reasoning (deductive, inductive, abductive, statements and assumptions, arguments, conclusions, courses of action, analytical reasoning), mental ability (number series, letter series, odd man out, coding-decoding, relations, shapes), and basic numeracy (mathematical and statistical analysis, number system, order of magnitude, ratio, proportion, percentage, simple and compound interest, data analysis, mean, median, mode, permutation, combination, probability)."
+    },
+    {
+      "name": "Current Affairs",
+      "name_hindi": "समसामयिकी",
+      "section": "विज्ञान, तर्कशक्ति और समसामयिकी (Science, Reasoning & Current Affairs)",
+      "scope_note": "Covers major current events and issues of Rajasthan, national and international importance, persons and places in recent news, and games and sports-related activities."
+    }
+  ]
+}

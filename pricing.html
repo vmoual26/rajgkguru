@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>प्लान और कीमत — RAJ G.K. GURU</title>
+<meta name="description" content="मुफ़्त टेस्ट से शुरू करें; एक परीक्षा, कोई भी 3 परीक्षाएं, या सभी परीक्षाओं का ऑल-एक्सेस पास — 3, 6 या 12 महीनों के लिए चुनें।">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css?v=3">
+<link rel="stylesheet" href="shared/features.css?v=1">
+<style>
+  .dur-toggle { display: inline-flex; background: var(--surface-alt); border: 1px solid var(--border); border-radius: 999px; padding: 3px; gap: 3px; margin: 6px 0 20px; }
+  .dur-toggle button { font: inherit; font-size: 0.85rem; font-weight: 700; padding: 7px 16px; border-radius: 999px; border: none; background: none; color: var(--text-dim); cursor: pointer; }
+  .dur-toggle button.active { background: var(--primary); color: #fff; }
+  .plan-card .per-month { font-size: 0.78rem; color: var(--text-dim); margin: -4px 0 4px; }
+  .exam-pick { display: flex; flex-wrap: wrap; gap: 6px; max-height: 220px; overflow-y: auto; margin: 10px 0; padding: 10px; border: 1px dashed var(--border); border-radius: 10px; }
+  .exam-pick label { display: flex; align-items: center; gap: 6px; font-size: 0.82rem; border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; cursor: pointer; background: var(--surface); }
+  .exam-pick input:checked + span { font-weight: 700; color: var(--primary); }
+  .exam-pick label.disabled { opacity: 0.4; pointer-events: none; }
+</style>
+</head>
+<body>
+<header id="site-header"></header>
+<div class="container"><div class="fx-page">
+  <h1>प्लान और कीमत</h1>
+  <p class="small">हर परीक्षा में मुफ़्त सेक्शन पहले आज़माएं — असली PYQ प्रश्न, 1 मुफ़्त मॉक टेस्ट (100 प्रश्न), विषयवार अभ्यास, स्ट्रीक और बैज। पेड प्लान में पूरा प्रश्न-पूल, सभी फ़िक्स्ड मॉक टेस्ट और पिछले वर्षों के प्रश्न-पत्र मिलते हैं।</p>
+  <div id="prelaunch" class="fx-nudge" hidden>⏳ <b>प्री-लॉन्च:</b> पेमेंट जल्द शुरू होगा — नीचे की कीमतें प्रस्तावित हैं। तब तक सभी मुफ़्त सुविधाएं पूरी तरह इस्तेमाल करें।</div>
+  <div id="my-plans"></div>
+
+  <div class="dur-toggle" id="dur-toggle">
+    <button data-m="3">3 महीने</button><button data-m="6">6 महीने</button><button data-m="12" class="active">12 महीने</button>
+  </div>
+
+  <div class="plan-grid" id="plans"></div>
+
+  <div class="fx-card"><div class="fx-title">क्या-क्या शामिल है</div>
+    <table class="fx-table">
+      <tr><th>सुविधा</th><th>Free</th><th>एक परीक्षा</th><th>कोई भी 3 परीक्षाएं</th><th>All-Access</th></tr>
+      <tr><td>मुफ़्त पूल, 1 फ़्री मॉक (100 प्रश्न), विषयवार अभ्यास, स्ट्रीक/बैज, बुकमार्क</td><td class="c">✔</td><td class="c">✔</td><td class="c">✔</td><td class="c">✔</td></tr>
+      <tr><td>पूरा पेड प्रश्न-पूल + Custom Test Builder</td><td class="c">—</td><td class="c">1 परीक्षा</td><td class="c">3 परीक्षाएं</td><td class="c">सभी परीक्षाएं</td></tr>
+      <tr><td>फ़िक्स्ड पेड मॉक टेस्ट (असली परीक्षा जैसे) + लीडरबोर्ड रैंक</td><td class="c">—</td><td class="c">1 परीक्षा</td><td class="c">3 परीक्षाएं</td><td class="c">सभी परीक्षाएं</td></tr>
+      <tr><td>पिछले वर्षों के असली प्रश्न-पत्र (PYP)</td><td class="c">—</td><td class="c">1 परीक्षा</td><td class="c">3 परीक्षाएं</td><td class="c">सभी परीक्षाएं</td></tr>
+      <tr><td>वॉटरमार्क सहित PDF डाउनलोड</td><td class="c">—</td><td class="c">✔</td><td class="c">✔</td><td class="c">✔</td></tr>
+      <tr><td>डिवाइस सीमा</td><td class="c">—</td><td class="c">3 डिवाइस</td><td class="c">3 डिवाइस</td><td class="c">3 डिवाइस</td></tr>
+    </table>
+    <p class="small">कीमतें GST सहित हैं। एक ही खाते से अधिकतम 3 डिवाइस पर साइन-इन रहता है (पायरेसी रोकने के लिए) — डिवाइस अपने डैशबोर्ड से हटाई जा सकती है।</p></div>
+
+  <div class="fx-card"><div class="fx-title">अक्सर पूछे जाने वाले प्रश्न</div>
+    <p><b>क्या मैं पहले आज़मा सकता/सकती हूँ?</b><br>हाँ — हर परीक्षा में मुफ़्त पूल और 1 फ़्री मॉक टेस्ट हैं। यह मुफ़्त सेट सभी परीक्षाओं में एक जैसा है।</p>
+    <p><b>रिफ़ंड?</b><br>देखें <a href="/refund.html">Refund &amp; Cancellation</a> नीति।</p>
+    <p><b>क्या सवाल सही हैं?</b><br>देखें <a href="/about.html">हमारी गुणवत्ता प्रक्रिया</a> — हर प्रश्न पर "त्रुटि बताएं" बटन है।</p></div>
+
+  <div class="fx-card"><div class="fx-title">सभी परीक्षाएं</div><div id="exam-links"></div></div>
+</div></div>
+<footer id="site-footer"></footer>
+<script type="module">
+  import { renderHeader, renderFooter } from "./shared/chrome.js";
+  import { startPurchase, getMyPurchases, ALL_ACCESS } from "./shared/entitlements.js?v=4";
+  import { PRICES, PREMIUM_SLUGS } from "./shared/pricing.js?v=1";
+  renderHeader(document.getElementById("site-header"), "pricing");
+  renderFooter(document.getElementById("site-footer"));
+
+  const E = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const inr = (n) => "₹" + Number(n).toLocaleString("en-IN");
+  let months = 12;
+
+  const [cfg, ex, mine] = await Promise.all([
+    fetch("pricing.json", { cache: "no-cache" }).then((r) => r.json()),
+    fetch("exams.json").then((r) => r.json()),
+    getMyPurchases(),
+  ]);
+  document.getElementById("prelaunch").hidden = !!cfg.launched;
+  const exams = ex.exams.filter((e) => e.status === "live");
+  const titleOf = Object.fromEntries(exams.map((e) => [e.slug, e.title]));
+
+  if (mine.length) {
+    document.getElementById("my-plans").innerHTML = `<div class="fx-card fx-award"><b>✅ आपके सक्रिय प्लान:</b> ` +
+      mine.map((m) => `<span class="chip">${m.slug === ALL_ACCESS ? "All-Access" : E(titleOf[m.slug] || m.slug)}${m.expires ? " · " + m.expires + " तक" : ""}</span>`).join(" ") + `</div>`;
+  }
+
+  let chosen3 = new Set();
+  function examPickerHtml() {
+    return `<div class="exam-pick" id="pick3">${exams.map((e) => `<label><input type="checkbox" value="${E(e.slug)}" ${chosen3.has(e.slug) ? "checked" : ""}><span>${E(e.title)}</span></label>`).join("")}</div><p class="small" id="pick3-count">0/3 चुनी गईं</p>`;
+  }
+
+  function draw() {
+    document.querySelectorAll("#dur-toggle button").forEach((b) => b.classList.toggle("active", Number(b.dataset.m) === months));
+    const single = PRICES.single.standard[months], singlePremium = PRICES.single.premium[months];
+    const perMonth = (p) => `<div class="per-month">≈ ${inr(Math.round(p / months))}/महीना</div>`;
+    document.getElementById("plans").innerHTML = `
+      <div class="plan-card"><h3>Free</h3><div class="price">₹0</div><ul><li>हर परीक्षा का मुफ़्त पूल</li><li>1 फ़्री मॉक टेस्ट (100 प्रश्न)</li><li>विषयवार अभ्यास, टॉपिक क्विज़</li><li>बुकमार्क, फ्लैशकार्ड, स्ट्रीक</li></ul><a class="btn btn-secondary btn-block" href="/">परीक्षा चुनें</a></div>
+      <div class="plan-card"><h3>एक परीक्षा</h3><div class="price">${inr(single)}<span style="font-size:0.9rem"> – ${inr(singlePremium)}</span></div>${perMonth(single)}<ul><li>उस परीक्षा का पूरा पेड पूल</li><li>फ़िक्स्ड मॉक + रैंक</li><li>पिछले वर्षों के प्रश्न-पत्र</li><li>वॉटरमार्क PDF</li></ul><a class="btn btn-secondary btn-block" href="#exam-links">परीक्षा चुनें ↓</a></div>
+      <div class="plan-card best"><span class="tag">बेस्ट वैल्यू</span><h3>कोई भी 3 परीक्षाएं</h3><div class="price">${inr(PRICES.bundle3[months])}</div>${perMonth(PRICES.bundle3[months])}<ul><li>अपनी पसंद की कोई भी 3 परीक्षाएं</li><li>सभी 3 का पूरा पेड कंटेंट</li><li>एक ही कीमत, चाहे कोई भी 3 हों</li></ul>
+        ${examPickerHtml()}<button class="btn btn-primary btn-block" id="buy-bundle3" disabled>3 परीक्षाएं चुनें</button></div>
+      <div class="plan-card"><h3>All-Access पास</h3><div class="price">${inr(PRICES.all_access[months])}</div>${perMonth(PRICES.all_access[months])}<ul><li>सभी ${exams.length} परीक्षाओं का पेड कंटेंट</li><li>नई जुड़ने वाली परीक्षाएं भी</li><li>कई परीक्षाओं के लिए सबसे सस्ता</li></ul><button class="btn btn-primary btn-block" id="buy-all">${cfg.launched ? "पास खरीदें" : "जल्द शुरू"}</button></div>`;
+
+    document.querySelectorAll("#pick3 input").forEach((cb) => {
+      cb.onchange = () => {
+        if (cb.checked) chosen3.add(cb.value); else chosen3.delete(cb.value);
+        if (chosen3.size >= 3) document.querySelectorAll("#pick3 input:not(:checked)").forEach((o) => o.closest("label").classList.add("disabled"));
+        else document.querySelectorAll("#pick3 label").forEach((l) => l.classList.remove("disabled"));
+        document.getElementById("pick3-count").textContent = `${chosen3.size}/3 चुनी गईं`;
+        const btn = document.getElementById("buy-bundle3");
+        btn.disabled = chosen3.size !== 3 || !cfg.launched;
+        btn.textContent = chosen3.size === 3 ? "3 परीक्षाओं का पास खरीदें" : cfg.launched ? `${3 - chosen3.size} और चुनें` : "जल्द शुरू";
+      };
+    });
+    document.getElementById("buy-bundle3").onclick = (ev) => {
+      const b = ev.currentTarget; b.disabled = true;
+      startPurchase({ plan: "bundle3", examSlugs: [...chosen3], durationMonths: months, title: "3-Exam Pack" }, {
+        onProcessing: () => { b.textContent = "भुगतान प्रोसेस हो रहा है… कुछ सेकंड बाद पेज रीफ़्रेश करें।"; },
+        onError: () => { b.disabled = false; alert("भुगतान शुरू नहीं हो सका। कृपया दोबारा कोशिश करें।"); },
+      });
+    };
+    document.getElementById("buy-all").onclick = (ev) => {
+      if (!cfg.launched) return;
+      const b = ev.currentTarget; b.disabled = true;
+      startPurchase({ plan: "all_access", examSlugs: [], durationMonths: months, title: "All-Access पास" }, {
+        onProcessing: () => { b.textContent = "भुगतान प्रोसेस हो रहा है… कुछ सेकंड बाद पेज रीफ़्रेश करें।"; },
+        onError: () => { b.disabled = false; alert("भुगतान शुरू नहीं हो सका। कृपया दोबारा कोशिश करें।"); },
+      });
+    };
+  }
+  document.querySelectorAll("#dur-toggle button").forEach((b) => { b.onclick = () => { months = Number(b.dataset.m); draw(); }; });
+  document.getElementById("exam-links").innerHTML = exams.map((e) => `<a class="chip-link" href="${e.slug}/">${E(e.title)}</a>`).join("");
+  draw();
+</script>
+</body>
+</html>

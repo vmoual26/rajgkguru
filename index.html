@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJ G.K. GURU — Test Series | Aldhru Academy</title>
+<meta name="description" content="राजस्थान की प्रतियोगी परीक्षाओं (RPSC, RSMSSB) के लिए मुफ़्त और प्रीमियम प्रैक्टिस टेस्ट सीरीज़।">
+<meta property="og:title" content="RAJ G.K. GURU — Test Series">
+<meta property="og:description" content="राजस्थान की प्रतियोगी परीक्षाओं (RPSC, RSMSSB) के लिए मुफ़्त और प्रीमियम प्रैक्टिस टेस्ट सीरीज़।">
+<meta property="og:image" content="/shared/icon-512.png">
+<meta name="theme-color" content="#9333ea">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/style.css?v=3">
+<link rel="stylesheet" href="shared/features.css?v=1">
+<style>
+  /* Homepage-only carousel -- built from exams.json, so it stays accurate
+     as exams are added/go live with no page edit needed. */
+  .carousel-wrap { max-width: 900px; margin: 28px auto 0; padding: 0 16px; }
+  .carousel { position: relative; overflow: hidden; border-radius: 18px; box-shadow: var(--shadow); }
+  .carousel-track { display: flex; transition: transform 0.45s ease; }
+  .carousel-slide {
+    flex: 0 0 100%; box-sizing: border-box; padding: 36px 64px; text-align: center;
+    background: var(--gradient); color: #201a2b;
+  }
+  .carousel-slide-badge {
+    display: inline-block; background: rgba(32,26,43,0.12); padding: 4px 14px; border-radius: 999px;
+    font-size: 0.76rem; font-weight: 700; margin-bottom: 10px;
+  }
+  .carousel-slide h3 { font-size: 1.4rem; margin: 0 0 6px; }
+  .carousel-slide p { font-size: 0.88rem; margin: 0 0 18px; opacity: 0.85; }
+  .carousel-btn {
+    display: inline-block; background: #201a2b; color: #fff; padding: 11px 24px;
+    border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 0.9rem;
+  }
+  .carousel-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.85);
+    border: none; width: 34px; height: 34px; border-radius: 50%; font-size: 1.05rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; color: #201a2b;
+  }
+  .carousel-arrow-prev { left: 10px; }
+  .carousel-arrow-next { right: 10px; }
+  .carousel-dots { display: flex; justify-content: center; gap: 7px; margin-top: 12px; }
+  .carousel-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); border: none; cursor: pointer; padding: 0; }
+  .carousel-dot.active { background: var(--primary); width: 20px; border-radius: 4px; }
+  @media (max-width: 600px) {
+    .carousel-slide { padding: 28px 40px; }
+    .carousel-slide h3 { font-size: 1.15rem; }
+  }
+</style>
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">🏆 RPSC व RSMSSB परीक्षाओं के लिए सर्वश्रेष्ठ सामग्री</div>
+    <h1 class="hero-title">अपनी परीक्षा में <span class="accent-word">शानदार सफलता</span> पाएँ</h1>
+    <p class="hero-sub">सटीक, हल किए गए प्रश्न — हर बार नया टेस्ट, विषयवार अभ्यास, और विस्तृत स्पष्टीकरण के साथ।</p>
+    <a href="#exams" class="btn btn-primary">अपनी परीक्षा चुनें 👇</a>
+  </div>
+</div>
+
+<div class="carousel-wrap">
+  <div class="carousel-heading" id="carousel-heading"></div>
+  <div class="carousel" id="exam-carousel">
+    <div class="carousel-track" id="carousel-track"></div>
+    <button class="carousel-arrow carousel-arrow-prev" id="carousel-prev" aria-label="पिछला">&larr;</button>
+    <button class="carousel-arrow carousel-arrow-next" id="carousel-next" aria-label="अगला">&rarr;</button>
+  </div>
+  <div class="carousel-dots" id="carousel-dots"></div>
+</div>
+
+<div class="container">
+  <div id="daily-section"></div>
+  <div id="exams" style="padding-top:36px">
+    <div class="section-title" style="font-size:1.3rem">अपनी परीक्षा का चुनाव करें</div>
+    <p class="section-sub">नीचे दी गई सूची में से अपनी परीक्षा पर क्लिक करें और अभ्यास शुरू करें।</p>
+    <input id="exam-search" class="fx-select" style="width:100%;margin:6px 0 14px" placeholder="🔎 परीक्षा खोजें (जैसे: पटवारी, RAS, Sub Inspector…)" aria-label="परीक्षा खोजें">
+    <div class="exam-boards">
+      <div>
+        <div class="exam-board-title">📘 RPSC परीक्षाएं</div>
+        <div id="exam-grid-rpsc" class="card-grid"></div>
+      </div>
+      <div>
+        <div class="exam-board-title">📗 RSMSSB परीक्षाएं</div>
+        <div id="exam-grid-rmssb" class="card-grid"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="site-footer"></footer>
+
+<script type="module">
+  import { renderHeader, renderFooter } from "./shared/chrome.js";
+  import { loadCalendar, sortByNearestDate, nearestBySlug, dateChipHtml, upcomingForCarousel, formatDate, daysUntil } from "./shared/calendar.js?v=1";
+  import { renderDaily } from "./shared/qotd.js?v=1";
+  renderHeader(document.getElementById("site-header"), "home");
+  renderFooter(document.getElementById("site-footer"), { showQuery: true });
+
+  function escapeHtml(s) {
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  function renderExamCard(e, near = {}) {
+    const isLive = e.status === "live";
+    const isRpsc = e.board === "RPSC";
+    const inner = `
+      <div class="exam-card-top">
+        <span class="exam-card-icon">${isRpsc ? "📘" : "📗"}</span>
+        <span class="pill ${isLive ? "pill-free" : "pill-paid"}">${isLive ? "अभी उपलब्ध" : "जल्द आ रहा है"}</span>
+      </div>
+      <div class="exam-card-title">${escapeHtml(e.title)}</div>
+      <div class="exam-card-meta">${escapeHtml(e.board)}</div>
+      ${dateChipHtml(near[e.slug])}
+      ${isLive ? `<div class="btn btn-primary exam-card-btn">Practice शुरू करें</div>` : ""}`;
+    return isLive
+      ? `<a class="exam-card ${isRpsc ? "exam-card-rpsc" : "exam-card-rmssb"}" href="${e.slug}/">${inner}</a>`
+      : `<div class="exam-card ${isRpsc ? "exam-card-rpsc" : "exam-card-rmssb"}" style="opacity:0.55;pointer-events:none;">${inner}</div>`;
+  }
+
+  // ---------------------------------------------------------------------
+  // Carousel -- one slide per exam in exams.json (whatever's there, live or
+  // coming-soon), so this needs no edit when a new exam goes live.
+  // ---------------------------------------------------------------------
+  let carouselIdx = 0;
+  let carouselCount = 0;
+  let carouselTimer = null;
+
+  function renderCarousel(items) {
+    carouselCount = items.length;
+    if (!carouselCount) { document.getElementById("exam-carousel").closest(".carousel-wrap").style.display = "none"; return; }
+
+    document.getElementById("carousel-track").innerHTML = items.map((it) => `
+        <div class="carousel-slide">
+          <div class="carousel-slide-badge">${it.badge}</div>
+          <h3>${escapeHtml(it.title)}</h3>
+          <p>${escapeHtml(it.sub)}</p>
+          <a href="${it.href}" class="carousel-btn">अभी अभ्यास शुरू करें &rarr;</a>
+        </div>`).join("");
+
+    document.getElementById("carousel-dots").innerHTML = items.map((_, i) =>
+      `<button class="carousel-dot${i === 0 ? " active" : ""}" data-idx="${i}" aria-label="स्लाइड ${i + 1}"></button>`
+    ).join("");
+    document.querySelectorAll(".carousel-dot").forEach((dot) => {
+      dot.onclick = () => { goToSlide(Number(dot.dataset.idx)); restartAutoAdvance(); };
+    });
+
+    goToSlide(0);
+    restartAutoAdvance();
+  }
+
+  function goToSlide(idx) {
+    carouselIdx = (idx + carouselCount) % carouselCount;
+    document.getElementById("carousel-track").style.transform = `translateX(-${carouselIdx * 100}%)`;
+    document.querySelectorAll(".carousel-dot").forEach((d, i) => d.classList.toggle("active", i === carouselIdx));
+  }
+
+  function restartAutoAdvance() {
+    clearInterval(carouselTimer);
+    if (carouselCount > 1) carouselTimer = setInterval(() => goToSlide(carouselIdx + 1), 5000);
+  }
+
+  document.getElementById("carousel-prev").onclick = () => { goToSlide(carouselIdx - 1); restartAutoAdvance(); };
+  document.getElementById("carousel-next").onclick = () => { goToSlide(carouselIdx + 1); restartAutoAdvance(); };
+
+  Promise.all([fetch("exams.json").then((r) => r.json()), loadCalendar()]).then(([{ exams }, events]) => {
+    const near = nearestBySlug(events);
+    const bySlug = Object.fromEntries(exams.map((e) => [e.slug, e]));
+    const upcoming = upcomingForCarousel(events, 5).filter((e) => bySlug[e.slug]);
+    if (upcoming.length) {
+      document.getElementById("carousel-heading").textContent = "📅 आने वाली परीक्षाएं";
+      renderCarousel(upcoming.map((e) => {
+        const n = daysUntil(e.date);
+        return { badge: `📅 ${formatDate(e.date)} · ${n === 0 ? "आज" : n + " दिन शेष"}`, title: e.label,
+                 sub: `${e.board} — परीक्षा की तैयारी अभी शुरू करें`, href: `${e.slug}/` };
+      }));
+    } else {
+      renderCarousel(exams.filter((e) => e.status === "live").slice(0, 5).map((e) => ({
+        badge: "🔥 अभी उपलब्ध", title: e.title, sub: `${e.board} बोर्ड की परीक्षा के लिए मुफ़्त व प्रीमियम प्रैक्टिस टेस्ट सीरीज़`, href: `${e.slug}/` })));
+    }
+
+    const boards = [
+      { board: "RPSC", gridId: "exam-grid-rpsc" },
+      { board: "RMSSB", gridId: "exam-grid-rmssb" },
+    ];
+    for (const { board, gridId } of boards) {
+      const grid = document.getElementById(gridId);
+      const matched = sortByNearestDate(exams.filter((e) => e.board === board), events);
+      grid.innerHTML = matched.length
+        ? matched.map((e) => renderExamCard(e, near)).join("")
+        : `<div class="exam-board-empty">जल्द ही जोड़ा जाएगा</div>`;
+    }
+  });
+
+  renderDaily(document.getElementById("daily-section"));
+
+  // exam search: filters the cards by title text
+  document.getElementById("exam-search").addEventListener("input", (ev) => {
+    const term = ev.target.value.trim().toLowerCase();
+    document.querySelectorAll(".exam-card").forEach((c) => { c.style.display = !term || c.textContent.toLowerCase().includes(term) ? "" : "none"; });
+  });
+</script>
+
+</body>
+</html>

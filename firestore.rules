@@ -1,0 +1,124 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      // checkEntitlement() reads this. purchases is written only by the
+      // Cloud Function webhook via the Admin SDK, which bypasses these rules
+      // entirely. Registration (name/mobile/examInterest) and later profile
+      // edits ARE normal client writes -- but must never be able to touch
+      // "purchases" themselves, so a student can't self-grant entitlement
+      // by simply writing to their own profile doc.
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid
+                    && !("purchases" in request.resource.data);
+      allow update: if request.auth != null && request.auth.uid == uid
+                    && !request.resource.data.diff(resource.data).affectedKeys().hasAny(["purchases"]);
+
+      // recordAttempt() reads/writes this. A student can only see or change
+      // their own test history -- and "cheating" your own recorded history
+      // harms no one, so a normal authenticated write is fine here (unlike
+      // purchases above).
+      match /attempts/{attemptId} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+
+      // getWrongQuestionIds()/recordAttempt() read/write this -- the
+      // dashboard's "practice your wrong questions" pool, one doc per exam.
+      // Same trust level as attempts above: a student's own practice data.
+      match /wrongQuestions/{examSlug} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+
+      // Cross-exam "already seen" question keys (users/{uid}/seen/global). Same trust level
+      // as attempts: a student's own practice data, and nobody else's business.
+      match /seen/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+
+      // Per-topic practice stats, bookmarks + notes, XP/streak/badges and the study planner
+      // (shared/userdata.js). A student's own practice data, same trust level as attempts.
+      match /stats/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+      match /bookmarks/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+      match /profile/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+
+      // Paid-content device cap (shared/entitlements.js listDevices/removeDevice). A device
+      // doc is only ever CREATED by the get_paid_pool Cloud Function via the Admin SDK (which
+      // bypasses these rules), so the 3-device cap can't be raised by writing extra docs from
+      // the client -- a student may only READ their own list and DELETE one to free a slot.
+      match /devices/{deviceId} {
+        allow read, delete: if request.auth != null && request.auth.uid == uid;
+      }
+    }
+
+    // Mock-test leaderboard (shared/community.js). Anyone may read names + scores; a signed-in student may write ONLY
+    // their own score document, within sane bounds, and only ever raise it (best score kept). Scores come from the
+    // student's browser (no server re-scoring yet), so treat this as a practice board, not a proctored one.
+    match /boards/{boardId}/scores/{scoreUid} {
+      allow read: if true;
+      allow create: if request.auth != null && request.auth.uid == scoreUid
+                    && request.resource.data.uid == scoreUid
+                    && request.resource.data.keys().hasOnly(["uid", "name", "score", "correct", "wrong", "total", "timeSec", "ts"])
+                    && request.resource.data.score is number && request.resource.data.score >= -300 && request.resource.data.score <= 600
+                    && request.resource.data.total is number && request.resource.data.total >= 1 && request.resource.data.total <= 300
+                    && request.resource.data.correct is number && request.resource.data.correct >= 0
+                    && request.resource.data.wrong is number && request.resource.data.wrong >= 0
+                    && request.resource.data.correct + request.resource.data.wrong <= request.resource.data.total
+                    && request.resource.data.name is string && request.resource.data.name.size() <= 24;
+      allow update: if request.auth != null && request.auth.uid == scoreUid
+                    && request.resource.data.uid == scoreUid
+                    && request.resource.data.keys().hasOnly(["uid", "name", "score", "correct", "wrong", "total", "timeSec", "ts"])
+                    && request.resource.data.score is number && request.resource.data.score > resource.data.score
+                    && request.resource.data.score <= 600
+                    && request.resource.data.total is number && request.resource.data.total >= 1 && request.resource.data.total <= 300
+                    && request.resource.data.correct is number && request.resource.data.correct >= 0
+                    && request.resource.data.wrong is number && request.resource.data.wrong >= 0
+                    && request.resource.data.correct + request.resource.data.wrong <= request.resource.data.total
+                    && request.resource.data.name is string && request.resource.data.name.size() <= 24;
+    }
+
+    // Per-question discussion / doubt threads (one thread per real question, keyed by its content key).
+    // Public read; signed-in students can post short text and delete only their own posts.
+    match /discussions/{threadKey}/comments/{commentId} {
+      allow read: if true;
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.keys().hasOnly(["uid", "name", "text", "kind", "ts"])
+                    && request.resource.data.text is string && request.resource.data.text.size() >= 2 && request.resource.data.text.size() <= 500
+                    && request.resource.data.name is string && request.resource.data.name.size() <= 24
+                    && request.resource.data.kind in ["comment", "doubt"];
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+    }
+
+    // Referral tracking: a student publishes their code once; a new student's sign-up records ONE join under it;
+    // only the code's owner can read the joins (to count them). No rewards are paid automatically.
+    match /referralCodes/{code} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.keys().hasOnly(["uid", "ts"]);
+      match /joined/{joinerUid} {
+        allow create: if request.auth != null && request.auth.uid == joinerUid && request.resource.data.uid == joinerUid
+                      && request.resource.data.keys().hasOnly(["uid", "ts"])
+                      && get(/databases/$(database)/documents/referralCodes/$(code)).data.uid != joinerUid;
+        allow read: if request.auth != null
+                    && get(/databases/$(database)/documents/referralCodes/$(code)).data.uid == request.auth.uid;
+      }
+    }
+
+    // "Report a mistake" submissions (reportMistake() in shared/entitlements.js). Signed-in students
+    // can only CREATE a report about themselves, with bounded field sizes; nobody can read, edit or
+    // delete them from the client (the owner reviews them with the Admin SDK).
+    match /reports/{reportId} {
+      allow create: if request.auth != null
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.keys().hasOnly(
+                         ["uid", "examSlug", "qid", "qkey", "reason", "note", "stem", "createdAt"])
+                    && request.resource.data.note.size() <= 500
+                    && request.resource.data.stem.size() <= 300;
+    }
+  }
+}
