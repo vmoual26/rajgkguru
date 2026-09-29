@@ -1109,6 +1109,2142 @@
       "is_cross_pool": true
     },
     {
+      "id": "RMSSB::Agriculture Supervisor::Agriculture Supervisor 2021||28",
+      "serial_no": 28,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Arts",
+      "subtopic": "Musical Instruments (Ravanhattha)",
+      "source_cycle": "Agriculture Supervisor 2021",
+      "hindi": {
+        "question": "'रावणहत्था' किस प्रकार का वाद्य यन्त्र है?",
+        "options": [
+          "तत्",
+          "सुषिर काष्ठ",
+          "अवनद्ध",
+          "घन"
+        ],
+        "explanation": "'रावणहत्था' एक तत् वाद्य यंत्र है। तत् वाद्य यंत्र वे होते हैं जिनमें ध्वनि तारों के कंपन से उत्पन्न होती है, और रावणहत्था भी इसी श्रेणी में आता है।"
+      },
+      "qkey": "da9a561465f6",
+      "source_exam": "Agriculture Supervisor",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Agriculture Supervisor::Agriculture Supervisor 2021||37",
+      "serial_no": 37,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Literature",
+      "subtopic": "Authors and Books (Baatan Ri Phulwari)",
+      "source_cycle": "Agriculture Supervisor 2021",
+      "hindi": {
+        "question": "'बातां री फुलवाड़ी' पुस्तक के रचियता थे-",
+        "options": [
+          "कन्हैया लाल सेठिया",
+          "श्यामलदास",
+          "सीता राम लालस",
+          "विजयदान देथा"
+        ],
+        "explanation": "'बातां री फुलवाड़ी' पुस्तक के रचयिता विजयदान देथा थे। यह राजस्थानी लोक कथाओं का एक प्रसिद्ध संग्रह है।"
+      },
+      "qkey": "555929815c51",
+      "source_exam": "Agriculture Supervisor",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||24|Master Question Paper, 1st Phase(A13)",
+      "serial_no": 24,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Theatre",
+      "subtopic": "Char Bent Folk Play",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "'चार बेंत' राजस्थान के किस क्षेत्र का प्रसिद्ध लोक नाटक/प्रस्तुति है? निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "कोटा",
+          "दौसा",
+          "टोंक",
+          "जैसलमेर"
+        ],
+        "explanation": "'चार बेंत' राजस्थान के टोंक क्षेत्र का एक प्रसिद्ध लोक नाटक/प्रस्तुति है। यह एक पारंपरिक लोक कला है जिसमें चारण कवि और कलाकार अपनी प्रस्तुतियों के माध्यम से कहानियाँ और कविताएँ सुनाते हैं।"
+      },
+      "qkey": "be8b94dbe8b5",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||60|Master Question Paper, 4th Phase(Y11)",
+      "serial_no": 60,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Deities of Rajasthan",
+      "subtopic": "Panchpir of Rajasthan",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन राजस्थान में पंचपीर में शामिल नहीं है?",
+        "options": [
+          "पाबू जी",
+          "तेजा जी",
+          "रामदेव जी",
+          "गोगा जी"
+        ],
+        "explanation": "तेजा जी राजस्थान के पंचपीर में शामिल नहीं हैं। पंचपीर राजस्थान के लोक देवताओं का एक समूह है जिसमें पाबू जी, रामदेव जी, गोगा जी, हड़बू जी और मेहा जी शामिल हैं।"
+      },
+      "qkey": "9f575a5bfd82",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||22|Master Question Paper, 6th Phase(Z10)",
+      "serial_no": 22,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Language and Literature of Rajasthan",
+      "subtopic": "Origin of Rajasthani Language",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "राजस्थानी भाषा का विकास किस \"अपभ्रंश\" भाषा से नहीं हुआ है?निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "शौरसेनी अपभ्रंश",
+          "नागर अपभ्रंश",
+          "मारू गुर्जर अपभ्रंश",
+          "मागधी अपभ्रंश"
+        ],
+        "explanation": "राजस्थानी भाषा का विकास मागधी अपभ्रंश भाषा से नहीं हुआ है। राजस्थानी भाषा का विकास मुख्य रूप से शौरसेनी अपभ्रंश, नागर अपभ्रंश और मारू गुर्जर अपभ्रंश से हुआ है। मागधी अपभ्रंश से पूर्वी भारतीय भाषाओं का विकास हुआ है। इसलिए, विकल्प 'मागधी अपभ्रंश' सही उत्तर है।"
+      },
+      "qkey": "71ead0552ad4",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||12|Master Question Paper 131B",
+      "serial_no": 12,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Dynasties of Rajasthan",
+      "subtopic": "Chauhan Dynasty and Historical Literature",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'अर्ली चौहान डाइनेस्टीज़' के लेखक हैं",
+        "options": [
+          "जी.ए. ग्रियर्सन",
+          "दशरथ शर्मा",
+          "जी.एच. ओझा",
+          "जी.एन. शर्मा"
+        ],
+        "explanation": "'अर्ली चौहान डाइनेस्टीज़' के लेखक दशरथ शर्मा हैं। यह पुस्तक चौहान राजवंश के प्रारंभिक इतिहास पर एक महत्वपूर्ण शोध कार्य है, जो इस क्षेत्र के इतिहास को समझने में सहायक है। दशरथ शर्मा राजस्थान के प्रसिद्ध इतिहासकार थे।"
+      },
+      "qkey": "717644625460",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||7|Master Question Paper 131C",
+      "serial_no": 7,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Freedom Struggle in Rajasthan",
+      "subtopic": "Martyrs of Prajamandal Movements",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "जेल में अन्याय के खिलाफ भूख हड़ताल के कारण मारवाड़ लोक परिषद के किस नेता की मृत्यु 19 जून, 1942 को हुई?",
+        "options": [
+          "रणछोड़दास गट्टानी",
+          "आनंद राज सुराणा",
+          "भंवर लाल शर्मा",
+          "बाल मुकुंद बिस्सा"
+        ],
+        "explanation": "मारवाड़ लोक परिषद के नेता बाल मुकुंद बिस्सा को भारत छोड़ो आंदोलन के दौरान गिरफ्तार किया गया था। उन्होंने जेल में राजनीतिक कैदियों के साथ दुर्व्यवहार और खराब व्यवस्था के खिलाफ भूख हड़ताल की थी। इसी भूख हड़ताल के कारण 19 जून, 1942 को उनकी मृत्यु हो गई थी, जिससे वे 'राजस्थान के जतिन दास' के रूप में प्रसिद्ध हुए।"
+      },
+      "qkey": "f812bf5e56fb",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||8|Master Question Paper 131D",
+      "serial_no": 8,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Tribal Movements in Rajasthan",
+      "subtopic": "Mewar ki Pukar / Moti Lal Tejawat",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "'मेवाड़ की पुकार' 21 सूत्रीय मांगपत्र का सम्बन्ध किससे था?",
+        "options": [
+          "साधु सीताराम दास",
+          "विजय सिंह पथिक",
+          "मोतीलाल तेजावत",
+          "माणिक्य लाल वर्मा"
+        ],
+        "explanation": "'मेवाड़ की पुकार' नामक 21 सूत्रीय मांगपत्र का संबंध मोतीलाल तेजावत से था। उन्होंने यह मांगपत्र मेवाड़ के महाराणा को प्रस्तुत किया था, जिसमें भील आदिवासियों की समस्याओं और मांगों को उठाया गया था। यह एकी आंदोलन का महत्वपूर्ण हिस्सा था।"
+      },
+      "qkey": "14f1445cdf50",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||19|Master Question Paper 131D",
+      "serial_no": 19,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Languages and Dialects of Rajasthan",
+      "subtopic": "Godwari Dialect",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "निम्नलिखित में किस एक जिले में 'गोड़वाड़ी बोली' बोली जाती है?",
+        "options": [
+          "जालौर",
+          "जैसलमेर",
+          "डूंगरपुर",
+          "अजमेर"
+        ],
+        "explanation": "गोड़वाड़ी बोली मारवाड़ी बोली की एक उपबोली है, जो मुख्य रूप से जालौर जिले और पाली जिले के कुछ हिस्सों में बोली जाती है। यह बोली लूनी नदी के बेसिन क्षेत्र में प्रचलित है।"
+      },
+      "qkey": "b9c9f5ce9129",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||41|Master Question Paper 134 C",
+      "serial_no": 41,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Political History of Rajasthan",
+      "subtopic": "Unification of Rajasthan (Ajmer State)",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "अजमेर राज्य के प्रथम मुख्य मंत्री कौन थे?",
+        "options": [
+          "बाल कृष्ण कौल",
+          "हरि भाऊ उपाध्याय",
+          "हीरालाल शास्त्री",
+          "जय नारायण व्यास"
+        ],
+        "explanation": "अजमेर-मेरवाड़ा राज्य के प्रथम और एकमात्र मुख्यमंत्री हरिभाऊ उपाध्याय थे। अजमेर-मेरवाड़ा एक 'सी' श्रेणी का राज्य था जो 1956 में राजस्थान में विलय हो गया। हरिभाऊ उपाध्याय एक प्रमुख स्वतंत्रता सेनानी और गांधीवादी नेता थे।"
+      },
+      "qkey": "c1bb6d67ac1e",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||41|Master Question Paper 134 E",
+      "serial_no": 41,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Music and Dance of Rajasthan",
+      "subtopic": "Folk Musical Instruments and Artists",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "साकर खान को 2012 में पद्मश्री से सम्मानित किया गया क्योंकि वे लोक वाद्य के सबसे बड़े प्रवक्ता थे।",
+        "options": [
+          "कामायचा",
+          "सारंगी",
+          "मोरचंग",
+          "खड़ताल"
+        ],
+        "explanation": "साकर खान मांगणियार को 2012 में कामायचा लोक वाद्य यंत्र को विश्व स्तर पर पहचान दिलाने और उसके संरक्षण में उनके महत्वपूर्ण योगदान के लिए पद्मश्री से सम्मानित किया गया था। वह कामायचा के एक महान वादक और इसके सबसे बड़े प्रवर्तकों में से एक थे।"
+      },
+      "qkey": "ba3f683f4731",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||63|Master Question Paper 134 E",
+      "serial_no": 63,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Art and Architecture of Rajasthan",
+      "subtopic": "Forts of Rajasthan",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "किस किले के बारे में हसन निजामी ने लिखा \"यह ऐसा किला है जिसका दरवाजा कोई आक्रमणकारी नहीं खोल सका\" ?",
+        "options": [
+          "जैसलमेर का किला",
+          "जालोर का किला",
+          "शेरगढ़ का किला",
+          "सिवाणा का किला"
+        ],
+        "explanation": "इतिहासकार हसन निजामी ने जालोर के किले की अभेद्यता का वर्णन करते हुए लिखा था कि \"यह ऐसा किला है जिसका दरवाजा कोई आक्रमणकारी नहीं खोल सका\"। यह कथन किले की मजबूत सुरक्षा और रणनीतिक महत्व को दर्शाता है। जालोर का किला अपनी दुर्जेय संरचना और ऐतिहासिक महत्व के लिए जाना जाता है।"
+      },
+      "qkey": "c21f7aef9ac7",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||103|Master Question Paper 134 E",
+      "serial_no": 103,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Historical Events",
+      "subtopic": "Mughal-Rajput Conflicts",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "16 अप्रैल, 1658 के दिन किस युद्ध में औरंगजेब ने जसवंतसिंह को हराया ?",
+        "options": [
+          "दौराई का युद्ध",
+          "सामूगढ़ का युद्ध",
+          "खजुवा का युद्ध",
+          "धरमत का युद्ध"
+        ],
+        "explanation": "16 अप्रैल, 1658 को धरमत का युद्ध लड़ा गया था। यह युद्ध मुगल बादशाह शाहजहाँ के बेटों के बीच उत्तराधिकार संघर्ष का हिस्सा था। इस युद्ध में औरंगजेब और मुराद बख्श की संयुक्त सेना ने महाराजा जसवंत सिंह के नेतृत्व वाली शाही सेना को हराया था।"
+      },
+      "qkey": "809adf5ed2f6",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||137|Master Question Paper 134 E",
+      "serial_no": 137,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Fairs and Festivals",
+      "subtopic": "Traditional Festivals of Rajasthan",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "'हरियाली अमावस्या' का पर्व किस तिथि को मनाया जाता है ?",
+        "options": [
+          "श्रावण अमावस्या",
+          "फालगुन अमावस्या",
+          "कार्तिक अमावस्या",
+          "आषाढ़ अमावस्या"
+        ],
+        "explanation": "हरियाली अमावस्या का पर्व श्रावण मास की अमावस्या को मनाया जाता है। यह पर्व प्रकृति और पर्यावरण के प्रति आभार व्यक्त करने का प्रतीक है, और इस दिन वृक्षारोपण तथा धार्मिक अनुष्ठान किए जाते हैं। यह राजस्थान सहित उत्तर भारत के कई हिस्सों में मनाया जाता है।"
+      },
+      "qkey": "82856b320608",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||47|Master Question Paper 134 F",
+      "serial_no": 47,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Culture",
+      "subtopic": "Fairs and Festivals of Rajasthan",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
+      "hindi": {
+        "question": "प्रसिद्ध आदिवासी मेला 'बेणेश्वर' राजस्थान के किस जिले में आयोजित होता है ?",
+        "options": [
+          "कोटा",
+          "बांसवाड़ा",
+          "प्रतापगढ़",
+          "डूंगरपुर"
+        ],
+        "explanation": "प्रसिद्ध आदिवासी मेला 'बेणेश्वर' राजस्थान के डूंगरपुर जिले में आयोजित होता है। यह मेला सोम, माही और जाखम नदियों के संगम पर माघ पूर्णिमा को लगता है। यह आदिवासियों, विशेषकर भील समुदाय के लिए एक महत्वपूर्ण धार्मिक और सांस्कृतिक आयोजन है, जिसे 'आदिवासियों का कुंभ' भी कहा जाता है।"
+      },
+      "qkey": "5509e89f205c",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||110|Master Question Paper R15",
+      "serial_no": 110,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Historical Sources",
+      "subtopic": "Epigraphy/Archaeological Literature",
+      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
+      "hindi": {
+        "question": "वह साहित्य जो अभिलेखों, सिक्कों तथा मुहरों पर उत्कीर्ण होता है, साहित्य कहलाता है। निम्न में से सबसे उपयुक्त विकल्प चुनें",
+        "options": [
+          "लोक",
+          "पुरालेखीय",
+          "क्षेत्रीय",
+          "परंपरागत"
+        ],
+        "explanation": "अभिलेखों, सिक्कों और मुहरों पर उत्कीर्ण साहित्य को 'पुरालेखीय' साहित्य कहा जाता है। 'पुरालेखीय' शब्द का संबंध प्राचीन लेखन या अभिलेखों के अध्ययन से है। यह ऐतिहासिक जानकारी का एक महत्वपूर्ण स्रोत होता है।"
+      },
+      "qkey": "0e7dce5c35ad",
+      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||53|Forest Guard 2020 _ Master Question Paper 132A",
+      "serial_no": 53,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Architecture of Rajasthan",
+      "subtopic": "Jain Temples",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "रणकपुर के जैन मंदिर का शिल्पी कौन था ?",
+        "options": [
+          "मण्डन",
+          "दीपा",
+          "वास्तुपाल",
+          "नापा"
+        ],
+        "explanation": "रणकपुर के जैन मंदिर का निर्माण 15वीं शताब्दी में हुआ था और इसके मुख्य शिल्पी दीपा थे। उन्होंने इस भव्य और जटिल मंदिर के डिज़ाइन और निर्माण में महत्वपूर्ण भूमिका निभाई।"
+      },
+      "qkey": "2308b487d882",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||11|Forester 2020 _ Master Question (Shift 2)",
+      "serial_no": 11,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Textile Arts",
+      "subtopic": "Pomcha Dyeing Style",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "पोमचा क्या है ?",
+        "options": [
+          "चित्रकला शैली",
+          "रंगाई की शैली",
+          "पद्य शैली",
+          "बर्तन गढ़ने की शैली"
+        ],
+        "explanation": "पोमचा राजस्थान की एक पारंपरिक रंगाई शैली है, विशेष रूप से यह एक प्रकार की ओढ़नी होती है जिसे महिलाएं पहनती हैं। यह अक्सर पीले या गुलाबी रंग का होता है और इसमें विशेष डिज़ाइन होते हैं।"
+      },
+      "qkey": "4970686f7c45",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||63|Forester 2020 _ Master Question (Shift 2)",
+      "serial_no": 63,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Ancient Civilizations of Rajasthan",
+      "subtopic": "Discovery of Kalibanga civilization",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "निम्नलिखित में से किसने कालीबंगा सभ्यता की खोज की ?",
+        "options": [
+          "अमलानन्द घोष",
+          "रतन चन्द्र अग्रवाल",
+          "एच.डी. सांकलिया",
+          "वी.एन. मिश्र"
+        ],
+        "explanation": "कालीबंगा सभ्यता की खोज अमलानंद घोष ने की थी। यह सिंधु घाटी सभ्यता का एक महत्वपूर्ण स्थल है।"
+      },
+      "qkey": "9c5728d23b68",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||76|Forester 2020 _ Master Question Paper (Shift 1)",
+      "serial_no": 76,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Social Reforms and Institutions",
+      "subtopic": "Mahila Ashram Bhilwara",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "भीलवाड़ा में 1944 में किसने महिला आश्रम की स्थापना की ?",
+        "options": [
+          "नारायणीदेवी वर्मा",
+          "अंजनादेवी चौधरी",
+          "रतन शास्त्री",
+          "शांता त्रिवेदी"
+        ],
+        "explanation": "नारायणीदेवी वर्मा ने 1944 में भीलवाड़ा में महिला आश्रम की स्थापना की थी। उन्होंने महिलाओं के उत्थान और शिक्षा के लिए महत्वपूर्ण कार्य किए। यह आश्रम महिलाओं को आत्मनिर्भर बनाने में सहायक था।"
+      },
+      "qkey": "3fa67caccc55",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||49|Master Question Paper 130C",
+      "serial_no": 49,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Literature",
+      "subtopic": "Authors and Works",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "'रणमल छंद' की रचना किसने की?",
+        "options": [
+          "नरपति नाथ",
+          "हेमराज",
+          "श्रीधर",
+          "दलपत"
+        ],
+        "explanation": "'रणमल छंद' की रचना श्रीधर ने की थी। यह एक ऐतिहासिक काव्य है जो रणमल राठौड़ के शौर्य और पराक्रम का वर्णन करता है।"
+      },
+      "qkey": "398c71780cd9",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||74|Master Question Paper 130C",
+      "serial_no": 74,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Ancient History of Rajasthan",
+      "subtopic": "Viratnagar (Bairath) and Mauryan Empire",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "निम्नलिखित कथनों को पढ़िए -\n(i) विराटनगर जिसे पहले बैराठ के नाम से जाना जाता था, जोधपुर का एक शहर है।\n(ii) बैराठ, मौर्य साम्राज्य का हिस्सा था।\nसही कूट चुनिए",
+        "options": [
+          "केवल (i) सही है",
+          "केवल (ii) सही है",
+          "न तो (i) ना ही (ii) सही है",
+          "दोनों कथन सही हैं"
+        ],
+        "explanation": "विराटनगर (बैराठ) जयपुर जिले में स्थित है, न कि जोधपुर में। बैराठ मौर्य साम्राज्य का हिस्सा था, जिसके पुरातात्विक साक्ष्य मिले हैं। इसलिए केवल दूसरा कथन सही है।"
+      },
+      "qkey": "7bd7b31c7066",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||29|Master Question Paper 19.09.2025_Morning Shift_DS22",
+      "serial_no": 29,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Tourism in Rajasthan",
+      "subtopic": "Jaipur Tourist Sites",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से, किस पर्यटन स्थल को, \"पंच गौरव\" पहल के तहत, जयपुर जिले का प्रतिनिधित्व करने के लिए चुना गया है ?",
+        "options": [
+          "आमेर दुर्ग",
+          "जंतर मंतर",
+          "नाहरगढ़ किला",
+          "हवा महल"
+        ],
+        "explanation": "जयपुर जिले में 'पंच गौरव' पहल के तहत आमेर दुर्ग को चुना गया है। यह पहल पर्यटन को बढ़ावा देने और जयपुर के ऐतिहासिक महत्व को उजागर करने के लिए शुरू की गई है।"
+      },
+      "qkey": "a6e679311573",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR ENGINEER (JEN)::Junior Engineer (JEN) 2020||37",
+      "serial_no": 37,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Chauhan dynasty",
+      "subtopic": "",
+      "source_cycle": "Junior Engineer (JEN) 2020",
+      "hindi": {
+        "question": "सांभर झील का निर्माण किस चौहान शासक द्वारा किया गया ?",
+        "options": [
+          "गोपेन्द्रराज",
+          "दुर्लभराज",
+          "वासुदेव",
+          "वत्सराज"
+        ],
+        "explanation": "सांभर झील का निर्माण चौहान शासक वासुदेव द्वारा किया गया था। यह राजस्थान की सबसे बड़ी खारे पानी की झील है और इसका ऐतिहासिक महत्व है।"
+      },
+      "qkey": "08879263df06",
+      "source_exam": "JUNIOR ENGINEER (JEN)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR ENGINEER (JEN)::Junior Engineer (JEN) 2024||19",
+      "serial_no": 19,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Forts of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Junior Engineer (JEN) 2024",
+      "hindi": {
+        "question": "कर्नल टॉड के अनुसार निम्नलिखित में से कौन सा किला व्यापारी भैंसा शाह और रोड़ा चारण द्वारा बनाया गया था ?",
+        "options": [
+          "गागरोन किला",
+          "चूरू किला",
+          "जूनागढ़ किला",
+          "भैंसरोड़गढ़ किला"
+        ],
+        "explanation": "कर्नल टॉड के अनुसार, भैंसरोड़गढ़ किला व्यापारी भैंसा शाह और रोड़ा चारण द्वारा बनाया गया था। यह किला चंबल और बामनी नदियों के संगम पर स्थित है।"
+      },
+      "qkey": "6fd0dc707bc4",
+      "source_exam": "JUNIOR ENGINEER (JEN)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||37|Master Question Paper (T126)",
+      "serial_no": 37,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Palaces of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "किशोरी महल, महलखास और कोठीखास राजस्थान में किस किले के भीतरी महल हैं ?",
+        "options": [
+          "जयगढ़",
+          "लोहागढ़",
+          "भानगढ़",
+          "अचलगढ़"
+        ],
+        "explanation": "किशोरी महल, महलखास और कोठीखास राजस्थान में 'लोहागढ़' किले के भीतरी महल हैं। लोहागढ़ किला भरतपुर में स्थित है और अपनी अभेद्यता के लिए जाना जाता है।"
+      },
+      "qkey": "12909f40d059",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||52|Master Question Paper (T126)",
+      "serial_no": 52,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Mesolithic sites",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "छिद्र वाली सुई किस मध्य पाषाण स्थल की महत्वपूर्ण खोज है ?",
+        "options": [
+          "गणेश्वर",
+          "बागोर",
+          "गिलुण्ड",
+          "आहड़"
+        ],
+        "explanation": "बागोर मध्य पाषाण काल का एक महत्वपूर्ण स्थल है जहाँ से छिद्र वाली सुई की खोज हुई है। यह खोज उस काल के मानवों की तकनीकी दक्षता और कलात्मकता को दर्शाती है। बागोर राजस्थान के भीलवाड़ा जिले में स्थित है।"
+      },
+      "qkey": "ad1b7714f05b",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||62|Master Question Paper ,TUR19",
+      "serial_no": 62,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Architecture of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "जैसलमेर की 'पटवों की हवेली' का निर्माण किसने करवाया था ?",
+        "options": [
+          "जालिम सिंह पटवा",
+          "नाथूराम पटवा",
+          "कन्हैया लाल बांगला",
+          "गुमान चंद पटवा"
+        ],
+        "explanation": "जैसलमेर की प्रसिद्ध 'पटवों की हवेली' का निर्माण गुमान चंद पटवा ने करवाया था। यह हवेली अपनी जटिल वास्तुकला और नक्काशी के लिए जानी जाती है।"
+      },
+      "qkey": "c9794286721c",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||54|Master Question Paper, MDE02",
+      "serial_no": 54,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Treaties with British",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "अक्टूबर 1818 में प्रतापगढ़ राज्य के साथ संधि पर हस्ताक्षर करने का श्रेय किस अंग्रेज अधिकारी को जाता है?",
+        "options": [
+          "जॉन मेलकम",
+          "जॉर्ज मिल",
+          "जॉर्ज स्टुअर्ट",
+          "जॉन विल्सन"
+        ],
+        "explanation": "अक्टूबर 1818 में प्रतापगढ़ राज्य के साथ संधि पर हस्ताक्षर करने का श्रेय जॉन मेलकम को जाता है। उन्होंने ब्रिटिश ईस्ट इंडिया कंपनी के प्रतिनिधि के रूप में यह महत्वपूर्ण संधि संपन्न की थी, जिससे प्रतापगढ़ राज्य ब्रिटिश संरक्षण में आ गया।"
+      },
+      "qkey": "4277a48b8882",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||75|Master Question Paper, RACT05",
+      "serial_no": 75,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Chauhan dynasty founder",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "बिजौलिया शिलालेख के अनुसार चौहान राजवंश का संस्थापक कौन था ?",
+        "options": [
+          "सोमेश्वर",
+          "अर्णोराज",
+          "वासुदेव",
+          "पृथ्वीराज तृतीय"
+        ],
+        "explanation": "बिजौलिया शिलालेख के अनुसार, चौहान राजवंश का संस्थापक वासुदेव था। यह शिलालेख चौहानों के इतिहास और उनकी उत्पत्ति के बारे में महत्वपूर्ण जानकारी प्रदान करता है।"
+      },
+      "qkey": "2e4d050a6bb4",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Lab Assistant::Lab Assistant 2026||4",
+      "serial_no": 4,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Mewar Dynasty",
+      "subtopic": "Maharana Kumbha's Literary Works",
+      "source_cycle": "Lab Assistant 2026",
+      "hindi": {
+        "question": "गुहिल राजवंश में से किसने चण्डीशतक, गीत गोविन्द और संगीत रत्नाकर पर टीकाएं लिखी थी?",
+        "options": [
+          "महाराणा मोकल",
+          "महाराणा कुम्भा",
+          "राणा सांगा",
+          "राणा हम्मीर"
+        ],
+        "explanation": "महाराणा कुम्भा एक महान विद्वान और कला प्रेमी शासक थे। उन्होंने चण्डीशतक, गीत गोविन्द और संगीत रत्नाकर जैसे ग्रंथों पर टीकाएं लिखीं, जो उनकी विद्वत्ता और संगीत तथा साहित्य के प्रति उनकी गहरी रुचि को दर्शाती हैं।"
+      },
+      "qkey": "f742533fc7e8",
+      "source_exam": "Lab Assistant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__COMPUTOR::Computor 2021||11",
+      "serial_no": 11,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Traditional attire Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Computor 2021",
+      "hindi": {
+        "question": "राजस्थानी 'तारा भांत की ओढणी' का पहनावा किसमें प्रचलित है?",
+        "options": [
+          "दलित महिलाएँ",
+          "जाट महिलाएँ",
+          "आदिवासी महिलाएँ",
+          "गुर्जर महिलाएँ"
+        ],
+        "explanation": "राजस्थानी 'तारा भांत की ओढणी' का पहनावा आदिवासी महिलाओं में प्रचलित है। यह ओढणी विशेष रूप से आदिवासी संस्कृति का हिस्सा है और उनके पारंपरिक परिधानों में शामिल है।"
+      },
+      "qkey": "d318b6c0b712",
+      "source_exam": "LIB__COMPUTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__COMPUTOR::Computor 2021||12",
+      "serial_no": 12,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Historical texts Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Computor 2021",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा (ग्रन्थ - लेखक) सुमेलित नहीं है?",
+        "options": [
+          "एकलिंग महाकाव्य - महाराणा कुम्भा",
+          "प्रबन्ध चिन्तामणि - मेरुतुंगाचार्य",
+          "हम्मीर महाकाव्य - नयनचन्द्र सूरी",
+          "प्रबन्ध कोष - हरिसेन"
+        ],
+        "explanation": "दिए गए विकल्पों में, 'प्रबन्ध कोष' के लेखक हरिसेन नहीं हैं। प्रबन्ध कोष के लेखक राजशेखर हैं। हरिसेन गुप्त काल के एक प्रसिद्ध कवि और मंत्री थे, जो समुद्रगुप्त के दरबारी कवि थे। इसलिए, यह सुमेलित नहीं है।"
+      },
+      "qkey": "ef0e2b2a97ff",
+      "source_exam": "LIB__COMPUTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__FORESTER::Forester 2026||7",
+      "serial_no": 7,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthan tourist places",
+      "subtopic": "",
+      "source_cycle": "Forester 2026",
+      "hindi": {
+        "question": "राजस्थान के निम्नलिखित में से किस केंद्रीय रूप से संरक्षित टिकट वाले स्मारक में वर्ष 2024-25 में सर्वाधिक घरेलू पर्यटक आए ? सबसे उपयुक्त विकल्प का चयन कीजिए ।",
+        "options": [
+          "चित्तौड़गढ़ किला",
+          "कुंभलगढ़ किला",
+          "डीग भवन",
+          "चांद बाउरी"
+        ],
+        "explanation": "वर्ष 2024-25 में, राजस्थान में केंद्रीय रूप से संरक्षित टिकट वाले स्मारकों में से चित्तौड़गढ़ किले में सर्वाधिक घरेलू पर्यटक आए। यह किला अपनी ऐतिहासिक महत्वता और भव्यता के कारण पर्यटकों के बीच बहुत लोकप्रिय है।"
+      },
+      "qkey": "6f2dc262f0a8",
+      "source_exam": "LIB__FORESTER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__FORESTER::Forester 2026||67",
+      "serial_no": 67,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Mewar Praja Mandal",
+      "subtopic": "",
+      "source_cycle": "Forester 2026",
+      "hindi": {
+        "question": "निम्नलिखित में से मेवाड़ प्रजा मंडल के संस्थापक की पहचान कीजिए।",
+        "options": [
+          "माधरम वैद्य",
+          "माणिक्यालाल वर्मा",
+          "कर्पूरचंद पटनी",
+          "कृष्ण दत्त"
+        ],
+        "explanation": "माणिक्यालाल वर्मा मेवाड़ प्रजा मंडल के संस्थापक थे। उन्होंने 1938 में मेवाड़ प्रजा मंडल की स्थापना की थी, जिसका उद्देश्य रियासत में उत्तरदायी सरकार की स्थापना करना था। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "a7a2616c548e",
+      "source_exam": "LIB__FORESTER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__MOTOR VEHICLE SUB INSPECTOR::Motor Vehicle Sub Inspector 2021||54",
+      "serial_no": 54,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Sikar movement leaders",
+      "subtopic": "",
+      "source_cycle": "Motor Vehicle Sub Inspector 2021",
+      "hindi": {
+        "question": "सीकर आंदोलन की उल्लेखनीय महिला नेता कौन थी ?",
+        "options": [
+          "धापी दादी",
+          "किशोरी देवी",
+          "जानकी देवी बजाज",
+          "अंजना देवी चौधरी"
+        ],
+        "explanation": "किशोरी देवी सीकर आंदोलन की एक उल्लेखनीय महिला नेता थीं। उन्होंने 1934 में कटराथल में एक विशाल महिला सम्मेलन का नेतृत्व किया, जिसमें हजारों महिलाओं ने भाग लिया।"
+      },
+      "qkey": "eec2ae6830dd",
+      "source_exam": "LIB__MOTOR VEHICLE SUB INSPECTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRAHARI::Prahari 2024||32",
+      "serial_no": 32,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Lachhiram folk drama",
+      "subtopic": "",
+      "source_cycle": "Prahari 2024",
+      "hindi": {
+        "question": "लच्छीराम किस लोक नाटक से संबंधित है ?",
+        "options": [
+          "कुचामनी ख्याल",
+          "जयपुरी ख्याल",
+          "हेला ख्याल",
+          "शेखावाटी ख्याल"
+        ],
+        "explanation": "लच्छीराम कुचामनी ख्याल लोक नाटक से संबंधित हैं। वह कुचामनी ख्याल के प्रवर्तक माने जाते हैं और उन्होंने इस लोक नाट्य शैली को विकसित करने में महत्वपूर्ण योगदान दिया।"
+      },
+      "qkey": "b6920eaf52d5",
+      "source_exam": "LIB__PRAHARI",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY SCHOOL TEACHER::PRIMARY SCHOOL TEACHER 2022||9",
+      "serial_no": 9,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Jahangir and Rajput Mansab",
+      "subtopic": "",
+      "source_cycle": "PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "जहांगीर ने मुग़ल बादशाह बनने के बाद में किस राजपूत शासक के मनसब को कम कर दिया ?",
+        "options": [
+          "भगवंतसिंह",
+          "जगतसिंह",
+          "जसवंतसिंह",
+          "मानसिंह"
+        ],
+        "explanation": "जहांगीर ने मुगल बादशाह बनने के बाद आमेर के शासक मानसिंह के मनसब को कम कर दिया था। मानसिंह अकबर के विश्वसनीय सेनापतियों में से एक थे।"
+      },
+      "qkey": "d34147348e1f",
+      "source_exam": "LIB__PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||5|Master Question Paper 139 Hindi",
+      "serial_no": 5,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthani literature",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "'बोल भारमली' रा रचनाकार है-",
+        "options": [
+          "मेघराज मुकुल",
+          "नेमनारायण जोशी",
+          "महावीरप्रसाद जोशी",
+          "सत्यप्रकाश जोशी"
+        ],
+        "explanation": "'बोल भारमली' के रचनाकार सत्यप्रकाश जोशी हैं। यह राजस्थानी साहित्य की एक महत्वपूर्ण रचना है जो अपनी साहित्यिक गुणवत्ता और सांस्कृतिक महत्व के लिए जानी जाती है। सत्यप्रकाश जोशी राजस्थानी साहित्य के एक प्रमुख लेखक हैं।"
+      },
+      "qkey": "a0de2340416b",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||52|Master Question Paper 139 Hindi",
+      "serial_no": 52,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Hawa Mahal",
+      "subtopic": "",
+      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
+      "hindi": {
+        "question": "हवा महल की तीसरी मंजिल का नाम है -",
+        "options": [
+          "रतन मंदिर",
+          "विचित्र मंदिर",
+          "शरद मंदिर",
+          "प्रकाश मंदिर"
+        ],
+        "explanation": "हवा महल जयपुर, राजस्थान में स्थित एक प्रसिद्ध ऐतिहासिक इमारत है। इसकी तीसरी मंजिल का नाम 'विचित्र मंदिर' है, जो इसकी अनूठी वास्तुकला और सुंदरता को दर्शाता है।"
+      },
+      "qkey": "997be693c83b",
+      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Live Stock Assistant::Live Stock Assistant 2024||146",
+      "serial_no": 146,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Fairs and Festivals of Rajasthan",
+      "subtopic": "Bailgadi Mela",
+      "source_cycle": "Live Stock Assistant 2024",
+      "hindi": {
+        "question": "राजस्थान में प्रसिद्ध \"बैलगाड़ी मेला\" निम्नलिखित में से किस उत्सव के दौरान आयोजित किया जाता है?",
+        "options": [
+          "कैला देवी मेला",
+          "करणी माता मेला",
+          "शीतला माता मेला",
+          "कपिल मुनि मेला"
+        ],
+        "explanation": "राजस्थान में प्रसिद्ध \"बैलगाड़ी मेला\" शीतला माता मेले के दौरान आयोजित किया जाता है। यह मेला चाकसू, जयपुर में भरता है।"
+      },
+      "qkey": "2815a799550e",
+      "source_exam": "Live Stock Assistant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||12|Master Question Paper for Exam Patwar-Code 104(B)",
+      "serial_no": 12,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Modern Indian History",
+      "subtopic": "Social Reform Movements",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "ई. सन् में सती प्रथा का उन्मूलन राजा राममोहन राय की सामाजिक सुधार के क्षेत्र में सबसे बड़ी उपलब्धि थी ।",
+        "options": [
+          "1929",
+          "1729",
+          "1829",
+          "1928"
+        ],
+        "explanation": "सती प्रथा का उन्मूलन 1829 ई. में लॉर्ड विलियम बेंटिंक द्वारा किया गया था, जिसमें राजा राममोहन राय ने महत्वपूर्ण भूमिका निभाई थी। यह उनके सामाजिक सुधार के प्रयासों की एक बड़ी उपलब्धि थी।"
+      },
+      "qkey": "c523d9a3b420",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2021||140|Master Question Paper for Exam Patwar-Code 104(B)",
+      "serial_no": 140,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Culture of Rajasthan",
+      "subtopic": "Religious Sects of Rajasthan",
+      "source_cycle": "Patwar 2021",
+      "hindi": {
+        "question": "Who was the founder of the Kunda Sect?\nकुंडा पंथ के प्रणेता कौन थे ?",
+        "options": [
+          "गोगाजी",
+          "पाबूजी",
+          "राव अजीतसिंह",
+          "राव मल्लीनाथ"
+        ],
+        "explanation": "कुंडा पंथ के प्रणेता राव मल्लीनाथ थे। उन्होंने 14वीं शताब्दी में इस पंथ की स्थापना की थी, जो भक्ति और सामाजिक सुधार पर केंद्रित था।"
+      },
+      "qkey": "6e7d224d51f6",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::PTI (PHYSICAL TRAINING INSTRUCTOR)::PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024|(single)|18",
+      "serial_no": 18,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Marwar rulers",
+      "subtopic": "",
+      "source_cycle": "PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024",
+      "hindi": {
+        "question": "निम्न में से कौनसा त्यौहार चैत्र माह में मनाया जाता है?",
+        "options": [
+          "नागपंचमी",
+          "गोगा नवमी",
+          "तीज",
+          "घुड़ला"
+        ],
+        "explanation": "'घुड़ला' त्यौहार चैत्र माह में मनाया जाता है। यह राजस्थान का एक पारंपरिक त्यौहार है जिसमें महिलाएं घुड़ला नृत्य करती हैं और लोकगीत गाती हैं।"
+      },
+      "qkey": "0283eb77fdd3",
+      "source_exam": "PTI (PHYSICAL TRAINING INSTRUCTOR)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Stenographer::Stenographer 2018||75",
+      "serial_no": 75,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Princely States and British Treaties",
+      "subtopic": "Shekhawati Brigade",
+      "source_cycle": "Stenographer 2018",
+      "hindi": {
+        "question": "शेखावटी ब्रिगेड का मुख्यालय कहाँ स्थित था ?",
+        "options": [
+          "खेतड़ी",
+          "सीकर",
+          "झुंझुनू",
+          "फतेहपुर"
+        ],
+        "explanation": "शेखावटी ब्रिगेड का मुख्यालय झुंझुनू में स्थित था। यह ब्रिगेड ब्रिटिश काल में शेखावटी क्षेत्र में कानून व्यवस्था बनाए रखने के लिए स्थापित की गई थी।"
+      },
+      "qkey": "5849731bea65",
+      "source_exam": "Stenographer",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Village Development Officer::Village Development Officer 2025||121",
+      "serial_no": 121,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk Deities of Rajasthan",
+      "subtopic": "Nag Devtas (Serpent Gods)",
+      "source_cycle": "Village Development Officer 2025",
+      "hindi": {
+        "question": "राजस्थान में हिंदुओं द्वारा तेजाजी के अलावा किस अन्य लोक देवता को 'नागराजा' के रूप में पूजा जाता है?",
+        "options": [
+          "गोगाजी",
+          "पाबूजी",
+          "मल्लीनाथजी",
+          "रामदेवजी"
+        ],
+        "explanation": "राजस्थान में हिंदुओं द्वारा तेजाजी के अलावा गोगाजी को 'नागराजा' के रूप में पूजा जाता है। गोगाजी को सर्प देवता के रूप में मान्यता प्राप्त है और उनकी पूजा सर्पदंश से सुरक्षा के लिए की जाती है। इसलिए, विकल्प (1) सही उत्तर है।"
+      },
+      "qkey": "b05ea58ec20d",
+      "source_exam": "Village Development Officer",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|83",
+      "serial_no": 83,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Forts and Dargahs",
+      "subtopic": "",
+      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
+      "hindi": {
+        "question": "निम्न में से कौन सा युग्म सुमेलित नहीं है ?\nA. रणथम्भौर दुर्ग\nपीर सदरुद्दीन की\nदरगाह\nB. गागरोण दुर्ग\nसन्त मिट्ठे साहब की\nदरगाह\nC. जालौर दुर्ग\nसन्त मीरां साहेब की\nदरगाह\n(1) केवल A\n(3) केवल C",
+        "options": [
+          "केवल A",
+          "केवल B",
+          "केवल C",
+          "A व C"
+        ],
+        "explanation": "जालौर दुर्ग में संत मीरां साहेब की दरगाह नहीं है, इसलिए यह युग्म सुमेलित नहीं है। संत मीरां साहेब की दरगाह नागौर में स्थित है। रणथंभौर दुर्ग में पीर सदरुद्दीन की दरगाह और गागरोण दुर्ग में संत मिट्ठे साहब की दरगाह स्थित है।"
+      },
+      "qkey": "7893eb17b1ba",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|92",
+      "serial_no": 92,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthani prose literature",
+      "subtopic": "",
+      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
+      "hindi": {
+        "question": "निम्न में से कौन सी विधा राजस्थानी गद्य साहित्य\nमें शामिल नहीं है ?",
+        "options": [
+          "वात",
+          "पीढ़ी",
+          "पिरियावली",
+          "छप्पय"
+        ],
+        "explanation": "छप्पय राजस्थानी गद्य साहित्य में शामिल नहीं है। छप्पय एक छंद है जो पद्य साहित्य का हिस्सा है, जबकि वात, पीढ़ी और पिरियावली राजस्थानी गद्य साहित्य की विधाएँ हैं।"
+      },
+      "qkey": "a10a6814112f",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|94",
+      "serial_no": 94,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Kanhaiyalal Sethia works",
+      "subtopic": "",
+      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सी रचना प्रसिद्ध लेखक\nएवं कवि कन्हैयालाल सेठिया द्वारा रचित नहीं है ?",
+        "options": [
+          "वनफूल",
+          "अग्निवीणा",
+          "निर्ग्रन्थ",
+          "अलेखू हिटलर"
+        ],
+        "explanation": "'अलेखू हिटलर' प्रसिद्ध लेखक एवं कवि कन्हैयालाल सेठिया द्वारा रचित नहीं है। कन्हैयालाल सेठिया की प्रमुख रचनाओं में 'वनफूल', 'अग्निवीणा' और 'निर्ग्रन्थ' शामिल हैं।"
+      },
+      "qkey": "bb3caa9f7ccd",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (SANSKRIT COLLEGE EDU.) 2024|(single)|16",
+      "serial_no": 16,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Musical instruments",
+      "subtopic": "",
+      "source_cycle": "ASST. PROF. (SANSKRIT COLLEGE EDU.) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसा तत् वाद्य यंत्र है?",
+        "options": [
+          "भपंग",
+          "मोरचंग",
+          "खड़ताल",
+          "अलगोजा"
+        ],
+        "explanation": "भपंग एक तत् वाद्य यंत्र है, जिसका अर्थ है कि यह तारों से बजाया जाता है। मोरचंग एक सुषिर वाद्य, खड़ताल एक घन वाद्य और अलगोजा एक सुषिर वाद्य है। भपंग राजस्थान का एक प्रसिद्ध लोक वाद्य यंत्र है।"
+      },
+      "qkey": "6181ebf3469f",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::COLLEGE LECTURER 2014|(single)|7",
+      "serial_no": 7,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthan folk art",
+      "subtopic": "",
+      "source_cycle": "COLLEGE LECTURER 2014",
+      "hindi": {
+        "question": "' कावड ' निर्माण में किस पेड़ की लकड़ी प्रयुक्त की जाती है ?",
+        "options": [
+          "अशोक के पेड़ की",
+          "सालर के पेड़ की",
+          "पीपल के पेड़ की",
+          "सागवान के पेड़ की"
+        ],
+        "explanation": "'कावड़' निर्माण में 'सालर के पेड़ की' लकड़ी का उपयोग किया जाता है। सालर की लकड़ी हल्की और मजबूत होती है, जो कावड़ जैसे जटिल और सचल संरचना के लिए उपयुक्त होती है।"
+      },
+      "qkey": "487bed84d90f",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::COLLEGE LECTURER 2014|Paper Iii|1",
+      "serial_no": 1,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Folk drama",
+      "subtopic": "",
+      "source_cycle": "COLLEGE LECTURER 2014",
+      "hindi": {
+        "question": "रम्मत है :",
+        "options": [
+          "एक लोक नृत्य",
+          "एक लोक संगीत",
+          "एक लोक नाट्य",
+          "वाद्य यंत्र"
+        ],
+        "explanation": "रम्मत राजस्थान का एक प्रसिद्ध लोक नाट्य है। यह एक प्रकार का लोक मनोरंजन है जिसमें गीत, नृत्य और अभिनय का मिश्रण होता है। यह विशेष रूप से बीकानेर और जैसलमेर क्षेत्रों में प्रचलित है।"
+      },
+      "qkey": "4d63ec078fce",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|29|Question Paper for A.A.R.O. - 2022 (GK and Agronomy)",
+      "serial_no": 29,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Political organizations",
+      "subtopic": "",
+      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
+      "hindi": {
+        "question": "मारवाड़ यूथ लीग की स्थापना की गई थी",
+        "options": [
+          "1930 ई.",
+          "1931 ई.",
+          "1932 ई.",
+          "1933 ई."
+        ],
+        "explanation": "मारवाड़ यूथ लीग की स्थापना 1931 ई. में की गई थी। यह संगठन मारवाड़ क्षेत्र में राजनीतिक और सामाजिक जागृति लाने के उद्देश्य से स्थापित किया गया था। इसने स्वतंत्रता संग्राम में महत्वपूर्ण भूमिका निभाई और युवाओं को एकजुट किया।"
+      },
+      "qkey": "5e9e82034066",
+      "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|26|Question Paper for A.A.R.O. - 2022 (GK and Botany)",
+      "serial_no": 26,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Bharateshwar Bahubali Ghor",
+      "subtopic": "",
+      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
+      "hindi": {
+        "question": "निम्न में से कौन राजस्थानी काव्य 'भरतेश्वर बाहुबली घोर' के रचयिता हैं?",
+        "options": [
+          "चन्दबरदाई",
+          "शिवदास",
+          "कृपाराम",
+          "वज्रसेन सूरी"
+        ],
+        "explanation": "राजस्थानी काव्य 'भरतेश्वर बाहुबली घोर' के रचयिता वज्रसेन सूरी हैं। यह एक महत्वपूर्ण जैन काव्य है जो भरत और बाहुबली के जीवन पर आधारित है। वज्रसेन सूरी ने इस काव्य की रचना 1168 ईस्वी में की थी।"
+      },
+      "qkey": "23a187c59c4b",
+      "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)::AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020|(single)|14",
+      "serial_no": 14,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Battle of Haldighati",
+      "subtopic": "",
+      "source_cycle": "AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020",
+      "hindi": {
+        "question": "निम्नांकित में से कौन सा साक्ष्य हल्दीघाटी के\nयुद्ध में महाराणा प्रताप को विजयी मानता है ?",
+        "options": [
+          "राजप्रशस्ति",
+          "राजप्रकाश",
+          "जगदीश मंदिर प्रशस्ति",
+          "यह सभी"
+        ],
+        "explanation": "राजप्रशस्ति, राजप्रकाश और जगदीश मंदिर प्रशस्ति, ये सभी साक्ष्य हल्दीघाटी के युद्ध में महाराणा प्रताप को विजयी मानते हैं। ये तत्कालीन साहित्यिक और ऐतिहासिक स्रोत हैं जो महाराणा प्रताप के शौर्य और युद्ध में उनकी भूमिका का वर्णन करते हैं। इन साक्ष्यों के अनुसार, महाराणा प्रताप ने युद्ध में मुगलों को पीछे हटने पर मजबूर कर दिया था।"
+      },
+      "qkey": "c3060c493539",
+      "source_exam": "LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)::AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020|(single)|21",
+      "serial_no": 21,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Integration of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020",
+      "hindi": {
+        "question": "राजस्थान की रियासतों के एकीकरण का\nआरोही क्रम हैं\n1. टोंक\nII. उदयपुर\nIII. जैसलमेर\nIV. अजमेर",
+        "options": [
+          "I, II, III, IV",
+          "II, I, III, IV",
+          "III, II, IV, I",
+          "II, III, I, IV"
+        ],
+        "explanation": "राजस्थान की रियासतों के एकीकरण का आरोही क्रम टोंक, उदयपुर, जैसलमेर, अजमेर है। यह क्रम उन चरणों को दर्शाता है जिनमें इन रियासतों का भारतीय संघ में विलय हुआ था। टोंक का विलय सबसे पहले हुआ, उसके बाद उदयपुर, फिर जैसलमेर और अंत में अजमेर का विलय हुआ।"
+      },
+      "qkey": "c7d16938cd69",
+      "source_exam": "LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)::AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020|(single)|47",
+      "serial_no": 47,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Sambhar Lake construction",
+      "subtopic": "",
+      "source_cycle": "AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY) 2020",
+      "hindi": {
+        "question": "बिजोलिया अभिलेख के अनुसार सांभर झील का निर्माण चौहान वंश के किस शासक ने करवाया था ?",
+        "options": [
+          "विग्रहराज प्रथम",
+          "वासुदेव",
+          "दुर्लभराज प्रथम",
+          "वाक्पतिराज"
+        ],
+        "explanation": "बिजोलिया अभिलेख के अनुसार, सांभर झील का निर्माण चौहान वंश के शासक वासुदेव ने करवाया था। यह अभिलेख चौहानों के इतिहास और उनकी उपलब्धियों पर प्रकाश डालता है।"
+      },
+      "qkey": "b508f992d815",
+      "source_exam": "LIB__AGRI. OFFICER AND A.R.O.(AGRI. CHEMISTRY)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__AGRICULTURE OFFICER::AGRICULTURE OFFICER 2024|(single)|132",
+      "serial_no": 132,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthani literature",
+      "subtopic": "",
+      "source_cycle": "AGRICULTURE OFFICER 2024",
+      "hindi": {
+        "question": "निम्नांकित में से कौन सी पुस्तक/पुस्तकें सूर्यमल मिश्रण द्वारा लिखी गई थीं ? नीचे दिए गए कोड की सहायता से सही विकल्प चुनिए : i. वंश भास्कर ii. रामरंजाट iii. धातुरूपावली iv. राजरूपक कोड :",
+        "options": [
+          "i",
+          "i, ii, iii",
+          "i, iv",
+          "i, ii, iv"
+        ],
+        "explanation": "सूर्यमल मिश्रण राजस्थान के प्रसिद्ध कवि और इतिहासकार थे। उन्होंने 'वंश भास्कर', 'रामरंजाट' और 'धातुरूपावली' जैसी महत्वपूर्ण कृतियों की रचना की थी। 'राज रूपक' उनके द्वारा नहीं लिखी गई थी।"
+      },
+      "qkey": "ec3f0c541b80",
+      "source_exam": "LIB__AGRICULTURE OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|80|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
+      "serial_no": 80,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "1857 revolt Rajasthan",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "निम्न में से किस रियासत के 600 विद्रोही सैनिकों की टुकड़ी 1857 की क्रान्ति के दौरान दिल्ली स्थित मुगल शासक बहादुर शाह जफर की सहायतार्थ पहुंची थी?",
+        "options": [
+          "धौलपुर",
+          "अलवर",
+          "टोंक",
+          "भरतपुर"
+        ],
+        "explanation": "1857 की क्रांति के दौरान, टोंक रियासत से 600 विद्रोही सैनिकों की टुकड़ी दिल्ली स्थित मुगल शासक बहादुर शाह जफर की सहायता के लिए पहुंची थी। टोंक रियासत ने इस विद्रोह में महत्वपूर्ण भूमिका निभाई थी और अपने सैनिकों को दिल्ली भेजा था।"
+      },
+      "qkey": "a9fe16bf5288",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|7|Question Paper for Archives Department Recruitment - 2024 (Research Officer)",
+      "serial_no": 7,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Mughal-Rajput relations",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "1570 ई. में किस राजा द्वारा \"नागौर दरबार\" का आयोजन किया गया था?",
+        "options": [
+          "दारा शिकोह",
+          "जहांगीर",
+          "शाहजहाँ",
+          "अकबर"
+        ],
+        "explanation": "1570 ई. में मुगल सम्राट अकबर ने नागौर दरबार का आयोजन किया था। इस दरबार का मुख्य उद्देश्य राजपूताना के शासकों को अपनी अधीनता स्वीकार करवाना और उनके साथ मैत्रीपूर्ण संबंध स्थापित करना था।"
+      },
+      "qkey": "6a01fa170bcb",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|46|Question Paper for Archives Department Recruitment - 2024 (Research Scholar)",
+      "serial_no": 46,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Marwar Seva Sangh",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "'मारवाड़ सेवा संघ' की स्थापना किस वर्ष की गई?",
+        "options": [
+          "1920",
+          "1929",
+          "1923",
+          "1918"
+        ],
+        "explanation": "'मारवाड़ सेवा संघ' की स्थापना वर्ष 1920 में की गई थी। इस संगठन का मुख्य उद्देश्य मारवाड़ क्षेत्र में सामाजिक सुधार और राजनीतिक जागरूकता लाना था। इसने किसानों और आम जनता के अधिकारों के लिए संघर्ष किया।"
+      },
+      "qkey": "5029fc250cff",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|59|Question Paper for Archives Department Recruitment - 2024 (Research Scholar)",
+      "serial_no": 59,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Historical terms",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "'सांसण' सम्बंधित है -",
+        "options": [
+          "लगान से",
+          "भूमि से",
+          "बही से",
+          "सामन्तों की श्रेणी से"
+        ],
+        "explanation": "'सांसण' शब्द भूमि से संबंधित है। यह एक प्रकार का भूमि अनुदान या जागीर थी जो किसी व्यक्ति को उसकी सेवाओं के बदले में दी जाती थी। यह मध्यकालीन भारत में प्रचलित एक व्यवस्था थी।"
+      },
+      "qkey": "eee2fe603723",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. ENGINEER::ASST. ENGINEER 2023|(single)|38",
+      "serial_no": 38,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Matsya Union merger",
+      "subtopic": "",
+      "source_cycle": "ASST. ENGINEER 2023",
+      "hindi": {
+        "question": "'मत्स्य संघ' का विलय राजस्थान में किस तिथि को हुआ ?",
+        "options": [
+          "18 मार्च, 1949",
+          "18 मार्च, 1948",
+          "15 मई, 1948",
+          "15 मई, 1949"
+        ],
+        "explanation": "'मत्स्य संघ' का विलय राजस्थान में 15 मई, 1949 को हुआ था। यह राजस्थान के एकीकरण की प्रक्रिया का एक महत्वपूर्ण चरण था, जिसके तहत कई रियासतों को मिलाकर वर्तमान राजस्थान राज्य का निर्माण किया गया। यह विलय राजस्थान के भौगोलिक और राजनीतिक स्वरूप को अंतिम रूप देने में सहायक था।"
+      },
+      "qkey": "b1296056d76b",
+      "source_exam": "LIB__ASST. ENGINEER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__DEPUTY JAILOR::DEPUTY JAILOR 2024|Paper Ii|141",
+      "serial_no": 141,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Bharatpur student movement",
+      "subtopic": "",
+      "source_cycle": "DEPUTY JAILOR 2024",
+      "hindi": {
+        "question": "भरतपुर में 1920-21 में विद्यार्थी आन्दोलन का नेतृत्व किसके द्वारा किया गया ?",
+        "options": [
+          "गोपीलाल यादव, जुगलकिशोर चतुर्वेदी",
+          "कालीचरण शर्मा, प्यारेलाल गुप्ता",
+          "विजयसिंह, हरिजी",
+          "रामनारायण चौधरी, माणिक्यलाल वर्मा"
+        ],
+        "explanation": "भरतपुर में 1920-21 में विद्यार्थी आंदोलन का नेतृत्व गोपीलाल यादव और जुगलकिशोर चतुर्वेदी द्वारा किया गया था। यह आंदोलन शिक्षा और छात्रों के अधिकारों के लिए चलाया गया था। इन नेताओं ने छात्रों को संगठित किया और उनके मुद्दों को उठाया।"
+      },
+      "qkey": "18e8e1eb0903",
+      "source_exam": "LIB__DEPUTY JAILOR",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__EVALUATION OFFICER::EVALUATION OFFICER 2020||177",
+      "serial_no": 177,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Swami Dayanand Saraswati organizations",
+      "subtopic": "",
+      "source_cycle": "EVALUATION OFFICER 2020",
+      "hindi": {
+        "question": "उस संस्था का नाम बताइये जिसका गठन स्वामी दयानंद सरस्वती ने उदयपुर में किया था, लेकिन कालान्तर में यह अजमेर स्थानान्तरित कर दी गई।",
+        "options": [
+          "आर्य समाज",
+          "परोपकारिणी सभा",
+          "समाज सेवा संघ",
+          "वेद समाज"
+        ],
+        "explanation": "स्वामी दयानंद सरस्वती ने उदयपुर में परोपकारिणी सभा की स्थापना की थी, जिसका उद्देश्य वैदिक धर्म का प्रचार करना और समाज सुधार करना था। बाद में इसे अजमेर स्थानांतरित कर दिया गया। इसलिए विकल्प (2) सही है।"
+      },
+      "qkey": "27aa39f426d5",
+      "source_exam": "LIB__EVALUATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2021|(single)|7|Question Paper for Lecturer (Ayurved Dept.) - 2021 (GK and Panchkarma)",
+      "serial_no": 7,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthan traditional medicine",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2021",
+      "hindi": {
+        "question": "\"गोखरू\" का मुख्यतः निम्न में से किस विकार के इलाज में उपयोग किया जाता है?",
+        "options": [
+          "कफ",
+          "जोड़ों का दर्द",
+          "नेत्र विकार",
+          "मूत्र विकार"
+        ],
+        "explanation": "गोखरू एक औषधीय पौधा है जिसका उपयोग पारंपरिक चिकित्सा में विभिन्न विकारों के इलाज के लिए किया जाता है। यह विशेष रूप से मूत्र संबंधी विकारों जैसे पथरी और मूत्र संक्रमण में लाभकारी माना जाता है। इसलिए, मूत्र विकार सही उत्तर है।"
+      },
+      "qkey": "7a36586e1e2f",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|21|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Kaumarbhritya)",
+      "serial_no": 21,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Peasant movements in Rajasthan",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र क्यों दिया था?",
+        "options": [
+          "1923 ई. में. उन्हे 5 वर्ष की सजा सुनाकर जेल भेज दिया था।",
+          "माणिक्य लाल वर्मा को नेतृत्व प्रदान करने हेतु।",
+          "उन्होंने किसानों को असिंचित भूमि को पड़तरखने हेतु कहा था।",
+          "ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया जिसे लोगों ने ले लिया।"
+        ],
+        "explanation": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र इसलिए दिया क्योंकि ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया गया और लोगों ने उसे खरीद लिया। इससे किसानों के आंदोलन की दिशा बदल गई और पथिक ने नेतृत्व छोड़ दिया।"
+      },
+      "qkey": "e0074096e92b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|7|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Prasooti Tantra And Stree Roga)",
+      "serial_no": 7,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Medicinal plants",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "निम्न में से किस औषधीय पौधे को ' कुष्ट नाशिनी ' भी कहा जाता है?",
+        "options": [
+          "बाबची",
+          "खोकली",
+          "अडूसा",
+          "अजवायन"
+        ],
+        "explanation": "बाबची एक औषधीय पौधा है जिसे 'कुष्ट नाशिनी' भी कहा जाता है। इसका उपयोग पारंपरिक चिकित्सा में कुष्ठ रोग और अन्य त्वचा संबंधी समस्याओं के उपचार के लिए किया जाता रहा है। इसके औषधीय गुण इसे एक महत्वपूर्ण वनस्पति बनाते हैं।"
+      },
+      "qkey": "8ae226d47e8b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LOCAL SELF GOVERNMENT DEPT. EXAM::LOCAL SELF GOVERNMENT DEPT. EXAM 2022|(single)|34|Question Paper for Local Self Government Dept. Exam - 2022 (Assistant Engineer - Civil)",
+      "serial_no": 34,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Kaila Devi fair",
+      "subtopic": "",
+      "source_cycle": "LOCAL SELF GOVERNMENT DEPT. EXAM 2022",
+      "hindi": {
+        "question": "निम्नलिखित में से किस मेले को कैला देवी चैत्र मेला के नाम से भी जाना जाता है, जो हाल ही में मार्च, 2023 में करौली जिले में मनाया गया था?",
+        "options": [
+          "करणी माता मेला",
+          "लक्खी मेला",
+          "चन्नी चेरी मेला",
+          "चंद्र भागा मेला"
+        ],
+        "explanation": "करौली जिले में आयोजित होने वाले कैला देवी चैत्र मेले को लक्खी मेला के नाम से भी जाना जाता है। यह मेला चैत्र माह में आयोजित होता है और इसमें बड़ी संख्या में श्रद्धालु भाग लेते हैं।"
+      },
+      "qkey": "058ea25bbd40",
+      "source_exam": "LIB__LOCAL SELF GOVERNMENT DEPT. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__RESEARCH ASSISTANT::RESEARCH ASSISTANT 2024|(single)|14",
+      "serial_no": 14,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Prajamandal leaders",
+      "subtopic": "",
+      "source_cycle": "RESEARCH ASSISTANT 2024",
+      "hindi": {
+        "question": "निम्न में से कौनसा युग्म (प्रजामण्डल – नेता) सुमेलित नहीं है?",
+        "options": [
+          "भरतपुर – गोपी लाल यादव",
+          "बूंदी – हीरा लाल कोठारी",
+          "अलवर भवानी शंकर शर्मा",
+          "कोटा – नयनूराम"
+        ],
+        "explanation": "दिए गए विकल्पों में से 'बूंदी – हीरा लाल कोठारी' युग्म सुमेलित नहीं है। बूंदी प्रजामण्डल से संबंधित नेता हीरा लाल कोठारी नहीं थे। अन्य विकल्प सही सुमेलित हैं।"
+      },
+      "qkey": "cd69f5856b33",
+      "source_exam": "LIB__RESEARCH ASSISTANT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2023|(single)|149",
+      "serial_no": 149,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Parchi in Rajasthani literature",
+      "subtopic": "",
+      "source_cycle": "STATISTICAL OFFICER 2023",
+      "hindi": {
+        "question": "राजस्थानी साहित्य में \"परची\"/ \"परिचयी\" व्यंजित करता है",
+        "options": [
+          "संतों का जीवन चरित",
+          "शासकों के वीरतापूर्ण कृत्यों का वृत्तान्त",
+          "शासकों की वंशावली",
+          "यात्रा वृत्तान्त"
+        ],
+        "explanation": "राजस्थानी साहित्य में 'परची'/'परिचयी' संतों के जीवन चरित को व्यंजित करता है। यह एक साहित्यिक विधा है जिसमें संतों के जीवन, उपदेशों और चमत्कारों का वर्णन किया जाता है।"
+      },
+      "qkey": "1490e805ec11",
+      "source_exam": "LIB__STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2025|(single)|20",
+      "serial_no": 20,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Mandaleshwar Temple",
+      "subtopic": "",
+      "source_cycle": "STATISTICAL OFFICER 2025",
+      "hindi": {
+        "question": "चामुण्ड राज परमार ने 'मण्डलेश्वर मन्दिर' कहां बनवाया था?",
+        "options": [
+          "किराडू",
+          "भानगढ़",
+          "अर्थणा",
+          "आभानेरी"
+        ],
+        "explanation": "चामुण्ड राज परमार ने 'मण्डलेश्वर मन्दिर' अर्थणा में बनवाया था। यह मंदिर परमार शासकों की स्थापत्य कला और धार्मिक आस्था का प्रतीक है। अर्थणा एक ऐतिहासिक स्थल है जहाँ कई प्राचीन मंदिर स्थित हैं।"
+      },
+      "qkey": "5257be7152f5",
+      "source_exam": "LIB__STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2025|(single)|21",
+      "serial_no": 21,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Garasia tribal customs",
+      "subtopic": "",
+      "source_cycle": "STATISTICAL OFFICER 2025",
+      "hindi": {
+        "question": "निम्नलिखित वैवाहिक पद्धतियों में से गरासिया जनजाति में कितनी प्रचलित हैं? (A) मोर बंधिया (B) पेहरावना (C) तन्ना (D) नुक्ता दिये गये कूट से सही उत्तर का चयन कीजिए कूट",
+        "options": [
+          "केवल तीन",
+          "केवल एक",
+          "सभी चार",
+          "केवल दो"
+        ],
+        "explanation": "गरासिया जनजाति में मोर बंधिया, पेहरावना और तन्ना वैवाहिक पद्धतियाँ प्रचलित हैं। नुक्ता मृत्युभोज से संबंधित है, न कि विवाह से। इसलिए, गरासिया जनजाति में तीन वैवाहिक पद्धतियाँ प्रचलित हैं।"
+      },
+      "qkey": "713c735b82e1",
+      "source_exam": "LIB__STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2019||7",
+      "serial_no": 7,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Fairs and festivals",
+      "subtopic": "",
+      "source_cycle": "VETERINARY OFFICER 2019",
+      "hindi": {
+        "question": "पुष्कर पशु मेला कब आयोजित किया जाता है ?",
+        "options": [
+          "चैत्र के माह में",
+          "कार्तिक के माह में",
+          "आषाढ़ के माह में",
+          "भाद्रपद के माह में"
+        ],
+        "explanation": "पुष्कर पशु मेला कार्तिक माह में आयोजित किया जाता है। यह राजस्थान के सबसे बड़े और प्रसिद्ध पशु मेलों में से एक है। इस मेले में बड़ी संख्या में पशुओं की खरीद-बिक्री होती है और यह धार्मिक महत्व भी रखता है।"
+      },
+      "qkey": "7ee51c2caccc",
+      "source_exam": "LIB__VETERINARY OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2025|(single)|13",
+      "serial_no": 13,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Holi festivals locations",
+      "subtopic": "",
+      "source_cycle": "VETERINARY OFFICER 2025",
+      "hindi": {
+        "question": "सूची-I को सूची-II से सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करते हुए सही उत्तर का चयन कीजिए - सूची-I (होली का त्योहार) (A) कोडामार (B) लट्ठमार (C) पत्थरमार (D) गैर सूची-II (स्थान) (i) श्री महावीर जी (ii) बाड़मेर (iii) भिनाय (iv) भीलवाड़ा कूट",
+        "options": [
+          "(A)-(i), (B)-(ii), (C)-(iv), (D)-(iii)",
+          "(A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)",
+          "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)",
+          "(A)-(iv), (B)-(ii), (C)-(iii), (D)-(i)"
+        ],
+        "explanation": "यह प्रश्न होली के त्योहारों और उनके संबंधित स्थानों के सही मिलान से संबंधित है। कोडामार होली भिनाय में, लट्ठमार होली श्री महावीर जी में, पत्थरमार होली बाड़मेर में और गैर होली भीलवाड़ा में प्रसिद्ध है। इस प्रकार, विकल्प (3) सही मिलान दर्शाता है।"
+      },
+      "qkey": "36a750d0e38b",
+      "source_exam": "LIB__VETERINARY OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2025|(single)|19",
+      "serial_no": 19,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Banwara custom Alwar",
+      "subtopic": "",
+      "source_cycle": "VETERINARY OFFICER 2025",
+      "hindi": {
+        "question": "अलवर में 'बनवारा' की रस्म या रिवाज क्या है?",
+        "options": [
+          "वर को संबंधियों / महिलाओं द्वारा उबटन व स्नानोपरांत भोजन करवाना",
+          "चाक पूजन",
+          "जनेऊ संस्कार",
+          "सिर पर \"सेहरा\" बांधा जाना"
+        ],
+        "explanation": "अलवर में 'बनवारा' की रस्म या रिवाज वर को संबंधियों/महिलाओं द्वारा उबटन व स्नानोपरांत भोजन करवाने से संबंधित है। यह विवाह से पहले की एक पारंपरिक रस्म है।"
+      },
+      "qkey": "2cf6e859e3b0",
+      "source_exam": "LIB__VETERINARY OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB COMP (TSP) EXAM 2018|(single)|3",
+      "serial_no": 3,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Medieval History of Rajasthan",
+      "subtopic": "Gurjara-Pratihara Dynasty",
+      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB COMP (TSP) EXAM 2018",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा शासक गुर्जर-प्रतिहार राजवंश से संबंधित नहीं है ?",
+        "options": [
+          "नागभट्ट-11",
+          "महेन्द्रपाल-1",
+          "देवपाल",
+          "भरत्रभट्ट-1"
+        ],
+        "explanation": "दिए गए विकल्पों में से, नागभट्ट-II, महेन्द्रपाल-I और देवपाल गुर्जर-प्रतिहार राजवंश के शासक थे। भरत्रभट्ट-I गुर्जर-प्रतिहार राजवंश से संबंधित नहीं थे, बल्कि वे गुहिल वंश के शासक थे।"
+      },
+      "qkey": "23e383cc11f1",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SANSKRIT EDU.) 2022|(single)|18",
+      "serial_no": 18,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Freedom Movement in Rajasthan",
+      "subtopic": "1857 Revolt and Princely States",
+      "source_cycle": "SCHOOL LECTURER (SANSKRIT EDU.) 2022",
+      "hindi": {
+        "question": "निम्नलिखित देशी रियासतों एवं संबंधित पॉलिटिकल एजेन्ट (1857 के विद्रोह के प्रारंभ के समय) का कौनसा युग्मे असंगत है?देशी रियासत पॉलिटिकल एजेन्ट",
+        "options": [
+          "भरतपुर कैप्टन जे.डी. हॉल",
+          "जयपुर कर्नल ईडन",
+          "मेवाड़ सी.एल. शॉवर्स",
+          "मारवाड़ मैक मेसन"
+        ],
+        "explanation": "1857 के विद्रोह के समय भरतपुर के पॉलिटिकल एजेंट मॉरिसन थे। कैप्टन जे.डी. हॉल सिरोही के पॉलिटिकल एजेंट थे। जयपुर के कर्नल ईडन, मेवाड़ के सी.एल. शॉवर्स और मारवाड़ के मैक मेसन (मैकमोहन) सही सुमेलित हैं। इसलिए, भरतपुर और कैप्टन जे.डी. हॉल का युग्म असंगत है।"
+      },
+      "qkey": "1451726dfc2a",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|D|3",
+      "serial_no": 3,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Ancient Rajasthan History",
+      "subtopic": "Archaeological Sites and Artifacts (Ganeshwara)",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "गणेश्वर से प्राप्त मृदभाण्ड किस प्रकार के हैं?",
+        "options": [
+          "गैरिक मुदभाण्ड",
+          "लाल बर्तन",
+          "उत्तरी कृष्ण मार्जित मृदभाण्ड",
+          "धूसर चित्रित मृदभाण्ड"
+        ],
+        "explanation": "गणेश्वर सभ्यता से प्राप्त मृदभाण्ड मुख्य रूप से गैरिक मृदभाण्ड (Ochre Coloured Pottery - OCP) संस्कृति से संबंधित हैं। ये मृदभाण्ड तांबे के औजारों के साथ पाए गए हैं और इन्हें ताम्रयुगीन संस्कृति का हिस्सा माना जाता है। इनकी पहचान इनके विशिष्ट रंग और बनावट से होती है।"
+      },
+      "qkey": "a70448b8045b",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|D|18",
+      "serial_no": 18,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Medieval Rajasthan History",
+      "subtopic": "Battles and Wars (Haldighati)",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "हल्दीघाटी के युद्ध में महाराणा प्रताप की सेना में हरावल का नेतृत्व कौन कर रहा था?",
+        "options": [
+          "अब्दुल लाहौरी",
+          "महमूद खिलजी",
+          "बिरदी मल",
+          "हाकिम खान सूर"
+        ],
+        "explanation": "हल्दीघाटी का युद्ध 1576 ईस्वी में महाराणा प्रताप और मुगल सेना के बीच लड़ा गया था। इस युद्ध में महाराणा प्रताप की सेना के हरावल (अग्रिम पंक्ति) का नेतृत्व पठान सरदार हाकिम खान सूर ने किया था। यह उनकी वीरता और महाराणा प्रताप के प्रति उनकी निष्ठा का प्रतीक था, जो उस समय की सांप्रदायिक सद्भाव को भी दर्शाता है।"
+      },
+      "qkey": "2d80faf2a8f0",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2024|(single)|63",
+      "serial_no": 63,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Ancient History of Rajasthan",
+      "subtopic": "Kalibangan Archaeological Findings (Fire Altars)",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2024",
+      "hindi": {
+        "question": "कालीबंगा की अग्निवेदिकाओं के संबंध में कौन\nसा कथन सही नहीं है ?",
+        "options": [
+          "अग्निवेदिकाएँ पश्चिमी टीले पर मिली हैं।",
+          "वेदिकाएँ मिट्टी की ईंटों से बने ऊँचे चबूतरे पर प्राप्त हुई हैं ।",
+          "प्रत्येक अग्निवेदिका में त्रिभुजाकार अग्निकुण्ड है।",
+          "अग्निवेदिका के पास बना कुआँ यहाँ धार्मिक अनुष्ठान होने के संकेत देता है ।"
+        ],
+        "explanation": "कालीबंगा से प्राप्त अग्निवेदिकाएँ आमतौर पर आयताकार या अंडाकार आकार की होती हैं, न कि त्रिभुजाकार। ये वेदिकाएँ पश्चिमी टीले पर मिट्टी की ईंटों से बने ऊँचे चबूतरे पर मिली हैं और इनके पास कुआँ भी मिला है, जो धार्मिक अनुष्ठानों की ओर संकेत करता है। इसलिए, त्रिभुजाकार अग्निकुण्ड का कथन सही नहीं है।"
+      },
+      "qkey": "f63e2f0f3204",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (NON-TSP) 2018|A|4",
+      "serial_no": 4,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Language and Literature",
+      "subtopic": "Literary Works of Rajasthan",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (NON-TSP) 2018",
+      "hindi": {
+        "question": "'बुद्धि विलास' ग्रंथ के लेखक हैं -",
+        "options": [
+          "किसना आढ़ा",
+          "बखत राम शाह",
+          "बांकीदास",
+          "नरोत्तम"
+        ],
+        "explanation": "'बुद्धि विलास' ग्रंथ के लेखक बखत राम शाह हैं। यह ग्रंथ राजस्थान के इतिहास और संस्कृति से संबंधित महत्वपूर्ण जानकारी प्रदान करता है। यह राजस्थानी साहित्य का एक प्रमुख उदाहरण है।"
+      },
+      "qkey": "8bf60e783295",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (NON-TSP) 2018|B|2",
+      "serial_no": 2,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Customs, Dresses, Ornaments",
+      "subtopic": "Ornaments",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (NON-TSP) 2018",
+      "hindi": {
+        "question": "'रमझोल' आभूषण मध्यकालीन मारवाड़ में शरीर के किस भाग से संबंधित है ?",
+        "options": [
+          "कमर",
+          "नाक",
+          "पैर",
+          "अंगुली"
+        ],
+        "explanation": "रमझोल एक प्रकार का आभूषण है जिसे मध्यकालीन मारवाड़ में पैरों में पहना जाता था। यह घुंघरूदार होता है और चलने पर मधुर ध्वनि उत्पन्न करता है। यह राजस्थान के पारंपरिक आभूषणों में से एक है।"
+      },
+      "qkey": "908ca80c4b05",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018|A|7",
+      "serial_no": 7,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Freedom Struggle",
+      "subtopic": "Prajamandal Movement (Bikaner Praja Mandal)",
+      "source_cycle": "SR. TEACHER GR II (SANSKRIT EDU.) (TSP) 2018",
+      "hindi": {
+        "question": "1936 में मेघाराम ने किस स्थान पर बीकानेर प्रजा मंडल की स्थापना की ?",
+        "options": [
+          "बीकानेर",
+          "कलकत्ता",
+          "बम्बई",
+          "अजमेर"
+        ],
+        "explanation": "बीकानेर प्रजामंडल की स्थापना 1936 में वैद्य मेघाराम द्वारा की गई थी। उस समय बीकानेर रियासत में राजनीतिक गतिविधियों पर प्रतिबंध था, इसलिए प्रजामंडल की स्थापना बीकानेर से बाहर कलकत्ता में की गई थी। यह बीकानेर के लोगों में राजनीतिक चेतना जगाने का एक महत्वपूर्ण कदम था।"
+      },
+      "qkey": "0e3df4374201",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|A|88",
+      "serial_no": 88,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Ancient Culture and Civilizations",
+      "subtopic": "Ahar Culture Sites",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से आहड़ संस्कृति से संबंधित पुरास्थल नहीं है :",
+        "options": [
+          "बालाथल",
+          "गिलूण्ड",
+          "बागोर",
+          "ओजियाना"
+        ],
+        "explanation": "आहड़ संस्कृति एक ताम्र-पाषाणकालीन संस्कृति थी, जिसके प्रमुख स्थल आहड़, बालाथल, गिलूण्ड और ओजियाना हैं। बागोर पुरास्थल एक मध्यपाषाणकालीन स्थल है और यह आहड़ संस्कृति से संबंधित नहीं है। बागोर अपने सूक्ष्म पाषाण उपकरणों और पशुपालन के शुरुआती साक्ष्यों के लिए जाना जाता है।"
+      },
+      "qkey": "2d2d18785009",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II 2013|(single)|15",
+      "serial_no": 15,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Medieval History",
+      "subtopic": "Delhi Sultanate Relations with Rajasthan",
+      "source_cycle": "SR. TEACHER GR II 2013",
+      "hindi": {
+        "question": "अलाउद्दीन खिलजी की निम्नांकित विजयों को कालक्रमानुसार व्यवस्थित कीजिये : A. रणथम्भोर B. जालौर C. चित्तौड़ D. सिवाना",
+        "options": [
+          "A, C, D, B",
+          "A, B, C, D",
+          "A, B, D, C",
+          "A, C, B, D"
+        ],
+        "explanation": "अलाउद्दीन खिलजी की विजयों का सही कालक्रमानुसार रणथम्भोर (1301 ई.), चित्तौड़ (1303 ई.), सिवाना (1308 ई.) और जालौर (1311 ई.) है। यह क्रम अलाउद्दीन खिलजी के राजस्थान में सैन्य अभियानों और उसके साम्राज्य विस्तार की नीति को दर्शाता है।"
+      },
+      "qkey": "afb7c1300407",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018|B|90",
+      "serial_no": 90,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Freedom Struggle",
+      "subtopic": "Peasant Movements",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018",
+      "hindi": {
+        "question": "श्रीमती रमा देवी राजस्थान के किस किसान आन्दोलन से सम्बद्ध रही ?",
+        "options": [
+          "बेगूँ",
+          "बिजौलिया",
+          "बरड़",
+          "बीकानेर"
+        ],
+        "explanation": "श्रीमती रमा देवी राजस्थान के बिजौलिया किसान आंदोलन से जुड़ी एक प्रमुख महिला नेता थीं। उन्होंने इस आंदोलन में सक्रिय भूमिका निभाई, किसानों को संगठित किया और उनके अधिकारों के लिए संघर्ष किया।"
+      },
+      "qkey": "9654f8b7f970",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (TSP) 2018|A|20",
+      "serial_no": 20,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Paintings",
+      "subtopic": "Folk Paintings",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM (TSP) 2018",
+      "hindi": {
+        "question": "पिछवाई चित्रकला कहाँ की प्रसिद्ध है?",
+        "options": [
+          "बीकानेर",
+          "बून्दी",
+          "नाथद्वारा",
+          "जयपुर"
+        ],
+        "explanation": "पिछवाई चित्रकला नाथद्वारा, राजस्थान की प्रसिद्ध कला शैली है। इसमें भगवान कृष्ण की लीलाओं का चित्रण कपड़े पर किया जाता है, विशेषकर श्रीनाथजी मंदिर में मूर्ति के पीछे सजाने के लिए।"
+      },
+      "qkey": "a09691fc44bf",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::MOTOR VEHICLE SUB INSPECTOR COMP. EXAM 2013|(single)|55",
+      "serial_no": 55,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan History & Culture",
+      "topic": "Rajasthan Freedom Movement",
+      "subtopic": "Prajamandal Movements and Quit India Movement",
+      "source_cycle": "MOTOR VEHICLE SUB INSPECTOR COMP. EXAM 2013",
+      "hindi": {
+        "question": "1942 के 'भारत छोड़ो आन्दोलन' में किस रियासत की प्रजामंडल ने भाग नहीं लिया था ?",
+        "options": [
+          "कोरा",
+          "मेवाड़",
+          "मारवाड़",
+          "जयपुर"
+        ],
+        "explanation": "1942 के 'भारत छोड़ो आंदोलन' में जयपुर रियासत की प्रजामंडल ने सीधे तौर पर भाग नहीं लिया था। जयपुर प्रजामंडल और रियासत के बीच 'जेंटलमैन एग्रीमेंट' हुआ था, जिसके तहत प्रजामंडल ने आंदोलन में भाग न लेने का निर्णय लिया था। इसके बदले में रियासत ने प्रजामंडल की मांगों पर विचार करने का आश्वासन दिया था।"
+      },
+      "qkey": "3c48046130d5",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
       "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2016|A|93",
       "serial_no": 93,
       "correct_option": 1,
@@ -2186,6 +4322,1182 @@
       "is_cross_pool": true
     },
     {
+      "id": "RMSSB::Agriculture Supervisor::Agriculture Supervisor 2021||18",
+      "serial_no": 18,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Wildlife and Biodiversity",
+      "subtopic": "Wildlife Sanctuaries and Tiger Reserves",
+      "source_cycle": "Agriculture Supervisor 2021",
+      "hindi": {
+        "question": "हाल ही में राजस्थान के किस वन्यजीव अभयारण्य को राज्य का चौथा बाघ संरक्षित क्षेत्र अनुमोदित किया गया है?",
+        "options": [
+          "टॉडगढ़ रावली",
+          "रामगढ़ विषधारी",
+          "बस्सी",
+          "ताल छापर"
+        ],
+        "explanation": "हाल ही में रामगढ़ विषधारी वन्यजीव अभयारण्य को राजस्थान का चौथा बाघ संरक्षित क्षेत्र अनुमोदित किया गया है। यह बूंदी जिले में स्थित है और बाघों के संरक्षण के लिए महत्वपूर्ण है।"
+      },
+      "qkey": "25e570a21bc9",
+      "source_exam": "Agriculture Supervisor",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||112|Master Question Paper, 4th Phase(Y11)",
+      "serial_no": 112,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Rivers of Rajasthan",
+      "subtopic": "Origin of Luni River",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "लूनी नदी का उद्गम राजस्थान राज्य के किस स्थान से हुआ है?निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "चौरासी गढ़",
+          "अजमेर के नाग पहाड़",
+          "रूपल हिमनद",
+          "विंध्याचल के मिंडा पर्वत"
+        ],
+        "explanation": "लूनी नदी का उद्गम राजस्थान राज्य के अजमेर जिले में स्थित नाग पहाड़ से होता है। यह अरावली पर्वतमाला की पश्चिमी ढलानों से निकलती है और कच्छ के रण में विलीन हो जाती है। इसलिए, विकल्प (2) सही उत्तर है।"
+      },
+      "qkey": "f03e925904c2",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||5|Master Question Paper, 5th Phase(B14)",
+      "serial_no": 5,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Rivers and Drainage Systems",
+      "subtopic": "Rivers flowing into the Bay of Bengal",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "निम्नलिखित में कौन-सी नदी बंगाल की खाड़ी अपवाह तंत्र से संबंधित है?",
+        "options": [
+          "चम्बल",
+          "माही",
+          "साबरमती",
+          "जाखम"
+        ],
+        "explanation": "चंबल नदी बंगाल की खाड़ी अपवाह तंत्र का हिस्सा है क्योंकि यह यमुना नदी में मिलती है, और यमुना आगे गंगा नदी में मिलकर अंततः बंगाल की खाड़ी में गिरती है। अन्य नदियाँ जैसे माही, साबरमती और जाखम अरब सागर अपवाह तंत्र से संबंधित हैं।"
+      },
+      "qkey": "7a325849187f",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||18|Master Question Paper, 5th Phase(B14)",
+      "serial_no": 18,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Wildlife and Biodiversity",
+      "subtopic": "National Parks of Rajasthan",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "केवलादेव राष्ट्रीय उद्यान के लिए प्रसिद्ध है।",
+        "options": [
+          "चीता संरक्षण",
+          "प्रवासी पक्षीयों",
+          "सिंह (शेर) संरक्षण",
+          "हाथी संरक्षण"
+        ],
+        "explanation": "केवलादेव राष्ट्रीय उद्यान, जिसे पहले भरतपुर पक्षी अभयारण्य के नाम से जाना जाता था, प्रवासी पक्षियों के लिए विश्व प्रसिद्ध है। यह हजारों की संख्या में विभिन्न प्रकार के पक्षियों का घर है, खासकर सर्दियों के महीनों में।"
+      },
+      "qkey": "8b59b9dddd14",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||123|Master Question Paper, 5th Phase(B14)",
+      "serial_no": 123,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Physical Features of Rajasthan",
+      "subtopic": "Waterfalls in Rajasthan",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "चुलिया जल प्रपात राजस्थान के निम्नलिखित में से किस भौतिक क्षेत्र में स्थित है?",
+        "options": [
+          "पश्चिमी मरुस्थलीय मैदानी क्षेत्र",
+          "पूर्वी मैदानी क्षेत्र",
+          "दक्षिण-पूर्वी पठारी क्षेत्र",
+          "अरावली क्षेत्र"
+        ],
+        "explanation": "चुलिया जल प्रपात राजस्थान के दक्षिण-पूर्वी पठारी क्षेत्र में स्थित है। यह चंबल नदी पर स्थित एक प्रसिद्ध जल प्रपात है, जो इस भौतिक क्षेत्र की एक महत्वपूर्ण भौगोलिक विशेषता है।"
+      },
+      "qkey": "ea65f963a5f2",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||41|Master Question Paper, 6th Phase(Z10)",
+      "serial_no": 41,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Physical Divisions of Rajasthan",
+      "subtopic": "Border with Pakistan",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "निम्नलिखित भौतिक (प्राकृतिक) क्षेत्रों में से कौन-सा क्षेत्र पाकिस्तान के साथ अपनी सीमा साझा करता है?",
+        "options": [
+          "दक्षिण पूर्वी पठार क्षेत्र",
+          "अरावली क्षेत्र",
+          "पूर्वी मैदानी क्षेत्र",
+          "पश्चिमी रेगिस्तानी मैदान क्षेत्र"
+        ],
+        "explanation": "राजस्थान का पश्चिमी रेगिस्तानी मैदान क्षेत्र पाकिस्तान के साथ अपनी सीमा साझा करता है। यह क्षेत्र थार रेगिस्तान का हिस्सा है और भारत-पाकिस्तान अंतर्राष्ट्रीय सीमा के साथ फैला हुआ है। अन्य भौतिक क्षेत्र पाकिस्तान के साथ सीधे सीमा साझा नहीं करते हैं।"
+      },
+      "qkey": "87b66c60d76d",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||91|Master Question Paper, 6th Phase(Z10)",
+      "serial_no": 91,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Climate of Rajasthan",
+      "subtopic": "Local Climatic Phenomena",
+      "source_cycle": "Animal Attendant 2023",
+      "hindi": {
+        "question": "निम्नलिखित में कौन-सी भौगोलिक शब्दावली राजस्थान की जलवायु से संबंधित है?\nनिम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेंः",
+        "options": [
+          "आम्र वर्षा",
+          "मावठ",
+          "फूलों की बौछार",
+          "काल वैशाख"
+        ],
+        "explanation": "मावठ राजस्थान की जलवायु से संबंधित एक महत्वपूर्ण भौगोलिक शब्दावली है। यह सर्दियों में पश्चिमी विक्षोभ के कारण होने वाली वर्षा को संदर्भित करता है, जो रबी की फसलों के लिए बहुत लाभदायक होती है।"
+      },
+      "qkey": "65284bb00bd6",
+      "source_exam": "Animal Attendant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||53|Master Question Paper 131A",
+      "serial_no": 53,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Wildlife",
+      "subtopic": "Wildlife sanctuaries location in Rajasthan",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "शेरगढ़ वन्यजीव अभ्यारण्य किस जिले में स्थित है?",
+        "options": [
+          "बूंदी",
+          "बारां",
+          "सवाई माधोपुर",
+          "करौली"
+        ],
+        "explanation": "शेरगढ़ वन्यजीव अभ्यारण्य राजस्थान के बारां जिले में स्थित है। यह अभ्यारण्य परवन नदी के किनारे स्थित है और अपनी जैव विविधता के लिए जाना जाता है। यह क्षेत्र विभिन्न प्रकार के वन्यजीवों और वनस्पतियों का घर है।"
+      },
+      "qkey": "c64157851cbf",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||49|Master Question Paper 131D",
+      "serial_no": 49,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Minerals of Rajasthan",
+      "subtopic": "Garnet Mines",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "टोंक जिले की जनकपुरा और कुशालपुरा खानें जिस खनिज के उत्पादन हेतु जानी जाती है, वह हैं -",
+        "options": [
+          "गार्नेट",
+          "वोलास्टोनाइट",
+          "यूरेनियम",
+          "फेल्सपार"
+        ],
+        "explanation": "टोंक जिले की जनकपुरा और कुशालपुरा खानें गार्नेट खनिज के उत्पादन के लिए प्रसिद्ध हैं। गार्नेट एक महत्वपूर्ण रत्न और औद्योगिक खनिज है जिसका उपयोग अपघर्षक और आभूषणों में होता है।"
+      },
+      "qkey": "a365877b3eae",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2024||3|Master Question Paper A17",
+      "serial_no": 3,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Climate of Rajasthan",
+      "subtopic": "Winter Monsoon and Rainfall in Rajasthan",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा कथन, राजस्थान के शरदीय मानसून के संदर्भ में सही नहीं है?",
+        "options": [
+          "हिमालय के उत्तर में एक अत्यधिक विकसित दबाव केंद्र सर्दियों में वर्षा को प्रभावित करता है।",
+          "समुद्री उच्च दबाव क्षेत्र से स्थलीय निम्न दबाव क्षेत्र की ओर हवाएँ चलने लगती हैं, जिससे बारिश होती है।",
+          "स्थलीय उत्पत्ति के कारण हवाएँ शुष्क होती हैं, जिससे वर्षा प्रभावित होती है।",
+          "इस अवधि में कुछ हवाएँ भूमध्यसागरीय चक्रवातों के सम्पर्क में आने के बाद वर्षा लाती हैं।"
+        ],
+        "explanation": "राजस्थान में शीतकालीन मानसून (पश्चिमी विक्षोभ) भूमध्यसागरीय चक्रवातों से प्रभावित होता है, न कि समुद्री उच्च दबाव क्षेत्र से स्थलीय निम्न दबाव क्षेत्र की ओर चलने वाली हवाओं से। यह कथन ग्रीष्मकालीन मानसून की विशेषता को दर्शाता है, जो शीतकालीन मानसून के संदर्भ में सही नहीं है।"
+      },
+      "qkey": "6ea329ba95da",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||76|Forester 2020 _ Master Question (Shift 2)",
+      "serial_no": 76,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Wildlife and Forests of Rajasthan",
+      "subtopic": "Tal Chhapar Wildlife Sanctuary",
+      "source_cycle": "Forester and Forest Guard 2020",
+      "hindi": {
+        "question": "'ताल छापर' अभयारण्य के लिए प्रसिद्ध है।",
+        "options": [
+          "बाघ",
+          "मोर",
+          "भालू",
+          "कृष्ण मृग"
+        ],
+        "explanation": "ताल छापर अभयारण्य राजस्थान के चुरू जिले में स्थित है और यह विशेष रूप से काले हिरणों (कृष्ण मृग) के लिए प्रसिद्ध है। यह अभयारण्य इन सुंदर जीवों के प्राकृतिक आवास के रूप में जाना जाता है।"
+      },
+      "qkey": "8b96a8d3d3d1",
+      "source_exam": "Forester and Forest Guard",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||52|Master Question Paper 19.09.2025_Morning Shift_DS22",
+      "serial_no": 52,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Rivers of Rajasthan",
+      "subtopic": "Tributaries of Gambhir River",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सी नदी गंभीर नदी की सहायक नदी है?",
+        "options": [
+          "कालीसिंध",
+          "सेसा",
+          "सुकड़ी",
+          "मोरेल"
+        ],
+        "explanation": "गंभीर नदी की सहायक नदियों में सेसा, पार्वती, अटा और भैंसाव शामिल हैं। दिए गए विकल्पों में से 'सेसा' गंभीर नदी की एक सहायक नदी है।"
+      },
+      "qkey": "7de5e2e89145",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||14|Master Question Paper 20.09.2025_Morning Shift_1XY2",
+      "serial_no": 14,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Environmental Issues in Rajasthan",
+      "subtopic": "Industrial Disasters",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से किस शहर में 2009 में इंडियन ऑयल कॉर्पोरेशन (आईओसी) के डिपो पर एक औद्योगिक आपदा घटित हुई थी?",
+        "options": [
+          "चूरू",
+          "बांसवाड़ा",
+          "जयपुर",
+          "जैसलमेर"
+        ],
+        "explanation": "2009 में इंडियन ऑयल कॉर्पोरेशन (आईओसी) के डिपो पर एक औद्योगिक आपदा जयपुर शहर में घटित हुई थी। यह एक महत्वपूर्ण ऐतिहासिक घटना है जो जयपुर में हुई थी।"
+      },
+      "qkey": "5d153658ae37",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||95|Master Question Paper 21.09.2025_Evening Shift_JK1",
+      "serial_no": 95,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Demographics of Rajasthan",
+      "subtopic": "Population Density (Census 2011)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "जनगणना 2011 के अनुसार राजस्थान के किस ज़िले में जनसंख्या का दूसरा सबसे अधिक घनत्व दर्ज किया गया?",
+        "options": [
+          "अजमेर",
+          "बीकानेर",
+          "भरतपुर",
+          "बूंदी"
+        ],
+        "explanation": "जनगणना 2011 के अनुसार, राजस्थान के भरतपुर जिले में जनसंख्या का दूसरा सबसे अधिक घनत्व दर्ज किया गया था। जयपुर जिले में सर्वाधिक जनसंख्या घनत्व था।"
+      },
+      "qkey": "ea41d4e44cf4",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||13|Master Question Paper 21.09.2025_Morning Shift_56HH",
+      "serial_no": 13,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Lakes and Rivers",
+      "subtopic": "Lakes of Rajasthan",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित झीलों में से कौन सी झील राज्य में सबसे उत्तरी दिशा में स्थित है ? नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चुनाव करें :",
+        "options": [
+          "राजसमंद झील",
+          "सांभर झील",
+          "पिछोला झील",
+          "नक्की झील"
+        ],
+        "explanation": "दिए गए विकल्पों में से सांभर झील राजस्थान में सबसे उत्तरी दिशा में स्थित है। यह भारत की सबसे बड़ी खारे पानी की अंतर्देशीय झील है।"
+      },
+      "qkey": "032558e0224e",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||42|Master Question Paper 21.09.2025_Morning Shift_56HH",
+      "serial_no": 42,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Demographics of Rajasthan",
+      "subtopic": "Population Distribution in Rajasthan (Census 2011)",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "2011 की जनगणना के अनुसार, राजस्थान में 10 लाख से कम जनसंख्या वाले जिले थे :",
+        "options": [
+          "सिरोही, बूंदी",
+          "केवल जैसलमेर",
+          "केवल प्रतापगढ़",
+          "जैसलमेर, प्रतापगढ़"
+        ],
+        "explanation": "2011 की जनगणना के अनुसार, राजस्थान में जैसलमेर और प्रतापगढ़ ऐसे जिले थे जिनकी जनसंख्या 10 लाख से कम थी। ये जिले राज्य के कम जनसंख्या घनत्व वाले क्षेत्रों में आते हैं।"
+      },
+      "qkey": "aac1245677c3",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||54|Master Question Paper19.09.2025_Evening Shift _A23Z",
+      "serial_no": 54,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Water Conservation",
+      "subtopic": "Traditional Water Structures",
+      "source_cycle": "Fourth Class Employee 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन-सी राजस्थान में परंपरागत रूप से जल संरक्षण के लिए निर्मित संरचना नहीं है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+        "options": [
+          "जोहड़",
+          "छतरी",
+          "टांका",
+          "बावड़ी"
+        ],
+        "explanation": "जोहड़, टांका और बावड़ी राजस्थान में जल संरक्षण की पारंपरिक संरचनाएँ हैं। छतरी एक स्मारक या छतरीनुमा संरचना होती है, जिसका उपयोग जल संरक्षण के लिए नहीं किया जाता है।"
+      },
+      "qkey": "8e53f9d0c74c",
+      "source_exam": "Fourth Class Employee",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||115|Master Question Paper (T126)",
+      "serial_no": 115,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Raghunathgarh peak location",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "अरावली शृंखलाओं की रघुनाथगढ़ चोटी राजस्थान के _________ ज़िले में स्थित है।",
+        "options": [
+          "सीकर",
+          "जयपुर",
+          "अलवर",
+          "अजमेर"
+        ],
+        "explanation": "अरावली श्रृंखलाओं की रघुनाथगढ़ चोटी राजस्थान के सीकर जिले में स्थित है। यह अरावली की सबसे ऊंची चोटियों में से एक है और सीकर जिले का एक महत्वपूर्ण भौगोलिक बिंदु है।"
+      },
+      "qkey": "287ca6abc996",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Lab Assistant::Lab Assistant 2026||27",
+      "serial_no": 27,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Drainage System of Rajasthan",
+      "subtopic": "River Confluences",
+      "source_cycle": "Lab Assistant 2026",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसी नदियां कोटा में त्रिकोणीय जलोढ मैदान निर्मित करती हैं? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+        "options": [
+          "सोम और जाखम",
+          "चंबल, काली सिंध और पार्वती",
+          "बेड़च, मानसी और मोरेल",
+          "कांतली, साबी और काकनी"
+        ],
+        "explanation": "कोटा में त्रिकोणीय जलोढ़ मैदान चंबल नदी और उसकी सहायक नदियों काली सिंध और पार्वती द्वारा निर्मित होता है। ये नदियाँ मिलकर इस क्षेत्र में उपजाऊ जलोढ़ मिट्टी का निर्माण करती हैं। अन्य विकल्प कोटा क्षेत्र में त्रिकोणीय जलोढ़ मैदान बनाने वाली नदियों का सही संयोजन नहीं दर्शाते हैं।"
+      },
+      "qkey": "0118223820e9",
+      "source_exam": "Lab Assistant",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__COMPUTOR::Computor 2021||25",
+      "serial_no": 25,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Earthquake zones Rajasthan",
+      "subtopic": "",
+      "source_cycle": "Computor 2021",
+      "hindi": {
+        "question": "राजस्थान के निम्नलिखित में कौन से जिले भूकम्पों से सबसे कम प्रभावित हैं?",
+        "options": [
+          "गंगानगर और हनुमानगढ़",
+          "भरतपुर और अलवर",
+          "कोटा और बारां",
+          "बाड़मेर और जैसलमेर"
+        ],
+        "explanation": "राजस्थान के गंगानगर और हनुमानगढ़ जिले भूकम्पों से सबसे कम प्रभावित हैं। ये जिले राज्य के अपेक्षाकृत स्थिर भूगर्भीय क्षेत्र में स्थित हैं, जिससे भूकम्प का खतरा कम होता है।"
+      },
+      "qkey": "e2fa78da748c",
+      "source_exam": "LIB__COMPUTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||19|Master Question Paper_Sanskrit( L-2 )_XQ190",
+      "serial_no": 19,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Cities west to east",
+      "subtopic": "",
+      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
+      "hindi": {
+        "question": "राजस्थान के निम्नलिखित शहरों को पश्चिम से पूर्व दिशा में व्यवस्थित करें।a. बाड़मेरb. बून्दीc. पालीd. राजसमंदनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+        "options": [
+          "d, b, a, с",
+          "a, c, d, b",
+          "c, a, b, d",
+          "b, d, a, c"
+        ],
+        "explanation": "राजस्थान के शहरों को पश्चिम से पूर्व दिशा में व्यवस्थित करने पर सही क्रम बाड़मेर, पाली, राजसमंद और बून्दी है। इस प्रकार, विकल्प (2) a, c, d, b सही है।"
+      },
+      "qkey": "0fa86c5202f9",
+      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::patwar::Patwar 2025||82|Master Question Paper (SPZ8) Shift I",
+      "serial_no": 82,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Drainage System of India",
+      "subtopic": "Rift Valley Rivers",
+      "source_cycle": "Patwar 2025",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सी नदी भ्रंश घाटी (रिफ्ट वैली) में बहती है ?",
+        "options": [
+          "लूनी",
+          "रावी",
+          "नर्मदा",
+          "झेलम"
+        ],
+        "explanation": "नर्मदा नदी भ्रंश घाटी (रिफ्ट वैली) में बहती है। यह भारत की प्रमुख नदियों में से एक है जो विंध्य और सतपुड़ा पर्वतमालाओं के बीच पश्चिम की ओर बहती है। भ्रंश घाटी में बहने के कारण यह एक अनूठी भूवैज्ञानिक विशेषता प्रदर्शित करती है।"
+      },
+      "qkey": "b0e787928f4d",
+      "source_exam": "patwar",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::PTI (PHYSICAL TRAINING INSTRUCTOR)::PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024|(single)|28",
+      "serial_no": 28,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Mustard production",
+      "subtopic": "",
+      "source_cycle": "PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024",
+      "hindi": {
+        "question": "सूची-I तथा सूची-II का मिलान कीजिए तथा नीचे दिये गए कूट का उपयोग करके सही उत्तर का चयन कीजिए\nसूची-I\n(सिंचाई परियोजना)\n(A) छापी\n(B) बिलास\n(C) अडवाना\n(D) सावन-भादो\nसूची-II\n(अवस्थिति)\n(i) झालावाड़\n(ii) बारां\n(iii) भीलवाड़ा\n(iv) कोटा\nकूट",
+        "options": [
+          "(A)-(ii), (B)-(iii), (C)-(i), (D)-(iv)",
+          "(A)-(iv), (B)-(iii), (C)-(ii), (D)-(i)",
+          "(A)-(i), (B)-(iii), (C)-(ii), (D)-(iv)",
+          "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)"
+        ],
+        "explanation": "सही मिलान के अनुसार, छापी सिंचाई परियोजना झालावाड़ में है, बिलास बारां में है, अडवाना भीलवाड़ा में है और सावन-भादो कोटा में है। यह मिलान राजस्थान की विभिन्न सिंचाई परियोजनाओं और उनकी अवस्थिति को दर्शाता है। यह जानकारी राज्य के जल संसाधनों के प्रबंधन के लिए महत्वपूर्ण है।"
+      },
+      "qkey": "4dc2154e0e87",
+      "source_exam": "PTI (PHYSICAL TRAINING INSTRUCTOR)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::PTI (PHYSICAL TRAINING INSTRUCTOR)::SENIOR PHYSICAL EDUCATION TEACHER EXAM 2022|Paper I|83",
+      "serial_no": 83,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Agriculture in Rajasthan",
+      "subtopic": "",
+      "source_cycle": "SENIOR PHYSICAL EDUCATION TEACHER EXAM 2022",
+      "hindi": {
+        "question": "राजस्थान के कौन से जिलों के युग्म में 'वालरा' कृषि की जाती है ?",
+        "options": [
+          "डूंगरपुर एवं बाँसवाड़ा",
+          "गंगानगर एवं हनुमानगढ़",
+          "कोटा एवं बारां",
+          "चुरू एवं सीकर"
+        ],
+        "explanation": "राजस्थान में 'वालरा' कृषि मुख्य रूप से डूंगरपुर एवं बाँसवाड़ा जिलों में की जाती है। यह एक प्रकार की स्थानांतरित कृषि है जो इन आदिवासी बहुल क्षेत्रों में प्रचलित है। इसमें जंगलों को साफ करके खेती की जाती है।"
+      },
+      "qkey": "9e21073e8ef8",
+      "source_exam": "PTI (PHYSICAL TRAINING INSTRUCTOR)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::HEADMASTER::HEADMASTER (SECONDARY SCHOOL) 2018|(single)|99",
+      "serial_no": 99,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Physical Features",
+      "subtopic": "Geographical Regions of Rajasthan",
+      "source_cycle": "HEADMASTER (SECONDARY SCHOOL) 2018",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन से सही सुमेलित है? (A) घग्घर का मैदान गंगानगर तथा हनुमानगढ़ जिले (B) शेखावटी प्रदेश आंतरिक अपवाह क्षेत्र (C) उदयपुर बेसिन - गिरवा (D) भोराट का पठार रघुनाथगढ़ शिखर नीचे दिए कूट से उत्तर चुनिए-",
+        "options": [
+          "A, C एवं D सही है",
+          "A, B एवं C सही है",
+          "B, C एवं D सही है",
+          "A, B एवं D सही है"
+        ],
+        "explanation": "दिए गए विकल्पों में से A, B और C सही सुमेलित हैं। घग्घर का मैदान गंगानगर तथा हनुमानगढ़ जिले में है, शेखावटी प्रदेश आंतरिक अपवाह क्षेत्र है, और उदयपुर बेसिन को गिरवा कहा जाता है। भोराट का पठार रघुनाथगढ़ शिखर पर नहीं है।"
+      },
+      "qkey": "52833ebb3288",
+      "source_exam": "HEADMASTER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|2|Question Paper for A.A.R.O. - 2022 (GK and Botany)",
+      "serial_no": 2,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Nagaur highlands elevation",
+      "subtopic": "",
+      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
+      "hindi": {
+        "question": "नागौर उच्च भूमि की औसत ऊँचाई (मीटर में) निम्नांकित में से कौन सी है?",
+        "options": [
+          "200 से 400 मीटर",
+          "300 से 500 मीटर",
+          "400 से 600 मीटर",
+          "100 से 200 मीटर"
+        ],
+        "explanation": "नागौर उच्च भूमि राजस्थान के मध्यवर्ती भाग में स्थित है। इसकी औसत ऊँचाई 300 से 500 मीटर के बीच है। यह क्षेत्र अरावली पर्वतमाला के पश्चिमी किनारे पर स्थित है और यहाँ की भू-आकृति में कुछ ऊँचे पठार और पहाड़ियाँ शामिल हैं। इसलिए, विकल्प (2) सही है।"
+      },
+      "qkey": "cf428b363df3",
+      "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|7|Question Paper for A.R.O. - 2022 (GK and Entomology)",
+      "serial_no": 7,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Koppen climate classification",
+      "subtopic": "",
+      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
+      "hindi": {
+        "question": "कोपेन के जलवायु वर्गीकरण के अनुसार, गंगानगर जिले में किस प्रकार की जलवायु पायी जाती है?",
+        "options": [
+          "Bshw",
+          "Bwhw",
+          "Aw",
+          "Cwg"
+        ],
+        "explanation": "कोपेन के जलवायु वर्गीकरण के अनुसार, गंगानगर जिले में 'Bwhw' प्रकार की जलवायु पाई जाती है। यह शुष्क उष्णकटिबंधीय मरुस्थलीय जलवायु का प्रतिनिधित्व करती है, जहाँ अत्यधिक गर्मी और कम वर्षा होती है।"
+      },
+      "qkey": "31e6cb48f13c",
+      "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|18|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
+      "serial_no": 18,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "River origins Rajasthan",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "सूची-I और सूची-II को सुमेलित करके नीचे दिये गये कूट से सही उत्तर का चयन कीजिये - सूची-I (उद्गम स्थल) (A) खमनोर की पहाड़ियाँ (B) बैराठ की पहाड़ियाँ (C) खण्डेला की पहाड़ियाँ (D) सेवर की पहाड़ियाँ कूट -",
+        "options": [
+          "A-ii, B-i, C-iii, D-iv",
+          "A-iii, B-iv, C-i, D-ii",
+          "A-iv, B-iii, C-i, D-ii",
+          "A-i, B-iii, C-ii, D-iv"
+        ],
+        "explanation": "खमनोर की पहाड़ियाँ बनास नदी का उद्गम स्थल हैं, बैराठ की पहाड़ियाँ बाणगंगा नदी का, खण्डेला की पहाड़ियाँ कांतली नदी का और सेवर की पहाड़ियाँ साबी नदी का उद्गम स्थल हैं। इस प्रकार, सही सुमेलन A-iii, B-iv, C-i, D-ii है।"
+      },
+      "qkey": "44d56e8716c3",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|18|Question Paper for Archives Department Recruitment - 2024 (Research Scholar)",
+      "serial_no": 18,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Agro-climatic zones Rajasthan",
+      "subtopic": "",
+      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
+      "hindi": {
+        "question": "राजस्थान का II-A कृषि जलवायु प्रदेश निम्नलिखित में से किसे दर्शाता है?",
+        "options": [
+          "अर्द्ध शुष्क पूर्वी मैदान",
+          "आर्द्र दक्षिणी मैदान",
+          "अंतः प्रवाह शुष्क प्रदेश",
+          "शुष्क पश्चिमी मैदान"
+        ],
+        "explanation": "राजस्थान का II-A कृषि जलवायु प्रदेश अंतः प्रवाह शुष्क प्रदेश को दर्शाता है। यह क्षेत्र अपनी शुष्क जलवायु और आंतरिक जल निकासी प्रणाली के लिए जाना जाता है। इसलिए, विकल्प (3) अंतः प्रवाह शुष्क प्रदेश सही उत्तर है।"
+      },
+      "qkey": "4a594f4d25cc",
+      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. DIRECTOR::ASST. DIRECTOR 2024|Paper Ii|33",
+      "serial_no": 33,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Population density Rajasthan",
+      "subtopic": "",
+      "source_cycle": "ASST. DIRECTOR 2024",
+      "hindi": {
+        "question": "निम्नांकित में से कौनसे जिले में जनसंख्या का सबसे कम घनत्व है (जनगणना-2011)?",
+        "options": [
+          "बीकानेर",
+          "चूरू",
+          "पाली",
+          "बाड़मेर"
+        ],
+        "explanation": "जनगणना-2011 के अनुसार, राजस्थान के बीकानेर जिले में जनसंख्या का घनत्व सबसे कम था। यह आंकड़ा राज्य के विभिन्न जिलों में जनसंख्या वितरण की असमानता को दर्शाता है।"
+      },
+      "qkey": "7198534c8572",
+      "source_exam": "LIB__ASST. DIRECTOR",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__EVALUATION OFFICER::EVALUATION OFFICER 2020||13",
+      "serial_no": 13,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Aravalli peaks height",
+      "subtopic": "",
+      "source_cycle": "EVALUATION OFFICER 2020",
+      "hindi": {
+        "question": "निम्नलिखित अरावली पर्वत शिखर हैं। इन शिखरों को ऊँचाई के अनुसार घटते क्रम में व्यवस्थित कीजिए :\n(A) गुरु शिखर\n(B) आँचलगढ़\n(C) दिलवाड़ा\n(D) सेर\n(E) कुम्भलगढ़\nकूट :",
+        "options": [
+          "(A), (B), (C), (D), (E)",
+          "(A), (D), (C), (B), (E)",
+          "(A), (D), (C), (E), (B)",
+          "(A), (C), (B), (E), (D)"
+        ],
+        "explanation": "अरावली पर्वत शिखरों को ऊँचाई के अनुसार घटते क्रम में व्यवस्थित करने पर सही क्रम (A) गुरु शिखर, (D) सेर, (C) दिलवाड़ा, (E) कुम्भलगढ़, (B) आँचलगढ़ है। गुरु शिखर (1722 मी.) सबसे ऊँचा है, उसके बाद सेर (1597 मी.), दिलवाड़ा (1442 मी.), कुम्भलगढ़ (1224 मी.) और आँचलगढ़ (1380 मी.) आता है। दिए गए विकल्पों में से (A), (D), (C), (E), (B) सही है।"
+      },
+      "qkey": "21716f7704e7",
+      "source_exam": "LIB__EVALUATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)::HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021|Paper I|98",
+      "serial_no": 98,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Gully erosion districts",
+      "subtopic": "",
+      "source_cycle": "HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021",
+      "hindi": {
+        "question": "अधिक अवनालिका अपरदन वाले जिले हैं -",
+        "options": [
+          "अलवर, भरतपुर, दौसा और जयपुर",
+          "धौलपुर, करौली, सवाई माधोपुर और कोटा",
+          "अजमेर, भीलवाड़ा, टोंक और बूंदी",
+          "डूंगरपुर, बांसवाड़ा और प्रतापगढ़"
+        ],
+        "explanation": "धौलपुर, करौली, सवाई माधोपुर और कोटा जिले अधिक अवनालिका अपरदन से प्रभावित हैं। इन क्षेत्रों में चंबल नदी और उसकी सहायक नदियों के कारण गहरे खड्ड और बीहड़ पाए जाते हैं।"
+      },
+      "qkey": "6bd2de03800e",
+      "source_exam": "LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2021|(single)|24|Question Paper for Lecturer (Ayurved Dept.) - 2021 (GK and Kriya Sharir)",
+      "serial_no": 24,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Literacy rate 2011",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2021",
+      "hindi": {
+        "question": "2011 की जनगणना के अनुसार राजस्थान का न्यूनतम साक्षरता वाला जिला कौनसा है?",
+        "options": [
+          "बांसवाड़ा",
+          "डूंगरपुर",
+          "सिरोही",
+          "जालौर"
+        ],
+        "explanation": "2011 की जनगणना के अनुसार, राजस्थान का न्यूनतम साक्षरता वाला जिला जालौर है। यहाँ की साक्षरता दर राज्य के अन्य जिलों की तुलना में कम थी।"
+      },
+      "qkey": "f3c939ab0eb9",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|33|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Kayachikitsa)",
+      "serial_no": 33,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Forests of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
+      "hindi": {
+        "question": "राजस्थान के शुष्क सागवान वनों के संदर्भ में निम्नलिखित में से कौन सा कथन सही है?",
+        "options": [
+          "40 सेमी से 70 सेमी वर्षा वाले भागों में ये वन मिलते हैं ।",
+          "संपूर्ण वन क्षेत्र का 20 प्रतिशत ये वन है ।",
+          "राजस्थान के दक्षिणी भाग की प्रमुखत: इन वनों का विस्तार है ।",
+          "इन्हें शीतोष्ण वन भी कहते हैं ।"
+        ],
+        "explanation": "राजस्थान में शुष्क सागवान वन मुख्य रूप से दक्षिणी भाग में पाए जाते हैं, जहाँ वर्षा की मात्रा अधिक होती है। यह कथन इन वनों के वितरण की सही जानकारी देता है।"
+      },
+      "qkey": "9f6419ebe89b",
+      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (TECH. EDU.) EXAM::LECTURER (TECH. EDU.) EXAM 2020|Paper Iii|20",
+      "serial_no": 20,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Monsoon rainfall distribution",
+      "subtopic": "",
+      "source_cycle": "LECTURER (TECH. EDU.) EXAM 2020",
+      "hindi": {
+        "question": "निम्नलिखित में से राजस्थान का कौन सा क्षेत्र मानसून के अरब सागर शाखा से अधिकतम वर्षा प्राप्त करता है ?",
+        "options": [
+          "उत्तर तथा उत्तर-पूर्वी क्षेत्र",
+          "पूर्वी क्षेत्र",
+          "मध्य अरावली",
+          "दक्षिण तथा दक्षिण-पूर्वी क्षेत्र"
+        ],
+        "explanation": "राजस्थान का दक्षिण तथा दक्षिण-पूर्वी क्षेत्र मानसून की अरब सागर शाखा से अधिकतम वर्षा प्राप्त करता है। यह क्षेत्र अरावली पर्वतमाला के दक्षिण-पश्चिमी ढलानों पर स्थित होने के कारण अरब सागर से आने वाली मानसूनी हवाओं से अधिक वर्षा प्राप्त करता है।"
+      },
+      "qkey": "f27f67d48901",
+      "source_exam": "LIB__LECTURER (TECH. EDU.) EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (TECH. EDU.) EXAM::LECTURER (TECH. EDU.) EXAM 2020|Paper Iii|27",
+      "serial_no": 27,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Mineral mining areas",
+      "subtopic": "",
+      "source_cycle": "LECTURER (TECH. EDU.) EXAM 2020",
+      "hindi": {
+        "question": "दिये गये खनिजों एवं उनके खनन क्षेत्रों में से त्रुटिपूर्ण (गलत) युग्म की पहचान कीजिए :\nखनिज खनन क्षेत्र",
+        "options": [
+          "लोहा-अयस्क - नाथरा-की-पाल",
+          "ताँबा - खेतड़ी-सिंघाना",
+          "जस्ता एवं सीसा - जावर",
+          "टंगस्टन - झामर-कोटड़ा"
+        ],
+        "explanation": "टंगस्टन का खनन क्षेत्र डेगाना (नागौर) है, जबकि झामर-कोटड़ा रॉक फॉस्फेट के लिए प्रसिद्ध है। इस प्रकार, 'टंगस्टन - झामर-कोटड़ा' युग्म गलत है।"
+      },
+      "qkey": "8dbca0ef45af",
+      "source_exam": "LIB__LECTURER (TECH. EDU.) EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__LECTURER (TECH. EDU.) EXAM::LECTURER (TECH. EDU.) EXAM 2020|Paper Iii|98",
+      "serial_no": 98,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Meja Dam location",
+      "subtopic": "",
+      "source_cycle": "LECTURER (TECH. EDU.) EXAM 2020",
+      "hindi": {
+        "question": "मेजा बाँध निम्नलिखित में से राजस्थान के किस जिले में स्थित है ?",
+        "options": [
+          "जोधपुर",
+          "पाली",
+          "उदयपुर",
+          "भीलवाड़ा"
+        ],
+        "explanation": "मेजा बांध राजस्थान के भीलवाड़ा जिले में स्थित है। यह बांध कोठारी नदी पर बना हुआ है और भीलवाड़ा शहर तथा आसपास के क्षेत्रों को पेयजल और सिंचाई के लिए पानी उपलब्ध कराता है।"
+      },
+      "qkey": "0bfcabb10869",
+      "source_exam": "LIB__LECTURER (TECH. EDU.) EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2018|(single)|32",
+      "serial_no": 32,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Population of Rajasthan",
+      "subtopic": "Urban Population",
+      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2018",
+      "hindi": {
+        "question": "जनगणना 2011 के अनुसार क्रमशः भारत एवं राजस्थान की नगरीय जनसंख्या का प्रतिशत क्या है ?",
+        "options": [
+          "24.87% एवं 31.15%",
+          "34.15% एवं 24.87%",
+          "21.87% एवं 34.15%",
+          "31.15% एवं 24.87%"
+        ],
+        "explanation": "जनगणना 2011 के अनुसार, भारत की नगरीय जनसंख्या का प्रतिशत 31.15% था, जबकि राजस्थान की नगरीय जनसंख्या का प्रतिशत 24.87% था। यह शहरीकरण के स्तर को दर्शाता है।"
+      },
+      "qkey": "55208b79d6bd",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SANSKRIT EDU.) 2024|(single)|44",
+      "serial_no": 44,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Geographical Extent",
+      "subtopic": "East-West and North-South Extension",
+      "source_cycle": "SCHOOL LECTURER (SANSKRIT EDU.) 2024",
+      "hindi": {
+        "question": "राजस्थान के पूर्व-पश्चिम एवं उत्तर-दक्षिण विस्तार में अन्तर है :",
+        "options": [
+          "46 कि.मी. का",
+          "52 कि.मी. का",
+          "48 कि.मी. का",
+          "43 कि.मी. का"
+        ],
+        "explanation": "राजस्थान का पूर्व-पश्चिम विस्तार लगभग 869 कि.मी. है और उत्तर-दक्षिण विस्तार लगभग 826 कि.मी. है। इन दोनों के बीच का अंतर $869 - 826 = 43$ कि.मी. है।"
+      },
+      "qkey": "e0b8721f7fd8",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|D|72",
+      "serial_no": 72,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Mineral Resources of Rajasthan",
+      "subtopic": "Mineral Mining Areas",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2022",
+      "hindi": {
+        "question": "सूची-I को सूची-II से सुमेलित कीजिये तथा नीचे दिये गये कूट में से सही उत्तर चुनिये सूची-I (खनिज) सूची-II (खनन क्षेत्र) (A) ताम्र (i) राजपुरा-दरीबा (B) सीसा एवं जस्ता (ii) मोरिज़ा-नीमाला (C) लौह अयस्क (iii) छोटी सार-बड़ी सार (D) मैंगनीज़ (iv) खो-दरीबा कूट - (A) (B) (C) (D)",
+        "options": [
+          "(iv) (i) (iii) (ii)",
+          "(iv) (i) (ii) (iii)",
+          "(i) (iv) (ii) (iii)",
+          "(iv) (ii) (i) (iii)"
+        ],
+        "explanation": "सही सुमेलन इस प्रकार है: ताम्र (कॉपर) का खनन खो-दरीबा (अलवर) में होता है। सीसा एवं जस्ता का खनन राजपुरा-दरीबा (राजसमंद) में होता है। लौह अयस्क का खनन मोरिज़ा-नीमाला (जयपुर) में होता है। मैंगनीज़ का खनन छोटी सार-बड़ी सार (बांसवाड़ा) में होता है।"
+      },
+      "qkey": "be9af4f7cb81",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2024|D|58",
+      "serial_no": 58,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Minerals / Mining",
+      "subtopic": "Mineral Deposits and Mining Areas",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2024",
+      "hindi": {
+        "question": "कांसला-नरडिया क्षेत्र में निम्नलिखित में से कौन से अयस्क की बहुलता है ?",
+        "options": [
+          "मैंगनीज़",
+          "बेरिलियम",
+          "फेल्सपार",
+          "अभ्रक"
+        ],
+        "explanation": "कांसला-नरडिया क्षेत्र राजस्थान में मैंगनीज़ अयस्क के खनन के लिए जाना जाता है। यह क्षेत्र राज्य के महत्वपूर्ण खनिज उत्पादक क्षेत्रों में से एक है। मैंगनीज़ का उपयोग विभिन्न उद्योगों में होता है।"
+      },
+      "qkey": "d72dfa8d1b0d",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SANSKRIT EDUCATION)::SR. TEACHER (SANSKRIT EDU.) COMP. EXAM 2024|(single)|4",
+      "serial_no": 4,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Population and Tribes",
+      "subtopic": "Tribal distribution (Sahariya)",
+      "source_cycle": "SR. TEACHER (SANSKRIT EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "सहरिया जनजाति किस क्षेत्र में केन्द्रित है?",
+        "options": [
+          "बूंदी जिले की नैनवा तहसील",
+          "बारां जिले की अन्ता तहसील",
+          "झालावाड़ जिले के खानपुर और पिड़ावा तहसील",
+          "बारां जिले के शाहबाद और किशनगंज तहसील'"
+        ],
+        "explanation": "सहरिया जनजाति राजस्थान की एकमात्र आदिम जनजाति समूह है, जो मुख्य रूप से बारां जिले की शाहबाद और किशनगंज तहसीलों में केंद्रित है। यह क्षेत्र सहरिया बहुल क्षेत्र के रूप में जाना जाता है। उनकी विशिष्ट संस्कृति और जीवनशैली इन्हीं क्षेत्रों में पाई जाती है।"
+      },
+      "qkey": "028066fb7a46",
+      "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|C|6",
+      "serial_no": 6,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Physical Features",
+      "subtopic": "Plateaus and Hills",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसा पश्चिम से पूर्व की ओर सही क्रम में व्यवस्थित है?",
+        "options": [
+          "उड़िया का पठार, मुकुन्दरा की पहाड़ियाँ, भोराठ का पठार",
+          "भोराठ का पठार, उड़िया का पठार, मुकुन्दरा की पहाड़ियाँ",
+          "मुकुन्दरा की पहाड़ियाँ, भोराठ का पठार, उड़िया का पठार",
+          "उड़िया का पठार, भोराठ का पठार, मुकुन्दरा की पहाड़ियाँ"
+        ],
+        "explanation": "राजस्थान के भौतिक स्वरूपों को पश्चिम से पूर्व की ओर सही क्रम में व्यवस्थित करने पर उड़िया का पठार (सिरोही) सबसे पश्चिम में आता है, उसके बाद भोराठ का पठार (उदयपुर-राजसमंद) और फिर मुकुन्दरा की पहाड़ियाँ (कोटा-झालावाड़) पूर्व में स्थित हैं। यह क्रम उनकी भौगोलिक स्थिति के अनुरूप है।"
+      },
+      "qkey": "72712447e21c",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|D|3",
+      "serial_no": 3,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Drainage System",
+      "subtopic": "Luni River Tributaries",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौनसी लूनी नदी की दाहिने तट की सहायक नदी/नदियाँ है/हैं?",
+        "options": [
+          "जोजड़ी",
+          "गुहिया",
+          "बाण्डी तथा मीठड़ी",
+          "सुकड़ी तथा गुहिया"
+        ],
+        "explanation": "लूनी नदी की सहायक नदियों में जोजड़ी एकमात्र ऐसी नदी है जो इसके दाहिने तट पर मिलती है। यह नदी नागौर जिले से निकलती है और लूनी में दाईं ओर से आकर मिलती है। अन्य सहायक नदियाँ जैसे गुहिया, बाण्डी, मीठड़ी और सुकड़ी बाईं ओर से मिलती हैं।"
+      },
+      "qkey": "56aa252fa22f",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018|B|17",
+      "serial_no": 17,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Development Programs",
+      "subtopic": "Mewat Area Development Program",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018",
+      "hindi": {
+        "question": "'मेवात क्षेत्र विकास कार्यक्रम' कितने जिलों में विस्तृत है ?",
+        "options": [
+          "तीन",
+          "चार",
+          "दो",
+          "पाँच"
+        ],
+        "explanation": "मेवात क्षेत्र विकास कार्यक्रम राजस्थान के मेवात क्षेत्र में सामाजिक-आर्थिक विकास को बढ़ावा देने के लिए शुरू किया गया था। यह कार्यक्रम मुख्य रूप से अलवर और भरतपुर जिलों में विस्तृत है, जहाँ मेव समुदाय की बहुलता है। इसका उद्देश्य इन क्षेत्रों में शिक्षा, स्वास्थ्य और बुनियादी ढांचे में सुधार करना है।"
+      },
+      "qkey": "fe27a9f0439b",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|80",
+      "serial_no": 80,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Vegetation",
+      "subtopic": "Forest Area Distribution",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा जिलों का समूह राजस्थान में सर्वाधिक कुल वन क्षेत्र घेरता है ?",
+        "options": [
+          "उदयपुर, चित्तौड़गढ़, बारां एवं करौली",
+          "उदयपुर, चित्तौड़गढ़, झालावाड़ एवं टोंक",
+          "बूँदी, बाँसवाड़ा, डूंगरपुर एवं झालावाड़",
+          "अलवर, सिरोही, जोधपुर एवं जयपुर"
+        ],
+        "explanation": "राजस्थान में सर्वाधिक वन क्षेत्र वाले जिलों में उदयपुर, चित्तौड़गढ़, बारां और करौली प्रमुख हैं। ये जिले अरावली पर्वतमाला और विन्ध्यन कगार के प्रभाव में आते हैं, जहाँ सघन वनस्पति पाई जाती है। यह समूह राज्य के कुल वन क्षेत्र में महत्वपूर्ण योगदान देता है।"
+      },
+      "qkey": "6488eb7c7fb1",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|84",
+      "serial_no": 84,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Population",
+      "subtopic": "Sex Ratio (Census 2011)",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन सा कथन राजस्थान में\nलिंगानुपात के बारे में जनगणना 2011 के\nअनुसार सही नहीं है ?",
+        "options": [
+          "ग्रामीण लिंगानुपात 933 था ।",
+          "नगरीय लिंगानुपात 914 था ।",
+          "बाल लिंगानुपात (0-6 आयु समूह) 898 था ।",
+          "बाल लिंगानुपात (0-6 आयु समूह) बाँसवाड़ा में सर्वाधिक था ।"
+        ],
+        "explanation": "जनगणना 2011 के अनुसार, राजस्थान का बाल लिंगानुपात (0-6 आयु समूह) 888 था, न कि 898। अन्य सभी कथन, जैसे ग्रामीण लिंगानुपात 933 और नगरीय लिंगानुपात 914, सही हैं। बाँसवाड़ा में बाल लिंगानुपात सर्वाधिक था।"
+      },
+      "qkey": "60f5976a56e6",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|A|85",
+      "serial_no": 85,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Industries",
+      "subtopic": "Industrial Locations",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "कौन सा सुमेलित नहीं है ?\nउद्योग\tस्थिति",
+        "options": [
+          "हाई टेक ग्लास - धौलपुर",
+          "सफेद सीमेण्ट - निम्बाहेड़ा",
+          "टायर-ट्यूब - अलवर",
+          "पॉलिमर - शाहपुरा"
+        ],
+        "explanation": "दिए गए विकल्पों में से, सफेद सीमेंट का कारखाना निम्बाहेड़ा में नहीं है। निम्बाहेड़ा में सामान्य सीमेंट का उत्पादन होता है। सफेद सीमेंट के प्रमुख कारखाने गोटन (नागौर) और खारिया खंगार (जोधपुर) में स्थित हैं। अन्य विकल्प सही सुमेलित हैं।"
+      },
+      "qkey": "8eec11d66343",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|14-09-2021|14",
+      "serial_no": 14,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Geography",
+      "topic": "Irrigation Projects",
+      "subtopic": "Major Irrigation Projects",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "सोम-कमला-अंबा सिंचाई परियोजना का निर्माण किस जिले के लिए किया गया है ?",
+        "options": [
+          "उदयपुर",
+          "चित्तौड़गढ़",
+          "डूंगरपुर",
+          "राजसमंद"
+        ],
+        "explanation": "सोम-कमला-अंबा सिंचाई परियोजना का निर्माण डूंगरपुर जिले के लिए किया गया है। यह परियोजना इस क्षेत्र में कृषि और पेयजल की आवश्यकताओं को पूरा करने में मदद करती है।"
+      },
+      "qkey": "23144df8934f",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
       "id": "SR. TEACHER GR II (SPL. EDU.) 2015|(single)|76",
       "serial_no": 76,
       "correct_option": 1,
@@ -2683,6 +5995,198 @@
       },
       "qkey": "ffe486c2e022",
       "source_exam": "SR. TEACHER (SANSKRIT EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::Common Eligibility Test(Graduation Level)::Common Eligibility Test(Graduation Level) 2022||63|Master Question Paper 131B",
+      "serial_no": 63,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Constitutional Amendments and Emergency Provisions",
+      "subtopic": "Emergency Provisions (Article 352, President's Rule)",
+      "source_cycle": "Common Eligibility Test(Graduation Level) 2022",
+      "hindi": {
+        "question": "आपातकालीन प्रावधानों के बारे में निम्न में से कौनसा\nकथन सत्य नहीं है?",
+        "options": [
+          "अनुच्छेद 352 के तहत, आपातकाल मंत्रिमंडल की लिखित सहमति के आधार पर ही लाया जा सकता है।",
+          "राष्ट्रपति शासन किसी राज्य में अधिकतम 3 वर्षों तक लागू रह सकता है।",
+          "राष्ट्रपति शासन राजस्थान राज्य में 4 बार लागू रहा।",
+          "42वें संशोधन द्वारा संविधान में 'सशस्त्र विद्रोह' शब्द जोड़ा गया।"
+        ],
+        "explanation": "44वें संविधान संशोधन (1978) द्वारा 'आंतरिक अशांति' शब्द के स्थान पर 'सशस्त्र विद्रोह' शब्द जोड़ा गया था, न कि 42वें संशोधन द्वारा। अन्य सभी कथन आपातकालीन प्रावधानों के संबंध में सत्य हैं।"
+      },
+      "qkey": "af5d5858ee8f",
+      "source_exam": "Common Eligibility Test(Graduation Level)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__MOTOR VEHICLE SUB INSPECTOR::Motor Vehicle Sub Inspector 2021||12",
+      "serial_no": 12,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Formation of new states",
+      "subtopic": "",
+      "source_cycle": "Motor Vehicle Sub Inspector 2021",
+      "hindi": {
+        "question": "निम्नलिखित में से किसके पास भारत संघ के भीतर एक नया राज्य बनाने की शक्ति है ?",
+        "options": [
+          "सुप्रीम कोर्ट",
+          "लोक सभा अध्यक्ष",
+          "प्रधानमंत्री",
+          "राष्ट्रपति"
+        ],
+        "explanation": "भारत संघ के भीतर एक नया राज्य बनाने की शक्ति राष्ट्रपति के पास होती है। संविधान के अनुच्छेद 3 के तहत, संसद कानून द्वारा नए राज्यों का गठन कर सकती है, और इस प्रक्रिया में राष्ट्रपति की भूमिका महत्वपूर्ण होती है।"
+      },
+      "qkey": "6167bc3d916d",
+      "source_exam": "LIB__MOTOR VEHICLE SUB INSPECTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__NHM AND RAJMES(CONTRACTUAL POSTS)::NHM and RajMES(Contractual Posts) 2025||87|Master Question Paper Exam of Contractual Community Health Officer (CHO), (DF561)",
+      "serial_no": 87,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "State legislature privileges",
+      "subtopic": "",
+      "source_cycle": "NHM and RajMES(Contractual Posts) 2025",
+      "hindi": {
+        "question": "26 नवम्बर 1949 को पारित संविधान पर संविधान सभा के कितने सदस्यों ने हस्ताक्षर किए थे ?",
+        "options": [
+          "284",
+          "299",
+          "389",
+          "288"
+        ],
+        "explanation": "26 नवंबर 1949 को जब भारतीय संविधान को पारित किया गया था, तब संविधान सभा के 284 सदस्यों ने इस पर हस्ताक्षर किए थे। ये हस्ताक्षर संविधान को अंतिम रूप देने का प्रतीक थे। इसलिए, '284' सही उत्तर है।"
+      },
+      "qkey": "1b4b6db2f998",
+      "source_exam": "LIB__NHM AND RAJMES(CONTRACTUAL POSTS)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__PUBLIC RELATION OFFICER::PUBLIC RELATION OFFICER 2024|(single)|23",
+      "serial_no": 23,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Panchayati Raj committees",
+      "subtopic": "",
+      "source_cycle": "PUBLIC RELATION OFFICER 2024",
+      "hindi": {
+        "question": "पंचायती राज के संबंध में निम्नलिखित कथनों पर विचार कीजिए :(I) बलवंत राय मेहता कमेटी ने सुझाव दिया कि पुराने जिला बोर्डों को समाप्त करके तीन-स्तरीय पंचायती राज व्यवस्था लागू की जाए।(II) जी.के.वी. राव समिति का गठन योजना आयोग द्वारा 25 मई, 1985 को किया गया।सही विकल्प चुनिए :",
+        "options": [
+          "केवल कथन (I) सही है।",
+          "केवल कथन (II) सही है।",
+          "दोनों कथन (I) तथा (II) सही हैं।",
+          "दोनों कथन (I) तथा (II) सही नहीं हैं।"
+        ],
+        "explanation": "बलवंत राय मेहता कमेटी ने पुराने जिला बोर्डों को समाप्त करके तीन-स्तरीय पंचायती राज व्यवस्था लागू करने का सुझाव दिया था, इसलिए कथन (I) सही है। जी.के.वी. राव समिति का गठन योजना आयोग द्वारा 25 मार्च, 1985 को किया गया था, न कि 25 मई, 1985 को, इसलिए कथन (II) गलत है।"
+      },
+      "qkey": "fbf04648411c",
+      "source_exam": "LIB__PUBLIC RELATION OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2023|(single)|20",
+      "serial_no": 20,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Indian Constitution",
+      "subtopic": "Directive Principles of State Policy (DPSP)",
+      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2023",
+      "hindi": {
+        "question": "निम्नलिखित सूची-P (निर्देशक सिद्धांत) को सूची-R (अनुच्छेद) के साथ सुमेलित कीजिए :\nसूची - P\nA. समान न्याय और निःशुल्क कानूनी सहायता\nB. पर्यावरण की सुरक्षा\nC. काम करने का अधिकार\nD. स्मारकों का संरक्षण\nसूची - R\nI. अनुच्छेद 48 A\nII. अनुच्छेद 39 A\nIII. अनुच्छेद 41\nIV. अनुच्छेद 49\nसही विकल्प चुनें :",
+        "options": [
+          "A-I, B-III, C-IV, D-II",
+          "A-II, B-I, C-III, D-IV",
+          "A-III, B-I, C-IV, D-II",
+          "A-II, B-III, C-I, D-IV"
+        ],
+        "explanation": "समान न्याय और निःशुल्क कानूनी सहायता अनुच्छेद 39 A से संबंधित है। पर्यावरण की सुरक्षा अनुच्छेद 48 A से संबंधित है। काम करने का अधिकार अनुच्छेद 41 से संबंधित है। स्मारकों का संरक्षण अनुच्छेद 49 से संबंधित है। इस प्रकार, सही मिलान A-II, B-I, C-III, D-IV है।"
+      },
+      "qkey": "49992b7edaa2",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2018|B|52",
+      "serial_no": 52,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Indian Constitution",
+      "subtopic": "Emergency Provisions",
+      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2018",
+      "hindi": {
+        "question": "वे तीन आधार, जिन पर संविधान के अनुच्छेद 352 के अधीन आपात उद्घोषणा की जा सकती है, में शामिल नहीं हैं -",
+        "options": [
+          "आंतरिक अशांति",
+          "युद्ध",
+          "बाह्य आक्रमण",
+          "सशस्त्र विद्रोह"
+        ],
+        "explanation": "भारतीय संविधान के अनुच्छेद 352 के तहत राष्ट्रीय आपातकाल की घोषणा युद्ध, बाह्य आक्रमण या सशस्त्र विद्रोह के आधार पर की जा सकती है। मूल संविधान में 'आंतरिक अशांति' शब्द का प्रयोग किया गया था, लेकिन 44वें संविधान संशोधन (1978) द्वारा इसे 'सशस्त्र विद्रोह' से प्रतिस्थापित कर दिया गया ताकि इसके दुरुपयोग को रोका जा सके।"
+      },
+      "qkey": "e16308dafb55",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER COACH 2013|(single)|54",
+      "serial_no": 54,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Parliament",
+      "subtopic": "Rajya Sabha",
+      "source_cycle": "SCHOOL LECTURER COACH 2013",
+      "hindi": {
+        "question": "राज्य सभा के सदस्यों का निर्वाचन कितनी अवधि के लिए होता है",
+        "options": [
+          "3 वर्ष",
+          "4 वर्ष",
+          "5 वर्ष",
+          "6 वर्ष"
+        ],
+        "explanation": "राज्यसभा एक स्थायी सदन है और इसके सदस्य 6 वर्ष की अवधि के लिए चुने जाते हैं। प्रत्येक दो वर्ष में एक-तिहाई सदस्य सेवानिवृत्त होते हैं और उनके स्थान पर नए सदस्य चुने जाते हैं। यह व्यवस्था सदन की निरंतरता सुनिश्चित करती है।"
+      },
+      "qkey": "cf77ef917285",
+      "source_exam": "SCHOOL LECTURER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2021|15-09-2021|26",
+      "serial_no": 26,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Indian Polity & Foreign Policy",
+      "topic": "Public Policy & Rights",
+      "subtopic": "National Human Rights Commission",
+      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "राष्ट्रीय मानवाधिकार आयोग –\n(A) पीड़ित व्यक्ति की याचिका प्राप्त होने पर\nही मानवाधिकारों के हनन की शिकायत पर\nजाँच कर सकता है, स्वतः नहीं ।\n(B) मानवाधिकार के हनन का कोई मामला\nअगर किसी अदालत में लम्बित है तो\nउसमें किसी भी हालत में हस्तक्षेप नहीं कर\nसकता ।\nउपरोक्त कथनो में से कौन सा/से कथन सही है/हैं ?",
+        "options": [
+          "केवल (A)",
+          "केवल (B)",
+          "दोनों (A) और (B)",
+          "न (A) ना ही (B)"
+        ],
+        "explanation": "राष्ट्रीय मानवाधिकार आयोग पीड़ित व्यक्ति की याचिका के बिना भी मानवाधिकारों के हनन की शिकायत पर स्वतः संज्ञान लेकर जाँच कर सकता है। साथ ही, यदि मानवाधिकार के हनन का कोई मामला किसी अदालत में लंबित है, तो आयोग अदालत की अनुमति से उसमें हस्तक्षेप कर सकता है। इसलिए, दोनों कथन (A) और (B) गलत हैं।"
+      },
+      "qkey": "06cc671b2ff2",
+      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -3211,6 +6715,390 @@
       },
       "qkey": "06c110f3c4b0",
       "source_exam": "LIB__A.R.O. AND A.A.R.O",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||16|Master Question Paper, ED (X121)",
+      "serial_no": 16,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Interim government CM",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "निम्नलिखित में से कौन राजस्थान की अंतरिम सरकार के मुख्यमंत्री नहीं रहे ?",
+        "options": [
+          "श्री हीरालाल शास्त्री",
+          "श्री सी. एस. वैंकटाचारी",
+          "श्री टीकाराम पालीवाल",
+          "श्री जयनारायण व्यास"
+        ],
+        "explanation": "श्री टीकाराम पालीवाल राजस्थान की अंतरिम सरकार के मुख्यमंत्री नहीं रहे। वे राजस्थान के पहले निर्वाचित मुख्यमंत्री थे। श्री हीरालाल शास्त्री, श्री सी. एस. वैंकटाचारी और श्री जयनारायण व्यास राजस्थान के एकीकरण के दौरान विभिन्न चरणों में मुख्यमंत्री या अंतरिम सरकार के प्रमुख रहे थे।"
+      },
+      "qkey": "d15124b71163",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||96|Master Question Paper, ED (X121)",
+      "serial_no": 96,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "State Information Commission",
+      "subtopic": "",
+      "source_cycle": "Junior Instructor 2024",
+      "hindi": {
+        "question": "राजस्थान में राज्य सूचना आयोग का गठन सूचना के अधिकार अधिनियम की किस धारा के तहत किया गया ?",
+        "options": [
+          "धारा 15",
+          "धारा 5",
+          "धारा 18",
+          "धारा 25"
+        ],
+        "explanation": "राजस्थान में राज्य सूचना आयोग का गठन सूचना के अधिकार अधिनियम, 2005 की धारा 15 के तहत किया गया था। यह धारा राज्य सूचना आयोगों की स्थापना और उनके कार्यों से संबंधित प्रावधान करती है।"
+      },
+      "qkey": "d4f86bfb6195",
+      "source_exam": "JUNIOR INSTRUCTOR",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::LIB__PLATOON COMMANDER DIRECT RECRUITMENT::Platoon Commander Direct Recruitment 2025||142",
+      "serial_no": 142,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Administrative divisions area",
+      "subtopic": "",
+      "source_cycle": "Platoon Commander Direct Recruitment 2025",
+      "hindi": {
+        "question": "राजस्थान के निम्नलिखित प्रशासनिक संभागों में से क्षेत्रफल के हिसाब से सबसे बड़ा संभाग कौन-सा है?",
+        "options": [
+          "अजमेर संभाग",
+          "जोधपुर संभाग",
+          "भरतपुर संभाग",
+          "बीकानेर संभाग"
+        ],
+        "explanation": "राजस्थान के प्रशासनिक संभागों में से क्षेत्रफल के हिसाब से सबसे बड़ा संभाग जोधपुर संभाग है। यह राजस्थान के पश्चिमी भाग में स्थित है और इसमें कई बड़े जिले शामिल हैं।"
+      },
+      "qkey": "227f1ca5f066",
+      "source_exam": "LIB__PLATOON COMMANDER DIRECT RECRUITMENT",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RMSSB::PTI (PHYSICAL TRAINING INSTRUCTOR)::PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024|(single)|56",
+      "serial_no": 56,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Public Services Guarantee Act",
+      "subtopic": "",
+      "source_cycle": "PTI AND LIBRARIAN (SANSKRIT COLLEGE EDU.) 2024",
+      "hindi": {
+        "question": "राजस्थान लोक सेवाओं के प्रदान की गारन्टी\nअधिनियम, 2011 के सन्दर्भ में निम्नलिखित कथनों पर\nविचार कीजिए\n(1)\nकोई व्यक्ति जिसे नियत समय सीमा में कोई\nसेवा प्रदान नहीं की जाती है, नियत\nसमय-सीमा की समाप्ति होने की तारीख से\nसाठ दिवस के भीतर-भीतर प्रथम अपील\nअधिकारी को अपील दाखिल कर सकेगा।\n(II)\nप्रथम अपील अधिकारी के विनिश्चय के विरुद्ध\nऐसे विनिश्चय की तारीख से तीस दिवस के\nभीतर-भीतर द्वितीय अपील प्राधिकारी को\nद्वितीय अपील की जा सकेगी।\nसही विकल्प का चयन कीजिए -",
+        "options": [
+          "कथन (I) और (II) दोनों गलत हैं।",
+          "कथन (I) और (II) दोनों सही हैं।",
+          "केवल कथन (I) सही है।",
+          "केवल कथन (II) सही है।"
+        ],
+        "explanation": "राजस्थान लोक सेवाओं के प्रदान की गारन्टी अधिनियम, 2011 के अनुसार, प्रथम अपील अधिकारी को अपील नियत समय-सीमा की समाप्ति के 30 दिनों के भीतर दाखिल की जा सकती है, न कि 60 दिनों के भीतर। द्वितीय अपील प्राधिकारी को अपील प्रथम अपील के विनिश्चय की तारीख से 60 दिनों के भीतर की जा सकती है, न कि 30 दिनों के भीतर। इसलिए दोनों कथन गलत हैं।"
+      },
+      "qkey": "a0c6eaccf42c",
+      "source_exam": "PTI (PHYSICAL TRAINING INSTRUCTOR)",
+      "source_board": "RMSSB",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. ENGINEER COMB. COMP. EXAM::ASST. ENGINEER COMB. COMP. EXAM 2024|(single)|32",
+      "serial_no": 32,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Anti-Corruption Bodies",
+      "subtopic": "Rajasthan Lokayukta and Up-Lokayukta Act, 1973",
+      "source_cycle": "ASST. ENGINEER COMB. COMP. EXAM 2024",
+      "hindi": {
+        "question": "राजस्थान लोकायुक्त तथा उप-लोकायुक्त\nअधिनियम, 1973 से सम्बन्धित निम्नलिखित\nकथनों पर विचार कीजिए :\n(I) लोकायुक्त या उप-लोकायुक्त को संदेय\nवेतन, भत्ते और पेन्शन तथा उसकी सेवा की\nशर्तें क्रमशः वही होंगी जो राजस्थान उच्च\nन्यायालय के मुख्य न्यायाधिपति या\nन्यायाधिपति की होती हैं।\n(II) लोकायुक्त या उप-लोकायुक्त, राजस्थान\nउच्च न्यायालय के मुख्य न्यायाधिपति को\nसंबोधित अपने हस्ताक्षर युक्त त्याग-पत्र द्वारा\nअपना पद त्याग सकेगा ।\nसही उत्तर का चयन कीजिए :",
+        "options": [
+          "केवल ( ) सही है।",
+          "केवल (II) सही है।",
+          "( ) एवं (II) दोनों सही हैं।",
+          "न तो (I), न ही (II) सही है।"
+        ],
+        "explanation": "राजस्थान लोकायुक्त तथा उप-लोकायुक्त अधिनियम, 1973 के अनुसार, लोकायुक्त या उप-लोकायुक्त को संदेय वेतन, भत्ते और पेन्शन तथा उसकी सेवा की शर्तें क्रमशः वही होंगी जो राजस्थान उच्च न्यायालय के मुख्य न्यायाधिपति या न्यायाधिपति की होती हैं। दूसरा कथन सही नहीं है, क्योंकि वे राज्यपाल को संबोधित त्यागपत्र देते हैं।"
+      },
+      "qkey": "3090a8a7e615",
+      "source_exam": "ASST. ENGINEER COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. ENGINEER COMB. COMP. EXAM::ASST. ENGINEER COMB. COMP. EXAM 2024|(single)|70",
+      "serial_no": 70,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "State Finance Commission",
+      "subtopic": "Finance Commission Tenure",
+      "source_cycle": "ASST. ENGINEER COMB. COMP. EXAM 2024",
+      "hindi": {
+        "question": "भारत के संविधान के अनुच्छेद 243-आई और 243-वाई तथा राजस्थान पंचायती राज अधिनियम, 1994 और राजस्थान नगरपालिका अधिनियम, 2009 के उपबन्धों के अनुसरण में राज्यपाल राज्य वित्त आयोग का गठन करते हैं । दिनांक 01 अगस्त, 2025 को जारी अधिसूचना अनुसार राजस्थान में वित्त आयोग का गठन किया गया है। इसकी कालावधि अधिसूचना की तारीख से कितने समय की रहेगी ?",
+        "options": [
+          "डेढ़ वर्ष",
+          "दो वर्ष",
+          "पाँच वर्ष",
+          "तीन वर्ष"
+        ],
+        "explanation": "भारत के संविधान के अनुच्छेद 243-आई और 243-वाई तथा राजस्थान पंचायती राज अधिनियम, 1994 और राजस्थान नगरपालिका अधिनियम, 2009 के उपबंधों के अनुसरण में, राज्यपाल राज्य वित्त आयोग का गठन करते हैं। 01 अगस्त, 2025 को जारी अधिसूचना अनुसार गठित राजस्थान में वित्त आयोग की कालावधि अधिसूचना की तारीख से डेढ़ वर्ष की रहेगी।"
+      },
+      "qkey": "da3bbbebe08f",
+      "source_exam": "ASST. ENGINEER COMB. COMP. EXAM",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|28",
+      "serial_no": 28,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Human Rights Commission powers",
+      "subtopic": "",
+      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
+      "hindi": {
+        "question": "राजस्थान राज्य मानव अधिकार आयोग निम्नलिखित में से किन विषयों पर स्व-संज्ञान कार्यवाही कर सकता है ? I. बलात् श्रम II. जोखिमपूर्ण रोज़गार III. पारिस्थितिकीय असंतुलन IV. प्रदूषण से आसपास का वातावरण प्रभावित होना सही उत्तर का चयन कीजिए :",
+        "options": [
+          "केवल I, II एवं IV",
+          "केवल II, III एवं IV",
+          "केवल I, II एवं III",
+          "I, II, III एवं IV"
+        ],
+        "explanation": "राजस्थान राज्य मानवाधिकार आयोग मानवाधिकारों के उल्लंघन से संबंधित सभी विषयों पर स्व-संज्ञान कार्यवाही कर सकता है। इसमें बलात् श्रम, जोखिमपूर्ण रोज़गार, पारिस्थितिकीय असंतुलन और प्रदूषण से आसपास का वातावरण प्रभावित होना जैसे सभी विषय शामिल हैं, क्योंकि ये सभी मानव अधिकारों को प्रभावित करते हैं।"
+      },
+      "qkey": "9099859face6",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::COLLEGE LECTURER 2014|Paper Iii|86",
+      "serial_no": 86,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "District formation committee",
+      "subtopic": "",
+      "source_cycle": "COLLEGE LECTURER 2014",
+      "hindi": {
+        "question": "राजस्थान में नए ज़िलों के गठन के प्रस्तावों पर विचारार्थ उच्च स्तरीय समिति के अध्यक्ष हैं:",
+        "options": [
+          "आदर्श किशोर",
+          "मीनाक्षी हूजा",
+          "परमेश चंद्र",
+          "रवि माथुर"
+        ],
+        "explanation": "राजस्थान में नए जिलों के गठन के प्रस्तावों पर विचार करने के लिए गठित उच्च स्तरीय समिति के अध्यक्ष परमेश चंद्र थे। यह समिति नए जिलों की आवश्यकता और व्यवहार्यता का अध्ययन करती है। इसलिए, सही उत्तर विकल्प (3) है।"
+      },
+      "qkey": "e3de8fcd4811",
+      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. DIRECTOR::ASST. DIRECTOR 2024|Paper Ii|56",
+      "serial_no": 56,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Council of Ministers strength",
+      "subtopic": "",
+      "source_cycle": "ASST. DIRECTOR 2024",
+      "hindi": {
+        "question": "राजस्थान में मंत्रियों की अधिकतम संख्या (मुख्यमंत्री सहित) कितनी होती है?",
+        "options": [
+          "27",
+          "40",
+          "30",
+          "35"
+        ],
+        "explanation": "संविधान के अनुसार, किसी भी राज्य में मंत्रियों की अधिकतम संख्या (मुख्यमंत्री सहित) विधानसभा की कुल सदस्य संख्या के 15% से अधिक नहीं हो सकती। राजस्थान विधानसभा में 200 सीटें हैं, इसलिए 200 का 15% 30 होता है। अतः, राजस्थान में मंत्रियों की अधिकतम संख्या 30 होती है। इसलिए, विकल्प (3) सही उत्तर है।"
+      },
+      "qkey": "6b3acbad395f",
+      "source_exam": "LIB__ASST. DIRECTOR",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. DIRECTOR::ASST. DIRECTOR 2024|Paper Ii|59",
+      "serial_no": 59,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "No-confidence motion rules",
+      "subtopic": "",
+      "source_cycle": "ASST. DIRECTOR 2024",
+      "hindi": {
+        "question": "राजस्थान विधानसभा के प्रक्रिया तथा कार्य संचालन नियम के किस नियम में मंत्रिपरिषद् में अविश्वास प्रस्ताव से संबंधित प्रक्रिया का उल्लेख है?",
+        "options": [
+          "नियम 191",
+          "नियम 198",
+          "नियम 132",
+          "नियम 128"
+        ],
+        "explanation": "राजस्थान विधानसभा के प्रक्रिया तथा कार्य संचालन नियम के नियम 132 में मंत्रिपरिषद् में अविश्वास प्रस्ताव से संबंधित प्रक्रिया का उल्लेख है। यह नियम अविश्वास प्रस्ताव लाने और उस पर चर्चा करने के लिए आवश्यक प्रक्रियाओं को निर्धारित करता है। इसलिए, विकल्प (3) सही उत्तर है।"
+      },
+      "qkey": "97908018f482",
+      "source_exam": "LIB__ASST. DIRECTOR",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__ASST. STATISTICAL OFFICER::ASST. STATISTICAL OFFICER 2021|(single)|2",
+      "serial_no": 2,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "New districts committee",
+      "subtopic": "",
+      "source_cycle": "ASST. STATISTICAL OFFICER 2021",
+      "hindi": {
+        "question": "राजस्थान में नए जिलों के गठन एवं इनकी आवश्यकता का आकलन करने हेतु गठित समिति , अध्यक्ष किसे मनोनीत किया गया है?",
+        "options": [
+          "रामलुभाया",
+          "निरंजन आर्य",
+          "डी.बी. गुप्ता",
+          "उषा शर्मा"
+        ],
+        "explanation": "राजस्थान में नए जिलों के गठन और उनकी आवश्यकता का आकलन करने के लिए एक समिति का गठन किया गया था। इस समिति के अध्यक्ष के रूप में रामलुभाया को मनोनीत किया गया था। उनकी अध्यक्षता में समिति ने नए जिलों के गठन पर अपनी सिफारिशें प्रस्तुत कीं।"
+      },
+      "qkey": "2edcece0ed6e",
+      "source_exam": "LIB__ASST. STATISTICAL OFFICER",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::LIB__DEPUTY JAILOR::DEPUTY JAILOR 2024|Paper Ii|36",
+      "serial_no": 36,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Governors of Rajasthan",
+      "subtopic": "",
+      "source_cycle": "DEPUTY JAILOR 2024",
+      "hindi": {
+        "question": "राजस्थान के निम्नलिखित राज्यपालों (कार्यकारी) में से किसका कार्यकाल सबसे अधिक रहा है ?",
+        "options": [
+          "जस्टिस जगतनारायण",
+          "जस्टिस वेदपाल त्यागी",
+          "जस्टिस के.डी. शर्मा",
+          "जस्टिस पी.के. बनर्जी"
+        ],
+        "explanation": "राजस्थान के राज्यपालों (कार्यकारी) में से जस्टिस के.डी. शर्मा का कार्यकाल सबसे अधिक रहा है। उन्होंने कई बार कार्यवाहक राज्यपाल के रूप में कार्य किया, जिससे उनका कुल कार्यकाल अन्य कार्यकारी राज्यपालों से अधिक हो गया।"
+      },
+      "qkey": "b412a3c02929",
+      "source_exam": "LIB__DEPUTY JAILOR",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2021|(single)|76",
+      "serial_no": 76,
+      "correct_option": 1,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Local Self Government",
+      "subtopic": "National Gram Swaraj Abhiyan",
+      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2021",
+      "hindi": {
+        "question": "राजस्थान में राष्ट्रीय ग्राम स्वराज अभियान के सन्दर्भ\nमें निम्नलिखित में से कौन-सा कथन गलत है?",
+        "options": [
+          "इस योजना का नारा है 'आपणी योजना आपणो विकास' है।",
+          "इस योजना में वित्त पोषण के लिये केन्द्र व राज्य सरकार के बीच 60:40 के अनुपात में हिस्सेदारी होती है।",
+          "इस योजना में विशेष ध्यान जनप्रतिनिधियों एवं कार्मिकों के क्षमता संवर्धन पर है।",
+          "पंचायत सशक्तिकरण अभियान का ही नाम बदलकर राष्ट्रीय ग्राम स्वराज अभियान क्रिया गया है।"
+        ],
+        "explanation": "राष्ट्रीय ग्राम स्वराज अभियान (RGSA) का मुख्य उद्देश्य पंचायती राज संस्थाओं की क्षमताओं को मजबूत करना है। इस योजना का नारा 'सबकी योजना सबका विकास' है, न कि 'आपणी योजना आपणो विकास'। इसलिए, दिया गया कथन गलत है।"
+      },
+      "qkey": "a1b651259797",
+      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|C|33",
+      "serial_no": 33,
+      "correct_option": 2,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Chief Minister and Cabinet",
+      "subtopic": "Council of Ministers Composition",
+      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
+      "hindi": {
+        "question": "31 मई 2025 को यथाविद्यमान राजस्थान मंत्रिपरिषद्\nके संबंध में निम्नलिखित में से कौनसा कथन सही नहीं\nहै?",
+        "options": [
+          "राजस्थान के वर्तमान मंत्रिपरिषद् में 06 और मंत्रियों की नियुक्ति की जा सकती है।",
+          "वर्तमान मंत्रिपरिषद् में कुल 10 राज्यमंत्री हैं, जिनमें से 05 राज्य मंत्रियों के पास स्वतंत्र प्रभार है।",
+          "वर्तमान राजस्थान मंत्रिपरिषद् में दो महिला सदस्य हैं।",
+          "राजस्थान के वर्तमान मंत्रिपरिषद् में मुख्यमंत्री सहित कुल 24 सदस्य हैं।"
+        ],
+        "explanation": "यह प्रश्न राजस्थान के मंत्रिपरिषद् की संरचना से संबंधित है। दिए गए विकल्पों में से, \"वर्तमान मंत्रिपरिषद् में कुल 10 राज्यमंत्री हैं, जिनमें से 05 राज्य मंत्रियों के पास स्वतंत्र प्रभार है\" कथन सही नहीं है। मंत्रिपरिषद् की वास्तविक संरचना और राज्यमंत्रियों की संख्या तथा उनके प्रभार समय-समय पर बदलते रहते हैं, और यह विशेष आंकड़ा उस समय की स्थिति के अनुसार गलत है।"
+      },
+      "qkey": "c4678e76f596",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|7",
+      "serial_no": 7,
+      "correct_option": 3,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Office of Governor",
+      "subtopic": "Powers and Functions of Governor",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "राजस्थान का राज्यपाल निम्नांकित में से किस विश्वविद्यालय का कुलाधिपति नहीं है ?",
+        "options": [
+          "राजस्थान तकनीकी विश्वविद्यालय, कोटा",
+          "जगद्‌गुरु रामानंदाचार्य राजस्थान संस्कृत विश्वविद्यालय, जयपुर",
+          "राजस्थान केंद्रीय विश्वविद्यालय, अजमेर",
+          "हरिदेव जोशी पत्रकारिता और जनसंचार विश्वविद्यालय, जयपुर"
+        ],
+        "explanation": "राजस्थान का राज्यपाल राज्य के अधिकांश विश्वविद्यालयों का कुलाधिपति होता है। हालांकि, राजस्थान केंद्रीय विश्वविद्यालय, अजमेर, एक केंद्रीय विश्वविद्यालय है, और इसके कुलाधिपति का पद भारत के राष्ट्रपति के अधीन होता है, न कि राज्य के राज्यपाल के।"
+      },
+      "qkey": "e39236f5b1dc",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
+      "source_board": "RPSC",
+      "is_cross_pool": true
+    },
+    {
+      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM 2022|C|18",
+      "serial_no": 18,
+      "correct_option": 4,
+      "is_deleted": false,
+      "subject": "Rajasthan Polity",
+      "topic": "Administrative Structure",
+      "subtopic": "Jurisdiction of Administrative Tribunals",
+      "source_cycle": "SR. TEACHER GR II COMP. EXAM 2022",
+      "hindi": {
+        "question": "राजस्थान सिविल सेवा अपीलीय अधिकरण की जयपुर पीठ के क्षेत्राधिकार में आने वाले संभागों के सही समूह को पहचानिए ।",
+        "options": [
+          "भरतपुर, बीकानेर, जोधपुर, जयपुर",
+          "अजमेर, जोधपुर, बीकानेर, जयपुर",
+          "उदयपुर, अजमेर, जयपुर, कोटा",
+          "जयपुर, अजमेर, भरतपुर, कोटा"
+        ],
+        "explanation": "राजस्थान सिविल सेवा अपीलीय अधिकरण की जयपुर पीठ के क्षेत्राधिकार में जयपुर, अजमेर, भरतपुर और कोटा संभाग आते हैं। यह अधिकरण राज्य कर्मचारियों से संबंधित सेवा मामलों की सुनवाई करता है।"
+      },
+      "qkey": "9b59a979aff3",
+      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
       "source_board": "RPSC",
       "is_cross_pool": true
     }
