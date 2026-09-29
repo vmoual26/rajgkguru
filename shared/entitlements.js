@@ -3,8 +3,14 @@
 // new isolated project's Firestore -- see firebase-config.js.
 
 import { doc, getDoc, setDoc, deleteDoc, deleteField, arrayUnion, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, showAuthModal, authReady } from "./auth.js";
+import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, secureAccountWithEmail, friendlyError } from "./auth.js?v=2";
 import { CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
+
+function escapeHtml(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
 
 /** Every purchase (single exam, 3-bundle member, or the All-Access Pass) is stored the same
  * way: purchases.{key} = "YYYY-MM-DD" (expiry date, written by the webhook), or `true` for a
@@ -253,20 +259,130 @@ function loadRazorpayScript() {
   });
 }
 
+/** Pay-first checkout details modal (2026-09-29, replaces requiring full registration
+ * before checkout -- see main.py's module docstring for why). Collects just enough to
+ * create the order and later email a receipt; never resolves on close/cancel, matching
+ * showAuthModal's convention -- the caller's flow simply stops there. */
+function showCheckoutDetailsModal({ title, prefillEmail } = {}) {
+  return new Promise((resolve) => {
+    const backdrop = document.createElement("div");
+    backdrop.className = "auth-backdrop";
+    document.body.appendChild(backdrop);
+    backdrop.innerHTML = `
+      <div class="auth-modal">
+        <button class="auth-close" aria-label="Close">&times;</button>
+        <h2>${escapeHtml(title || "Buy Access")}</h2>
+        <p class="sub">भुगतान से पहले अपनी जानकारी भरें — अभी पूरा खाता बनाने की ज़रूरत नहीं।</p>
+        <div class="auth-field"><label>पूरा नाम</label><input type="text" id="co-name" autocomplete="name"></div>
+        <div class="auth-field"><label>ईमेल</label><input type="email" id="co-email" autocomplete="email" value="${escapeHtml(prefillEmail || "")}"></div>
+        <div class="auth-field"><label>मोबाइल नंबर</label><input type="tel" id="co-mobile" pattern="[6-9][0-9]{9}" maxlength="10" autocomplete="tel"></div>
+        <div class="auth-error" id="co-error"></div>
+        <button class="btn btn-primary btn-block" id="co-submit">भुगतान पर जाएं (Proceed to Pay)</button>
+        <div class="auth-toggle">पहले से खाता है? <a href="#" id="co-signin">Sign in करें</a></div>
+      </div>`;
+    backdrop.querySelector(".auth-close").onclick = () => backdrop.remove();
+    backdrop.addEventListener("click", (e) => { if (e.target === backdrop) backdrop.remove(); });
+    backdrop.querySelector("#co-signin").onclick = async (e) => {
+      e.preventDefault();
+      backdrop.remove();
+      const user = await showAuthModal({ reason: `${title} खरीदने के लिए साइन इन करें।` });
+      if (user) resolve({ user, name: "", email: user.email || "", phone: "" });
+    };
+    backdrop.querySelector("#co-submit").onclick = async () => {
+      const name = backdrop.querySelector("#co-name").value.trim();
+      const email = backdrop.querySelector("#co-email").value.trim().toLowerCase();
+      const phone = backdrop.querySelector("#co-mobile").value.trim();
+      const errEl = backdrop.querySelector("#co-error");
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = "कृपया एक सही ईमेल दर्ज करें।"; return; }
+      if (!/^[6-9][0-9]{9}$/.test(phone)) { errEl.textContent = "कृपया एक सही 10-अंकों का मोबाइल नंबर दर्ज करें।"; return; }
+      try {
+        const user = await ensureAnyUser();
+        // Best-effort -- a profile write failing here must never block checkout; the same
+        // contact info also rides in the order's notes, which the webhook actually relies on.
+        setDoc(doc(db, "users", user.uid), { name, email, mobile: phone }, { merge: true }).catch(() => {});
+        backdrop.remove();
+        resolve({ user, name, email, phone });
+      } catch (e) {
+        errEl.textContent = friendlyError(e);
+      }
+    };
+  });
+}
+
+/** Post-payment "secure your account" prompt for a student who checked out anonymously
+ * (see ensureAnyUser). Purely optional from a business standpoint -- access was already
+ * granted by the webhook before this ever shows -- it only affects whether they can sign
+ * back in on another device later. Never throws; a skip or failure just leaves the
+ * anonymous session as the only way in for now. */
+function promptSecureAccount(email) {
+  return new Promise((resolve) => {
+    const backdrop = document.createElement("div");
+    backdrop.className = "auth-backdrop";
+    document.body.appendChild(backdrop);
+    backdrop.innerHTML = `
+      <div class="auth-modal">
+        <button class="auth-close" aria-label="Close">&times;</button>
+        <h2>🎉 भुगतान सफल!</h2>
+        <p class="sub">अपना खाता सुरक्षित करें ताकि आप किसी भी डिवाइस से दोबारा साइन इन कर सकें। ${escapeHtml(email)} पर एक कोड भेजा गया है।</p>
+        <div class="auth-field"><label>वेरिफिकेशन कोड (6 अंक)</label><input type="text" id="sa-otp" inputmode="numeric" maxlength="6" autocomplete="one-time-code"></div>
+        <div class="auth-field"><label>पासवर्ड बनाएं (कम से कम 6 अक्षर)</label><input type="password" id="sa-password" minlength="6"></div>
+        <div class="auth-error" id="sa-error"></div>
+        <button class="btn btn-primary btn-block" id="sa-submit">सत्यापित करें और सुरक्षित करें</button>
+        <div class="auth-toggle"><a href="#" id="sa-skip">बाद में करें</a></div>
+      </div>`;
+    const close = () => { backdrop.remove(); resolve(); };
+    backdrop.querySelector(".auth-close").onclick = close;
+    backdrop.querySelector("#sa-skip").onclick = (e) => { e.preventDefault(); close(); };
+    backdrop.addEventListener("click", (e) => { if (e.target === backdrop) close(); });
+    backdrop.querySelector("#sa-submit").onclick = async () => {
+      const code = backdrop.querySelector("#sa-otp").value.trim();
+      const password = backdrop.querySelector("#sa-password").value;
+      const errEl = backdrop.querySelector("#sa-error");
+      if (password.length < 6) { errEl.textContent = "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।"; return; }
+      try {
+        const verifyRes = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/verify_registration_otp`, {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, code }),
+        });
+        const verifyBody = await verifyRes.json();
+        if (!verifyRes.ok || !verifyBody.verified) throw new Error(verifyBody.error || "कोड सत्यापित नहीं हो सका।");
+        await secureAccountWithEmail(email, password);
+        close();
+      } catch (e) {
+        errEl.textContent = e.message?.startsWith("auth/") || e.code ? friendlyError(e) : (e.message || "कुछ गलत हो गया।");
+      }
+    };
+    // Fire the OTP send the moment this modal opens -- the student already proved they own
+    // this email once at checkout (they received the order confirmation there), but
+    // re-verifying before linking it to a password keeps the same guarantee register.html
+    // relies on: nobody can claim an account with an email they don't control.
+    fetch(`${CLOUD_FUNCTIONS_BASE_URL}/send_registration_otp`, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }),
+    }).catch(() => {});
+  });
+}
+
 /**
- * Full purchase flow: prompts sign-in if needed, creates a server-side order (price is
- * looked up server-side from {plan, examSlugs, durationMonths} -- never sent as an amount
- * from here, so a tampered request can't buy at a different price), opens Razorpay
- * Checkout, and on success tells the caller the webhook is processing (entitlement isn't
- * instant -- it lands a few seconds after payment, once the webhook fires).
+ * Full purchase flow (pay-first, 2026-09-29): a new student is never forced through full
+ * registration before reaching payment -- see showCheckoutDetailsModal above and main.py's
+ * module docstring. Creates a server-side order (price is looked up server-side from
+ * {plan, examSlugs, durationMonths} -- never sent as an amount from here, so a tampered
+ * request can't buy at a different price), opens Razorpay Checkout, and on success tells
+ * the caller the webhook is processing (entitlement isn't instant -- it lands a few
+ * seconds after payment, once the webhook fires) and offers to secure the account.
  *   plan: "single" | "bundle3" | "all_access"
  *   examSlugs: [examSlug] for single, exactly 3 distinct slugs for bundle3, [] for all_access
  */
 export async function startPurchase({ plan, examSlugs = [], durationMonths = 12, title }, { onProcessing, onError } = {}) {
   await authReady;
   let user = getCurrentUser();
-  if (!user) {
-    user = await showAuthModal({ reason: `${title} खरीदने के लिए पहले साइन इन करें।` });
+  let contact = { name: "", email: user?.email || "", phone: "" };
+
+  if (!user || user.isAnonymous) {
+    const details = await showCheckoutDetailsModal({ title, prefillEmail: user?.email });
+    if (!details) return; // modal closed without completing -- matches showAuthModal's convention
+    user = details.user;
+    contact = { name: details.name, email: details.email, phone: details.phone };
   }
 
   try {
@@ -278,7 +394,10 @@ export async function startPurchase({ plan, examSlugs = [], durationMonths = 12,
     const orderRes = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/create_test_series_order`, {
       method: "POST",
       headers: { "Content-Type": "application/json", "Authorization": `Bearer ${idToken}` },
-      body: JSON.stringify({ plan, exam_slugs: examSlugs, duration_months: durationMonths }),
+      body: JSON.stringify({
+        plan, exam_slugs: examSlugs, duration_months: durationMonths,
+        name: contact.name, email: contact.email, phone: contact.phone,
+      }),
     });
     if (!orderRes.ok) {
       const body = await orderRes.json().catch(() => ({}));
@@ -293,9 +412,12 @@ export async function startPurchase({ plan, examSlugs = [], durationMonths = 12,
       currency: order.currency,
       name: "RAJ G.K. GURU",
       description: `${title} — ${durationMonths} महीने`,
-      prefill: { email: user.email },
+      prefill: { email: contact.email, contact: contact.phone },
       handler: function () {
         onProcessing?.();
+        // Access is already granted by the webhook regardless of what happens below --
+        // this is purely about making the account recoverable on another device later.
+        if (user.isAnonymous && contact.email) promptSecureAccount(contact.email);
       },
       theme: { color: "#9333ea" },
     });

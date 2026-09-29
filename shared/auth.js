@@ -7,6 +7,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
 import {
   getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut,
+  signInAnonymously, linkWithCredential, EmailAuthProvider,
 } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
 import { firebaseConfig } from "./firebase-config.js?v=2";
@@ -38,6 +39,34 @@ export function signOutUser() {
   return signOut(auth);
 }
 
+/** Pay-first checkout (2026-09-29, see main.py's module docstring for the full flow):
+ * returns the current user if any exists (a real account OR a still-anonymous one from an
+ * earlier, abandoned attempt), otherwise silently creates a Firebase ANONYMOUS user --
+ * no password, no screen, resolves in under a second. This is what lets a brand-new
+ * student reach the payment screen without first completing full registration; the uid
+ * this returns is what the order (and later the entitlement) is tied to. */
+export async function ensureAnyUser() {
+  await authReady;
+  const existing = getCurrentUser();
+  if (existing) return existing;
+  const cred = await signInAnonymously(auth);
+  return cred.user;
+}
+
+/** Upgrades the CURRENTLY signed-in anonymous user (from ensureAnyUser) to a permanent
+ * email+password account, keeping the same uid -- so purchases already granted to that
+ * uid stay attached, no data migration needed. Call only after the email has been
+ * verified via send_registration_otp/verify_registration_otp, same as register.html.
+ * Throws auth/email-already-in-use if that email already has a real account elsewhere --
+ * callers should catch this and offer "sign in instead" rather than treat it as a bug. */
+export async function secureAccountWithEmail(email, password) {
+  const user = getCurrentUser();
+  if (!user) throw new Error("No active session to secure");
+  const credential = EmailAuthProvider.credential(email, password);
+  const result = await linkWithCredential(user, credential);
+  return result.user;
+}
+
 function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -46,13 +75,14 @@ function escapeHtml(s) {
 
 const FRIENDLY_ERRORS = {
   "auth/email-already-in-use": "यह ईमेल पहले से रजिस्टर्ड है — Sign in करें।",
+  "auth/credential-already-in-use": "यह ईमेल पहले से किसी और खाते से जुड़ा है — Sign in करें।",
   "auth/invalid-email": "कृपया एक सही ईमेल दर्ज करें।",
   "auth/weak-password": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।",
   "auth/invalid-credential": "ईमेल या पासवर्ड गलत है।",
   "auth/too-many-requests": "बहुत सारे प्रयास — कृपया कुछ देर बाद कोशिश करें।",
 };
 
-function friendlyError(err) {
+export function friendlyError(err) {
   return FRIENDLY_ERRORS[err?.code] || "कुछ गलत हो गया, दोबारा कोशिश करें।";
 }
 

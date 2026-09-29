@@ -5,7 +5,7 @@
 // across every HTML file. Visual language (gradient, logo, footer shape)
 // takes inspiration from aldhruacademy.com's own design; the multi-page nav
 // structure itself does not, since that site is single-page.
-import { renderAuthBadge } from "./auth.js";
+import { renderAuthBadge } from "./auth.js?v=2";
 import { captureRefFromUrl, recordReferralJoin } from "./community.js?v=1";
 
 // Individual exam links deliberately stay OUT of this fixed nav -- as the

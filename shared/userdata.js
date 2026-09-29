@@ -5,7 +5,7 @@
 // Cloud writes are always best-effort: a failure never blocks practice.
 
 import { doc, getDoc, setDoc, getDocs, collection, deleteDoc, increment, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, authReady } from "./auth.js";
+import { db, getCurrentUser, authReady } from "./auth.js?v=2";
 
 const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };

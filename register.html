@@ -91,7 +91,7 @@
 
 <script type="module">
   import { renderHeader, renderFooter } from "./shared/chrome.js";
-  import { auth, db, showAuthModal } from "./shared/auth.js";
+  import { auth, db, showAuthModal, secureAccountWithEmail } from "./shared/auth.js?v=2";
   import { CLOUD_FUNCTIONS_BASE_URL } from "./shared/firebase-config.js";
   import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
   import { doc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
@@ -193,8 +193,15 @@
       if (!verifyRes.ok || !verifyBody.verified) throw new Error(verifyBody.error || "कोड सत्यापित नहीं हो सका।");
 
       const { name, exam, mobile, email, password } = pendingRegistration;
-      const cred = await createUserWithEmailAndPassword(auth, email, password);
-      await setDoc(doc(db, "users", cred.user.uid), {
+      // A student who already checked out via the pay-first flow (shared/entitlements.js)
+      // but skipped "secure your account" is signed in ANONYMOUSLY in this browser -- if we
+      // called createUserWithEmailAndPassword here it would silently create a second,
+      // disconnected account and their purchase (tied to the anonymous uid) would never
+      // show up on it. Upgrading the existing session in place keeps the same uid instead.
+      const user = auth.currentUser?.isAnonymous
+        ? await secureAccountWithEmail(email, password)
+        : (await createUserWithEmailAndPassword(auth, email, password)).user;
+      await setDoc(doc(db, "users", user.uid), {
         name, mobile, examInterest: exam, registeredAt: serverTimestamp(),
       }, { merge: true });
 
