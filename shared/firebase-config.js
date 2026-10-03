@@ -26,7 +26,7 @@ export const firebaseConfig = {
 export const CLOUD_FUNCTIONS_BASE_URL = "https://asia-south1-aldhru-rajgkguru.cloudfunctions.net";
 
 // cloud_functions/paid_pdf -- a separate Cloud RUN service (not a Cloud Function: WeasyPrint
-// needs system libraries a bare Cloud Function doesn't provide), so it has its own URL, filled
-// in once it's deployed (see DEPLOYMENT.md). Empty until then -- callers must check this before
-// showing a "Download PDF" button, so the feature stays hidden rather than broken.
+// needs system libraries a bare Cloud Function doesn't provide), so it has its own URL (deployed,
+// asia-south1). Callers still check it is non-empty before showing the "Download PDF" button.
+// Paid PDF is deployed (https://paid-pdf-56158132200.asia-south1.run.app) but deliberately switched OFF for launch: empty = button hidden.
 export const PAID_PDF_URL = "";
