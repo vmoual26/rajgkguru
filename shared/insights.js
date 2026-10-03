@@ -11,9 +11,11 @@ import { getCurrentUser, authReady, showAuthModal } from "./auth.js?v=2";
 import { PAID_PDF_URL } from "./firebase-config.js?v=2";
 
 // Load the feature stylesheet on every page that uses these tools (root-absolute: works on the live domain and the local preview alike).
-(() => { if (!document.querySelector('link[data-fx-css]')) { const l = document.createElement("link"); l.rel = "stylesheet"; l.href = "/shared/features.css?v=1"; l.dataset.fxCss = "1"; document.head.appendChild(l); } })();
+(() => { if (!document.querySelector('link[data-fx-css]')) { const l = document.createElement("link"); l.rel = "stylesheet"; l.href = "/shared/features.css?v=2"; l.dataset.fxCss = "1"; document.head.appendChild(l); } })();
 
 const E = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+// Shortens question text for a list without cutting a $formula$ in half (or an escaped &entity;): clip first, escape after.
+const clipMath = (s, n) => { s = String(s ?? ""); if (s.length <= n) return s; let t = s.slice(0, n); if ((t.match(/\$/g) || []).length % 2) t = t.slice(0, t.lastIndexOf("$")); return t; };
 const NL = String.fromCharCode(10);
 const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
 const fmtT = (sec) => { const s = Math.round(sec); const m = Math.floor(s / 60); return m > 0 ? `${m}मि ${s % 60}से` : `${s}से`; };
@@ -444,7 +446,7 @@ async function openSearch(ctx) {
       }
       out.innerHTML = hits.length ? hits.map((q, i) => {
         const l = q.hindi || q.english;
-        return `<div class="fx-hit"><div>${E(l.question).slice(0, 260)}</div><div class="small">✔ ${E(l.options[q.correct_option - 1] || "")}${l.explanation ? ` — ${E(l.explanation).slice(0, 160)}…` : ""}</div><button class="fx-qbtn" data-i="${i}">${isBookmarked(ctx.examSlug, q.id) ? "★ बुकमार्क हटाएं" : "☆ बुकमार्क"}</button></div>`;
+        return `<div class="fx-hit"><div>${E(clipMath(l.question, 260))}</div><div class="small">✔ ${E(l.options[q.correct_option - 1] || "")}${l.explanation ? ` — ${E(clipMath(l.explanation, 160))}…` : ""}</div><button class="fx-qbtn" data-i="${i}">${isBookmarked(ctx.examSlug, q.id) ? "★ बुकमार्क हटाएं" : "☆ बुकमार्क"}</button></div>`;
       }).join("") : `<p class="small">कुछ नहीं मिला।</p>`;
       out.querySelectorAll("[data-i]").forEach((b) => { b.onclick = async () => { const on = await toggleBookmark(ctx.examSlug, hits[Number(b.dataset.i)]); b.textContent = on ? "★ बुकमार्क हटाएं" : "☆ बुकमार्क"; }; });
     }, 200);

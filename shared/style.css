@@ -81,7 +81,7 @@ body {
   z-index: 20;
 }
 .site-header-inner {
-  max-width: 960px;
+  max-width: 1160px;   /* the expanded header content is ~1100px wide; 960 made it spill out on the right */
   margin: 0 auto;
   padding: 12px 16px;
   display: flex;
@@ -105,7 +105,9 @@ body {
   font-size: 1.1rem; padding: 6px 10px; cursor: pointer; color: var(--text);
 }
 
-@media (max-width: 720px) {
+/* The full header (brand + 8 links + language + sign-in/register) needs ~1190px; below that it collapses to the menu button
+   (it used to collapse only under 720px and overflowed sideways on tablets / small laptops). */
+@media (max-width: 1180px) {
   .nav-toggle { display: inline-flex; order: 2; }
   .site-auth { order: 3; margin-left: 0; }
   .site-nav {
@@ -288,3 +290,9 @@ body {
 body.has-fs-toggle #btn-full { display: none; }
 body.fs-mode #site-header, body.fs-mode #site-footer { display: none; }
 body.fs-mode .fs-row { margin-top: 10px; }
+
+/* ---------- Maths in question content (shared/mathfmt.js) ---------- */
+.mf-tex:not(.mf-done) { visibility: hidden; }          /* raw $...$ is never shown while KaTeX loads */
+.mf-tex .katex { font-size: 1.06em; }
+.question-text, .option, .explanation-box, .q-line { overflow-wrap: anywhere; }
+.question-text sup, .option sup, .explanation-box sup { font-size: 0.75em; line-height: 0; }

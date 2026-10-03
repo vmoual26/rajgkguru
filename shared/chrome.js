@@ -124,6 +124,7 @@ export function renderFooter(container, { showQuery = false } = {}) {
 captureRefFromUrl();          // remember ?ref=CODE from an invite link
 recordReferralJoin();         // credit the referrer once the new student is signed in
 import("./i18n.js?v=3").then((m) => m.initI18n()).catch(() => {});   // Hindi <-> English UI toggle
+import("./mathfmt.js?v=1").catch(() => {});                              // formulas ($...$ LaTeX, powers, units) in question text
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));

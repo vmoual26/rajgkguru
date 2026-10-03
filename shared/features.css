@@ -84,3 +84,10 @@ html { scroll-behavior: smooth; } .zone { scroll-margin-top: 56px; }
     display: block; font-size: 14px; padding: 40px 20px; text-align: center;
   }
 }
+
+/* Plans comparison table: let the tick/“सभी परीक्षाएं” cells wrap on phones instead of forcing the page wider than the screen. */
+.fx-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 560px) {
+  .fx-table { font-size: 0.8rem; min-width: 340px; }
+  .fx-table th, .fx-table td { padding: 6px 4px; }
+}

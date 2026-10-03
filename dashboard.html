@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared/style.css?v=3">
-<link rel="stylesheet" href="shared/features.css?v=1">
+<link rel="stylesheet" href="shared/features.css?v=2">
 <style>
   .dash-wrap { max-width: 860px; margin: 32px auto; }
   .exam-card {
@@ -67,7 +67,9 @@
     const { exams } = await fetch("exams.json").then((r) => r.json());
     const live = exams.filter((e) => e.status === "live");
     const titleOf = Object.fromEntries(live.map((e) => [e.slug, e.title]));
-    const [gam, allAccess, myPurchases, myDevices] = await Promise.all([syncGam(), getAllAccess(), syncPlans(), getMyPurchases(), listDevices()]);
+    // (five promises, five slots: syncPlans() is only run for its side effect -- skipping its slot shifted every
+    //  later result by one and crashed the whole page on `myPurchases.length`)
+    const [gam, allAccess, , myPurchases, myDevices] = await Promise.all([syncGam(), getAllAccess(), syncPlans(), getMyPurchases(), listDevices()]);
 
     // exams the student has any activity in: cloud attempts + this browser's stats/history
     let attempts = [];
