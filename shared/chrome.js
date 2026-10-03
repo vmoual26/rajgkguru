@@ -147,3 +147,65 @@ if (!navigator.onLine) window.addEventListener("DOMContentLoaded", () => showOff
 window.addEventListener("beforeprint", () => {
   document.body.classList.toggle("print-block-test", !!(document.querySelector(".question-card") || document.getElementById("results-extras")));
 });
+
+// ---------------------------------------------------------------- full-screen / focus mode on the test player
+// A button next to the test title makes the browser full screen (app-like, no address bar). Browsers that have no
+// Fullscreen API (iPhone Safari) or refuse it get "focus mode": the site header/footer are simply hidden.
+function initFullscreenToggle() {
+  if (!/\/test\.html$/.test(location.pathname)) return;
+  const h1 = document.getElementById("test-title");
+  if (!h1 || document.getElementById("fs-toggle")) return;
+  const root = document.documentElement;
+  const request = root.requestFullscreen || root.webkitRequestFullscreen;
+  const exit = document.exitFullscreen || document.webkitExitFullscreen;
+  const native = !!(request && exit && (document.fullscreenEnabled ?? document.webkitFullscreenEnabled));
+  let en = false;
+  try { en = localStorage.getItem("lang") === "en"; } catch (e) {}
+  const T = en
+    ? { on: "Exit full screen", off: "Full screen", softOn: "Exit focus mode", softOff: "Focus mode" }
+    : { on: "फुल स्क्रीन बंद करें", off: "फुल स्क्रीन", softOn: "फ़ोकस मोड बंद करें", softOff: "फ़ोकस मोड" };
+
+  const row = document.createElement("div");
+  row.className = "fs-row";
+  h1.parentNode.insertBefore(row, h1);
+  row.appendChild(h1);
+  const btn = document.createElement("button");
+  btn.type = "button"; btn.id = "fs-toggle"; btn.className = "fs-toggle"; btn.setAttribute("data-notranslate", "");
+  row.appendChild(btn);
+
+  document.body.classList.add("has-fs-toggle");   // hides the old unlabelled ⛶ icon in the player bar (one control, not two)
+  let soft = false;
+  const nativeOn = () => !!(document.fullscreenElement || document.webkitFullscreenElement);
+  const isOn = () => nativeOn() || soft;
+  function sync() {
+    const on = isOn();
+    document.body.classList.toggle("fs-mode", on);
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    const label = native && !soft ? (on ? T.on : T.off) : (on ? T.softOn : T.softOff);
+    btn.innerHTML = `<span aria-hidden="true">${on ? "✕" : "⛶"}</span><span>${label}</span>`;
+    btn.title = label;
+  }
+  // Ask the browser for real full screen; if it refuses, or silently ignores the request (in-app browsers / WebViews),
+  // fall back to focus mode after a short wait instead of leaving the button looking dead.
+  const enterNative = () => new Promise((resolve) => {
+    let t;
+    const done = () => {
+      document.removeEventListener("fullscreenchange", done); document.removeEventListener("webkitfullscreenchange", done);
+      clearTimeout(t); resolve(nativeOn());
+    };
+    document.addEventListener("fullscreenchange", done); document.addEventListener("webkitfullscreenchange", done);
+    t = setTimeout(done, 700);
+    try { const p = request.call(root); if (p && p.catch) p.catch(done); } catch (e) { done(); }
+  });
+  btn.addEventListener("click", async () => {
+    if (soft) soft = false;
+    else if (nativeOn()) { try { await exit.call(document); } catch (e) {} }
+    else if (!native || !(await enterNative())) soft = true;
+    sync();
+  });
+  document.addEventListener("fullscreenchange", sync);
+  document.addEventListener("webkitfullscreenchange", sync);
+  sync();
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initFullscreenToggle);
+else initFullscreenToggle();

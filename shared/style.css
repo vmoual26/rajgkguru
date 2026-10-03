@@ -275,3 +275,16 @@ body {
 
 .footer-legal { font-size: 0.8rem; margin: 8px 0 4px; }
 .footer-legal a { color: inherit; opacity: 0.85; text-decoration: underline; }
+
+/* ---------- Test player: full-screen / focus-mode toggle (shared/chrome.js) ---------- */
+.fs-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 20px 0 4px; }
+.fs-row #test-title { margin: 0 !important; flex: 1; min-width: 0; }
+.fs-toggle {
+  display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0; padding: 7px 14px; border-radius: 999px;
+  border: 1.5px solid var(--primary); background: var(--surface); color: var(--primary);
+  font: inherit; font-weight: 650; font-size: 0.85rem; cursor: pointer; transition: background 0.15s, color 0.15s;
+}
+.fs-toggle:hover, .fs-toggle[aria-pressed="true"] { background: var(--primary); color: #fff; }
+body.has-fs-toggle #btn-full { display: none; }
+body.fs-mode #site-header, body.fs-mode #site-footer { display: none; }
+body.fs-mode .fs-row { margin-top: 10px; }
