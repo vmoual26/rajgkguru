@@ -7,7 +7,7 @@ import {
   BADGES, getGam, syncGam, levelOf, awardAfterTest, getPlan, setPlan, syncPlans, todayCount, daysLeft, questionSnapshot,
 } from "./userdata.js?v=2";
 import { submitScore, getRank, topScores, loadComments, postComment, deleteComment, getDisplayName, setDisplayName } from "./community.js?v=1";
-import { getCurrentUser, authReady, showAuthModal } from "./auth.js?v=2";
+import { getCurrentUser, authReady, showAuthModal } from "./auth.js?v=3";
 import { PAID_PDF_URL } from "./firebase-config.js?v=2";
 
 // Load the feature stylesheet on every page that uses these tools (root-absolute: works on the live domain and the local preview alike).

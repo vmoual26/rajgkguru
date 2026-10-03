@@ -17,12 +17,8 @@ export const firebaseConfig = {
   appId: "1:56158132200:web:25cd14758e45a26d51365d",
 };
 
-// Both Cloud Functions are deployed (asia-south1) and confirmed live --
-// verified end-to-end up through Firebase ID token verification. They
-// won't actually complete an order yet: RAZORPAY_KEY_ID in
-// cloud_functions/test_series/main.py and the razorpay-key-secret /
-// razorpay-webhook-secret Secret Manager secrets are still pending real
-// Razorpay keys.
+// Cloud Functions (asia-south1): order creation, Razorpay webhook, paid-pool delivery, OTP, and the
+// checkout-time "does this email already have an account?" check. Razorpay LIVE keys are wired in.
 export const CLOUD_FUNCTIONS_BASE_URL = "https://asia-south1-aldhru-rajgkguru.cloudfunctions.net";
 
 // cloud_functions/paid_pdf -- a separate Cloud RUN service (not a Cloud Function: WeasyPrint

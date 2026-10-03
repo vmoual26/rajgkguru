@@ -3,7 +3,7 @@
 // new isolated project's Firestore -- see firebase-config.js.
 
 import { doc, getDoc, setDoc, deleteDoc, deleteField, arrayUnion, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, secureAccountWithEmail, friendlyError } from "./auth.js?v=2";
+import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, secureAccountWithEmail, friendlyError } from "./auth.js?v=3";
 import { CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
 
 function escapeHtml(s) {
@@ -308,6 +308,30 @@ function showCheckoutDetailsModal({ title, prefillEmail } = {}) {
       if (!/^[6-9][0-9]{9}$/.test(phone)) { errEl.textContent = "कृपया एक सही 10-अंकों का मोबाइल नंबर दर्ज करें।"; return; }
       try {
         const user = await ensureAnyUser();
+        if (user.isAnonymous) {
+          // A guest session can never be merged into an account that already uses this email
+          // (the post-payment "secure account" step would fail and strand the purchase), so
+          // make them sign in to that account BEFORE paying.
+          let exists;
+          try {
+            const res = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/check_email_account`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json", "Authorization": `Bearer ${await user.getIdToken()}` },
+              body: JSON.stringify({ email }),
+            });
+            if (!res.ok) throw new Error(String(res.status));
+            exists = (await res.json()).exists;
+          } catch (e) {
+            errEl.textContent = "ईमेल जाँचने में समस्या हुई — कृपया दोबारा कोशिश करें।";
+            return;
+          }
+          if (exists) {
+            backdrop.remove();
+            const signedIn = await showAuthModal({ prefillEmail: email, reason: "इस ईमेल से आपका खाता पहले से है — भुगतान से पहले साइन इन करें, ताकि खरीदा हुआ एक्सेस इसी खाते में जुड़े।" });
+            if (signedIn) resolve({ user: signedIn, name, email, phone });
+            return;
+          }
+        }
         // Best-effort -- a profile write failing here must never block checkout; the same
         // contact info also rides in the order's notes, which the webhook actually relies on.
         setDoc(doc(db, "users", user.uid), { name, email, mobile: phone }, { merge: true }).catch(() => {});

@@ -99,7 +99,7 @@ export function friendlyError(err) {
  * verification entirely. The "खाता नहीं है?" link below goes to
  * register.html instead of toggling an in-modal form.
  */
-export function showAuthModal({ reason } = {}) {
+export function showAuthModal({ reason, prefillEmail } = {}) {
   return new Promise((resolve) => {
     const backdrop = document.createElement("div");
     backdrop.className = "auth-backdrop";
@@ -112,7 +112,7 @@ export function showAuthModal({ reason } = {}) {
         <p class="sub">${escapeHtml(reason || "जारी रखने के लिए साइन इन करें।")}</p>
         <div class="auth-field">
           <label>ईमेल</label>
-          <input type="email" id="auth-email" autocomplete="email">
+          <input type="email" id="auth-email" autocomplete="email" value="${escapeHtml(prefillEmail || "")}">
         </div>
         <div class="auth-field">
           <label>पासवर्ड</label>

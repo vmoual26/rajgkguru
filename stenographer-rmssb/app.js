@@ -11,7 +11,7 @@
 // Paid-tier access and saved progress (separate from the localStorage
 // no-repeat tracking above, which is per-browser) come from
 // shared/entitlements.js -- account-based, works across devices.
-import { checkEntitlement, buyAccess, recordAttempt, getWrongQuestionIds, fetchPaidPool, loadCloudSeenKeys, saveCloudSeenKeys, reportMistake } from "../shared/entitlements.js?v=6";
+import { checkEntitlement, buyAccess, recordAttempt, getWrongQuestionIds, fetchPaidPool, loadCloudSeenKeys, saveCloudSeenKeys, reportMistake } from "../shared/entitlements.js?v=7";
 import { renderResultsExtras, enhanceReview, mountHomeExtras, checkReminderTick } from "../shared/insights.js?v=4";
 import { toggleBookmark, isBookmarked } from "../shared/userdata.js?v=2";
 import { loadCalendar } from "../shared/calendar.js?v=1";
