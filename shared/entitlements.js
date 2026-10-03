@@ -3,7 +3,7 @@
 // new isolated project's Firestore -- see firebase-config.js.
 
 import { doc, getDoc, setDoc, deleteDoc, deleteField, arrayUnion, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, showChangePasswordModal, friendlyError } from "./auth.js?v=5";
+import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, showChangePasswordModal, friendlyError } from "./auth.js?v=6";
 import { CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
 
 function escapeHtml(s) {
@@ -366,7 +366,7 @@ function promptSecureAccount(email, phone) {
         <div class="auth-field"><label>वेरिफिकेशन कोड (6 अंक)</label><input type="text" id="sa-otp" inputmode="numeric" maxlength="6" autocomplete="one-time-code"></div>
         <div class="auth-error" id="sa-error"></div>
         <button class="btn btn-primary btn-block" id="sa-submit">सत्यापित करें और खाता बनाएं</button>
-        <div class="auth-toggle"><a href="#" id="sa-skip">बाद में करें</a></div>
+        <div class="auth-toggle"><a href="#" id="sa-resend">कोड दोबारा भेजें</a> &nbsp;·&nbsp; <a href="#" id="sa-skip">बाद में करें</a></div>
       </div>`;
     const close = () => { backdrop.remove(); resolve(); };
     backdrop.querySelector(".auth-close").onclick = close;
@@ -397,11 +397,69 @@ function promptSecureAccount(email, phone) {
         errEl.textContent = e.message || "कुछ गलत हो गया।";
       }
     };
-    // Fire the OTP send the moment this modal opens.
-    fetch(`${CLOUD_FUNCTIONS_BASE_URL}/send_registration_otp`, {
-      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }),
-    }).catch(() => {});
+    // Send the OTP the moment this modal opens -- and say so if it could not be sent.
+    const sendOtp = async () => {
+      const errEl = backdrop.querySelector("#sa-error");
+      try {
+        const r = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/send_registration_otp`, {
+          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }),
+        });
+        const b = await r.json().catch(() => ({}));
+        errEl.textContent = r.ok ? "" : (b.error || "कोड नहीं भेजा जा सका — थोड़ी देर बाद 'कोड दोबारा भेजें' दबाएं।");
+      } catch (e) {
+        errEl.textContent = "इंटरनेट की समस्या — 'कोड दोबारा भेजें' दबाएं।";
+      }
+    };
+    backdrop.querySelector("#sa-resend").onclick = (e) => { e.preventDefault(); sendOtp(); };
+    sendOtp();
   });
+}
+
+/** For a guest (anonymous) session: lets them finish making a real account later -- from the
+ * header's "खाता सुरक्षित करें" button -- if they skipped the post-payment step or the code
+ * never arrived. Email and mobile are prefilled from what they entered at checkout. */
+export async function openSecureAccountFlow() {
+  await authReady;
+  const user = getCurrentUser();
+  if (!user || !user.isAnonymous) return;
+  let saved = {};
+  try { saved = (await getDoc(doc(db, "users", user.uid))).data() || {}; } catch (e) {}
+  const backdrop = document.createElement("div");
+  backdrop.className = "auth-backdrop";
+  document.body.appendChild(backdrop);
+  backdrop.innerHTML = `
+    <div class="auth-modal">
+      <button class="auth-close" aria-label="Close">&times;</button>
+      <h2>खाता सुरक्षित करें</h2>
+      <p class="sub">ताकि आप किसी भी डिवाइस से साइन इन कर सकें और आपका खरीदा हुआ एक्सेस सुरक्षित रहे।</p>
+      <div class="auth-field"><label>ईमेल</label><input type="email" id="sg-email" autocomplete="email" value="${escapeHtml(saved.email || "")}"></div>
+      <div class="auth-field"><label>मोबाइल नंबर</label><input type="tel" id="sg-mobile" maxlength="10" autocomplete="tel" value="${escapeHtml(saved.mobile || "")}"></div>
+      <div class="auth-error" id="sg-error"></div>
+      <button class="btn btn-primary btn-block" id="sg-go">कोड भेजें</button>
+    </div>`;
+  backdrop.querySelector(".auth-close").onclick = () => backdrop.remove();
+  backdrop.querySelector("#sg-go").onclick = async () => {
+    const email = backdrop.querySelector("#sg-email").value.trim().toLowerCase();
+    const phone = backdrop.querySelector("#sg-mobile").value.trim();
+    const errEl = backdrop.querySelector("#sg-error");
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = "कृपया एक सही ईमेल दर्ज करें।"; return; }
+    if (!/^[6-9][0-9]{9}$/.test(phone)) { errEl.textContent = "कृपया एक सही 10-अंकों का मोबाइल नंबर दर्ज करें।"; return; }
+    try {
+      const res = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/check_email_account`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Authorization": `Bearer ${await user.getIdToken()}` },
+        body: JSON.stringify({ email }),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      if ((await res.json()).exists) {
+        errEl.textContent = "इस ईमेल से खाता पहले से है। उस खाते में साइन इन करें — आपका खरीदा हुआ एक्सेस वहीं जोड़ने के लिए हमें support@aldhruacademy.com पर लिखें।";
+        return;
+      }
+    } catch (e) { errEl.textContent = "ईमेल जाँचने में समस्या हुई — दोबारा कोशिश करें।"; return; }
+    backdrop.remove();
+    await promptSecureAccount(email, phone);
+    if (!getCurrentUser()?.isAnonymous) location.reload();
+  };
 }
 
 /**

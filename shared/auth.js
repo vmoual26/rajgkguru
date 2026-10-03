@@ -249,6 +249,13 @@ export function showAuthModal({ reason, prefillEmail } = {}) {
 export function renderAuthBadge(container) {
   function update(user) {
     if (user) {
+      if (user.isAnonymous) {
+        // A guest (paid or tried to pay without making an account): the way back to a real login.
+        container.innerHTML = `<div class="user-badge"><span>Guest</span><button id="auth-secure">खाता सुरक्षित करें</button></div>`;
+        container.querySelector("#auth-secure").onclick = () =>
+          import("./entitlements.js?v=10").then((m) => m.openSecureAccountFlow()).catch(() => {});
+        return;
+      }
       container.innerHTML = `<div class="user-badge"><span>${escapeHtml(user.email)}</span><button id="auth-signout">Sign out</button></div>`;
       container.querySelector("#auth-signout").onclick = () => signOutUser();
     } else {

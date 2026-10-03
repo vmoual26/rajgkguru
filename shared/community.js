@@ -6,7 +6,7 @@
 
 import { doc, getDoc, setDoc, getDocs, addDoc, deleteDoc, collection, query, where, orderBy, limit, getCountFromServer, serverTimestamp }
   from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, authReady, showAuthModal } from "./auth.js?v=5";
+import { db, getCurrentUser, authReady, showAuthModal } from "./auth.js?v=6";
 import { hash36 } from "./userdata.js?v=2";
 
 const lsGet = (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } };
