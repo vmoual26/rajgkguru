@@ -455,11 +455,32 @@ export async function startPurchase({ plan, examSlugs = [], durationMonths = 12,
       name: "RAJ G.K. GURU",
       description: `${title} — ${durationMonths} महीने`,
       prefill: { email: contact.email, contact: contact.phone },
-      handler: function () {
+      handler: async function (response) {
         onProcessing?.();
-        // Access is already granted by the webhook regardless of what happens below --
-        // this is purely about making the account recoverable on another device later.
-        if (user.isAnonymous && contact.email) promptSecureAccount(contact.email, contact.phone);
+        // Ask our server to verify the payment signature and unlock access right now, so the
+        // purchase doesn't depend on the webhook alone (the webhook stays as the backup and the
+        // two can't double-grant: both go through one idempotent fulfilment).
+        let unlocked = false;
+        for (let attempt = 0; attempt < 4 && !unlocked; attempt++) {
+          try {
+            const vr = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/verify_test_series_payment`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json", "Authorization": `Bearer ${await user.getIdToken()}` },
+              body: JSON.stringify({
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_signature: response.razorpay_signature,
+              }),
+            });
+            if (vr.ok) unlocked = true;
+            else if (vr.status === 202 || vr.status >= 500) await new Promise((r) => setTimeout(r, 2500));
+            else break;   // a definite refusal (bad signature / other account): retrying won't help
+          } catch (e) { await new Promise((r) => setTimeout(r, 2500)); }
+        }
+        // Make the account recoverable on another device (optional for the student).
+        if (user.isAnonymous && contact.email) await promptSecureAccount(contact.email, contact.phone);
+        if (unlocked) location.reload();
+        else alert("आपका भुगतान मिल गया है। एक्सेस जुड़ने में कुछ मिनट लग सकते हैं — कृपया थोड़ी देर बाद पेज रीफ़्रेश करें। समस्या रहे तो " + "support@aldhruacademy.com" + " पर लिखें।");
       },
       theme: { color: "#9333ea" },
     });
