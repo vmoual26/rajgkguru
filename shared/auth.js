@@ -94,15 +94,14 @@ export function passwordPolicyError(pw, email) {
   return "";
 }
 
-let changePwOpen = false;
+let changePwPromise = null;
 /** Set-your-own-password modal. forced=true: no close button, no dismiss -- shown when the
  * account still has its starting (mobile-number) password. */
 export function showChangePasswordModal({ forced = false } = {}) {
-  if (changePwOpen) return Promise.resolve(false);
+  if (changePwPromise) return changePwPromise;   // already open (e.g. raised by the auth observer): share it
   const user = getCurrentUser();
   if (!user) return Promise.resolve(false);
-  changePwOpen = true;
-  return new Promise((resolve) => {
+  changePwPromise = new Promise((resolve) => {
     const backdrop = document.createElement("div");
     backdrop.className = "auth-backdrop";
     backdrop.style.zIndex = "99999";
@@ -118,7 +117,7 @@ export function showChangePasswordModal({ forced = false } = {}) {
         <button class="btn btn-primary btn-block" id="cp-submit">पासवर्ड सेव करें</button>
         ${forced ? '<div class="auth-toggle"><a href="#" id="cp-signout">Sign out</a></div>' : ""}
       </div>`;
-    const done = (ok) => { backdrop.remove(); changePwOpen = false; resolve(ok); };
+    const done = (ok) => { backdrop.remove(); changePwPromise = null; resolve(ok); };
     backdrop.querySelector(".auth-close")?.addEventListener("click", () => done(false));
     backdrop.querySelector("#cp-signout")?.addEventListener("click", async (e) => { e.preventDefault(); await signOutUser(); done(false); });
     backdrop.querySelector("#cp-submit").onclick = async () => {
@@ -131,9 +130,12 @@ export function showChangePasswordModal({ forced = false } = {}) {
       if (pw !== pw2) { errEl.textContent = "दोनों पासवर्ड एक जैसे नहीं हैं।"; return; }
       try {
         await updatePassword(user, pw);
-        await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/clear_must_change_password`, {
+        // The server refuses paid content while the flag is set, so make sure it is cleared
+        // (retrying is safe: re-setting the same new password is harmless).
+        const clr = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/clear_must_change_password`, {
           method: "POST", headers: { "Authorization": `Bearer ${await user.getIdToken()}` },
-        }).catch(() => {});
+        });
+        if (!clr.ok) throw new Error("clear-failed");
         await user.getIdToken(true);
         done(true);
       } catch (e) {
@@ -141,11 +143,14 @@ export function showChangePasswordModal({ forced = false } = {}) {
           await signOutUser(); done(false);
           showAuthModal({ reason: "सुरक्षा के लिए एक बार दोबारा साइन इन करें, फिर पासवर्ड बदलें।" });
         } else {
-          errEl.textContent = friendlyError(e);
+          errEl.textContent = e?.message === "clear-failed" || e instanceof TypeError
+            ? "पासवर्ड सेव हो गया, लेकिन पुष्टि नहीं हो सकी — इंटरनेट जाँचकर फिर से 'सेव करें' दबाएं।"
+            : friendlyError(e);
         }
       }
     };
   });
+  return changePwPromise;
 }
 
 // Accounts created at checkout start with the mobile number as the password; the server flags

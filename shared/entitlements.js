@@ -3,7 +3,7 @@
 // new isolated project's Firestore -- see firebase-config.js.
 
 import { doc, getDoc, setDoc, deleteDoc, deleteField, arrayUnion, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, friendlyError } from "./auth.js?v=4";
+import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, showChangePasswordModal, friendlyError } from "./auth.js?v=5";
 import { CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
 
 function escapeHtml(s) {
@@ -116,16 +116,19 @@ export function fetchPaidPool(examSlug) {
   return _paidPoolCache.get(examSlug);
 }
 
-async function fetchPaidPoolUncached(examSlug) {
+async function fetchPaidPoolUncached(examSlug, retried = false) {
   await authReady;
   const user = getCurrentUser();
   if (!user) throw new Error("Not signed in");
-  const idToken = await user.getIdToken();
+  const idToken = await user.getIdToken(retried);
   const res = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/get_paid_pool?exam_slug=${encodeURIComponent(examSlug)}`, {
     headers: { "Authorization": `Bearer ${idToken}`, "X-Device-Id": getDeviceId() },
   });
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
+    // Token still carries the checkout "must change password" flag (e.g. the password was just
+    // changed on another device): fetch a fresh token once and retry before giving up.
+    if (body.code === "password_change_required" && !retried) return fetchPaidPoolUncached(examSlug, true);
     const err = new Error(body.error || `Could not load paid content (${res.status})`);
     err.code = body.code;
     throw err;
@@ -377,13 +380,16 @@ function promptSecureAccount(email, phone) {
       btn.disabled = true; errEl.textContent = "";
       try {
         await finalizeCheckoutAccount(email, code, phone);
-        // Signing in with the new account makes shared/auth.js raise the forced
-        // "choose your password" box on top of this one; this card tells them their login.
+        // The account now exists with the mobile number as its starting password. Make the
+        // student choose their own password RIGHT NOW (shared/auth.js raised this same
+        // box when the sign-in happened; we wait on it) so the weak password lives seconds.
+        backdrop.style.display = "none";
+        const changed = await showChangePasswordModal({ forced: true });
+        backdrop.style.display = "";
         backdrop.querySelector(".auth-modal").innerHTML = `
           <h2>✅ आपका खाता तैयार है</h2>
           <p class="sub">अगली बार साइन इन के लिए:</p>
-          <p style="margin:8px 0"><b>Login ID:</b> ${escapeHtml(email)}<br><b>शुरुआती पासवर्ड:</b> आपका मोबाइल नंबर</p>
-          <p class="sub">सुरक्षा के लिए पहले साइन इन पर आपको अपना नया पासवर्ड चुनना होगा।</p>
+          <p style="margin:8px 0"><b>Login ID:</b> ${escapeHtml(email)}<br><b>पासवर्ड:</b> ${changed ? "जो आपने अभी बनाया" : "आपका मोबाइल नंबर (साइन इन करते ही नया पासवर्ड चुनना होगा)"}</p>
           <button class="btn btn-primary btn-block" id="sa-ok">ठीक है</button>`;
         backdrop.querySelector("#sa-ok").onclick = close;
       } catch (e) {
