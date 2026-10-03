@@ -105,7 +105,18 @@ export async function removeDevice(deviceId) {
  * this (checkEntitlement()), this is a second, authoritative check, not the
  * only one. Returns {questions: []} shaped output only never here -- if the
  * checks pass, the pool comes back for real. */
-export async function fetchPaidPool(examSlug) {
+const _paidPoolCache = new Map();
+export function fetchPaidPool(examSlug) {
+  // One download per exam per page load: several callers ask for the pool in a row.
+  if (!_paidPoolCache.has(examSlug)) {
+    const p = fetchPaidPoolUncached(examSlug);
+    p.catch(() => _paidPoolCache.delete(examSlug));
+    _paidPoolCache.set(examSlug, p);
+  }
+  return _paidPoolCache.get(examSlug);
+}
+
+async function fetchPaidPoolUncached(examSlug) {
   await authReady;
   const user = getCurrentUser();
   if (!user) throw new Error("Not signed in");
