@@ -3,7 +3,7 @@
 // new isolated project's Firestore -- see firebase-config.js.
 
 import { doc, getDoc, setDoc, deleteDoc, deleteField, arrayUnion, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, secureAccountWithEmail, friendlyError } from "./auth.js?v=3";
+import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, friendlyError } from "./auth.js?v=4";
 import { CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
 
 function escapeHtml(s) {
@@ -344,12 +344,13 @@ function showCheckoutDetailsModal({ title, prefillEmail } = {}) {
   });
 }
 
-/** Post-payment "secure your account" prompt for a student who checked out anonymously
- * (see ensureAnyUser). Purely optional from a business standpoint -- access was already
- * granted by the webhook before this ever shows -- it only affects whether they can sign
- * back in on another device later. Never throws; a skip or failure just leaves the
- * anonymous session as the only way in for now. */
-function promptSecureAccount(email) {
+/** Post-payment account creation for a student who checked out as a guest (see ensureAnyUser).
+ * Access was already granted by the webhook, so this only decides whether they can sign back
+ * in later. One step for the student: type the emailed OTP. The server then creates the
+ * account (login ID = email, starting password = the mobile number given at checkout) and the
+ * site makes them choose their own password (shared/auth.js, must_change_password). Never
+ * throws; skipping just leaves the guest session as the only way in on this device. */
+function promptSecureAccount(email, phone) {
   return new Promise((resolve) => {
     const backdrop = document.createElement("div");
     backdrop.className = "auth-backdrop";
@@ -358,11 +359,10 @@ function promptSecureAccount(email) {
       <div class="auth-modal">
         <button class="auth-close" aria-label="Close">&times;</button>
         <h2>🎉 भुगतान सफल!</h2>
-        <p class="sub">अपना खाता सुरक्षित करें ताकि आप किसी भी डिवाइस से दोबारा साइन इन कर सकें। ${escapeHtml(email)} पर एक कोड भेजा गया है।</p>
+        <p class="sub">अपना खाता बनाएं ताकि किसी भी डिवाइस से साइन इन कर सकें। ${escapeHtml(email)} पर एक 6-अंकों का कोड भेजा गया है।</p>
         <div class="auth-field"><label>वेरिफिकेशन कोड (6 अंक)</label><input type="text" id="sa-otp" inputmode="numeric" maxlength="6" autocomplete="one-time-code"></div>
-        <div class="auth-field"><label>पासवर्ड बनाएं (कम से कम 6 अक्षर)</label><input type="password" id="sa-password" minlength="6"></div>
         <div class="auth-error" id="sa-error"></div>
-        <button class="btn btn-primary btn-block" id="sa-submit">सत्यापित करें और सुरक्षित करें</button>
+        <button class="btn btn-primary btn-block" id="sa-submit">सत्यापित करें और खाता बनाएं</button>
         <div class="auth-toggle"><a href="#" id="sa-skip">बाद में करें</a></div>
       </div>`;
     const close = () => { backdrop.remove(); resolve(); };
@@ -371,26 +371,27 @@ function promptSecureAccount(email) {
     backdrop.addEventListener("click", (e) => { if (e.target === backdrop) close(); });
     backdrop.querySelector("#sa-submit").onclick = async () => {
       const code = backdrop.querySelector("#sa-otp").value.trim();
-      const password = backdrop.querySelector("#sa-password").value;
       const errEl = backdrop.querySelector("#sa-error");
-      if (password.length < 6) { errEl.textContent = "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।"; return; }
+      const btn = backdrop.querySelector("#sa-submit");
+      if (!/^[0-9]{6}$/.test(code)) { errEl.textContent = "6 अंकों का कोड दर्ज करें।"; return; }
+      btn.disabled = true; errEl.textContent = "";
       try {
-        const verifyRes = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/verify_registration_otp`, {
-          method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, code }),
-        });
-        const verifyBody = await verifyRes.json();
-        if (!verifyRes.ok || !verifyBody.verified) throw new Error(verifyBody.error || "कोड सत्यापित नहीं हो सका।");
-        await secureAccountWithEmail(email, password);
-        close();
+        await finalizeCheckoutAccount(email, code, phone);
+        // Signing in with the new account makes shared/auth.js raise the forced
+        // "choose your password" box on top of this one; this card tells them their login.
+        backdrop.querySelector(".auth-modal").innerHTML = `
+          <h2>✅ आपका खाता तैयार है</h2>
+          <p class="sub">अगली बार साइन इन के लिए:</p>
+          <p style="margin:8px 0"><b>Login ID:</b> ${escapeHtml(email)}<br><b>शुरुआती पासवर्ड:</b> आपका मोबाइल नंबर</p>
+          <p class="sub">सुरक्षा के लिए पहले साइन इन पर आपको अपना नया पासवर्ड चुनना होगा।</p>
+          <button class="btn btn-primary btn-block" id="sa-ok">ठीक है</button>`;
+        backdrop.querySelector("#sa-ok").onclick = close;
       } catch (e) {
-        errEl.textContent = e.message?.startsWith("auth/") || e.code ? friendlyError(e) : (e.message || "कुछ गलत हो गया।");
+        btn.disabled = false;
+        errEl.textContent = e.message || "कुछ गलत हो गया।";
       }
     };
-    // Fire the OTP send the moment this modal opens -- the student already proved they own
-    // this email once at checkout (they received the order confirmation there), but
-    // re-verifying before linking it to a password keeps the same guarantee register.html
-    // relies on: nobody can claim an account with an email they don't control.
+    // Fire the OTP send the moment this modal opens.
     fetch(`${CLOUD_FUNCTIONS_BASE_URL}/send_registration_otp`, {
       method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }),
     }).catch(() => {});
@@ -452,7 +453,7 @@ export async function startPurchase({ plan, examSlugs = [], durationMonths = 12,
         onProcessing?.();
         // Access is already granted by the webhook regardless of what happens below --
         // this is purely about making the account recoverable on another device later.
-        if (user.isAnonymous && contact.email) promptSecureAccount(contact.email);
+        if (user.isAnonymous && contact.email) promptSecureAccount(contact.email, contact.phone);
       },
       theme: { color: "#9333ea" },
     });

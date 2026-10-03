@@ -7,10 +7,10 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
 import {
   getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut,
-  signInAnonymously, linkWithCredential, EmailAuthProvider,
+  signInAnonymously, linkWithCredential, EmailAuthProvider, updatePassword,
 } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { firebaseConfig } from "./firebase-config.js?v=2";
+import { firebaseConfig, CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
@@ -67,6 +67,97 @@ export async function secureAccountWithEmail(email, password) {
   return result.user;
 }
 
+/** Post-payment account creation for a guest buyer: the server checks the emailed OTP, makes
+ * the guest uid a real email+password account (starting password = the mobile number given at
+ * checkout) and flags it must_change_password. We then sign in with those credentials so the
+ * fresh token carries the flag. Throws Error(message) with a student-readable message. */
+export async function finalizeCheckoutAccount(email, code, phone) {
+  const user = getCurrentUser();
+  if (!user) throw new Error("साइन इन सत्र नहीं मिला — पेज रीफ्रेश करें।");
+  const res = await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/finalize_checkout_account`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Authorization": `Bearer ${await user.getIdToken()}` },
+    body: JSON.stringify({ email, code, phone }),
+  });
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(body.error || "खाता नहीं बन सका।");
+  const cred = await signInWithEmailAndPassword(auth, email, phone);
+  return cred.user;
+}
+
+/** New-password rules (client side; Firebase itself only demands 6 characters). */
+export function passwordPolicyError(pw, email) {
+  if (pw.length < 8) return "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए।";
+  if (!/[A-Za-z]/.test(pw) || !/[0-9]/.test(pw)) return "पासवर्ड में अक्षर और अंक दोनों होने चाहिए।";
+  if (/^[0-9]{10}$/.test(pw)) return "मोबाइल नंबर जैसा पासवर्ड न रखें — कोई नया पासवर्ड चुनें।";
+  if (email && pw.toLowerCase() === String(email).toLowerCase()) return "पासवर्ड ईमेल जैसा नहीं होना चाहिए।";
+  return "";
+}
+
+let changePwOpen = false;
+/** Set-your-own-password modal. forced=true: no close button, no dismiss -- shown when the
+ * account still has its starting (mobile-number) password. */
+export function showChangePasswordModal({ forced = false } = {}) {
+  if (changePwOpen) return Promise.resolve(false);
+  const user = getCurrentUser();
+  if (!user) return Promise.resolve(false);
+  changePwOpen = true;
+  return new Promise((resolve) => {
+    const backdrop = document.createElement("div");
+    backdrop.className = "auth-backdrop";
+    backdrop.style.zIndex = "99999";
+    document.body.appendChild(backdrop);
+    backdrop.innerHTML = `
+      <div class="auth-modal">
+        ${forced ? "" : '<button class="auth-close" aria-label="Close">&times;</button>'}
+        <h2>🔒 नया पासवर्ड बनाएं</h2>
+        <p class="sub">${forced ? "सुरक्षा के लिए अपना शुरुआती पासवर्ड (मोबाइल नंबर) बदलें। यह एक बार का काम है।" : "अपना पासवर्ड बदलें।"}</p>
+        <div class="auth-field"><label>नया पासवर्ड (कम से कम 8 अक्षर, अक्षर + अंक)</label><input type="password" id="cp-new" autocomplete="new-password"></div>
+        <div class="auth-field"><label>पासवर्ड दोबारा लिखें</label><input type="password" id="cp-new2" autocomplete="new-password"></div>
+        <div class="auth-error" id="cp-error"></div>
+        <button class="btn btn-primary btn-block" id="cp-submit">पासवर्ड सेव करें</button>
+        ${forced ? '<div class="auth-toggle"><a href="#" id="cp-signout">Sign out</a></div>' : ""}
+      </div>`;
+    const done = (ok) => { backdrop.remove(); changePwOpen = false; resolve(ok); };
+    backdrop.querySelector(".auth-close")?.addEventListener("click", () => done(false));
+    backdrop.querySelector("#cp-signout")?.addEventListener("click", async (e) => { e.preventDefault(); await signOutUser(); done(false); });
+    backdrop.querySelector("#cp-submit").onclick = async () => {
+      const pw = backdrop.querySelector("#cp-new").value;
+      const pw2 = backdrop.querySelector("#cp-new2").value;
+      const errEl = backdrop.querySelector("#cp-error");
+      errEl.textContent = "";
+      const bad = passwordPolicyError(pw, user.email);
+      if (bad) { errEl.textContent = bad; return; }
+      if (pw !== pw2) { errEl.textContent = "दोनों पासवर्ड एक जैसे नहीं हैं।"; return; }
+      try {
+        await updatePassword(user, pw);
+        await fetch(`${CLOUD_FUNCTIONS_BASE_URL}/clear_must_change_password`, {
+          method: "POST", headers: { "Authorization": `Bearer ${await user.getIdToken()}` },
+        }).catch(() => {});
+        await user.getIdToken(true);
+        done(true);
+      } catch (e) {
+        if (e?.code === "auth/requires-recent-login") {
+          await signOutUser(); done(false);
+          showAuthModal({ reason: "सुरक्षा के लिए एक बार दोबारा साइन इन करें, फिर पासवर्ड बदलें।" });
+        } else {
+          errEl.textContent = friendlyError(e);
+        }
+      }
+    };
+  });
+}
+
+// Accounts created at checkout start with the mobile number as the password; the server flags
+// them with the must_change_password claim (no Firestore read needed -- it rides in the token).
+onAuthStateChanged(auth, async (user) => {
+  if (!user || user.isAnonymous) return;
+  try {
+    const { claims } = await user.getIdTokenResult();
+    if (claims.must_change_password) showChangePasswordModal({ forced: true });
+  } catch (e) { /* offline: try again on the next page load */ }
+});
+
 function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -78,6 +169,7 @@ const FRIENDLY_ERRORS = {
   "auth/credential-already-in-use": "यह ईमेल पहले से किसी और खाते से जुड़ा है — Sign in करें।",
   "auth/invalid-email": "कृपया एक सही ईमेल दर्ज करें।",
   "auth/weak-password": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए।",
+  "auth/requires-recent-login": "सुरक्षा के लिए दोबारा साइन इन करें।",
   "auth/invalid-credential": "ईमेल या पासवर्ड गलत है।",
   "auth/too-many-requests": "बहुत सारे प्रयास — कृपया कुछ देर बाद कोशिश करें।",
 };

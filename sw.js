@@ -3,7 +3,7 @@
 //    so a visited exam opens and its free tests run offline; an unfinished test already lives in localStorage.
 //  - Cloud/API calls (Firebase, Razorpay, Cloud Functions, fonts) are never intercepted.
 //  - Paid pools are never cached here (they are fetched with a Bearer token by the page, not through this cache).
-const CACHE = "rgk-v7";
+const CACHE = "rgk-v8";
 const NEVER = /googleapis|gstatic|firebase|razorpay|cloudfunctions|run\.app|get_paid_pool|identitytoolkit/;
 
 self.addEventListener("install", (e) => { self.skipWaiting(); });
