@@ -128,54 +128,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2018||23",
-      "serial_no": 23,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "जीव विज्ञान [Biology]",
-      "topic": "Human Nutrition",
-      "subtopic": "Food Pyramid",
-      "source_cycle": "Supervisor (Woman) (Anganwadi Worker Quota) 2018",
-      "hindi": {
-        "question": "खाद्य पिरामिड का आधार बनता है",
-        "options": [
-          "अनाज और दालों से",
-          "सब्जियों और फलों से",
-          "शर्करा से",
-          "मांस और उसके पदार्थों से"
-        ],
-        "explanation": "खाद्य पिरामिड का आधार अनाज और दालों से बनता है। ये खाद्य पदार्थ ऊर्जा के मुख्य स्रोत होते हैं और इन्हें दैनिक आहार में सबसे अधिक मात्रा में शामिल करने की सलाह दी जाती है।"
-      },
-      "qkey": "4c37ddcfac01",
-      "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__MOTOR VEHICLE SUB INSPECTOR::Motor Vehicle Sub Inspector 2021||84",
-      "serial_no": 84,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "जीव विज्ञान [Biology]",
-      "topic": "Greenhouse gases",
-      "subtopic": "",
-      "source_cycle": "Motor Vehicle Sub Inspector 2021",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सी एक वातावरण में प्राकृतिक रूप से पाई जाने वाली ग्रीनहाउस गैस नहीं है?",
-        "options": [
-          "ओजोन",
-          "नाइट्रोजन ऑक्साइड",
-          "कार्बन डाइऑक्साइड",
-          "मीथेन"
-        ],
-        "explanation": "ग्रीनहाउस गैसें वे गैसें हैं जो पृथ्वी के वायुमंडल में ऊष्मा को रोकती हैं। ओजोन, कार्बन डाइऑक्साइड और मीथेन प्राकृतिक रूप से पाई जाने वाली ग्रीनहाउस गैसें हैं। नाइट्रोजन ऑक्साइड (विशेषकर नाइट्रस ऑक्साइड, N2O) एक ग्रीनहाउस गैस है, लेकिन 'नाइट्रोजन ऑक्साइड' (NOx) शब्द में कई गैसें शामिल हैं, जिनमें से कुछ प्राकृतिक रूप से कम मात्रा में पाई जाती हैं, जबकि कुछ मानव गतिविधियों से उत्पन्न होती हैं। हालांकि, दिए गए विकल्पों में, नाइट्रोजन ऑक्साइड को अक्सर एक प्रदूषक के रूप में देखा जाता है और इसे अन्य प्राकृतिक ग्रीनहाउस गैसों की तुलना में कम प्राकृतिक माना जाता है। आधिकारिक उत्तर के अनुसार, विकल्प (2) सही है।"
-      },
-      "qkey": "91f9c3ec24d0",
-      "source_exam": "LIB__MOTOR VEHICLE SUB INSPECTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2018||11",
       "serial_no": 11,
       "correct_option": 2,
@@ -196,30 +148,6 @@
       },
       "qkey": "d9782a1f09d6",
       "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::patwar::Patwar 2025||134|Master question Paper (DQ69) Shift II",
-      "serial_no": 134,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "जीव विज्ञान [Biology]",
-      "topic": "Physics",
-      "subtopic": "Medical Imaging Techniques",
-      "source_cycle": "Patwar 2025",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सा चिकित्सा विज्ञान में इमेजिंग स्कैन का एक प्रकार नहीं है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
-        "options": [
-          "एक्स-रे",
-          "ई.सी.जी",
-          "सी.टी स्कैन",
-          "एस.एल.वी"
-        ],
-        "explanation": "एक्स-रे, ई.सी.जी. (इलेक्ट्रोकार्डियोग्राम) और सी.टी. स्कैन (कम्प्यूटेड टोमोग्राफी स्कैन) सभी चिकित्सा विज्ञान में इमेजिंग स्कैन के प्रकार हैं जिनका उपयोग शरीर के अंदर की छवियों को प्राप्त करने के लिए किया जाता है। एस.एल.वी. (सैटेलाइट लॉन्च व्हीकल) एक रॉकेट है जिसका उपयोग उपग्रहों को अंतरिक्ष में लॉन्च करने के लिए किया जाता है, और यह चिकित्सा इमेजिंग से संबंधित नहीं है।"
-      },
-      "qkey": "4339b61cb5b3",
-      "source_exam": "patwar",
       "source_board": "RMSSB",
       "is_cross_pool": true
     },
@@ -485,30 +413,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|C|55",
-      "serial_no": 55,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "भारत का भूगोल एवं प्राकृतिक संसाधन [Indian Geography and Natural Resources]",
-      "topic": "Physical Features",
-      "subtopic": "Himalayan Valleys",
-      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
-      "hindi": {
-        "question": "लघु हिमालय तथा शिवालिक के मध्य पायी जाने वाली अनुदैर्ध्य घाटी/घाटियाँ है/हैं(A) कुल्लू घाटी (B) कांगड़ा घाटी (C) देहरादून घाटी नीचे दिए गए कूट का उपयोग करके सही उत्तर का चयन कीजिए कूट",
-        "options": [
-          "केवल (C)",
-          "(A), (B) तथा (C)",
-          "केवल (B) तथा (C)",
-          "केवल (A) तथा (B)"
-        ],
-        "explanation": "लघु हिमालय और शिवालिक के बीच की अनुदैर्ध्य घाटियों को 'दून' या 'द्वार' कहा जाता है। देहरादून घाटी इसका एक प्रमुख उदाहरण है। कुल्लू और कांगड़ा घाटियाँ मुख्य रूप से लघु हिमालय के भीतर स्थित हैं, जबकि देहरादून शिवालिक और लघु हिमालय के बीच की विशिष्ट अनुदैर्ध्य घाटी है।"
-      },
-      "qkey": "37f0d2c827fe",
-      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__DEPUTY COMMANDANT::DEPUTY COMMANDANT 2025|(single)|49",
       "serial_no": 49,
       "correct_option": 3,
@@ -650,54 +554,6 @@
       "qkey": "b0e787928f4d",
       "source_exam": "Common Eligibility Test(Graduation Level)",
       "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER 2011|(single)|50",
-      "serial_no": 50,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "भारत का भूगोल एवं प्राकृतिक संसाधन [Indian Geography and Natural Resources]",
-      "topic": "Indian Wildlife",
-      "subtopic": "National Parks and Sanctuaries (Kaziranga)",
-      "source_cycle": "SCHOOL LECTURER 2011",
-      "hindi": {
-        "question": "प्राणी जो काजिरंगा अभयारण्य में पाया जाता है",
-        "options": [
-          "शेर",
-          "बंगाल टाइगर",
-          "गैंडा",
-          "हाथी"
-        ],
-        "explanation": "काजीरंगा राष्ट्रीय उद्यान असम में स्थित है और यह एक सींग वाले गैंडे (Indian Rhinoceros) के लिए विश्व प्रसिद्ध है। यह अभयारण्य गैंडों की सबसे बड़ी आबादी का घर है और उनके संरक्षण में महत्वपूर्ण भूमिका निभाता है।"
-      },
-      "qkey": "c76ca32898d0",
-      "source_exam": "SCHOOL LECTURER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER (SEC. EDU.) COMP. EXAM 2024|D|58",
-      "serial_no": 58,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "भारत का भूगोल एवं प्राकृतिक संसाधन [Indian Geography and Natural Resources]",
-      "topic": "Vegetation",
-      "subtopic": "Forest Cover",
-      "source_cycle": "SR. TEACHER (SEC. EDU.) COMP. EXAM 2024",
-      "hindi": {
-        "question": "'इण्डिया स्टेट ऑफ फॉरेस्ट रिपोर्ट (ISFR) 2023' के अनुसार, देश के कुल भौगोलिक क्षेत्रफल का कितना प्रतिशत वनावरण तथा वृक्षावरण था?",
-        "options": [
-          "25.87 प्रतिशत",
-          "21.56 प्रतिशत",
-          "25.17 प्रतिशत",
-          "21.06 प्रतिशत"
-        ],
-        "explanation": "'इण्डिया स्टेट ऑफ फॉरेस्ट रिपोर्ट (ISFR) 2023' के अनुसार, भारत के कुल भौगोलिक क्षेत्रफल का 25.17 प्रतिशत वनावरण और वृक्षावरण से आच्छादित था। यह रिपोर्ट भारतीय वन सर्वेक्षण (FSI) द्वारा जारी की जाती है और देश में वन संसाधनों की स्थिति का आकलन करती है।"
-      },
-      "qkey": "0204880ca65f",
-      "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
-      "source_board": "RPSC",
       "is_cross_pool": true
     },
     {
@@ -893,30 +749,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|22|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
-      "serial_no": 22,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
-      "topic": "Mineral deposits Rajasthan",
-      "subtopic": "",
-      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
-      "hindi": {
-        "question": "गलत युग्म का चुनाव कीजिए -",
-        "options": [
-          "ताँबा - अगूचा गुलाबपुरा",
-          "मैंगनीज कांसला",
-          "सीसा व जस्ता राजपुरा दरीबा",
-          "लौह अयस्क डाबला क्षेत्र"
-        ],
-        "explanation": "अगूचा गुलाबपुरा ताँबे के लिए नहीं, बल्कि सीसा-जस्ता के लिए प्रसिद्ध है। मैंगनीज कांसला में पाया जाता है, राजपुरा दरीबा सीसा व जस्ता के लिए जाना जाता है, और डाबला क्षेत्र लौह अयस्क के लिए प्रसिद्ध है। इसलिए, 'ताँबा - अगूचा गुलाबपुरा' गलत युग्म है।"
-      },
-      "qkey": "243ea349bb20",
-      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||13|Master Question Paper 21.09.2025_Morning Shift_56HH",
       "serial_no": 13,
       "correct_option": 2,
@@ -1104,30 +936,6 @@
         "explanation": "राजस्थान में ग्रीष्म ऋतु में चलने वाली शुष्क, गर्म और धूल भरी हवाओं को 'लू' कहा जाता है। यह भारत के उत्तरी भागों में गर्मियों में चलने वाली एक सामान्य घटना है।"
       },
       "qkey": "952ae72f3cde",
-      "source_exam": "Animal Attendant",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Animal Attendant::Animal Attendant 2023||9|Master Question Paper, 2nd Phase(X12)",
-      "serial_no": 9,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
-      "topic": "Rivers and Dams",
-      "subtopic": "Gandhi Sagar Dam",
-      "source_cycle": "Animal Attendant 2023",
-      "hindi": {
-        "question": "राजस्थान में गांधी सागर बांध किस नदी पर स्थित है?निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-        "options": [
-          "सरस्वती",
-          "बनास",
-          "चंबल",
-          "मंथा"
-        ],
-        "explanation": "गांधी सागर बांध चंबल नदी पर स्थित है। यह चंबल नदी घाटी परियोजना का एक महत्वपूर्ण हिस्सा है और मध्य प्रदेश में स्थित है, लेकिन इसका लाभ राजस्थान को भी मिलता है। अन्य नदियाँ इस बांध से संबंधित नहीं हैं।"
-      },
-      "qkey": "770bd132ef52",
       "source_exam": "Animal Attendant",
       "source_board": "RMSSB",
       "is_cross_pool": true
@@ -1637,30 +1445,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::LIB__COMPUTOR::Computor 2021||25",
-      "serial_no": 25,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
-      "topic": "Earthquake zones Rajasthan",
-      "subtopic": "",
-      "source_cycle": "Computor 2021",
-      "hindi": {
-        "question": "राजस्थान के निम्नलिखित में कौन से जिले भूकम्पों से सबसे कम प्रभावित हैं?",
-        "options": [
-          "गंगानगर और हनुमानगढ़",
-          "भरतपुर और अलवर",
-          "कोटा और बारां",
-          "बाड़मेर और जैसलमेर"
-        ],
-        "explanation": "राजस्थान के गंगानगर और हनुमानगढ़ जिले भूकम्पों से सबसे कम प्रभावित हैं। ये जिले राज्य के अपेक्षाकृत स्थिर भूगर्भीय क्षेत्र में स्थित हैं, जिससे भूकम्प का खतरा कम होता है।"
-      },
-      "qkey": "e2fa78da748c",
-      "source_exam": "LIB__COMPUTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__COMPUTOR::Computor 2021||30",
       "serial_no": 30,
       "correct_option": 3,
@@ -1925,30 +1709,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|18|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
-      "serial_no": 18,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
-      "topic": "River origins Rajasthan",
-      "subtopic": "",
-      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
-      "hindi": {
-        "question": "सूची-I और सूची-II को सुमेलित करके नीचे दिये गये कूट से सही उत्तर का चयन कीजिये - सूची-I (उद्गम स्थल) (A) खमनोर की पहाड़ियाँ (B) बैराठ की पहाड़ियाँ (C) खण्डेला की पहाड़ियाँ (D) सेवर की पहाड़ियाँ कूट -",
-        "options": [
-          "A-ii, B-i, C-iii, D-iv",
-          "A-iii, B-iv, C-i, D-ii",
-          "A-iv, B-iii, C-i, D-ii",
-          "A-i, B-iii, C-ii, D-iv"
-        ],
-        "explanation": "खमनोर की पहाड़ियाँ बनास नदी का उद्गम स्थल हैं, बैराठ की पहाड़ियाँ बाणगंगा नदी का, खण्डेला की पहाड़ियाँ कांतली नदी का और सेवर की पहाड़ियाँ साबी नदी का उद्गम स्थल हैं। इस प्रकार, सही सुमेलन A-iii, B-iv, C-i, D-ii है।"
-      },
-      "qkey": "44d56e8716c3",
-      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|15|Question Paper for Archives Department Recruitment - 2024 (Research Officer)",
       "serial_no": 15,
       "correct_option": 2,
@@ -2061,34 +1821,10 @@
           "(A), (D), (C), (E), (B)",
           "(A), (C), (B), (E), (D)"
         ],
-        "explanation": "अरावली पर्वत शिखरों को ऊँचाई के अनुसार घटते क्रम में व्यवस्थित करने पर सही क्रम (A) गुरु शिखर, (D) सेर, (C) दिलवाड़ा, (E) कुम्भलगढ़, (B) आँचलगढ़ है। गुरु शिखर (1722 मी.) सबसे ऊँचा है, उसके बाद सेर (1597 मी.), दिलवाड़ा (1442 मी.), कुम्भलगढ़ (1224 मी.) और आँचलगढ़ (1380 मी.) आता है। दिए गए विकल्पों में से (A), (D), (C), (E), (B) सही है।"
+        "explanation": "विकल्प (2) अरावली पर्वत शिखरों को उनकी ऊँचाई के घटते क्रम में सही ढंग से व्यवस्थित करता है। गुरु शिखर अरावली का सबसे ऊँचा शिखर है, जिसके बाद सेर, दिलवाड़ा, आँचलगढ़ और कुम्भलगढ़ आते हैं।"
       },
       "qkey": "21716f7704e7",
       "source_exam": "LIB__EVALUATION OFFICER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)::HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021|Paper I|79",
-      "serial_no": 79,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
-      "topic": "Urban literacy rate",
-      "subtopic": "",
-      "source_cycle": "HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021",
-      "hindi": {
-        "question": "2011 की जनगणना के अनुसार, राजस्थान में सर्वाधिक शहरी साक्षरता दर थी -",
-        "options": [
-          "जयपुर की",
-          "उदयपुर की",
-          "अजमेर की",
-          "प्रतापगढ़ की"
-        ],
-        "explanation": "2011 की जनगणना के अनुसार, राजस्थान में उदयपुर जिले की शहरी साक्षरता दर सर्वाधिक थी। यह दर्शाता है कि शहरी क्षेत्रों में शिक्षा के स्तर में उदयपुर अग्रणी था।"
-      },
-      "qkey": "f76534231827",
-      "source_exam": "LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -2376,30 +2112,6 @@
         "explanation": "सही सुमेलन इस प्रकार है: ताम्र (कॉपर) का खनन खो-दरीबा (अलवर) में होता है। सीसा एवं जस्ता का खनन राजपुरा-दरीबा (राजसमंद) में होता है। लौह अयस्क का खनन मोरिज़ा-नीमाला (जयपुर) में होता है। मैंगनीज़ का खनन छोटी सार-बड़ी सार (बांसवाड़ा) में होता है।"
       },
       "qkey": "be9af4f7cb81",
-      "source_exam": "SCHOOL LECTURER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2024|D|58",
-      "serial_no": 58,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल एवं प्राकृतिक संसाधन [Rajasthan Geography and Natural Resources]",
-      "topic": "Minerals / Mining",
-      "subtopic": "Mineral Deposits and Mining Areas",
-      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2024",
-      "hindi": {
-        "question": "कांसला-नरडिया क्षेत्र में निम्नलिखित में से कौन से अयस्क की बहुलता है ?",
-        "options": [
-          "मैंगनीज़",
-          "बेरिलियम",
-          "फेल्सपार",
-          "अभ्रक"
-        ],
-        "explanation": "कांसला-नरडिया क्षेत्र राजस्थान में मैंगनीज़ अयस्क के खनन के लिए जाना जाता है। यह क्षेत्र राज्य के महत्वपूर्ण खनिज उत्पादक क्षेत्रों में से एक है। मैंगनीज़ का उपयोग विभिन्न उद्योगों में होता है।"
-      },
-      "qkey": "d72dfa8d1b0d",
       "source_exam": "SCHOOL LECTURER",
       "source_board": "RPSC",
       "is_cross_pool": true
@@ -2855,30 +2567,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2018|(single)|3",
-      "serial_no": 3,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Medieval History of Rajasthan",
-      "subtopic": "Dynasties of Rajasthan",
-      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2018",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सा शासक गुर्जर-प्रतिहार राजवंश से संबंधित नहीं है ?",
-        "options": [
-          "नागभट्ट-11",
-          "महेन्द्रपाल-1",
-          "देवपाल",
-          "भरत्रभट्ट-1"
-        ],
-        "explanation": "गुर्जर-प्रतिहार राजवंश एक महत्वपूर्ण भारतीय राजवंश था जिसके प्रमुख शासकों में नागभट्ट-II, महेन्द्रपाल-I और देवपाल शामिल थे। भरत्रभट्ट-I इस राजवंश से संबंधित नहीं थे, बल्कि वे गुहिल वंश के शासक थे।"
-      },
-      "qkey": "23e383cc11f1",
-      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|7|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Prasooti Tantra And Stree Roga)",
       "serial_no": 7,
       "correct_option": 1,
@@ -2999,30 +2687,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||54|Master Question Paper, MDE02",
-      "serial_no": 54,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Treaties with British",
-      "subtopic": "",
-      "source_cycle": "Junior Instructor 2024",
-      "hindi": {
-        "question": "अक्टूबर 1818 में प्रतापगढ़ राज्य के साथ संधि पर हस्ताक्षर करने का श्रेय किस अंग्रेज अधिकारी को जाता है?",
-        "options": [
-          "जॉन मेलकम",
-          "जॉर्ज मिल",
-          "जॉर्ज स्टुअर्ट",
-          "जॉन विल्सन"
-        ],
-        "explanation": "अक्टूबर 1818 में प्रतापगढ़ राज्य के साथ संधि पर हस्ताक्षर करने का श्रेय जॉन मेलकम को जाता है। उन्होंने ब्रिटिश ईस्ट इंडिया कंपनी के प्रतिनिधि के रूप में यह महत्वपूर्ण संधि संपन्न की थी, जिससे प्रतापगढ़ राज्य ब्रिटिश संरक्षण में आ गया।"
-      },
-      "qkey": "4277a48b8882",
-      "source_exam": "JUNIOR INSTRUCTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||63|Master Question Paper 134 E",
       "serial_no": 63,
       "correct_option": 2,
@@ -3119,30 +2783,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||29|Master Question Paper 19.09.2025_Morning Shift_DS22",
-      "serial_no": 29,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Tourism in Rajasthan",
-      "subtopic": "Jaipur Tourist Sites",
-      "source_cycle": "Fourth Class Employee 2024",
-      "hindi": {
-        "question": "निम्नलिखित में से, किस पर्यटन स्थल को, \"पंच गौरव\" पहल के तहत, जयपुर जिले का प्रतिनिधित्व करने के लिए चुना गया है ?",
-        "options": [
-          "आमेर दुर्ग",
-          "जंतर मंतर",
-          "नाहरगढ़ किला",
-          "हवा महल"
-        ],
-        "explanation": "जयपुर जिले में 'पंच गौरव' पहल के तहत आमेर दुर्ग को चुना गया है। यह पहल पर्यटन को बढ़ावा देने और जयपुर के ऐतिहासिक महत्व को उजागर करने के लिए शुरू की गई है।"
-      },
-      "qkey": "a6e679311573",
-      "source_exam": "Fourth Class Employee",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__JUNIOR SCIENTIFIC ASSISTANT::Junior Scientific Assistant 2019||3",
       "serial_no": 3,
       "correct_option": 1,
@@ -3235,54 +2875,6 @@
       },
       "qkey": "54d62a6506d8",
       "source_exam": "SCHOOL LECTURER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|11|Question Paper for A.A.R.O. - 2022 (GK and Botany)",
-      "serial_no": 11,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Shudra Mukti author",
-      "subtopic": "",
-      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
-      "hindi": {
-        "question": "निम्न में से कौन 'शूद्र मुक्ति' पुस्तक के लेखक हैं?",
-        "options": [
-          "अर्जुन लाल सेठी",
-          "प्रताप सिंह",
-          "जमनालाल बजाज",
-          "सागरमल गोपा"
-        ],
-        "explanation": "अर्जुन लाल सेठी राजस्थान के एक प्रमुख स्वतंत्रता सेनानी और क्रांतिकारी थे। उन्होंने 'शूद्र मुक्ति' नामक पुस्तक की रचना की, जिसमें सामाजिक सुधार और दलितों के उत्थान पर विचार व्यक्त किए गए थे। इसलिए, विकल्प (1) 'अर्जुन लाल सेठी' सही उत्तर है।"
-      },
-      "qkey": "a6e148e2d55c",
-      "source_exam": "LIB__A.R.O. AND A.A.R.O",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|83",
-      "serial_no": 83,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Forts and Dargahs",
-      "subtopic": "",
-      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
-      "hindi": {
-        "question": "निम्न में से कौन सा युग्म सुमेलित नहीं है ?\nA. रणथम्भौर दुर्ग\nपीर सदरुद्दीन की\nदरगाह\nB. गागरोण दुर्ग\nसन्त मिट्ठे साहब की\nदरगाह\nC. जालौर दुर्ग\nसन्त मीरां साहेब की\nदरगाह\n(1) केवल A\n(3) केवल C",
-        "options": [
-          "केवल A",
-          "केवल B",
-          "केवल C",
-          "A व C"
-        ],
-        "explanation": "जालौर दुर्ग में संत मीरां साहेब की दरगाह नहीं है, इसलिए यह युग्म सुमेलित नहीं है। संत मीरां साहेब की दरगाह नागौर में स्थित है। रणथंभौर दुर्ग में पीर सदरुद्दीन की दरगाह और गागरोण दुर्ग में संत मिट्ठे साहब की दरगाह स्थित है।"
-      },
-      "qkey": "7893eb17b1ba",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -4079,30 +3671,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::LIB__FORESTER::Forester 2026||7",
-      "serial_no": 7,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Rajasthan tourist places",
-      "subtopic": "",
-      "source_cycle": "Forester 2026",
-      "hindi": {
-        "question": "राजस्थान के निम्नलिखित में से किस केंद्रीय रूप से संरक्षित टिकट वाले स्मारक में वर्ष 2024-25 में सर्वाधिक घरेलू पर्यटक आए ? सबसे उपयुक्त विकल्प का चयन कीजिए ।",
-        "options": [
-          "चित्तौड़गढ़ किला",
-          "कुंभलगढ़ किला",
-          "डीग भवन",
-          "चांद बाउरी"
-        ],
-        "explanation": "वर्ष 2024-25 में, राजस्थान में केंद्रीय रूप से संरक्षित टिकट वाले स्मारकों में से चित्तौड़गढ़ किले में सर्वाधिक घरेलू पर्यटक आए। यह किला अपनी ऐतिहासिक महत्वता और भव्यता के कारण पर्यटकों के बीच बहुत लोकप्रिय है।"
-      },
-      "qkey": "6f2dc262f0a8",
-      "source_exam": "LIB__FORESTER",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__FORESTER::Forester 2026||67",
       "serial_no": 67,
       "correct_option": 2,
@@ -4391,30 +3959,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|94",
-      "serial_no": 94,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Kanhaiyalal Sethia works",
-      "subtopic": "",
-      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सी रचना प्रसिद्ध लेखक\nएवं कवि कन्हैयालाल सेठिया द्वारा रचित नहीं है ?",
-        "options": [
-          "वनफूल",
-          "अग्निवीणा",
-          "निर्ग्रन्थ",
-          "अलेखू हिटलर"
-        ],
-        "explanation": "'अलेखू हिटलर' प्रसिद्ध लेखक एवं कवि कन्हैयालाल सेठिया द्वारा रचित नहीं है। कन्हैयालाल सेठिया की प्रमुख रचनाओं में 'वनफूल', 'अग्निवीणा' और 'निर्ग्रन्थ' शामिल हैं।"
-      },
-      "qkey": "bb3caa9f7ccd",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (SANSKRIT COLLEGE EDU.) 2024|(single)|16",
       "serial_no": 16,
       "correct_option": 1,
@@ -4434,30 +3978,6 @@
         "explanation": "भपंग एक तत् वाद्य यंत्र है, जिसका अर्थ है कि यह तारों से बजाया जाता है। मोरचंग एक सुषिर वाद्य, खड़ताल एक घन वाद्य और अलगोजा एक सुषिर वाद्य है। भपंग राजस्थान का एक प्रसिद्ध लोक वाद्य यंत्र है।"
       },
       "qkey": "6181ebf3469f",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::COLLEGE LECTURER 2014|(single)|7",
-      "serial_no": 7,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Rajasthan folk art",
-      "subtopic": "",
-      "source_cycle": "COLLEGE LECTURER 2014",
-      "hindi": {
-        "question": "' कावड ' निर्माण में किस पेड़ की लकड़ी प्रयुक्त की जाती है ?",
-        "options": [
-          "अशोक के पेड़ की",
-          "सालर के पेड़ की",
-          "पीपल के पेड़ की",
-          "सागवान के पेड़ की"
-        ],
-        "explanation": "'कावड़' निर्माण में 'सालर के पेड़ की' लकड़ी का उपयोग किया जाता है। सालर की लकड़ी हल्की और मजबूत होती है, जो कावड़ जैसे जटिल और सचल संरचना के लिए उपयुक्त होती है।"
-      },
-      "qkey": "487bed84d90f",
       "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
       "source_board": "RPSC",
       "is_cross_pool": true
@@ -4627,30 +4147,6 @@
       },
       "qkey": "b1296056d76b",
       "source_exam": "LIB__ASST. ENGINEER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__ASST. STATISTICAL OFFICER::ASST. STATISTICAL OFFICER 2024|(single)|13",
-      "serial_no": 13,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Types of forts",
-      "subtopic": "",
-      "source_cycle": "ASST. STATISTICAL OFFICER 2024",
-      "hindi": {
-        "question": "निम्न में से कौनसा युग्म सुमेलित नहीं है?",
-        "options": [
-          "गिरि दुर्ग – सिवाणा",
-          "स्थल दुर्ग - चौमुहागढ़",
-          "धान्वन दुर्ग  मांडलगढ़",
-          "औदक दुर्ग - गागरोण"
-        ],
-        "explanation": "दिए गए विकल्पों में से, 'धान्वन दुर्ग - मांडलगढ़' सही सुमेलित नहीं है। मांडलगढ़ एक गिरि दुर्ग है, जबकि धान्वन दुर्ग वे होते हैं जो रेगिस्तानी क्षेत्र में स्थित होते हैं। सिवाणा एक गिरि दुर्ग है, चौमुहागढ़ एक स्थल दुर्ग है और गागरोण एक औदक दुर्ग है।"
-      },
-      "qkey": "beca2f9e3749",
-      "source_exam": "LIB__ASST. STATISTICAL OFFICER",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -4847,30 +4343,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2025|(single)|13",
-      "serial_no": 13,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Holi festivals locations",
-      "subtopic": "",
-      "source_cycle": "VETERINARY OFFICER 2025",
-      "hindi": {
-        "question": "सूची-I को सूची-II से सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करते हुए सही उत्तर का चयन कीजिए - सूची-I (होली का त्योहार) (A) कोडामार (B) लट्ठमार (C) पत्थरमार (D) गैर सूची-II (स्थान) (i) श्री महावीर जी (ii) बाड़मेर (iii) भिनाय (iv) भीलवाड़ा कूट",
-        "options": [
-          "(A)-(i), (B)-(ii), (C)-(iv), (D)-(iii)",
-          "(A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)",
-          "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)",
-          "(A)-(iv), (B)-(ii), (C)-(iii), (D)-(i)"
-        ],
-        "explanation": "यह प्रश्न होली के त्योहारों और उनके संबंधित स्थानों के सही मिलान से संबंधित है। कोडामार होली भिनाय में, लट्ठमार होली श्री महावीर जी में, पत्थरमार होली बाड़मेर में और गैर होली भीलवाड़ा में प्रसिद्ध है। इस प्रकार, विकल्प (3) सही मिलान दर्शाता है।"
-      },
-      "qkey": "36a750d0e38b",
-      "source_exam": "LIB__VETERINARY OFFICER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2025|(single)|19",
       "serial_no": 19,
       "correct_option": 1,
@@ -4891,30 +4363,6 @@
       },
       "qkey": "2cf6e859e3b0",
       "source_exam": "LIB__VETERINARY OFFICER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SANSKRIT EDU.) 2022|(single)|18",
-      "serial_no": 18,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास [History of Rajasthan]",
-      "topic": "Freedom Movement in Rajasthan",
-      "subtopic": "1857 Revolt and Princely States",
-      "source_cycle": "SCHOOL LECTURER (SANSKRIT EDU.) 2022",
-      "hindi": {
-        "question": "निम्नलिखित देशी रियासतों एवं संबंधित पॉलिटिकल एजेन्ट (1857 के विद्रोह के प्रारंभ के समय) का कौनसा युग्मे असंगत है?देशी रियासत पॉलिटिकल एजेन्ट",
-        "options": [
-          "भरतपुर कैप्टन जे.डी. हॉल",
-          "जयपुर कर्नल ईडन",
-          "मेवाड़ सी.एल. शॉवर्स",
-          "मारवाड़ मैक मेसन"
-        ],
-        "explanation": "1857 के विद्रोह के समय भरतपुर के पॉलिटिकल एजेंट मॉरिसन थे। कैप्टन जे.डी. हॉल सिरोही के पॉलिटिकल एजेंट थे। जयपुर के कर्नल ईडन, मेवाड़ के सी.एल. शॉवर्स और मारवाड़ के मैक मेसन (मैकमोहन) सही सुमेलित हैं। इसलिए, भरतपुर और कैप्टन जे.डी. हॉल का युग्म असंगत है।"
-      },
-      "qkey": "1451726dfc2a",
-      "source_exam": "SCHOOL LECTURER",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -5327,54 +4775,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::ACF AND FOREST RANGE OFFICER GR-I::ACF AND FOREST RANGE OFFICER GR-I COMP. EXAM 2018|(single)|71",
-      "serial_no": 71,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "State Finances",
-      "subtopic": "Economic Review of Rajasthan",
-      "source_cycle": "ACF AND FOREST RANGE OFFICER GR-I COMP. EXAM 2018",
-      "hindi": {
-        "question": "अप्रैल से सितम्बर 2020 तक राजस्थान की\nअर्थव्यवस्था के अर्द्धवार्षिक समीक्षा के संबंध में\nनिम्नलिखित में से कौन सा कथन असत्य है ?",
-        "options": [
-          "राजकोषीय घाटा 33,109 करोड़ रुपये था ।",
-          "कर राजस्व 11.87 प्रतिशत गिर गया ।",
-          "गैर-कर राजस्व 45 प्रतिशत गिर गया ।",
-          "राज्य जीएसटी 25.48 प्रतिशत नीचे चला गया ।"
-        ],
-        "explanation": "अप्रैल से सितंबर 2020 तक राजस्थान की अर्थव्यवस्था की अर्धवार्षिक समीक्षा के अनुसार, गैर-कर राजस्व में 45 प्रतिशत की गिरावट नहीं आई थी। अन्य कथन, जैसे राजकोषीय घाटा 33,109 करोड़ रुपये था, कर राजस्व 11.87 प्रतिशत गिर गया, और राज्य जीएसटी 25.48 प्रतिशत नीचे चला गया, सत्य थे।"
-      },
-      "qkey": "906ba0679556",
-      "source_exam": "ACF AND FOREST RANGE OFFICER GR-I",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (SANSKRIT COLLEGE EDU.) 2024|(single)|65",
-      "serial_no": 65,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Handicraft export contribution",
-      "subtopic": "",
-      "source_cycle": "ASST. PROF. (SANSKRIT COLLEGE EDU.) 2024",
-      "hindi": {
-        "question": "वित्तीय वर्ष 2023-24 के दौरान राजस्थान के कुल निर्यात में हस्तशिल्प क्षेत्र का योगदान कितना था?",
-        "options": [
-          "19.82 प्रतिशत",
-          "10.54 प्रतिशत",
-          "5.48 प्रतिशत",
-          "9.54 प्रतिशत"
-        ],
-        "explanation": "वित्तीय वर्ष 2023-24 के दौरान राजस्थान के कुल निर्यात में हस्तशिल्प क्षेत्र का योगदान 9.54 प्रतिशत था। यह आंकड़ा राज्य की अर्थव्यवस्था में हस्तशिल्प के महत्व को दर्शाता है।"
-      },
-      "qkey": "4c26c50b999e",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||30|Forester 2020 _ Master Question (Shift 2)",
       "serial_no": 30,
       "correct_option": 4,
@@ -5395,30 +4795,6 @@
       },
       "qkey": "fe03dc747a17",
       "source_exam": "Forester and Forest Guard",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||126|Master Question Paper Q13",
-      "serial_no": 126,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Agriculture of Rajasthan",
-      "subtopic": "Major Crops of Rajasthan",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
-      "hindi": {
-        "question": "निम्नलिखित में से राजस्थान का कौन सा क्षेत्र एक महत्वपूर्ण 'ईसबगोल' उत्पादक क्षेत्र है?",
-        "options": [
-          "बाड़मेर",
-          "जोधपुर",
-          "जयपुर",
-          "कोटा"
-        ],
-        "explanation": "राजस्थान में ईसबगोल (Psyllium) का उत्पादन मुख्य रूप से पश्चिमी राजस्थान के शुष्क और अर्ध-शुष्क क्षेत्रों में होता है। बाड़मेर जिला ईसबगोल के उत्पादन के लिए एक महत्वपूर्ण क्षेत्र है, जहाँ की जलवायु और मिट्टी इस फसल के लिए अनुकूल है।"
-      },
-      "qkey": "02a61bdc7657",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
       "source_board": "RMSSB",
       "is_cross_pool": true
     },
@@ -5495,54 +4871,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::LIB__ASST. DIRECTOR::ASST. DIRECTOR 2024|Paper Ii|67",
-      "serial_no": 67,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "M-Sand policy incentives",
-      "subtopic": "",
-      "source_cycle": "ASST. DIRECTOR 2024",
-      "hindi": {
-        "question": "राजस्थान एम-सैंड नीति 2024 के संदर्भ में निम्नलिखित में से कौनसा कथन एम-सैंड इकाइयों के प्रोत्साहन के संबंध में सही नहीं है?",
-        "options": [
-          "बिजली शुल्क में 7 वर्षों के लिए 100 प्रतिशत छूट",
-          "स्टाम्प शुल्क पर 75 प्रतिशत की छूट",
-          "रॉयल्टी में 50 प्रतिशत छूट",
-          "राज्य कर में 10 वर्षों के लिए 100 प्रतिशत क्षतिपूर्ति"
-        ],
-        "explanation": "राजस्थान एम-सैंड नीति 2024 के तहत एम-सैंड इकाइयों को प्रोत्साहन देने के लिए बिजली शुल्क में 7 वर्षों के लिए 100 प्रतिशत छूट, स्टाम्प शुल्क पर 75 प्रतिशत की छूट और रॉयल्टी में 50 प्रतिशत छूट का प्रावधान है। हालांकि, राज्य कर में 10 वर्षों के लिए 100 प्रतिशत क्षतिपूर्ति का कथन सही नहीं है। इसलिए, विकल्प (4) सही नहीं है।"
-      },
-      "qkey": "3d6c6b71d1d1",
-      "source_exam": "LIB__ASST. DIRECTOR",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__LDC Grade II _ Junior Assistant::LDC Grade II _ Junior Assistant 2026||92",
-      "serial_no": 92,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Land use pattern Rajasthan",
-      "subtopic": "",
-      "source_cycle": "LDC Grade II _ Junior Assistant 2026",
-      "hindi": {
-        "question": "राजस्थान की भूमि उपयोग पद्धति (2020-21) की विभिन्न श्रेणियों को अवरोही क्रम में व्यवस्थित कीजिए।",
-        "options": [
-          "(a), (b), (c), (d)",
-          "(a), (b), (d), (c)",
-          "(b), (a), (d), (c)",
-          "(c), (b), (d), (a)"
-        ],
-        "explanation": "राजस्थान की भूमि उपयोग पद्धति (2020-21) की विभिन्न श्रेणियों को अवरोही क्रम में व्यवस्थित करने पर, सबसे बड़ी श्रेणी से सबसे छोटी श्रेणी का क्रम (a), (b), (c), (d) है। यह क्रम भूमि के विभिन्न उपयोगों के सापेक्षिक महत्व या क्षेत्र को दर्शाता है।"
-      },
-      "qkey": "9c3fb28fa664",
-      "source_exam": "LIB__LDC Grade II _ Junior Assistant",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__FORESTER::Forester 2026||95",
       "serial_no": 95,
       "correct_option": 4,
@@ -5563,54 +4891,6 @@
       },
       "qkey": "69b3ba1af4ea",
       "source_exam": "LIB__FORESTER",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SUB INSPECTOR COMB. COMP. EXAM::SUB INSPECTOR COMB. COMP. EXAM 2025|06-04-2026|37",
-      "serial_no": 37,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Government Welfare Schemes",
-      "subtopic": "Rajasthan Circular Economy Promotion Policy 2025",
-      "source_cycle": "SUB INSPECTOR COMB. COMP. EXAM 2025",
-      "hindi": {
-        "question": "राजस्थान चक्रीय अर्थव्यवस्था प्रोत्साहन योजना\n2025 का प्राथमिक उद्देश्य क्या है ?\n(1) सौर ऊर्जा का उत्पादन बढ़ाना ।\n(2) अपशिष्ट कम करने, पुनर्चक्रण और सतत्\nसंसाधन प्रबन्धन को बढ़ावा देना ।\n(3) ग्रामीण पर्यटन को बढ़ावा देना ।\n(4) शिक्षा की गुणवत्ता में सुधार करना ।\n(5) अनुत्तरित प्रश्न",
-        "options": [
-          "सौर ऊर्जा का उत्पादन बढ़ाना ।",
-          "अपशिष्ट कम करने, पुनर्चक्रण और सतत्\nसंसाधन प्रबन्धन को बढ़ावा देना ।",
-          "ग्रामीण पर्यटन को बढ़ावा देना ।",
-          "शिक्षा की गुणवत्ता में सुधार करना ।"
-        ],
-        "explanation": "राजस्थान चक्रीय अर्थव्यवस्था प्रोत्साहन योजना 2025 का प्राथमिक उद्देश्य अपशिष्ट कम करने, पुनर्चक्रण और सतत संसाधन प्रबंधन को बढ़ावा देना है। यह योजना संसाधनों के कुशल उपयोग और पर्यावरण संरक्षण पर केंद्रित है।"
-      },
-      "qkey": "2108911ff563",
-      "source_exam": "SUB INSPECTOR COMB. COMP. EXAM",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Live Stock Assistant::Live Stock Assistant 2024||41",
-      "serial_no": 41,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Poverty Alleviation Schemes",
-      "subtopic": "Bank-Financed Schemes in Rajasthan",
-      "source_cycle": "Live Stock Assistant 2024",
-      "hindi": {
-        "question": "राजस्थान की आर्थिक समीक्षा (2024-25) के अनुसार,\nनिम्नलिखित में से कौनसी योजना राजस्थान में गरीबी उन्मूलन के\nलिए बैंकों द्वारा वित्त पोषित या समर्थित कार्यक्रम के रूप में\nसूचीबद्ध नहीं है?",
-        "options": [
-          "दीन दयाल अंत्योदय योजना",
-          "पीएम-मुद्रा योजना",
-          "मुख्यमंत्री नारी शक्ति उद्यम प्रोत्साहन योजना",
-          "मुख्यमंत्री नारी वन्दना स्वनिधि योजना"
-        ],
-        "explanation": "राजस्थान की आर्थिक समीक्षा (2024-25) के अनुसार, 'मुख्यमंत्री नारी वन्दना स्वनिधि योजना' गरीबी उन्मूलन के लिए बैंकों द्वारा वित्त पोषित या समर्थित कार्यक्रम के रूप में सूचीबद्ध नहीं है। अन्य योजनाएँ जैसे दीन दयाल अंत्योदय योजना, पीएम-मुद्रा योजना और मुख्यमंत्री नारी शक्ति उद्यम प्रोत्साहन योजना गरीबी उन्मूलन में सहायक हैं।"
-      },
-      "qkey": "b403b0f36969",
-      "source_exam": "Live Stock Assistant",
       "source_board": "RMSSB",
       "is_cross_pool": true
     },
@@ -5636,30 +4916,6 @@
       "qkey": "49f842e67dd4",
       "source_exam": "LIB__VETERINARY OFFICER",
       "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__UPPER PRIMARY SCHOOL TEACHER::UPPER PRIMARY SCHOOL TEACHER 2022||44|Master Question Paper 143 Punjabi",
-      "serial_no": 44,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Indira Gandhi Urban Employment",
-      "subtopic": "",
-      "source_cycle": "UPPER PRIMARY SCHOOL TEACHER 2022",
-      "hindi": {
-        "question": "इंदिरा गांधी शहरी रोजगार योजना के तहत सरकार द्वारा कितने दिनों के रोजगार की गारंटी दी जाती है?",
-        "options": [
-          "110 दिन",
-          "120 दिन",
-          "80 दिन",
-          "100 दिन"
-        ],
-        "explanation": "इंदिरा गांधी शहरी रोजगार योजना के तहत सरकार द्वारा 100 दिनों के रोजगार की गारंटी दी जाती है। यह योजना शहरी क्षेत्रों में रोजगार के अवसर प्रदान करने के लिए शुरू की गई है।"
-      },
-      "qkey": "b78879e3d31e",
-      "source_exam": "LIB__UPPER PRIMARY SCHOOL TEACHER",
-      "source_board": "RMSSB",
       "is_cross_pool": true
     },
     {
@@ -5711,30 +4967,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||11|Master Question Paper 134 B",
-      "serial_no": 11,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Various welfare schemes",
-      "subtopic": "Tribal area development schemes in Rajasthan",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
-      "hindi": {
-        "question": "राजस्थान के कितने जिलों में जनजातीय क्षेत्र विकास स्कीम लागू की जा रही है ?",
-        "options": [
-          "6",
-          "8",
-          "10",
-          "12"
-        ],
-        "explanation": "राजस्थान में जनजातीय क्षेत्र विकास स्कीम (Tribal Area Development Scheme) 8 जिलों में लागू की जा रही है। यह योजना जनजातीय समुदायों के सामाजिक-आर्थिक उत्थान और उनके क्षेत्रों के समग्र विकास पर केंद्रित है। इसका उद्देश्य इन क्षेत्रों में शिक्षा, स्वास्थ्य और आजीविका के अवसरों में सुधार करना है।"
-      },
-      "qkey": "051ea8cdfe21",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||135|Master Question Paper 134 C",
       "serial_no": 135,
       "correct_option": 4,
@@ -5754,30 +4986,6 @@
         "explanation": "राजस्थान सरकार ने वर्ष 2000 में राजस्थान राज्य विद्युत बोर्ड (RSEB) का पुनर्गठन किया था। इसे पाँच अलग-अलग सरकारी कंपनियों में विभाजित किया गया था, जिनमें उत्पादन, पारेषण और वितरण के लिए अलग-अलग निगम शामिल थे, ताकि विद्युत क्षेत्र में दक्षता बढ़ाई जा सके।"
       },
       "qkey": "9c6a59b78606",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||93|Master Question Paper 134 D",
-      "serial_no": 93,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Economic Development & Welfare Schemes",
-      "subtopic": "Drought & Famine Relief Programs",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
-      "hindi": {
-        "question": "कौन-से कार्यक्रमों का अकाल राहत से सीधा संबंध है ?",
-        "options": [
-          "मरुस्थलीय विकास कार्यक्रम",
-          "सूखा संभाव्य क्षेत्रीय कार्यक्रम",
-          "नरेगा",
-          "मरुस्थलीय विकास कार्यक्रम और सूखा संभाव्य क्षेत्रीय कार्यक्रम दोनों"
-        ],
-        "explanation": "मरुस्थलीय विकास कार्यक्रम (Desert Development Programme) और सूखा संभाव्य क्षेत्रीय कार्यक्रम (Drought Prone Area Programme) दोनों का सीधा संबंध अकाल राहत और सूखे की स्थिति से निपटने से है। ये कार्यक्रम उन क्षेत्रों में भूमि और जल संसाधनों के विकास, रोजगार सृजन और पारिस्थितिक संतुलन बनाए रखने पर केंद्रित हैं जो सूखे और मरुस्थलीकरण से प्रभावित होते हैं।"
-      },
-      "qkey": "eca9581d430f",
       "source_exam": "Common Eligibility Test(Senior Secondary Level)",
       "source_board": "RMSSB",
       "is_cross_pool": true
@@ -6071,30 +5279,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2021|(single)|88",
-      "serial_no": 88,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान में कृषि एवं सामाजिक आर्थिक विकास [Agriculture and Socio-Economic Development in Rajasthan]",
-      "topic": "Economic Indicators",
-      "subtopic": "Per Capita Income (Constant Prices)",
-      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM 2021",
-      "hindi": {
-        "question": "अग्रिम अनुमानों के अनुसार, 2020- 21 में स्थिर कीमतों पर (2011-12) राजस्थान की प्रति व्यक्ति आय है -",
-        "options": [
-          "79,722 ₹",
-          "97,227 ₹",
-          "72,297 ₹",
-          "75,527 ₹"
-        ],
-        "explanation": "अग्रिम अनुमानों के अनुसार, वित्तीय वर्ष 2020-21 में स्थिर कीमतों (2011-12) पर राजस्थान की प्रति व्यक्ति आय ₹72,297 थी। यह राज्य की आर्थिक स्थिति का एक महत्वपूर्ण संकेतक है।"
-      },
-      "qkey": "9f776a3d1cc5",
-      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2022|B|72",
       "serial_no": 72,
       "correct_option": 4,
@@ -6303,7 +5487,7 @@
           "केवल A, B, C सत्य है",
           "सभी A, B, C, D सत्य है"
         ],
-        "explanation": "डूंगरपुर-बांसवाड़ा का भील आंदोलन एक सामाजिक एवं धार्मिक सुधार आंदोलन था जिसने कालांतर में राजनीतिक स्वरूप ग्रहण कर लिया। सामाजिक जागरूकता के कारण भीलों ने ठाकुरों के आदेशों को मानने से इनकार कर दिया और भील क्षेत्र में राज्य के आबकारी राजस्व में गिरावट आई। ये तीनों कथन सत्य हैं।"
+        "explanation": "डंगरपुर-बांसवाड़ा का भील आंदोलन एक सामाजिक और धार्मिक सुधार आंदोलन था जिसने बाद में राजनीतिक स्वरूप ग्रहण कर लिया। इस आंदोलन के कारण भीलों में सामाजिक जागरूकता बढ़ी और उन्होंने ठाकुरों के आदेशों को मानने से इनकार कर दिया। इसके परिणामस्वरूप, भील क्षेत्र में राज्य के आबकारी राजस्व में भी गिरावट आई।"
       },
       "qkey": "292adda0dd6c",
       "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
@@ -6332,30 +5516,6 @@
       "qkey": "1a33cc9aeb04",
       "source_exam": "Common Eligibility Test(Senior Secondary Level)",
       "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__RESEARCH ASSISTANT::RESEARCH ASSISTANT 2024|(single)|14",
-      "serial_no": 14,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान की संस्कृति एवं विरासत [Culture and Heritage of Rajasthan]",
-      "topic": "Prajamandal leaders",
-      "subtopic": "",
-      "source_cycle": "RESEARCH ASSISTANT 2024",
-      "hindi": {
-        "question": "निम्न में से कौनसा युग्म (प्रजामण्डल – नेता) सुमेलित नहीं है?",
-        "options": [
-          "भरतपुर – गोपी लाल यादव",
-          "बूंदी – हीरा लाल कोठारी",
-          "अलवर भवानी शंकर शर्मा",
-          "कोटा – नयनूराम"
-        ],
-        "explanation": "दिए गए विकल्पों में से 'बूंदी – हीरा लाल कोठारी' युग्म सुमेलित नहीं है। बूंदी प्रजामण्डल से संबंधित नेता हीरा लाल कोठारी नहीं थे। अन्य विकल्प सही सुमेलित हैं।"
-      },
-      "qkey": "cd69f5856b33",
-      "source_exam": "LIB__RESEARCH ASSISTANT",
-      "source_board": "RPSC",
       "is_cross_pool": true
     },
     {
@@ -6455,30 +5615,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||24|Master Question Paper_Sanskrit ( L-1 )_2PP12",
-      "serial_no": 24,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान की संस्कृति एवं विरासत [Culture and Heritage of Rajasthan]",
-      "topic": "Rajasthani literary traditions",
-      "subtopic": "",
-      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
-      "hindi": {
-        "question": "राजस्थानी साहित्य की ऐतिहासिक परंपरा/प्रवृत्तियों को कालक्रमानुसार व्यवस्थित करें :",
-        "options": [
-          "c, a, b, d",
-          "a, c, b, d",
-          "b, d, a, c",
-          "d, b, a, c"
-        ],
-        "explanation": "राजस्थानी साहित्य की ऐतिहासिक परंपरा/प्रवृत्तियों का सही कालक्रमानुसार व्यवस्थापन विकल्प (b, d, a, c) है। यह क्रम साहित्य के विकास और विभिन्न कालों की प्रवृत्तियों को दर्शाता है।"
-      },
-      "qkey": "97baf6dfc825",
-      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__LOCAL SELF GOVERNMENT DEPT. EXAM::LOCAL SELF GOVERNMENT DEPT. EXAM 2022|(single)|34|Question Paper for Local Self Government Dept. Exam - 2022 (Assistant Engineer - Civil)",
       "serial_no": 34,
       "correct_option": 2,
@@ -6499,30 +5635,6 @@
       },
       "qkey": "058ea25bbd40",
       "source_exam": "LIB__LOCAL SELF GOVERNMENT DEPT. EXAM",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2024|D|72",
-      "serial_no": 72,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान की संस्कृति एवं विरासत [Culture and Heritage of Rajasthan]",
-      "topic": "Ancient Rajasthan History / Archaeology",
-      "subtopic": "Ahar Civilization",
-      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2024",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सा कथन सही नहीं है ?",
-        "options": [
-          "आहड़ की खोज रत्नचन्द्र अग्रवाल ने 1954 में की।",
-          "यह एक ग्रामीण संस्कृति थी ।",
-          "वे चित्रित धूसर मृद्भांड उपयोग में लाते थे।",
-          "वे घोड़े तथा हाथी से परिचित थे ।"
-        ],
-        "explanation": "आहड़ सभ्यता के लोग चित्रित धूसर मृद्भांड (Painted Grey Ware) का उपयोग नहीं करते थे, बल्कि वे मुख्य रूप से लाल और काले मृद्भांड (Black and Red Ware) का उपयोग करते थे। आहड़ की खोज रत्नचन्द्र अग्रवाल ने 1954 में की थी, यह एक ग्रामीण संस्कृति थी, और वे घोड़े तथा हाथी से परिचित थे, ये सभी कथन सही हैं।"
-      },
-      "qkey": "2211b728c0ac",
-      "source_exam": "SCHOOL LECTURER",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -6623,30 +5735,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||41|Master Question Paper 134 E",
-      "serial_no": 41,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान की संस्कृति एवं विरासत [Culture and Heritage of Rajasthan]",
-      "topic": "Folk Music and Dance of Rajasthan",
-      "subtopic": "Folk Musical Instruments and Artists",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
-      "hindi": {
-        "question": "साकर खान को 2012 में पद्मश्री से सम्मानित किया गया क्योंकि वे लोक वाद्य के सबसे बड़े प्रवक्ता थे।",
-        "options": [
-          "कामायचा",
-          "सारंगी",
-          "मोरचंग",
-          "खड़ताल"
-        ],
-        "explanation": "साकर खान मांगणियार को 2012 में कामायचा लोक वाद्य यंत्र को विश्व स्तर पर पहचान दिलाने और उसके संरक्षण में उनके महत्वपूर्ण योगदान के लिए पद्मश्री से सम्मानित किया गया था। वह कामायचा के एक महान वादक और इसके सबसे बड़े प्रवर्तकों में से एक थे।"
-      },
-      "qkey": "ba3f683f4731",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (NON-TSP) 2018|B|90",
       "serial_no": 90,
       "correct_option": 2,
@@ -6667,30 +5755,6 @@
       },
       "qkey": "9654f8b7f970",
       "source_exam": "SR. TEACHER (SECONDARY EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|21|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Kayachikitsa)",
-      "serial_no": 21,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान की संस्कृति एवं विरासत [Culture and Heritage of Rajasthan]",
-      "topic": "Peasant movements in Rajasthan",
-      "subtopic": "",
-      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
-      "hindi": {
-        "question": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र क्यों दिया था?",
-        "options": [
-          "1923 ई. में. उन्हे 5 वर्ष की सजा सुनाकर जेल भेज दिया था।",
-          "माणिक्य लाल वर्मा को नेतृत्व प्रदान करने हेतु।",
-          "उन्होंने किसानों को असिंचित भूमि को पड़तरखने हेतु कहा था।",
-          "ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया जिसे लोगों ने ले लिया।"
-        ],
-        "explanation": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र इसलिए दिया क्योंकि ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया गया और लोगों ने उसे ले लिया। यह किसानों के हितों के खिलाफ था और पथिक इस निर्णय से असहमत थे।"
-      },
-      "qkey": "e0074096e92b",
-      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -7190,30 +6254,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2018||79",
-      "serial_no": 79,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "रसायन विज्ञान [Chemistry]",
-      "topic": "Child Development",
-      "subtopic": "Self-Concept and Self-Esteem",
-      "source_cycle": "Supervisor (Woman) (Anganwadi Worker Quota) 2018",
-      "hindi": {
-        "question": "एक अनुमति है जो हम अपने श्रेय और धारणा को संयुक्त करते हैं ।",
-        "options": [
-          "आत्म प्रत्यय",
-          "आत्म सम्मान",
-          "आत्म बोध",
-          "आत्म विश्वास"
-        ],
-        "explanation": "आत्म-सम्मान एक व्यक्ति की अपनी योग्यता और मूल्य के बारे में समग्र धारणा है। यह इस बात पर आधारित है कि हम अपने आप को कितना पसंद करते हैं और स्वीकार करते हैं, जो हमारे श्रेय और धारणा को संयुक्त करता है।"
-      },
-      "qkey": "0cdee50b8d9c",
-      "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||50|Forester 2020 _ Master Question (Shift 2)",
       "serial_no": 50,
       "correct_option": 1,
@@ -7310,30 +6350,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2024||135",
-      "serial_no": 135,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "रसायन विज्ञान [Chemistry]",
-      "topic": "Human Health and Nutrition",
-      "subtopic": "Vitamin Deficiency Diseases",
-      "source_cycle": "Supervisor (Woman) (Anganwadi Worker Quota) 2024",
-      "hindi": {
-        "question": "सूची-I को सूची-II से सुमेलित कीजिए :\nसूची-I\nविटामिन\n(a) विटामिन B1\n(b) विटामिन B3\n(c) विटामिन C\n(d) विटामिन B2\nसूची-II\nअभावजन्य रोग\n(i) अराइबोफ्लेविनोसिस\n(ii) स्कर्वी\n(iii) बेरी-बेरी\n(iv) पेलाग्र\nChoose the most appropriate answer from the options given below :",
-        "options": [
-          "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
-          "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-          "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
-          "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
-        ],
-        "explanation": "विटामिन B1 की कमी से बेरी-बेरी रोग होता है। विटामिन B3 की कमी से पेलाग्रा होता है। विटामिन C की कमी से स्कर्वी रोग होता है। विटामिन B2 की कमी से अराइबोफ्लेविनोसिस होता है। इस प्रकार, सही मिलान (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i) है।"
-      },
-      "qkey": "bf4c58a2f049",
-      "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__NHM (CONTRACTUAL POSTS)::NHM (Contractual Posts) 2025||14|Master Question Paper Female Health Worker (PJ971)",
       "serial_no": 14,
       "correct_option": 1,
@@ -7374,7 +6390,7 @@
           "SGNIS",
           "SINGS"
         ],
-        "explanation": "दिए गए कोडिंग पैटर्न में, शब्द के पहले अक्षर के आगे 'S' जोड़ा जाता है और फिर मूल शब्द के अक्षरों को वर्णानुक्रम में व्यवस्थित किया जाता है। CAT को SATC (S + ACT) लिखा गया है। DEAR को SEARD (S + ADER) लिखा गया है। इसी तर्क से, SING को SINGS (S + GINS) लिखा जाएगा।"
+        "explanation": "इस कोडिंग पैटर्न में, दिए गए शब्द के पहले अक्षर को हटाकर उसे शब्द के अंत में रखा जाता है, और फिर शब्द की शुरुआत में 'S' अक्षर जोड़ा जाता है। इस नियम का पालन करते हुए, SING को SINGS लिखा जाएगा।"
       },
       "qkey": "62a96453cbf9",
       "source_exam": "SCHOOL LECTURER",
@@ -7527,30 +6543,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::ASST. ENGINEER COMB. COMP. EXAM::ASST. ENGINEER COMB. COMP. EXAM 2024|(single)|50",
-      "serial_no": 50,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "रसायन विज्ञान [Chemistry]",
-      "topic": "Physics",
-      "subtopic": "Wave Propagation - Sky Waves and Space Waves",
-      "source_cycle": "ASST. ENGINEER COMB. COMP. EXAM 2024",
-      "hindi": {
-        "question": "तरंगों के संचरण के लिए निम्नलिखित कथनों पर\nविचार कीजिए और सही विकल्प का चयन कीजिए :\nकथन A : आकाश तरंगों का उपयोग दृष्टि रेखीय\nसंचार के साथ-साथ उपग्रह संचार के लिए भी\nकिया जाता है।\nकथन B : व्योम तरंगों का उपयोग 40 मेगाहर्ट्ज\nसे 100 मेगाहर्ज तक आवृत्ति परास में संचार के\nलिए किया जाता है।",
-        "options": [
-          "कथन A और B दोनों सत्य हैं।",
-          "केवल कथन A सत्य है।",
-          "केवल कथन B सत्य है ।",
-          "कथन A और B दोनों असत्य हैं ।"
-        ],
-        "explanation": "आकाश तरंगों का उपयोग दृष्टि रेखीय संचार के साथ-साथ उपग्रह संचार के लिए भी किया जाता है। व्योम तरंगों का उपयोग 40 मेगाहर्ट्ज से 100 मेगाहर्ट्ज तक आवृत्ति परास में संचार के लिए नहीं किया जाता है, बल्कि यह उच्च आवृत्ति के लिए होता है।"
-      },
-      "qkey": "c0b8d5315e32",
-      "source_exam": "ASST. ENGINEER COMB. COMP. EXAM",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2025|B|32",
       "serial_no": 32,
       "correct_option": 1,
@@ -7666,30 +6658,6 @@
         "explanation": "डी.एन.ए. (डीऑक्सीराइबोन्यूक्लिक एसिड) और आर.एन.ए. (राइबोन्यूक्लिक एसिड) के शर्करा अणुओं में मुख्य अंतर 2-C (दूसरे कार्बन) पर ऑक्सीजन की उपस्थिति या अनुपस्थिति का होता है। डी.एन.ए. में डीऑक्सीराइबोज शर्करा होती है, जिसमें 2-C पर ऑक्सीजन का अभाव होता है, जबकि आर.एन.ए. में राइबोज शर्करा होती है जिसमें 2-C पर ऑक्सीजन मौजूद होता है।"
       },
       "qkey": "a3086526d989",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||84|Master Question Paper R15",
-      "serial_no": 84,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "रसायन विज्ञान [Chemistry]",
-      "topic": "Biology",
-      "subtopic": "Human Health / Hormones",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
-      "hindi": {
-        "question": "मानव इंसुलिन के संदर्भ में सबसे उपयुक्त कथन का चयन कीजिए:-\na. मानव इंसुलिन दो छोटी पोलीपेपटाइड श्रंखलाओं का बना होता है।\nb. दो श्रंखलाएँ A और B श्रंखलाएँ हैं।\nc. दो श्रंखलाएँ α और γ श्रंखलाएँ हैं।\nd. प्राक् हार्मोन (प्रोहार्मोन) में C - पेप्टाइड का अतिरिक्त खण्ड/टुकड़ा होता है।\ne. सी- पेप्टाइड दो श्रंखलाओं के मध्य परिपक्व रुप में मानव इंसुलिन में उपस्थित होता है।\nनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें :",
-        "options": [
-          "केवल a, c और e",
-          "केवल a, b और e",
-          "केवल a, b और d",
-          "केवल a, b, d और e"
-        ],
-        "explanation": "मानव इंसुलिन दो छोटी पॉलीपेप्टाइड श्रृंखलाओं, A और B श्रृंखलाओं से बना होता है, जो डाईसल्फाइड बंधों से जुड़ी होती हैं। प्राक्-हार्मोन (प्रोइंसुलिन) में एक अतिरिक्त C-पेप्टाइड खंड होता है, जिसे परिपक्व इंसुलिन बनने के दौरान हटा दिया जाता है। इसलिए, कथन a, b और d सही हैं।"
-      },
-      "qkey": "2f7a35d6c8c9",
       "source_exam": "Common Eligibility Test(Senior Secondary Level)",
       "source_board": "RMSSB",
       "is_cross_pool": true
@@ -7955,30 +6923,6 @@
       },
       "qkey": "ca75ba8a7551",
       "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__Junior Accountant & Tehsil Revenue Accountant::Junior Accountant & Tehsil Revenue Accountant 2023||74",
-      "serial_no": 74,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "भौतिक विज्ञान [Physics]",
-      "topic": "Light phenomena",
-      "subtopic": "",
-      "source_cycle": "Junior Accountant & Tehsil Revenue Accountant 2023",
-      "hindi": {
-        "question": "सूची I के साथ सूची II का मिलान कीजिए:\nसूची I (घटना)\na. सूर्योदय और सूर्यास्त\nके समय सूर्य का लाल\nरंग का दिखना\nb. तारों की टिमटिमाहट\nc. आकाश में इन्द्रधनुष\nका निर्माण\nd. रेगिस्तान में मरीचिका\nका निर्माण\nसूची II (प्रकाश की परिघटना)\nI. प्रकाश का परिक्षेपण\nII. प्रकाश का प्रकीर्णन\nIII. पूर्ण आंतरिक\nपरावर्तन\nIV. प्रकाश का\nवायुमंडलीय अपवर्तन\nनीचे दिए गए विकल्पों में से सही उत्तर का चयन कीजिएः",
-        "options": [
-          "a-IV, b-II, c-I, d-III",
-          "a-II, b-IV, c-I, d-II",
-          "a-II, b-IV, c-III, d-I",
-          "a-II, b-I, c-IV, d-III"
-        ],
-        "explanation": "इस प्रश्न में विभिन्न प्रकाशीय घटनाओं का उनके प्रभावों से मिलान करना है।\na. सूर्योदय और सूर्यास्त के समय सूर्य का लाल रंग का दिखना प्रकाश के प्रकीर्णन (II) के कारण होता है।\nb. तारों की टिमटिमाहट प्रकाश के वायुमंडलीय अपवर्तन (IV) के कारण होती है।\nc. आकाश में इंद्रधनुष का निर्माण प्रकाश के परिक्षेपण (I) के कारण होता है, जिसमें प्रकाश का अपवर्तन और पूर्ण आंतरिक परावर्तन भी शामिल होता है।\nd. रेगिस्तान में मरीचिका का निर्माण पूर्ण आंतरिक परावर्तन (III) के कारण होता है।\nइस प्रकार, सही मिलान a-II, b-IV, c-I, d-III है।"
-      },
-      "qkey": "e5c52d69e610",
-      "source_exam": "LIB__Junior Accountant & Tehsil Revenue Accountant",
       "source_board": "RMSSB",
       "is_cross_pool": true
     },

@@ -30,27 +30,6 @@
       "qkey": "952ae72f3cde"
     },
     {
-      "id": "Animal Attendant 2023||9|Master Question Paper, 2nd Phase(X12)",
-      "serial_no": 9,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल [Geography of Rajasthan]",
-      "topic": "Rivers and Dams",
-      "subtopic": "Gandhi Sagar Dam",
-      "source_cycle": "Animal Attendant 2023",
-      "hindi": {
-        "question": "राजस्थान में गांधी सागर बांध किस नदी पर स्थित है?निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-        "options": [
-          "सरस्वती",
-          "बनास",
-          "चंबल",
-          "मंथा"
-        ],
-        "explanation": "गांधी सागर बांध चंबल नदी पर स्थित है। यह चंबल नदी घाटी परियोजना का एक महत्वपूर्ण हिस्सा है और मध्य प्रदेश में स्थित है, लेकिन इसका लाभ राजस्थान को भी मिलता है। अन्य नदियाँ इस बांध से संबंधित नहीं हैं।"
-      },
-      "qkey": "770bd132ef52"
-    },
-    {
       "id": "Animal Attendant 2023||3|Master Question Paper, 3st Phase(C09)",
       "serial_no": 3,
       "correct_option": 1,
@@ -270,30 +249,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2024|D|58",
-      "serial_no": 58,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल [Geography of Rajasthan]",
-      "topic": "Minerals / Mining",
-      "subtopic": "Mineral Deposits and Mining Areas",
-      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2024",
-      "hindi": {
-        "question": "कांसला-नरडिया क्षेत्र में निम्नलिखित में से कौन से अयस्क की बहुलता है ?",
-        "options": [
-          "मैंगनीज़",
-          "बेरिलियम",
-          "फेल्सपार",
-          "अभ्रक"
-        ],
-        "explanation": "कांसला-नरडिया क्षेत्र राजस्थान में मैंगनीज़ अयस्क के खनन के लिए जाना जाता है। यह क्षेत्र राज्य के महत्वपूर्ण खनिज उत्पादक क्षेत्रों में से एक है। मैंगनीज़ का उपयोग विभिन्न उद्योगों में होता है।"
-      },
-      "qkey": "d72dfa8d1b0d",
-      "source_exam": "SCHOOL LECTURER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2021|(single)|27|Question Paper for Lecturer (Ayurved Dept.) - 2021 (GK and Shalya Tantra)",
       "serial_no": 27,
       "correct_option": 2,
@@ -454,7 +409,7 @@
           "(A), (D), (C), (E), (B)",
           "(A), (C), (B), (E), (D)"
         ],
-        "explanation": "अरावली पर्वत शिखरों को ऊँचाई के अनुसार घटते क्रम में व्यवस्थित करने पर सही क्रम (A) गुरु शिखर, (D) सेर, (C) दिलवाड़ा, (E) कुम्भलगढ़, (B) आँचलगढ़ है। गुरु शिखर (1722 मी.) सबसे ऊँचा है, उसके बाद सेर (1597 मी.), दिलवाड़ा (1442 मी.), कुम्भलगढ़ (1224 मी.) और आँचलगढ़ (1380 मी.) आता है। दिए गए विकल्पों में से (A), (D), (C), (E), (B) सही है।"
+        "explanation": "विकल्प (2) अरावली पर्वत शिखरों को उनकी ऊँचाई के घटते क्रम में सही ढंग से व्यवस्थित करता है। गुरु शिखर अरावली का सबसे ऊँचा शिखर है, जिसके बाद सेर, दिलवाड़ा, आँचलगढ़ और कुम्भलगढ़ आते हैं।"
       },
       "qkey": "21716f7704e7",
       "source_exam": "LIB__EVALUATION OFFICER",
@@ -1182,30 +1137,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::LIB__COMPUTOR::Computor 2021||25",
-      "serial_no": 25,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल [Geography of Rajasthan]",
-      "topic": "Earthquake zones Rajasthan",
-      "subtopic": "",
-      "source_cycle": "Computor 2021",
-      "hindi": {
-        "question": "राजस्थान के निम्नलिखित में कौन से जिले भूकम्पों से सबसे कम प्रभावित हैं?",
-        "options": [
-          "गंगानगर और हनुमानगढ़",
-          "भरतपुर और अलवर",
-          "कोटा और बारां",
-          "बाड़मेर और जैसलमेर"
-        ],
-        "explanation": "राजस्थान के गंगानगर और हनुमानगढ़ जिले भूकम्पों से सबसे कम प्रभावित हैं। ये जिले राज्य के अपेक्षाकृत स्थिर भूगर्भीय क्षेत्र में स्थित हैं, जिससे भूकम्प का खतरा कम होता है।"
-      },
-      "qkey": "e2fa78da748c",
-      "source_exam": "LIB__COMPUTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__COMPUTOR::Computor 2021||30",
       "serial_no": 30,
       "correct_option": 3,
@@ -1350,54 +1281,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|18|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
-      "serial_no": 18,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल [Geography of Rajasthan]",
-      "topic": "River origins Rajasthan",
-      "subtopic": "",
-      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
-      "hindi": {
-        "question": "सूची-I और सूची-II को सुमेलित करके नीचे दिये गये कूट से सही उत्तर का चयन कीजिये - सूची-I (उद्गम स्थल) (A) खमनोर की पहाड़ियाँ (B) बैराठ की पहाड़ियाँ (C) खण्डेला की पहाड़ियाँ (D) सेवर की पहाड़ियाँ कूट -",
-        "options": [
-          "A-ii, B-i, C-iii, D-iv",
-          "A-iii, B-iv, C-i, D-ii",
-          "A-iv, B-iii, C-i, D-ii",
-          "A-i, B-iii, C-ii, D-iv"
-        ],
-        "explanation": "खमनोर की पहाड़ियाँ बनास नदी का उद्गम स्थल हैं, बैराठ की पहाड़ियाँ बाणगंगा नदी का, खण्डेला की पहाड़ियाँ कांतली नदी का और सेवर की पहाड़ियाँ साबी नदी का उद्गम स्थल हैं। इस प्रकार, सही सुमेलन A-iii, B-iv, C-i, D-ii है।"
-      },
-      "qkey": "44d56e8716c3",
-      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|22|Question Paper for Archives Department Recruitment - 2024 (Archivist)",
-      "serial_no": 22,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल [Geography of Rajasthan]",
-      "topic": "Mineral deposits Rajasthan",
-      "subtopic": "",
-      "source_cycle": "ARCHIVES DEPARTMENT RECRUITMENT 2024",
-      "hindi": {
-        "question": "गलत युग्म का चुनाव कीजिए -",
-        "options": [
-          "ताँबा - अगूचा गुलाबपुरा",
-          "मैंगनीज कांसला",
-          "सीसा व जस्ता राजपुरा दरीबा",
-          "लौह अयस्क डाबला क्षेत्र"
-        ],
-        "explanation": "अगूचा गुलाबपुरा ताँबे के लिए नहीं, बल्कि सीसा-जस्ता के लिए प्रसिद्ध है। मैंगनीज कांसला में पाया जाता है, राजपुरा दरीबा सीसा व जस्ता के लिए जाना जाता है, और डाबला क्षेत्र लौह अयस्क के लिए प्रसिद्ध है। इसलिए, 'ताँबा - अगूचा गुलाबपुरा' गलत युग्म है।"
-      },
-      "qkey": "243ea349bb20",
-      "source_exam": "LIB__ARCHIVES DEPARTMENT RECRUITMENT",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__ARCHIVES DEPARTMENT RECRUITMENT::ARCHIVES DEPARTMENT RECRUITMENT 2024|(single)|15|Question Paper for Archives Department Recruitment - 2024 (Research Officer)",
       "serial_no": 15,
       "correct_option": 2,
@@ -1490,30 +1373,6 @@
       },
       "qkey": "7198534c8572",
       "source_exam": "LIB__ASST. DIRECTOR",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)::HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021|Paper I|79",
-      "serial_no": 79,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का भूगोल [Geography of Rajasthan]",
-      "topic": "Urban literacy rate",
-      "subtopic": "",
-      "source_cycle": "HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.) 2021",
-      "hindi": {
-        "question": "2011 की जनगणना के अनुसार, राजस्थान में सर्वाधिक शहरी साक्षरता दर थी -",
-        "options": [
-          "जयपुर की",
-          "उदयपुर की",
-          "अजमेर की",
-          "प्रतापगढ़ की"
-        ],
-        "explanation": "2011 की जनगणना के अनुसार, राजस्थान में उदयपुर जिले की शहरी साक्षरता दर सर्वाधिक थी। यह दर्शाता है कि शहरी क्षेत्रों में शिक्षा के स्तर में उदयपुर अग्रणी था।"
-      },
-      "qkey": "f76534231827",
-      "source_exam": "LIB__HEAD MASTER PRAVESHIKA SCHOOL (SANSKRIT EDU.)",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -2233,7 +2092,7 @@
           "13.0 कि.मी. प्रति घंटा",
           "11.5 कि.मी. प्रति घंटा"
         ],
-        "explanation": "एक विद्यार्थी प्रातः अपने घर से कॉलेज 15 कि.मी. प्रति घंटे की गति से जाता है और शाम को कॉलेज से घर पर 10 कि.मी. प्रति घंटे की गति से आता है, तो उसकी औसत गति 12.0 कि.मी. प्रति घंटा होगी। औसत गति की गणना के सूत्र का उपयोग करके यह मान प्राप्त किया जा सकता है।"
+        "explanation": "औसत गति की गणना कुल तय की गई दूरी को कुल लगे समय से विभाजित करके की जाती है। इस मामले में, यदि दूरी समान है, तो औसत गति 2 * (गति1 * गति2) / (गति1 + गति2) सूत्र से निकाली जा सकती है, जो 2 * (15 * 10) / (15 + 10) = 300 / 25 = 12 कि.मी. प्रति घंटा है।"
       },
       "qkey": "89c228fe65cd",
       "source_exam": "LIB__EVALUATION OFFICER",
@@ -2265,30 +2124,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||11|Forest Guard 2020 _ Master Question Paper 130D",
-      "serial_no": 11,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Geometry",
-      "subtopic": "Area of circles",
-      "source_cycle": "Forester and Forest Guard 2020",
-      "hindi": {
-        "question": "11. दो संकेन्द्रित वृत्तों के व्यास 8 से.मी. और 10 से.मी. हैं। उनके बीच के क्षेत्र का क्षेत्रफल है-",
-        "options": [
-          "$\\pi~से.मी.^{2}$",
-          "37 से.मी.2",
-          "6 से.मी.2",
-          "97 से.मी.2"
-        ],
-        "explanation": "दो संकेन्द्रित वृत्तों के व्यास 8 सेमी और 10 सेमी हैं, तो उनकी त्रिज्याएँ क्रमशः 4 सेमी और 5 सेमी होंगी। उनके बीच के क्षेत्र का क्षेत्रफल बड़े वृत्त के क्षेत्रफल में से छोटे वृत्त के क्षेत्रफल को घटाकर ज्ञात किया जाता है। क्षेत्रफल = $\\pi (R^2 - r^2) = \\pi (5^2 - 4^2) = \\pi (25 - 16) = 9\\pi$ वर्ग सेमी। दिए गए विकल्पों में से 97 वर्ग सेमी एक त्रुटिपूर्ण विकल्प है, क्योंकि $9\\pi \\approx 28.27$ वर्ग सेमी होता है। हालांकि, आधिकारिक उत्तर 97 सेमी² है, जो गणितीय रूप से सही नहीं है।"
-      },
-      "qkey": "a027600a6c03",
-      "source_exam": "Forester and Forest Guard",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||72|Master Question Paper19.09.2025_Evening Shift _A23Z",
       "serial_no": 72,
       "correct_option": 2,
@@ -2310,30 +2145,6 @@
       "qkey": "03cfc437d595",
       "source_exam": "Fourth Class Employee",
       "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2025|(single)|135",
-      "serial_no": 135,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Particular integral",
-      "subtopic": "",
-      "source_cycle": "STATISTICAL OFFICER 2025",
-      "hindi": {
-        "question": "अवकल समीकरण $\\frac{d^{2}y}{dx^{2}}+y=tan~x$ का विशिष्ट समाकल है -",
-        "options": [
-          "$-cos~x\\int sec~X~dx$",
-          "$(cos~x-sin~x)\\int sec~x~dx$",
-          "$-sec~x~tan~x\\int sec~x~dx$",
-          "$-sec~x\\int sec~x~dx$"
-        ],
-        "explanation": "अवकल समीकरण $\\frac{d^2y}{dx^2}+y=\\tan x$ का विशिष्ट समाकल (Particular Integral) ज्ञात करने के लिए 'चरों के विचरण की विधि' (Method of Variation of Parameters) का उपयोग किया जाता है। इस विधि से, विशिष्ट समाकल $y_p = -y_1 \\int \\frac{y_2 R(x)}{W} dx + y_2 \\int \\frac{y_1 R(x)}{W} dx$ होता है, जहाँ $y_1 = \\cos x$, $y_2 = \\sin x$, $R(x) = \\tan x$ और $W$ व्रोंस्कियन है। गणना करने पर, विशिष्ट समाकल $- \\cos x \\int \\sec x dx$ प्राप्त होता है।"
-      },
-      "qkey": "6e2f660c38c0",
-      "source_exam": "LIB__STATISTICAL OFFICER",
-      "source_board": "RPSC",
       "is_cross_pool": true
     },
     {
@@ -2457,30 +2268,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||28|Master Question Paper 20.09.2025_Evening Shift_DB29",
-      "serial_no": 28,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Arithmetic",
-      "subtopic": "Time and Work",
-      "source_cycle": "Fourth Class Employee 2024",
-      "hindi": {
-        "question": "A तथा B मिलकर किसी काम को 10 दिन में कर सकते हैं; B तथा C मिलकर उसी काम को 12 दिन में कर सकते हैं, जबकि A तथा C मिलकर उसे 15 दिन में कर सकते हैं। यदि A, B तथा C मिलकर कार्य करें तो वे कितने समय में उसी काम को कर लेंगे ?",
-        "options": [
-          "$7\\frac{1}{2}fGr$",
-          "8 दिन",
-          "$8\\frac{1}{2}\\hat{\\sqrt{GM}}$",
-          "7 दिन"
-        ],
-        "explanation": "इस प्रश्न में कार्य और समय से संबंधित समस्या है। A, B और C मिलकर काम करते हैं तो वे 8 दिन में काम पूरा कर लेंगे। यह गणना उनकी व्यक्तिगत कार्य क्षमताओं को जोड़कर की जाती है।"
-      },
-      "qkey": "1d0c3a194f42",
-      "source_exam": "Fourth Class Employee",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2021|(single)|117",
       "serial_no": 117,
       "correct_option": 3,
@@ -2577,79 +2364,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||76|Master Question Paper 20.09.2025_Morning Shift_1XY2",
-      "serial_no": 76,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Data Interpretation",
-      "subtopic": "Production data from a graph",
-      "source_cycle": "Fourth Class Employee 2024",
-      "image": "data:image/jpeg;base64,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",
-      "hindi": {
-        "question": "एक कंपनी एक सप्ताह में 6650 इलेक्ट्रिक मोटरों का उत्पादन करती है। कंपनी सोमवार से शुक्रवार तक काम करती है। दैनिक उत्पादन प्रतिशत में निम्नलिखित ग्राफ द्वारा दर्शाया गया है।\nमंगलवार और गुरुवार को उत्पादित विद्युत मोटरों की संख्या क्रमशः है-",
-        "options": [
-          "1197, 1330",
-          "1463, 1596",
-          "1064, 1330",
-          "1064, 1197"
-        ],
-        "explanation": "कंपनी एक सप्ताह में कुल 6650 मोटरें बनाती है। ग्राफ के अनुसार, मंगलवार को कुल उत्पादन का 22% और गुरुवार को 24% उत्पादन होता है। इसलिए, मंगलवार को 6650 का 22% यानी 1463 मोटरें और गुरुवार को 6650 का 24% यानी 1596 मोटरें उत्पादित होंगी।"
-      },
-      "qkey": "e65d9fd27961",
-      "source_exam": "Fourth Class Employee",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||39|Forester 2020 _ Master Question (Shift 2)",
-      "serial_no": 39,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Geometry",
-      "subtopic": "Circles (Circumference and Area)",
-      "source_cycle": "Forester and Forest Guard 2020",
-      "hindi": {
-        "question": "एक दिये गये वृत्त की परिधि तथा क्षेत्रफल का संख्यात्मक मान समान है, तो इसका व्यास $\\frac{4}{5}-$",
-        "options": [
-          "2 इकाई",
-          "4 इकाई",
-          "$\\pi$ इकाई",
-          "$\\frac{\\pi}{2}$ इकाई"
-        ],
-        "explanation": "यदि वृत्त की परिधि (2πr) और क्षेत्रफल (πr²) का संख्यात्मक मान समान है, तो 2πr = πr²। इसे हल करने पर r = 2 इकाई प्राप्त होता है। वृत्त का व्यास 2r होता है, इसलिए व्यास 2 * 2 = 4 इकाई होगा।"
-      },
-      "qkey": "c586cfe92302",
-      "source_exam": "Forester and Forest Guard",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__PRIMARY SCHOOL TEACHER::PRIMARY SCHOOL TEACHER 2022||99",
-      "serial_no": 99,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Geometry parallel lines",
-      "subtopic": "",
-      "source_cycle": "PRIMARY SCHOOL TEACHER 2022",
-      "hindi": {
-        "question": "संलग्न आकृति में यदि AB || CD हो, तो x का मान है-",
-        "options": [
-          "60",
-          "80",
-          "90",
-          "100"
-        ],
-        "explanation": "संलग्न आकृति में यदि AB || CD हो, तो x का मान 100 होगा। यह समांतर रेखाओं और तिर्यक रेखा द्वारा बनने वाले कोणों के ज्यामितीय सिद्धांतों पर आधारित है।"
-      },
-      "qkey": "2ef7ad028862",
-      "source_exam": "LIB__PRIMARY SCHOOL TEACHER",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__STATISTICAL OFFICER::STATISTICAL OFFICER 2025|(single)|126",
       "serial_no": 126,
       "correct_option": 2,
@@ -2718,30 +2432,6 @@
       },
       "qkey": "736cdfc14e19",
       "source_exam": "Fourth Class Employee",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Forester and Forest Guard::Forester and Forest Guard 2020||14|Master Question Paper 130C",
-      "serial_no": 14,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "गणित [Mathematics]",
-      "topic": "Geometry",
-      "subtopic": "Angles in a Triangle",
-      "source_cycle": "Forester and Forest Guard 2020",
-      "hindi": {
-        "question": "त्रिभुज ABC में, यदि ∠A ∠B = 15° और ∠B-∠C = 30° है, तो ∠A बराबर है",
-        "options": [
-          "65°",
-          "80°",
-          "75°",
-          "85°"
-        ],
-        "explanation": "त्रिभुज के तीनों कोणों का योग 180° होता है, यानी ∠A + ∠B + ∠C = 180°। दिए गए समीकरणों ∠A - ∠B = 15° और ∠B - ∠C = 30° का उपयोग करके, तीनों कोणों को एक ही चर के पदों में व्यक्त करें और हल करने पर ∠A = 80° प्राप्त होता है।"
-      },
-      "qkey": "1e8fbdda083a",
-      "source_exam": "Forester and Forest Guard",
       "source_board": "RMSSB",
       "is_cross_pool": true
     },
@@ -2891,7 +2581,7 @@
           "केवल A, B, C सत्य है",
           "सभी A, B, C, D सत्य है"
         ],
-        "explanation": "डूंगरपुर-बांसवाड़ा का भील आंदोलन एक सामाजिक एवं धार्मिक सुधार आंदोलन था जिसने कालांतर में राजनीतिक स्वरूप ग्रहण कर लिया। सामाजिक जागरूकता के कारण भीलों ने ठाकुरों के आदेशों को मानने से इनकार कर दिया और भील क्षेत्र में राज्य के आबकारी राजस्व में गिरावट आई। ये तीनों कथन सत्य हैं।"
+        "explanation": "डंगरपुर-बांसवाड़ा का भील आंदोलन एक सामाजिक और धार्मिक सुधार आंदोलन था जिसने बाद में राजनीतिक स्वरूप ग्रहण कर लिया। इस आंदोलन के कारण भीलों में सामाजिक जागरूकता बढ़ी और उन्होंने ठाकुरों के आदेशों को मानने से इनकार कर दिया। इसके परिणामस्वरूप, भील क्षेत्र में राज्य के आबकारी राजस्व में भी गिरावट आई।"
       },
       "qkey": "292adda0dd6c",
       "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
@@ -2971,30 +2661,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2022||41|Master Question Paper 134 E",
-      "serial_no": 41,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Folk Music and Dance of Rajasthan",
-      "subtopic": "Folk Musical Instruments and Artists",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2022",
-      "hindi": {
-        "question": "साकर खान को 2012 में पद्मश्री से सम्मानित किया गया क्योंकि वे लोक वाद्य के सबसे बड़े प्रवक्ता थे।",
-        "options": [
-          "कामायचा",
-          "सारंगी",
-          "मोरचंग",
-          "खड़ताल"
-        ],
-        "explanation": "साकर खान मांगणियार को 2012 में कामायचा लोक वाद्य यंत्र को विश्व स्तर पर पहचान दिलाने और उसके संरक्षण में उनके महत्वपूर्ण योगदान के लिए पद्मश्री से सम्मानित किया गया था। वह कामायचा के एक महान वादक और इसके सबसे बड़े प्रवर्तकों में से एक थे।"
-      },
-      "qkey": "ba3f683f4731",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__LOCAL SELF GOVERNMENT DEPT. EXAM::LOCAL SELF GOVERNMENT DEPT. EXAM 2022|(single)|34|Question Paper for Local Self Government Dept. Exam - 2022 (Assistant Engineer - Civil)",
       "serial_no": 34,
       "correct_option": 2,
@@ -3015,30 +2681,6 @@
       },
       "qkey": "058ea25bbd40",
       "source_exam": "LIB__LOCAL SELF GOVERNMENT DEPT. EXAM",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__VETERINARY OFFICER::VETERINARY OFFICER 2025|(single)|13",
-      "serial_no": 13,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Holi festivals locations",
-      "subtopic": "",
-      "source_cycle": "VETERINARY OFFICER 2025",
-      "hindi": {
-        "question": "सूची-I को सूची-II से सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करते हुए सही उत्तर का चयन कीजिए - सूची-I (होली का त्योहार) (A) कोडामार (B) लट्ठमार (C) पत्थरमार (D) गैर सूची-II (स्थान) (i) श्री महावीर जी (ii) बाड़मेर (iii) भिनाय (iv) भीलवाड़ा कूट",
-        "options": [
-          "(A)-(i), (B)-(ii), (C)-(iv), (D)-(iii)",
-          "(A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)",
-          "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)",
-          "(A)-(iv), (B)-(ii), (C)-(iii), (D)-(i)"
-        ],
-        "explanation": "यह प्रश्न होली के त्योहारों और उनके संबंधित स्थानों के सही मिलान से संबंधित है। कोडामार होली भिनाय में, लट्ठमार होली श्री महावीर जी में, पत्थरमार होली बाड़मेर में और गैर होली भीलवाड़ा में प्रसिद्ध है। इस प्रकार, विकल्प (3) सही मिलान दर्शाता है।"
-      },
-      "qkey": "36a750d0e38b",
-      "source_exam": "LIB__VETERINARY OFFICER",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -3187,54 +2829,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::COLLEGE LECTURER 2014|(single)|7",
-      "serial_no": 7,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Rajasthan folk art",
-      "subtopic": "",
-      "source_cycle": "COLLEGE LECTURER 2014",
-      "hindi": {
-        "question": "' कावड ' निर्माण में किस पेड़ की लकड़ी प्रयुक्त की जाती है ?",
-        "options": [
-          "अशोक के पेड़ की",
-          "सालर के पेड़ की",
-          "पीपल के पेड़ की",
-          "सागवान के पेड़ की"
-        ],
-        "explanation": "'कावड़' निर्माण में 'सालर के पेड़ की' लकड़ी का उपयोग किया जाता है। सालर की लकड़ी हल्की और मजबूत होती है, जो कावड़ जैसे जटिल और सचल संरचना के लिए उपयुक्त होती है।"
-      },
-      "qkey": "487bed84d90f",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__LECTURER (AYURVED DEPT.)::LECTURER (AYURVED DEPT.) 2025|(single)|21|Question Paper for Lecturer (Ayurved Dept.) - 2025 (Kayachikitsa)",
-      "serial_no": 21,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Peasant movements in Rajasthan",
-      "subtopic": "",
-      "source_cycle": "LECTURER (AYURVED DEPT.) 2025",
-      "hindi": {
-        "question": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र क्यों दिया था?",
-        "options": [
-          "1923 ई. में. उन्हे 5 वर्ष की सजा सुनाकर जेल भेज दिया था।",
-          "माणिक्य लाल वर्मा को नेतृत्व प्रदान करने हेतु।",
-          "उन्होंने किसानों को असिंचित भूमि को पड़तरखने हेतु कहा था।",
-          "ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया जिसे लोगों ने ले लिया।"
-        ],
-        "explanation": "विजय सिंह पथिक ने किसान पंचायत से त्यागपत्र इसलिए दिया क्योंकि ठिकाने द्वारा नई राजस्व दरें तय करके पड़त भूमि को नीलाम किया गया और लोगों ने उसे ले लिया। यह किसानों के हितों के खिलाफ था और पथिक इस निर्णय से असहमत थे।"
-      },
-      "qkey": "e0074096e92b",
-      "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::SR. TEACHER (SECONDARY EDUCATION)::SR. TEACHER GR II COMP. EXAM (TSP) 2018|A|20",
       "serial_no": 20,
       "correct_option": 3,
@@ -3328,30 +2922,6 @@
       "qkey": "c80fc9aa4f9d",
       "source_exam": "LIB__JUNIOR SCIENTIFIC ASSISTANT",
       "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SCHOOL EDU.) 2024|D|72",
-      "serial_no": 72,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Ancient Rajasthan History / Archaeology",
-      "subtopic": "Ahar Civilization",
-      "source_cycle": "SCHOOL LECTURER (SCHOOL EDU.) 2024",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सा कथन सही नहीं है ?",
-        "options": [
-          "आहड़ की खोज रत्नचन्द्र अग्रवाल ने 1954 में की।",
-          "यह एक ग्रामीण संस्कृति थी ।",
-          "वे चित्रित धूसर मृद्भांड उपयोग में लाते थे।",
-          "वे घोड़े तथा हाथी से परिचित थे ।"
-        ],
-        "explanation": "आहड़ सभ्यता के लोग चित्रित धूसर मृद्भांड (Painted Grey Ware) का उपयोग नहीं करते थे, बल्कि वे मुख्य रूप से लाल और काले मृद्भांड (Black and Red Ware) का उपयोग करते थे। आहड़ की खोज रत्नचन्द्र अग्रवाल ने 1954 में की थी, यह एक ग्रामीण संस्कृति थी, और वे घोड़े तथा हाथी से परिचित थे, ये सभी कथन सही हैं।"
-      },
-      "qkey": "2211b728c0ac",
-      "source_exam": "SCHOOL LECTURER",
-      "source_board": "RPSC",
       "is_cross_pool": true
     },
     {
@@ -4147,30 +3717,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||29|Master Question Paper 19.09.2025_Morning Shift_DS22",
-      "serial_no": 29,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Tourism in Rajasthan",
-      "subtopic": "Jaipur Tourist Sites",
-      "source_cycle": "Fourth Class Employee 2024",
-      "hindi": {
-        "question": "निम्नलिखित में से, किस पर्यटन स्थल को, \"पंच गौरव\" पहल के तहत, जयपुर जिले का प्रतिनिधित्व करने के लिए चुना गया है ?",
-        "options": [
-          "आमेर दुर्ग",
-          "जंतर मंतर",
-          "नाहरगढ़ किला",
-          "हवा महल"
-        ],
-        "explanation": "जयपुर जिले में 'पंच गौरव' पहल के तहत आमेर दुर्ग को चुना गया है। यह पहल पर्यटन को बढ़ावा देने और जयपुर के ऐतिहासिक महत्व को उजागर करने के लिए शुरू की गई है।"
-      },
-      "qkey": "a6e679311573",
-      "source_exam": "Fourth Class Employee",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Fourth Class Employee::Fourth Class Employee 2024||26|Master Question Paper 20.09.2025_Evening Shift_DB29",
       "serial_no": 26,
       "correct_option": 1,
@@ -4339,30 +3885,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||54|Master Question Paper, MDE02",
-      "serial_no": 54,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Treaties with British",
-      "subtopic": "",
-      "source_cycle": "Junior Instructor 2024",
-      "hindi": {
-        "question": "अक्टूबर 1818 में प्रतापगढ़ राज्य के साथ संधि पर हस्ताक्षर करने का श्रेय किस अंग्रेज अधिकारी को जाता है?",
-        "options": [
-          "जॉन मेलकम",
-          "जॉर्ज मिल",
-          "जॉर्ज स्टुअर्ट",
-          "जॉन विल्सन"
-        ],
-        "explanation": "अक्टूबर 1818 में प्रतापगढ़ राज्य के साथ संधि पर हस्ताक्षर करने का श्रेय जॉन मेलकम को जाता है। उन्होंने ब्रिटिश ईस्ट इंडिया कंपनी के प्रतिनिधि के रूप में यह महत्वपूर्ण संधि संपन्न की थी, जिससे प्रतापगढ़ राज्य ब्रिटिश संरक्षण में आ गया।"
-      },
-      "qkey": "4277a48b8882",
-      "source_exam": "JUNIOR INSTRUCTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::JUNIOR INSTRUCTOR::Junior Instructor 2024||118|Master Question Paper, MDE02",
       "serial_no": 118,
       "correct_option": 4,
@@ -4455,30 +3977,6 @@
       },
       "qkey": "ef0e2b2a97ff",
       "source_exam": "LIB__COMPUTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__FORESTER::Forester 2026||7",
-      "serial_no": 7,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Rajasthan tourist places",
-      "subtopic": "",
-      "source_cycle": "Forester 2026",
-      "hindi": {
-        "question": "राजस्थान के निम्नलिखित में से किस केंद्रीय रूप से संरक्षित टिकट वाले स्मारक में वर्ष 2024-25 में सर्वाधिक घरेलू पर्यटक आए ? सबसे उपयुक्त विकल्प का चयन कीजिए ।",
-        "options": [
-          "चित्तौड़गढ़ किला",
-          "कुंभलगढ़ किला",
-          "डीग भवन",
-          "चांद बाउरी"
-        ],
-        "explanation": "वर्ष 2024-25 में, राजस्थान में केंद्रीय रूप से संरक्षित टिकट वाले स्मारकों में से चित्तौड़गढ़ किले में सर्वाधिक घरेलू पर्यटक आए। यह किला अपनी ऐतिहासिक महत्वता और भव्यता के कारण पर्यटकों के बीच बहुत लोकप्रिय है।"
-      },
-      "qkey": "6f2dc262f0a8",
-      "source_exam": "LIB__FORESTER",
       "source_board": "RMSSB",
       "is_cross_pool": true
     },
@@ -4622,30 +4120,6 @@
         "explanation": "इस प्रश्न में सूची I में दिए गए मेलों को सूची II में दिए गए उनके स्थानों से सुमेलित करना है। कपिल मुनि का मेला कोलायत में लगता है, शीतला माता का मेला चाकसू में लगता है, श्री महावीरजी का मेला चंदनपुर में लगता है और जीणमाता का मेला रेवासा में लगता है। इस प्रकार विकल्प (2) सही उत्तर है।"
       },
       "qkey": "e036a25d7a85",
-      "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||24|Master Question Paper_Sanskrit ( L-1 )_2PP12",
-      "serial_no": 24,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Rajasthani literary traditions",
-      "subtopic": "",
-      "source_cycle": "Primary & Upper Primary School Teacher (L-1 & L-2) 2025",
-      "hindi": {
-        "question": "राजस्थानी साहित्य की ऐतिहासिक परंपरा/प्रवृत्तियों को कालक्रमानुसार व्यवस्थित करें :",
-        "options": [
-          "c, a, b, d",
-          "a, c, b, d",
-          "b, d, a, c",
-          "d, b, a, c"
-        ],
-        "explanation": "राजस्थानी साहित्य की ऐतिहासिक परंपरा/प्रवृत्तियों का सही कालक्रमानुसार व्यवस्थापन विकल्प (b, d, a, c) है। यह क्रम साहित्य के विकास और विभिन्न कालों की प्रवृत्तियों को दर्शाता है।"
-      },
-      "qkey": "97baf6dfc825",
       "source_exam": "LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)",
       "source_board": "RMSSB",
       "is_cross_pool": true
@@ -4819,30 +4293,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|83",
-      "serial_no": 83,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Forts and Dargahs",
-      "subtopic": "",
-      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
-      "hindi": {
-        "question": "निम्न में से कौन सा युग्म सुमेलित नहीं है ?\nA. रणथम्भौर दुर्ग\nपीर सदरुद्दीन की\nदरगाह\nB. गागरोण दुर्ग\nसन्त मिट्ठे साहब की\nदरगाह\nC. जालौर दुर्ग\nसन्त मीरां साहेब की\nदरगाह\n(1) केवल A\n(3) केवल C",
-        "options": [
-          "केवल A",
-          "केवल B",
-          "केवल C",
-          "A व C"
-        ],
-        "explanation": "जालौर दुर्ग में संत मीरां साहेब की दरगाह नहीं है, इसलिए यह युग्म सुमेलित नहीं है। संत मीरां साहेब की दरगाह नागौर में स्थित है। रणथंभौर दुर्ग में पीर सदरुद्दीन की दरगाह और गागरोण दुर्ग में संत मिट्ठे साहब की दरगाह स्थित है।"
-      },
-      "qkey": "7893eb17b1ba",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|92",
       "serial_no": 92,
       "correct_option": 4,
@@ -4862,30 +4312,6 @@
         "explanation": "छप्पय राजस्थानी गद्य साहित्य में शामिल नहीं है। छप्पय एक छंद है जो पद्य साहित्य का हिस्सा है, जबकि वात, पीढ़ी और पिरियावली राजस्थानी गद्य साहित्य की विधाएँ हैं।"
       },
       "qkey": "a10a6814112f",
-      "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::ASST. PROFESSOR (COLLEGE EDUCATION)::ASST. PROF. (COLLEGE EDUCATION) 2025|Paper Iii|94",
-      "serial_no": 94,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Kanhaiyalal Sethia works",
-      "subtopic": "",
-      "source_cycle": "ASST. PROF. (COLLEGE EDUCATION) 2025",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सी रचना प्रसिद्ध लेखक\nएवं कवि कन्हैयालाल सेठिया द्वारा रचित नहीं है ?",
-        "options": [
-          "वनफूल",
-          "अग्निवीणा",
-          "निर्ग्रन्थ",
-          "अलेखू हिटलर"
-        ],
-        "explanation": "'अलेखू हिटलर' प्रसिद्ध लेखक एवं कवि कन्हैयालाल सेठिया द्वारा रचित नहीं है। कन्हैयालाल सेठिया की प्रमुख रचनाओं में 'वनफूल', 'अग्निवीणा' और 'निर्ग्रन्थ' शामिल हैं।"
-      },
-      "qkey": "bb3caa9f7ccd",
       "source_exam": "ASST. PROFESSOR (COLLEGE EDUCATION)",
       "source_board": "RPSC",
       "is_cross_pool": true
@@ -4959,30 +4385,6 @@
       },
       "qkey": "34f7d23af711",
       "source_exam": "HEADMASTER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__A.R.O. AND A.A.R.O::A.R.O. AND A.A.R.O. 2022|(single)|11|Question Paper for A.A.R.O. - 2022 (GK and Botany)",
-      "serial_no": 11,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Shudra Mukti author",
-      "subtopic": "",
-      "source_cycle": "A.R.O. AND A.A.R.O. 2022",
-      "hindi": {
-        "question": "निम्न में से कौन 'शूद्र मुक्ति' पुस्तक के लेखक हैं?",
-        "options": [
-          "अर्जुन लाल सेठी",
-          "प्रताप सिंह",
-          "जमनालाल बजाज",
-          "सागरमल गोपा"
-        ],
-        "explanation": "अर्जुन लाल सेठी राजस्थान के एक प्रमुख स्वतंत्रता सेनानी और क्रांतिकारी थे। उन्होंने 'शूद्र मुक्ति' नामक पुस्तक की रचना की, जिसमें सामाजिक सुधार और दलितों के उत्थान पर विचार व्यक्त किए गए थे। इसलिए, विकल्प (1) 'अर्जुन लाल सेठी' सही उत्तर है।"
-      },
-      "qkey": "a6e148e2d55c",
-      "source_exam": "LIB__A.R.O. AND A.A.R.O",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -5155,30 +4557,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::LIB__ASST. STATISTICAL OFFICER::ASST. STATISTICAL OFFICER 2024|(single)|13",
-      "serial_no": 13,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Types of forts",
-      "subtopic": "",
-      "source_cycle": "ASST. STATISTICAL OFFICER 2024",
-      "hindi": {
-        "question": "निम्न में से कौनसा युग्म सुमेलित नहीं है?",
-        "options": [
-          "गिरि दुर्ग – सिवाणा",
-          "स्थल दुर्ग - चौमुहागढ़",
-          "धान्वन दुर्ग  मांडलगढ़",
-          "औदक दुर्ग - गागरोण"
-        ],
-        "explanation": "दिए गए विकल्पों में से, 'धान्वन दुर्ग - मांडलगढ़' सही सुमेलित नहीं है। मांडलगढ़ एक गिरि दुर्ग है, जबकि धान्वन दुर्ग वे होते हैं जो रेगिस्तानी क्षेत्र में स्थित होते हैं। सिवाणा एक गिरि दुर्ग है, चौमुहागढ़ एक स्थल दुर्ग है और गागरोण एक औदक दुर्ग है।"
-      },
-      "qkey": "beca2f9e3749",
-      "source_exam": "LIB__ASST. STATISTICAL OFFICER",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::LIB__DEPUTY JAILOR::DEPUTY JAILOR 2024|Paper Ii|141",
       "serial_no": 141,
       "correct_option": 1,
@@ -5271,30 +4649,6 @@
       },
       "qkey": "e3ac4cc85d51",
       "source_exam": "LIB__LECTURER (AYURVED DEPT.)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::LIB__RESEARCH ASSISTANT::RESEARCH ASSISTANT 2024|(single)|14",
-      "serial_no": 14,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Prajamandal leaders",
-      "subtopic": "",
-      "source_cycle": "RESEARCH ASSISTANT 2024",
-      "hindi": {
-        "question": "निम्न में से कौनसा युग्म (प्रजामण्डल – नेता) सुमेलित नहीं है?",
-        "options": [
-          "भरतपुर – गोपी लाल यादव",
-          "बूंदी – हीरा लाल कोठारी",
-          "अलवर भवानी शंकर शर्मा",
-          "कोटा – नयनूराम"
-        ],
-        "explanation": "दिए गए विकल्पों में से 'बूंदी – हीरा लाल कोठारी' युग्म सुमेलित नहीं है। बूंदी प्रजामण्डल से संबंधित नेता हीरा लाल कोठारी नहीं थे। अन्य विकल्प सही सुमेलित हैं।"
-      },
-      "qkey": "cd69f5856b33",
-      "source_exam": "LIB__RESEARCH ASSISTANT",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -5467,30 +4821,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAJ. STATE AND SUB. SERVICES COMB COMP (TSP) EXAM 2018|(single)|3",
-      "serial_no": 3,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Medieval History of Rajasthan",
-      "subtopic": "Gurjara-Pratihara Dynasty",
-      "source_cycle": "RAJ. STATE AND SUB. SERVICES COMB COMP (TSP) EXAM 2018",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सा शासक गुर्जर-प्रतिहार राजवंश से संबंधित नहीं है ?",
-        "options": [
-          "नागभट्ट-11",
-          "महेन्द्रपाल-1",
-          "देवपाल",
-          "भरत्रभट्ट-1"
-        ],
-        "explanation": "दिए गए विकल्पों में से, नागभट्ट-II, महेन्द्रपाल-I और देवपाल गुर्जर-प्रतिहार राजवंश के शासक थे। भरत्रभट्ट-I गुर्जर-प्रतिहार राजवंश से संबंधित नहीं थे, बल्कि वे गुहिल वंश के शासक थे।"
-      },
-      "qkey": "23e383cc11f1",
-      "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
       "id": "RPSC::RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)::RAS_RTS COMB. COMP. EXAM 2016|(single)|15",
       "serial_no": 15,
       "correct_option": 2,
@@ -5511,30 +4841,6 @@
       },
       "qkey": "c357758a7032",
       "source_exam": "RAJ. STATE AND SUB. SERVICES COMB. COMP. EXAM (RAS_RTS)",
-      "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::SCHOOL LECTURER::SCHOOL LECTURER (SANSKRIT EDU.) 2022|(single)|18",
-      "serial_no": 18,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "राजस्थान का इतिहास, कला एवं संस्कृति [History, Art and Culture of Rajasthan]",
-      "topic": "Freedom Movement in Rajasthan",
-      "subtopic": "1857 Revolt and Princely States",
-      "source_cycle": "SCHOOL LECTURER (SANSKRIT EDU.) 2022",
-      "hindi": {
-        "question": "निम्नलिखित देशी रियासतों एवं संबंधित पॉलिटिकल एजेन्ट (1857 के विद्रोह के प्रारंभ के समय) का कौनसा युग्मे असंगत है?देशी रियासत पॉलिटिकल एजेन्ट",
-        "options": [
-          "भरतपुर कैप्टन जे.डी. हॉल",
-          "जयपुर कर्नल ईडन",
-          "मेवाड़ सी.एल. शॉवर्स",
-          "मारवाड़ मैक मेसन"
-        ],
-        "explanation": "1857 के विद्रोह के समय भरतपुर के पॉलिटिकल एजेंट मॉरिसन थे। कैप्टन जे.डी. हॉल सिरोही के पॉलिटिकल एजेंट थे। जयपुर के कर्नल ईडन, मेवाड़ के सी.एल. शॉवर्स और मारवाड़ के मैक मेसन (मैकमोहन) सही सुमेलित हैं। इसलिए, भरतपुर और कैप्टन जे.डी. हॉल का युग्म असंगत है।"
-      },
-      "qkey": "1451726dfc2a",
-      "source_exam": "SCHOOL LECTURER",
       "source_board": "RPSC",
       "is_cross_pool": true
     },
@@ -6049,30 +5355,6 @@
       "qkey": "b7c7fca429bd"
     },
     {
-      "id": "RMSSB::LIB__MOTOR VEHICLE SUB INSPECTOR::Motor Vehicle Sub Inspector 2021||84",
-      "serial_no": 84,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Greenhouse gases",
-      "subtopic": "",
-      "source_cycle": "Motor Vehicle Sub Inspector 2021",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सी एक वातावरण में प्राकृतिक रूप से पाई जाने वाली ग्रीनहाउस गैस नहीं है?",
-        "options": [
-          "ओजोन",
-          "नाइट्रोजन ऑक्साइड",
-          "कार्बन डाइऑक्साइड",
-          "मीथेन"
-        ],
-        "explanation": "ग्रीनहाउस गैसें वे गैसें हैं जो पृथ्वी के वायुमंडल में ऊष्मा को रोकती हैं। ओजोन, कार्बन डाइऑक्साइड और मीथेन प्राकृतिक रूप से पाई जाने वाली ग्रीनहाउस गैसें हैं। नाइट्रोजन ऑक्साइड (विशेषकर नाइट्रस ऑक्साइड, N2O) एक ग्रीनहाउस गैस है, लेकिन 'नाइट्रोजन ऑक्साइड' (NOx) शब्द में कई गैसें शामिल हैं, जिनमें से कुछ प्राकृतिक रूप से कम मात्रा में पाई जाती हैं, जबकि कुछ मानव गतिविधियों से उत्पन्न होती हैं। हालांकि, दिए गए विकल्पों में, नाइट्रोजन ऑक्साइड को अक्सर एक प्रदूषक के रूप में देखा जाता है और इसे अन्य प्राकृतिक ग्रीनहाउस गैसों की तुलना में कम प्राकृतिक माना जाता है। आधिकारिक उत्तर के अनुसार, विकल्प (2) सही है।"
-      },
-      "qkey": "91f9c3ec24d0",
-      "source_exam": "LIB__MOTOR VEHICLE SUB INSPECTOR",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__PRIMARY & UPPER PRIMARY SCHOOL TEACHER (L-1 & L-2)::Primary & Upper Primary School Teacher (L-1 & L-2) 2025||119|Master Question Paper_Social Science( L-2 )_67VX",
       "serial_no": 119,
       "correct_option": 1,
@@ -6262,30 +5544,6 @@
       "qkey": "d25ac9572a55",
       "source_exam": "LIB__DEPUTY COMMANDANT",
       "source_board": "RPSC",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2018||79",
-      "serial_no": 79,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Child Development",
-      "subtopic": "Self-Concept and Self-Esteem",
-      "source_cycle": "Supervisor (Woman) (Anganwadi Worker Quota) 2018",
-      "hindi": {
-        "question": "एक अनुमति है जो हम अपने श्रेय और धारणा को संयुक्त करते हैं ।",
-        "options": [
-          "आत्म प्रत्यय",
-          "आत्म सम्मान",
-          "आत्म बोध",
-          "आत्म विश्वास"
-        ],
-        "explanation": "आत्म-सम्मान एक व्यक्ति की अपनी योग्यता और मूल्य के बारे में समग्र धारणा है। यह इस बात पर आधारित है कि हम अपने आप को कितना पसंद करते हैं और स्वीकार करते हैं, जो हमारे श्रेय और धारणा को संयुक्त करता है।"
-      },
-      "qkey": "0cdee50b8d9c",
-      "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
-      "source_board": "RMSSB",
       "is_cross_pool": true
     },
     {
@@ -6794,30 +6052,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||84|Master Question Paper R15",
-      "serial_no": 84,
-      "correct_option": 3,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Biology",
-      "subtopic": "Human Health / Hormones",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
-      "hindi": {
-        "question": "मानव इंसुलिन के संदर्भ में सबसे उपयुक्त कथन का चयन कीजिए:-\na. मानव इंसुलिन दो छोटी पोलीपेपटाइड श्रंखलाओं का बना होता है।\nb. दो श्रंखलाएँ A और B श्रंखलाएँ हैं।\nc. दो श्रंखलाएँ α और γ श्रंखलाएँ हैं।\nd. प्राक् हार्मोन (प्रोहार्मोन) में C - पेप्टाइड का अतिरिक्त खण्ड/टुकड़ा होता है।\ne. सी- पेप्टाइड दो श्रंखलाओं के मध्य परिपक्व रुप में मानव इंसुलिन में उपस्थित होता है।\nनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें :",
-        "options": [
-          "केवल a, c और e",
-          "केवल a, b और e",
-          "केवल a, b और d",
-          "केवल a, b, d और e"
-        ],
-        "explanation": "मानव इंसुलिन दो छोटी पॉलीपेप्टाइड श्रृंखलाओं, A और B श्रृंखलाओं से बना होता है, जो डाईसल्फाइड बंधों से जुड़ी होती हैं। प्राक्-हार्मोन (प्रोइंसुलिन) में एक अतिरिक्त C-पेप्टाइड खंड होता है, जिसे परिपक्व इंसुलिन बनने के दौरान हटा दिया जाता है। इसलिए, कथन a, b और d सही हैं।"
-      },
-      "qkey": "2f7a35d6c8c9",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||124|Master Question Paper R15",
       "serial_no": 124,
       "correct_option": 2,
@@ -6837,30 +6071,6 @@
         "explanation": "जब ताँबे के बर्तनों को आर्द्र वायु (नम हवा) में खुला रखा जाता है, तो ताँबा वायुमंडलीय कार्बन डाइऑक्साइड और जलवाष्प के साथ अभिक्रिया करके मूल कॉपर कार्बोनेट (CuCO₃.Cu(OH)₂) बनाता है। यह मूल कॉपर कार्बोनेट ही ताँबे की सतह पर हरे रंग की परत के रूप में दिखाई देता है।"
       },
       "qkey": "5c73ec3fb61a",
-      "source_exam": "Common Eligibility Test(Senior Secondary Level)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RMSSB::Common Eligibility Test(Senior Secondary Level)::Common Eligibility Test(Senior Secondary Level) 2024||71|Master Question Paper S17",
-      "serial_no": 71,
-      "correct_option": 1,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Human health",
-      "subtopic": "Deficiency diseases and symptoms",
-      "source_cycle": "Common Eligibility Test(Senior Secondary Level) 2024",
-      "hindi": {
-        "question": "सूची-I को सूची-II से सुमेलित कीजिए :\nसूची -1\n(अपूर्णता रोग)\na. पैलाग्रा\nb. बेरी-बेरी\nc. स्कर्वी\nd. राइबोफ्लेवीनोसिस\nसूची -II\n(रोग के लक्षण)\nI. स्मृति में क्षय (कमी)\nII. पेशियों और नसों की दुर्बलता\nIII. जीभ और त्वचा पर शुष्क शल्कों का दिखाई देना\nIV. मसूढ़ों से रक्त स्राव",
-        "options": [
-          "a- III, b - II, c - IV, d - I",
-          "a- II, b - III, c - I, d - IV",
-          "a - IV, b - I, c - II, d - III",
-          "a - I, b - II, c - III, d - IV"
-        ],
-        "explanation": "सही मिलान इस प्रकार है: पैलाग्रा (विटामिन B3 की कमी) में जीभ और त्वचा पर शुष्क शल्क दिखाई देते हैं (III)। बेरी-बेरी (विटामिन B1 की कमी) में पेशियों और नसों की दुर्बलता होती है (II)। स्कर्वी (विटामिन C की कमी) में मसूढ़ों से रक्त स्राव होता है (IV)। राइबोफ्लेवीनोसिस (विटामिन B2 की कमी) में स्मृति में क्षय हो सकता है (I)।"
-      },
-      "qkey": "bf4c58a2f049",
       "source_exam": "Common Eligibility Test(Senior Secondary Level)",
       "source_board": "RMSSB",
       "is_cross_pool": true
@@ -7082,30 +6292,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::LIB__Junior Accountant & Tehsil Revenue Accountant::Junior Accountant & Tehsil Revenue Accountant 2023||74",
-      "serial_no": 74,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Light phenomena",
-      "subtopic": "",
-      "source_cycle": "Junior Accountant & Tehsil Revenue Accountant 2023",
-      "hindi": {
-        "question": "सूची I के साथ सूची II का मिलान कीजिए:\nसूची I (घटना)\na. सूर्योदय और सूर्यास्त\nके समय सूर्य का लाल\nरंग का दिखना\nb. तारों की टिमटिमाहट\nc. आकाश में इन्द्रधनुष\nका निर्माण\nd. रेगिस्तान में मरीचिका\nका निर्माण\nसूची II (प्रकाश की परिघटना)\nI. प्रकाश का परिक्षेपण\nII. प्रकाश का प्रकीर्णन\nIII. पूर्ण आंतरिक\nपरावर्तन\nIV. प्रकाश का\nवायुमंडलीय अपवर्तन\nनीचे दिए गए विकल्पों में से सही उत्तर का चयन कीजिएः",
-        "options": [
-          "a-IV, b-II, c-I, d-III",
-          "a-II, b-IV, c-I, d-II",
-          "a-II, b-IV, c-III, d-I",
-          "a-II, b-I, c-IV, d-III"
-        ],
-        "explanation": "इस प्रश्न में विभिन्न प्रकाशीय घटनाओं का उनके प्रभावों से मिलान करना है।\na. सूर्योदय और सूर्यास्त के समय सूर्य का लाल रंग का दिखना प्रकाश के प्रकीर्णन (II) के कारण होता है।\nb. तारों की टिमटिमाहट प्रकाश के वायुमंडलीय अपवर्तन (IV) के कारण होती है।\nc. आकाश में इंद्रधनुष का निर्माण प्रकाश के परिक्षेपण (I) के कारण होता है, जिसमें प्रकाश का अपवर्तन और पूर्ण आंतरिक परावर्तन भी शामिल होता है।\nd. रेगिस्तान में मरीचिका का निर्माण पूर्ण आंतरिक परावर्तन (III) के कारण होता है।\nइस प्रकार, सही मिलान a-II, b-IV, c-I, d-III है।"
-      },
-      "qkey": "e5c52d69e610",
-      "source_exam": "LIB__Junior Accountant & Tehsil Revenue Accountant",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::LIB__LDC Grade II _ Junior Assistant::LDC Grade II _ Junior Assistant 2026||144",
       "serial_no": 144,
       "correct_option": 1,
@@ -7322,30 +6508,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::patwar::Patwar 2025||134|Master question Paper (DQ69) Shift II",
-      "serial_no": 134,
-      "correct_option": 4,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Physics",
-      "subtopic": "Medical Imaging Techniques",
-      "source_cycle": "Patwar 2025",
-      "hindi": {
-        "question": "निम्नलिखित में से कौन सा चिकित्सा विज्ञान में इमेजिंग स्कैन का एक प्रकार नहीं है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
-        "options": [
-          "एक्स-रे",
-          "ई.सी.जी",
-          "सी.टी स्कैन",
-          "एस.एल.वी"
-        ],
-        "explanation": "एक्स-रे, ई.सी.जी. (इलेक्ट्रोकार्डियोग्राम) और सी.टी. स्कैन (कम्प्यूटेड टोमोग्राफी स्कैन) सभी चिकित्सा विज्ञान में इमेजिंग स्कैन के प्रकार हैं जिनका उपयोग शरीर के अंदर की छवियों को प्राप्त करने के लिए किया जाता है। एस.एल.वी. (सैटेलाइट लॉन्च व्हीकल) एक रॉकेट है जिसका उपयोग उपग्रहों को अंतरिक्ष में लॉन्च करने के लिए किया जाता है, और यह चिकित्सा इमेजिंग से संबंधित नहीं है।"
-      },
-      "qkey": "4339b61cb5b3",
-      "source_exam": "patwar",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Stenographer::Stenographer 2024||50",
       "serial_no": 50,
       "correct_option": 3,
@@ -7394,30 +6556,6 @@
       "is_cross_pool": true
     },
     {
-      "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2018||23",
-      "serial_no": 23,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Human Nutrition",
-      "subtopic": "Food Pyramid",
-      "source_cycle": "Supervisor (Woman) (Anganwadi Worker Quota) 2018",
-      "hindi": {
-        "question": "खाद्य पिरामिड का आधार बनता है",
-        "options": [
-          "अनाज और दालों से",
-          "सब्जियों और फलों से",
-          "शर्करा से",
-          "मांस और उसके पदार्थों से"
-        ],
-        "explanation": "खाद्य पिरामिड का आधार अनाज और दालों से बनता है। ये खाद्य पदार्थ ऊर्जा के मुख्य स्रोत होते हैं और इन्हें दैनिक आहार में सबसे अधिक मात्रा में शामिल करने की सलाह दी जाती है।"
-      },
-      "qkey": "4c37ddcfac01",
-      "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
-      "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
       "id": "RMSSB::Supervisor (Woman) (Anganwadi Worker Quota)::Supervisor (Woman) (Anganwadi Worker Quota) 2024||114",
       "serial_no": 114,
       "correct_option": 2,
@@ -7439,30 +6577,6 @@
       "qkey": "a6b2ac1ff38b",
       "source_exam": "Supervisor (Woman) (Anganwadi Worker Quota)",
       "source_board": "RMSSB",
-      "is_cross_pool": true
-    },
-    {
-      "id": "RPSC::ASST. ENGINEER COMB. COMP. EXAM::ASST. ENGINEER COMB. COMP. EXAM 2024|(single)|50",
-      "serial_no": 50,
-      "correct_option": 2,
-      "is_deleted": false,
-      "subject": "सामान्य विज्ञान [General Science]",
-      "topic": "Physics",
-      "subtopic": "Wave Propagation - Sky Waves and Space Waves",
-      "source_cycle": "ASST. ENGINEER COMB. COMP. EXAM 2024",
-      "hindi": {
-        "question": "तरंगों के संचरण के लिए निम्नलिखित कथनों पर\nविचार कीजिए और सही विकल्प का चयन कीजिए :\nकथन A : आकाश तरंगों का उपयोग दृष्टि रेखीय\nसंचार के साथ-साथ उपग्रह संचार के लिए भी\nकिया जाता है।\nकथन B : व्योम तरंगों का उपयोग 40 मेगाहर्ट्ज\nसे 100 मेगाहर्ज तक आवृत्ति परास में संचार के\nलिए किया जाता है।",
-        "options": [
-          "कथन A और B दोनों सत्य हैं।",
-          "केवल कथन A सत्य है।",
-          "केवल कथन B सत्य है ।",
-          "कथन A और B दोनों असत्य हैं ।"
-        ],
-        "explanation": "आकाश तरंगों का उपयोग दृष्टि रेखीय संचार के साथ-साथ उपग्रह संचार के लिए भी किया जाता है। व्योम तरंगों का उपयोग 40 मेगाहर्ट्ज से 100 मेगाहर्ट्ज तक आवृत्ति परास में संचार के लिए नहीं किया जाता है, बल्कि यह उच्च आवृत्ति के लिए होता है।"
-      },
-      "qkey": "c0b8d5315e32",
-      "source_exam": "ASST. ENGINEER COMB. COMP. EXAM",
-      "source_board": "RPSC",
       "is_cross_pool": true
     },
     {
@@ -7674,7 +6788,7 @@
           "SGNIS",
           "SINGS"
         ],
-        "explanation": "दिए गए कोडिंग पैटर्न में, शब्द के पहले अक्षर के आगे 'S' जोड़ा जाता है और फिर मूल शब्द के अक्षरों को वर्णानुक्रम में व्यवस्थित किया जाता है। CAT को SATC (S + ACT) लिखा गया है। DEAR को SEARD (S + ADER) लिखा गया है। इसी तर्क से, SING को SINGS (S + GINS) लिखा जाएगा।"
+        "explanation": "इस कोडिंग पैटर्न में, दिए गए शब्द के पहले अक्षर को हटाकर उसे शब्द के अंत में रखा जाता है, और फिर शब्द की शुरुआत में 'S' अक्षर जोड़ा जाता है। इस नियम का पालन करते हुए, SING को SINGS लिखा जाएगा।"
       },
       "qkey": "62a96453cbf9",
       "source_exam": "SCHOOL LECTURER",
