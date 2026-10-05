@@ -1,0 +1,3 @@
+
+# paid question pools must NEVER be committed (they are served only by the get_paid_pool Cloud Function)
+**/pool_paid.json
