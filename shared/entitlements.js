@@ -3,7 +3,7 @@
 // new isolated project's Firestore -- see firebase-config.js.
 
 import { doc, getDoc, setDoc, deleteDoc, deleteField, arrayUnion, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
-import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, showChangePasswordModal, friendlyError } from "./auth.js?v=6";
+import { db, getCurrentUser, showAuthModal, authReady, ensureAnyUser, finalizeCheckoutAccount, showChangePasswordModal, friendlyError } from "./auth.js?v=7";
 import { CLOUD_FUNCTIONS_BASE_URL } from "./firebase-config.js?v=2";
 
 function escapeHtml(s) {
@@ -56,6 +56,22 @@ export async function getMyPurchases() {
     const p = (await getDoc(doc(db, "users", user.uid))).data()?.purchases || {};
     return Object.entries(p).filter(([, v]) => isActive(v)).map(([slug, v]) => ({ slug, expires: typeof v === "string" ? v : null }));
   } catch (e) { return []; }
+}
+
+/** Signed-in student's display name + active purchases for the member UI (home "My exams", study-hub header).
+ * {signedIn, guest, name, email, purchases:[{slug, expires}]} -- never throws. */
+export async function getMemberProfile() {
+  await authReady;
+  const user = getCurrentUser();
+  if (!user) return { signedIn: false, purchases: [] };
+  let data = {};
+  try { data = (await getDoc(doc(db, "users", user.uid))).data() || {}; } catch (e) {}
+  const p = data.purchases || {};
+  return {
+    signedIn: true, guest: !!user.isAnonymous, email: user.email || data.email || "",
+    name: (data.name || user.displayName || (user.email || "").split("@")[0] || "").trim(),
+    purchases: Object.entries(p).filter(([, v]) => isActive(v)).map(([slug, v]) => ({ slug, expires: typeof v === "string" ? v : null })),
+  };
 }
 
 /** A persistent per-browser id (not per-account) used only to enforce the paid-content

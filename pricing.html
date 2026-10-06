@@ -6,7 +6,7 @@
 <title>प्लान और कीमत — RAJ G.K. GURU</title>
 <meta name="description" content="मुफ़्त टेस्ट से शुरू करें; एक परीक्षा, कोई भी 3 परीक्षाएं, या सभी परीक्षाओं का ऑल-एक्सेस पास — 3, 6 या 12 महीनों के लिए चुनें।">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="shared/style.css?v=3">
+<link rel="stylesheet" href="shared/style.css?v=8">
 <link rel="stylesheet" href="shared/features.css?v=2">
 <style>
   .dur-toggle { display: inline-flex; background: var(--surface-alt); border: 1px solid var(--border); border-radius: 999px; padding: 3px; gap: 3px; margin: 6px 0 20px; }
@@ -54,8 +54,8 @@
 </div></div>
 <footer id="site-footer"></footer>
 <script type="module">
-  import { renderHeader, renderFooter } from "./shared/chrome.js";
-  import { startPurchase, getMyPurchases, ALL_ACCESS } from "./shared/entitlements.js?v=10";
+  import { renderHeader, renderFooter } from "./shared/chrome.js?v=5";
+  import { startPurchase, getMyPurchases, ALL_ACCESS } from "./shared/entitlements.js?v=11";
   import { PRICES, PREMIUM_SLUGS } from "./shared/pricing.js?v=1";
   renderHeader(document.getElementById("site-header"), "pricing");
   renderFooter(document.getElementById("site-footer"));

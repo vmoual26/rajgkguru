@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../shared/style.css">
+<link rel="stylesheet" href="../shared/style.css?v=8">
 <link rel="stylesheet" href="style.css?v=15">
 </head>
 <body>
@@ -24,7 +24,7 @@
 <footer id="site-footer"></footer>
 
 <script type="module">
-  import { renderHeader, renderFooter } from "../shared/chrome.js";
+  import { renderHeader, renderFooter } from "../shared/chrome.js?v=5";
   import { renderTest } from "./app.js?v=15";
   renderHeader(document.getElementById("site-header"), "sr-teacher-sanskrit-education");
   renderFooter(document.getElementById("site-footer"));

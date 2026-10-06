@@ -5,22 +5,27 @@
 // across every HTML file. Visual language (gradient, logo, footer shape)
 // takes inspiration from aldhruacademy.com's own design; the multi-page nav
 // structure itself does not, since that site is single-page.
-import { renderAuthBadge } from "./auth.js?v=6";
+import { renderAuthBadge, onAuthChange } from "./auth.js?v=7";
 import { captureRefFromUrl, recordReferralJoin } from "./community.js?v=1";
 
 // Individual exam links deliberately stay OUT of this fixed nav -- as the
 // number of exams per board grows, listing each one here doesn't scale.
 // "RPSC"/"RMSSB" are the permanent top-level entries; each opens that
 // board's own exam list (rpsc.html / rmssb.html).
+// 2026-10-06 redesign: no hamburger. Every link a student needs first (Home / RPSC / RMSSB / Plans) sits in a pill row that
+// is ALWAYS visible (a scrollable second row on phones). "Register" is a pill only for signed-out visitors; "Dashboard" and
+// "Bookmarks" appear only once signed in (see the onAuthChange block in renderHeader).
 const NAV_LINKS = [
   { href: "/", label: "होम", key: "home" },
-  { href: "/dashboard.html", label: "डैशबोर्ड", key: "dashboard" },
   { href: "/rpsc.html", label: "RPSC", key: "rpsc" },
   { href: "/rmssb.html", label: "RMSSB", key: "rmssb" },
-  { href: "/bookmarks.html", label: "बुकमार्क", key: "bookmarks" },
   { href: "/pricing.html", label: "प्लान", key: "pricing" },
   { href: "/blog/", label: "ब्लॉग", key: "blog" },
-  { href: "/#contact", label: "संपर्क करें", key: "contact" },
+];
+const NAV_OUT = { href: "/register.html", label: "रजिस्टर करें", key: "register", cls: "nav-register" };
+const NAV_IN = [
+  { href: "/dashboard.html", label: "📈 डैशबोर्ड", key: "dashboard" },
+  { href: "/bookmarks.html", label: "🔖 बुकमार्क", key: "bookmarks" },
 ];
 
 function escapeHtml(s) {
@@ -37,18 +42,25 @@ export function renderHeader(container, activeKey = null) {
         <img src="/shared/logo.png" alt="Aldhru Academy" class="site-logo">
         <span class="site-brand-text">ALDHRU<span class="accent">ACADEMY</span></span>
       </a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="मेन्यू खोलें">☰</button>
-      <nav class="site-nav" id="site-nav">
-        ${NAV_LINKS.map((l) => `<a href="${l.href}" class="${l.key === activeKey ? "active" : ""}">${l.label}</a>`).join("")}
-      </nav>
       <button class="lang-toggle" id="lang-toggle" title="Language">EN</button>
       <div class="site-auth" id="site-auth-badge"></div>
+      <nav class="site-nav" id="site-nav" aria-label="मुख्य मेन्यू"></nav>
     </div>
   `;
   renderAuthBadge(container.querySelector("#site-auth-badge"));
-  const toggle = container.querySelector("#nav-toggle");
   const nav = container.querySelector("#site-nav");
-  toggle.onclick = () => nav.classList.toggle("open");
+  const link = (l) => `<a href="${l.href}" class="${l.cls || ""} ${l.key === activeKey ? "active" : ""}">${l.label}</a>`;
+  const draw = (user) => {
+    const members = user && !user.isAnonymous;
+    // signed out: Register sits right after RMSSB so it is visible without scrolling the pill row on a phone
+    const links = members ? [...NAV_LINKS, ...NAV_IN]
+      : user ? NAV_LINKS
+      : [...NAV_LINKS.slice(0, 3), NAV_OUT, ...NAV_LINKS.slice(3)];
+    nav.innerHTML = links.map(link).join("");
+    nav.querySelector("a.active")?.scrollIntoView({ block: "nearest", inline: "center" });
+  };
+  draw(null);
+  onAuthChange(draw);
 }
 
 /** showQuery: the "कोई सवाल है?" contact form -- deliberately opt-in, not
@@ -123,7 +135,7 @@ export function renderFooter(container, { showQuery = false } = {}) {
 // ---------------------------------------------------------------- site-wide services (run once per page load)
 captureRefFromUrl();          // remember ?ref=CODE from an invite link
 recordReferralJoin();         // credit the referrer once the new student is signed in
-import("./i18n.js?v=3").then((m) => m.initI18n()).catch(() => {});   // Hindi <-> English UI toggle
+import("./i18n.js?v=4").then((m) => m.initI18n()).catch(() => {});   // Hindi <-> English UI toggle
 import("./mathfmt.js?v=1").catch(() => {});                              // formulas ($...$ LaTeX, powers, units) in question text
 
 if ("serviceWorker" in navigator) {

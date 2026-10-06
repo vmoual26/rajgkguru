@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="shared/style.css?v=3">
+<link rel="stylesheet" href="shared/style.css?v=8">
 <link rel="stylesheet" href="shared/features.css?v=2">
 <style>
   .dash-wrap { max-width: 860px; margin: 32px auto; }
@@ -44,9 +44,9 @@
 <footer id="site-footer"></footer>
 
 <script type="module">
-  import { renderHeader, renderFooter } from "./shared/chrome.js";
-  import { authReady, getCurrentUser, showAuthModal, db } from "./shared/auth.js?v=6";
-  import { getAllAttempts, getAllAccess, getMyPurchases, listDevices, removeDevice, ALL_ACCESS } from "./shared/entitlements.js?v=10";
+  import { renderHeader, renderFooter } from "./shared/chrome.js?v=5";
+  import { authReady, getCurrentUser, showAuthModal, db } from "./shared/auth.js?v=7";
+  import { getAllAttempts, getAllAccess, getMyPurchases, listDevices, removeDevice, ALL_ACCESS } from "./shared/entitlements.js?v=11";
   import { BADGES, getGam, syncGam, levelOf, loadStats, weakTopics, getPlan, syncPlans, todayCount, daysLeft, getHistory } from "./shared/userdata.js?v=2";
   import { ensureReferralCode, referralCount } from "./shared/community.js?v=1";
   import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";

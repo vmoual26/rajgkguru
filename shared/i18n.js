@@ -47,7 +47,7 @@ export async function initI18n() {
   document.documentElement.lang = lang;
   if (lang !== "en") return;
   try {
-    const res = await fetch("/shared/i18n_en.json?v=1");
+    const res = await fetch("/shared/i18n_en.json?v=2");
     build(await res.json());
   } catch (e) { return; }
   translateNode(document.body);

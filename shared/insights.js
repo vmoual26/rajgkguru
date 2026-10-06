@@ -7,7 +7,7 @@ import {
   BADGES, getGam, syncGam, levelOf, awardAfterTest, getPlan, setPlan, syncPlans, todayCount, daysLeft, questionSnapshot,
 } from "./userdata.js?v=2";
 import { submitScore, getRank, topScores, loadComments, postComment, deleteComment, getDisplayName, setDisplayName } from "./community.js?v=1";
-import { getCurrentUser, authReady, showAuthModal } from "./auth.js?v=6";
+import { getCurrentUser, authReady, showAuthModal } from "./auth.js?v=7";
 import { PAID_PDF_URL } from "./firebase-config.js?v=2";
 
 // Load the feature stylesheet on every page that uses these tools (root-absolute: works on the live domain and the local preview alike).
@@ -412,6 +412,10 @@ export async function mountHomeExtras(ctx) {
     const s = m && mockSummary(examSlug, m.id);
     if (s) b.insertAdjacentHTML("beforeend", `<div class="mock-hist">सर्वश्रेष्ठ ${s.bestPct}% · ${s.attempts}× हल</div>`);
   });
+
+  // ---- 2026-10-06 redesign: regroup the zones above into the tabbed study hub (shared/hub.js); failure leaves the long page intact
+  try { const { applyHub } = await import("./hub.js?v=2"); await applyHub({ ...ctx, gam, plan }); }
+  catch (e) { console.warn("Study-hub layout failed (page still works):", e); }
 }
 
 function startSmart(ctx, weak) {

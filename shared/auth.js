@@ -247,25 +247,37 @@ export function showAuthModal({ reason, prefillEmail } = {}) {
  * shared/chrome.js's header) rather than also adding a separate CTA
  * elsewhere, or a signed-out visitor sees two sign-in entry points at once. */
 export function renderAuthBadge(container) {
+  // Compact on purpose (it shares the top row with the logo and the language button on a phone):
+  // signed out = one "Sign in" button (Register is a pill in the nav row); signed in = an avatar that opens a small menu.
   function update(user) {
-    if (user) {
-      if (user.isAnonymous) {
-        // A guest (paid or tried to pay without making an account): the way back to a real login.
-        container.innerHTML = `<div class="user-badge"><span>Guest</span><button id="auth-secure">खाता सुरक्षित करें</button></div>`;
-        container.querySelector("#auth-secure").onclick = () =>
-          import("./entitlements.js?v=10").then((m) => m.openSecureAccountFlow()).catch(() => {});
-        return;
-      }
-      container.innerHTML = `<div class="user-badge"><span>${escapeHtml(user.email)}</span><button id="auth-signout">Sign out</button></div>`;
-      container.querySelector("#auth-signout").onclick = () => signOutUser();
-    } else {
-      container.innerHTML = `
-        <div class="auth-cta-pair">
-          <a href="/register.html" class="btn btn-secondary">रजिस्टर करें</a>
-          <button class="btn btn-primary" id="auth-signin-btn">साइन इन करें</button>
-        </div>`;
+    if (!user) {
+      container.innerHTML = `<button class="btn btn-primary auth-signin-compact" id="auth-signin-btn">साइन इन</button>`;
       container.querySelector("#auth-signin-btn").onclick = () => showAuthModal({});
+      return;
     }
+    const guest = user.isAnonymous;
+    const label = guest ? "Guest" : (user.displayName || user.email || "खाता");
+    const initial = escapeHtml((guest ? "G" : label.trim()[0] || "U").toUpperCase());
+    container.innerHTML = `
+      <div class="acct">
+        <button class="acct-btn" id="acct-btn" aria-haspopup="true" aria-expanded="false" title="${escapeHtml(label)}"><span class="acct-avatar">${initial}</span><span class="acct-caret">▾</span></button>
+        <div class="acct-menu" id="acct-menu" hidden>
+          <div class="acct-who">${escapeHtml(guest ? "Guest (खाता अधूरा)" : (user.email || label))}</div>
+          ${guest ? `<button id="auth-secure">🔐 खाता सुरक्षित करें</button>` : `<a href="/dashboard.html">📈 मेरा डैशबोर्ड</a><a href="/bookmarks.html">🔖 बुकमार्क</a><a href="/pricing.html">⭐ मेरे प्लान</a>`}
+          ${guest ? "" : `<button id="auth-pw">🔒 पासवर्ड बदलें</button>`}
+          <button id="auth-signout">↩ साइन आउट</button>
+        </div>
+      </div>`;
+    const btn = container.querySelector("#acct-btn"), menu = container.querySelector("#acct-menu");
+    const close = () => { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); };
+    btn.onclick = (e) => { e.stopPropagation(); menu.hidden = !menu.hidden; btn.setAttribute("aria-expanded", String(!menu.hidden)); };
+    document.addEventListener("click", (e) => { if (!container.contains(e.target)) close(); });
+    container.querySelector("#auth-signout").onclick = () => signOutUser();
+    container.querySelector("#auth-pw")?.addEventListener("click", () => { close(); showChangePasswordModal({ forced: false }); });
+    container.querySelector("#auth-secure")?.addEventListener("click", () => {
+      close();
+      import("./entitlements.js?v=11").then((m) => m.openSecureAccountFlow()).catch(() => {});
+    });
   }
   onAuthChange(update);
 }

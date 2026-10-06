@@ -32,34 +32,48 @@ function currentStreak(today) {
   return 0;
 }
 
+// 2026-10-06: the fact and the question are no longer about the same thing on the same day. TODAY's fact is
+// entry[today].fact; TODAY's question is the one built from YESTERDAY's fact (entry[yesterday].q), so a student reads a
+// fact today and is quizzed on it tomorrow -- a built-in next-day recall.
+const _months = {};
+async function entryFor(date) {
+  const m = pad(date.getMonth() + 1);
+  try {
+    if (!_months[m]) {
+      const r = await fetch(`/qotd/m${m}.json`);
+      _months[m] = r.ok ? await r.json() : { entries: {} };
+    }
+    const e = _months[m].entries;
+    return e[String(date.getDate())] || Object.values(e)[0] || null;
+  } catch (err) { return null; }
+}
+
 export async function renderDaily(root) {
   if (!root) return;
   const today = new Date();
-  let entry;
-  try {
-    const r = await fetch(`/qotd/m${pad(today.getMonth() + 1)}.json`);
-    if (!r.ok) return;
-    const data = await r.json();
-    entry = data.entries[String(today.getDate())] || Object.values(data.entries)[0];
-  } catch (e) { return; }
+  const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() - 1);
+  const [entry, prev] = await Promise.all([entryFor(today), entryFor(yesterday)]);
   if (!entry) return;
+  const qEntry = prev || entry;          // fall back to today's own question only if yesterday's data is unavailable
+  const q = qEntry.q;
 
   const key = `qotd:${isoDay(today)}`;
-  const q = entry.q;
   const streakLabel = () => { const n = currentStreak(today); return n ? `🔥 ${n} दिन की स्ट्रीक` : ""; };
 
   root.innerHTML = `
     <div class="daily-wrap">
       <div class="daily-card">
+        <div class="daily-title"><span>💡 आज का तथ्य</span><span class="daily-new">नया</span></div>
+        <div class="daily-fact">${escapeHtml(entry.fact || "")}</div>
+        <span class="daily-fact-tag">${escapeHtml(entry.subject || "")}</span>
+        <p class="daily-hint">इसे याद रखें — कल इसी तथ्य पर प्रश्न पूछा जाएगा।</p>
+      </div>
+      <div class="daily-card">
         <div class="daily-title"><span>🧠 आज का प्रश्न</span><span class="daily-streak" id="daily-streak">${streakLabel()}</span></div>
+        <p class="daily-hint daily-hint-top">कल के तथ्य पर आधारित — देखें कितना याद है।</p>
         <p class="daily-q">${escapeHtml(q.question)}</p>
         <div class="daily-opts">${q.options.map((o, i) => `<button class="daily-opt" data-i="${i + 1}">${escapeHtml(o)}</button>`).join("")}</div>
         <div class="daily-result" id="daily-result"></div>
-      </div>
-      <div class="daily-card">
-        <div class="daily-title"><span>💡 आज का तथ्य</span></div>
-        <div class="daily-fact">${escapeHtml(entry.fact || "")}</div>
-        <span class="daily-fact-tag">${escapeHtml(entry.subject || "")}</span>
       </div>
     </div>`;
 
@@ -74,8 +88,8 @@ export async function renderDaily(root) {
     });
     const ok = picked === q.correct;
     resultBox.innerHTML = `<strong>${ok ? "✅ बिल्कुल सही!" : "❌ गलत — सही उत्तर हाइलाइट किया गया है।"}</strong>
-      ${entry.explanation ? `<div>${escapeHtml(entry.explanation)}</div>` : ""}
-      ${entry.slug ? `<div style="margin-top:8px"><a href="${entry.slug}/">और अभ्यास करें →</a></div>` : ""}`;
+      ${qEntry.fact ? `<div>💡 <b>कल का तथ्य:</b> ${escapeHtml(qEntry.fact)}</div>` : (qEntry.explanation ? `<div>${escapeHtml(qEntry.explanation)}</div>` : "")}
+      ${qEntry.slug ? `<div style="margin-top:8px"><a href="${qEntry.slug}/">और अभ्यास करें →</a></div>` : ""}`;
   };
   const done = Number(safeGet(key));
   if (done) reveal(done);
