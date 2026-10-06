@@ -218,6 +218,7 @@ function initFullscreenToggle() {
   });
   document.addEventListener("fullscreenchange", sync);
   document.addEventListener("webkitfullscreenchange", sync);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && soft) { soft = false; sync(); } });   // Esc also leaves focus mode
   sync();
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initFullscreenToggle);

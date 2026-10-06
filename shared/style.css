@@ -437,3 +437,17 @@ body.fs-mode .fs-row { margin-top: 10px; }
 @media (min-width: 560px) { .hub-panel .mock-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (min-width: 900px) { .hub-panel .mock-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .hub-panel .mock-btn { width: auto; padding: 12px 10px; text-align: center; font-size: 0.85rem; }
+
+/* ---------- Full-screen / focus mode on the test player (2026-10-06) ----------
+   Only: the two top action buttons (reset / flag), a small timer, the question number + question + options (+ explanation in instant mode),
+   and the Back / Submit / Next bar. Everything else is hidden; a small floating X (top right) is the way out. */
+body.fs-mode .fs-row { position: fixed; top: 8px; right: 8px; z-index: 60; margin: 0; width: auto; }
+body.fs-mode .fs-row #test-title { display: none; }
+body.fs-mode .fs-toggle { padding: 6px 10px; box-shadow: var(--shadow); }
+body.fs-mode .fs-toggle span:last-child { display: none; }
+body.fs-mode .container { padding-top: 46px; }
+body.fs-mode .player-topbar > *:not(.timer) { display: none !important; }
+body.fs-mode .player-topbar { justify-content: flex-start; margin: 0 0 8px; padding-right: 56px; }
+body.fs-mode .progress-track, body.fs-mode .qnum-palette, body.fs-mode .question-tags, body.fs-mode .report-row { display: none !important; }
+body.fs-mode .player-actions { display: flex; gap: 8px; margin: 0 0 10px; }
+body.fs-mode .player-actions > button { flex: 1 1 0; min-width: 0; font-size: 0.78rem; padding: 9px 8px; justify-content: center; }
